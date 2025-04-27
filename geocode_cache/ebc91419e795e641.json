@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:31:23.113907+00:00",
+  "elapsed": 0.1859,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4607",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:31:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-91.729426&y=35.212744"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-91.729426&y=35.212744",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00068085",
+            "GEOID": "05",
+            "CENTLAT": "+34.8941718",
+            "AREAWATER": "3122689286",
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-092.4418676",
+            "AREALAND": "134658544258",
+            "INTPTLON": "-092.4446262",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "340",
+            "CENTLAT": "+34.6918179",
+            "AREAWATER": "434356933",
+            "BASENAME": "Little Rock-North Little Rock, AR",
+            "OID": "2619034687908065",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.6962232",
+            "NAME": "Little Rock-North Little Rock, AR CSA",
+            "OBJECTID": 52,
+            "CSA": "340",
+            "CENTLON": "-092.2147120",
+            "INTPTLON": "-092.2157755",
+            "AREALAND": "17063619889",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93266",
+            "GEOID": "0514593266",
+            "CENTLAT": "+35.1384786",
+            "AREAWATER": "1224108",
+            "STATE": "05",
+            "BASENAME": "Gum Springs",
+            "OID": "27690407450071",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1442719",
+            "NAME": "Gum Springs township",
+            "OBJECTID": 20824,
+            "CENTLON": "-091.7731005",
+            "COUSUBCC": "Z1",
+            "AREALAND": "167582391",
+            "INTPTLON": "-091.7703228",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00069834",
+            "COUNTY": "145"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "80308",
+            "CENTLAT": "+35.2409371",
+            "AREAWATER": "109609",
+            "BASENAME": "Searcy, AR",
+            "OID": "27021407488021",
+            "UA": "80308",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2403012",
+            "NAME": "Searcy, AR Urban Area",
+            "OBJECTID": 2485,
+            "CENTLON": "-091.7265743",
+            "AREALAND": "55274427",
+            "INTPTLON": "-091.7232573",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0563020",
+            "CENTLAT": "+35.2418104",
+            "AREAWATER": "254534",
+            "BASENAME": "Searcy",
+            "STATE": "05",
+            "OID": "27890407456432",
+            "LSADC": "25",
+            "PLACE": "63020",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.2411343",
+            "NAME": "Searcy city",
+            "OBJECTID": 30142,
+            "PLACECC": "C1",
+            "CENTLON": "-091.7350986",
+            "CBSAPCI": "Y",
+            "AREALAND": "47439937",
+            "INTPTLON": "-091.7352233",
+            "PLACENS": "02405437",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "05145",
+            "CENTLAT": "+35.2562603",
+            "AREAWATER": "20840622",
+            "STATE": "05",
+            "BASENAME": "White",
+            "OID": "27590407441118",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.2551175",
+            "NAME": "White County",
+            "OBJECTID": 641,
+            "CENTLON": "-091.7457066",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00069906",
+            "AREALAND": "2677959077",
+            "INTPTLON": "-091.7530339",
+            "MTFCC": "G4020",
+            "COUNTY": "145"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "05018",
+            "CENTLAT": "+35.2775680",
+            "AREAWATER": "48228722",
+            "STATE": "05",
+            "BASENAME": "18",
+            "OID": "2129035802173137",
+            "SLDU": "018",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2750468",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 146,
+            "CENTLON": "-091.8064165",
+            "LSY": "2024",
+            "AREALAND": "3256670356",
+            "INTPTLON": "-091.8124426",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "05058",
+            "CENTLAT": "+35.2249562",
+            "SLDL": "058",
+            "AREAWATER": "769525",
+            "STATE": "05",
+            "BASENAME": "58",
+            "OID": "2139035810053756",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2267144",
+            "NAME": "State House District 58",
+            "OBJECTID": 899,
+            "CENTLON": "-091.7386997",
+            "LSY": "2024",
+            "AREALAND": "210586988",
+            "INTPTLON": "-091.7368441",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "051450708022026",
+            "CENTLAT": "+35.2180072",
+            "BLOCK": "2026",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "2026",
+            "OID": "210701002044081",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2180072",
+            "NAME": "Block 2026",
+            "OBJECTID": 5916026,
+            "TRACT": "070802",
+            "CENTLON": "-091.7268772",
+            "BLKGRP": "2",
+            "AREALAND": "1370512",
+            "INTPTLON": "-091.7268772",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "145"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "05145070802",
+            "CENTLAT": "+35.2332819",
+            "AREAWATER": "45372",
+            "STATE": "05",
+            "BASENAME": "708.02",
+            "OID": "2079015482308717",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2275088",
+            "NAME": "Census Tract 708.02",
+            "OBJECTID": 73515,
+            "TRACT": "070802",
+            "CENTLON": "-091.7170744",
+            "AREALAND": "8336997",
+            "INTPTLON": "-091.7124979",
+            "MTFCC": "G5020",
+            "COUNTY": "145"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0502",
+            "CENTLAT": "+35.1604053",
+            "CDSESSN": "119",
+            "AREAWATER": "362000809",
+            "BASENAME": "2",
+            "STATE": "05",
+            "OID": "2119035786460424",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1678883",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 407,
+            "CENTLON": "-092.3621953",
+            "CD119": "02",
+            "AREALAND": "13730926677",
+            "INTPTLON": "-092.3758376",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -91.729426,
+          "y": 35.212744
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

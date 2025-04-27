@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:39:33.282051+00:00",
+  "elapsed": 0.180935,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4656",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:39:33 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.307104&y=33.701202"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.307104&y=33.701202",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "122",
+            "CENTLAT": "+33.7640720",
+            "AREAWATER": "661398322",
+            "BASENAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",
+            "OID": "2619034687907977",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7644037",
+            "NAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL CSA",
+            "OBJECTID": 65,
+            "CSA": "122",
+            "CENTLON": "-084.3723082",
+            "INTPTLON": "-084.3727678",
+            "AREALAND": "34521547926",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90150",
+            "GEOID": "1308990150",
+            "CENTLAT": "+33.7361018",
+            "AREAWATER": "2314863",
+            "STATE": "13",
+            "BASENAME": "Atlanta-Decatur",
+            "OID": "27690105372441",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7369391",
+            "NAME": "Atlanta-Decatur CCD",
+            "OBJECTID": 29475,
+            "CENTLON": "-084.2642604",
+            "COUSUBCC": "Z5",
+            "AREALAND": "322597484",
+            "INTPTLON": "-084.2642049",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936090",
+            "COUNTY": "089"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "1335240",
+            "CENTLAT": "+33.7053257",
+            "AREAWATER": "4868",
+            "BASENAME": "Gresham Park",
+            "STATE": "13",
+            "OID": "28090105372748",
+            "LSADC": "57",
+            "PLACE": "35240",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7070165",
+            "NAME": "Gresham Park CDP",
+            "OBJECTID": 20767,
+            "PLACECC": "U1",
+            "CENTLON": "-084.3155299",
+            "CBSAPCI": "N",
+            "AREALAND": "7271052",
+            "INTPTLON": "-084.3119759",
+            "PLACENS": "02402552",
+            "MTFCC": "G4210"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "03817",
+            "CENTLAT": "+33.8362683",
+            "AREAWATER": "99474122",
+            "BASENAME": "Atlanta, GA",
+            "OID": "27021102446168",
+            "UA": "03817",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8348581",
+            "NAME": "Atlanta, GA Urban Area",
+            "OBJECTID": 1769,
+            "CENTLON": "-084.3365034",
+            "AREALAND": "6612698044",
+            "INTPTLON": "-084.3377012",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13089",
+            "CENTLAT": "+33.7715084",
+            "AREAWATER": "8848778",
+            "STATE": "13",
+            "BASENAME": "DeKalb",
+            "OID": "27590105371978",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.7706611",
+            "NAME": "DeKalb County",
+            "OBJECTID": 2877,
+            "CENTLON": "-084.2263596",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01687424",
+            "AREALAND": "693251637",
+            "INTPTLON": "-084.2263432",
+            "MTFCC": "G4020",
+            "COUNTY": "089"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13044",
+            "CENTLAT": "+33.6734916",
+            "AREAWATER": "1276915",
+            "STATE": "13",
+            "BASENAME": "44",
+            "OID": "2129035952733141",
+            "SLDU": "044",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6727410",
+            "NAME": "State Senate District 44",
+            "OBJECTID": 405,
+            "CENTLON": "-084.3083294",
+            "LSY": "2024",
+            "AREALAND": "186309939",
+            "INTPTLON": "-084.3067023",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13090",
+            "CENTLAT": "+33.7110547",
+            "SLDL": "090",
+            "AREAWATER": "272126",
+            "STATE": "13",
+            "BASENAME": "90",
+            "OID": "2139035952733239",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7114806",
+            "NAME": "State House District 90",
+            "OBJECTID": 3959,
+            "CENTLON": "-084.3236133",
+            "LSY": "2024",
+            "AREALAND": "61529901",
+            "INTPTLON": "-084.3260052",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "130890238031013",
+            "CENTLAT": "+33.7028853",
+            "BLOCK": "1013",
+            "AREAWATER": "467",
+            "STATE": "13",
+            "BASENAME": "1013",
+            "OID": "210701005335178",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7028744",
+            "NAME": "Block 1013",
+            "OBJECTID": 2794271,
+            "TRACT": "023803",
+            "CENTLON": "-084.3066947",
+            "BLKGRP": "1",
+            "AREALAND": "114042",
+            "INTPTLON": "-084.3066877",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "089"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13089023803",
+            "CENTLAT": "+33.7077549",
+            "AREAWATER": "4868",
+            "STATE": "13",
+            "BASENAME": "238.03",
+            "OID": "20790105375928",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7070165",
+            "NAME": "Census Tract 238.03",
+            "OBJECTID": 32377,
+            "TRACT": "023803",
+            "CENTLON": "-084.3135127",
+            "AREALAND": "4948413",
+            "INTPTLON": "-084.3119759",
+            "MTFCC": "G5020",
+            "COUNTY": "089"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1305",
+            "CENTLAT": "+33.6965325",
+            "CDSESSN": "119",
+            "AREAWATER": "2696149",
+            "BASENAME": "5",
+            "STATE": "13",
+            "OID": "2119035952732982",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6936140",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 385,
+            "CENTLON": "-084.3792963",
+            "CD119": "05",
+            "AREALAND": "583014737",
+            "INTPTLON": "-084.3817685",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -84.307104,
+          "y": 33.701202
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

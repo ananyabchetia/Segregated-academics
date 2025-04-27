@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:06:17.925554+00:00",
+  "elapsed": 0.165734,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4599",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:06:17 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-104.828696&y=39.737272"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-104.828696&y=39.737272",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779779",
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": "1185470836",
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-105.5478280",
+            "AREALAND": "268419044029",
+            "INTPTLON": "-105.5087122",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "216",
+            "CENTLAT": "+39.8135809",
+            "AREAWATER": "267885061",
+            "BASENAME": "Denver-Aurora-Greeley, CO",
+            "OID": "2619034687908010",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.8155108",
+            "NAME": "Denver-Aurora-Greeley, CO CSA",
+            "OBJECTID": 75,
+            "CSA": "216",
+            "CENTLON": "-104.7704280",
+            "INTPTLON": "-104.7708865",
+            "AREALAND": "33815059817",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93382",
+            "GEOID": "0800593382",
+            "CENTLAT": "+39.6519737",
+            "AREAWATER": "1546251",
+            "STATE": "08",
+            "BASENAME": "South Aurora",
+            "OID": "27690711280284",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6525795",
+            "NAME": "South Aurora CCD",
+            "OBJECTID": 13352,
+            "CENTLON": "-104.7932293",
+            "COUSUBCC": "Z5",
+            "AREALAND": "202890492",
+            "INTPTLON": "-104.7935688",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935571",
+            "COUNTY": "005"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "23527",
+            "CENTLAT": "+39.7322709",
+            "AREAWATER": "29244284",
+            "BASENAME": "Denver--Aurora, CO",
+            "OID": "27021700481587",
+            "UA": "23527",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7321492",
+            "NAME": "Denver--Aurora, CO Urban Area",
+            "OBJECTID": 340,
+            "CENTLON": "-104.9595293",
+            "AREALAND": "1669444633",
+            "INTPTLON": "-104.9593876",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "0804000",
+            "CENTLAT": "+39.7098079",
+            "AREAWATER": "1498809",
+            "BASENAME": "Aurora",
+            "STATE": "08",
+            "OID": "27890700461496",
+            "LSADC": "25",
+            "PLACE": "04000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.7095369",
+            "NAME": "Aurora city",
+            "OBJECTID": 32347,
+            "PLACECC": "C1",
+            "CENTLON": "-104.7207393",
+            "CBSAPCI": "Y",
+            "AREALAND": "424910956",
+            "INTPTLON": "-104.7205092",
+            "PLACENS": "02409757",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "08005",
+            "CENTLAT": "+39.6503198",
+            "AREAWATER": "19791985",
+            "STATE": "08",
+            "BASENAME": "Arapahoe",
+            "OID": "27590703789414",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6445537",
+            "NAME": "Arapahoe County",
+            "OBJECTID": 363,
+            "CENTLON": "-104.3393295",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198118",
+            "AREALAND": "2066516727",
+            "INTPTLON": "-104.3317065",
+            "MTFCC": "G4020",
+            "COUNTY": "005"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "08028",
+            "CENTLAT": "+39.7577743",
+            "AREAWATER": "1602090",
+            "STATE": "08",
+            "BASENAME": "28",
+            "OID": "2129035951821055",
+            "SLDU": "028",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7612355",
+            "NAME": "State Senate District 28",
+            "OBJECTID": 75,
+            "CENTLON": "-104.6434876",
+            "LSY": "2024",
+            "AREALAND": "587405314",
+            "INTPTLON": "-104.6417433",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "08042",
+            "CENTLAT": "+39.7189170",
+            "SLDL": "042",
+            "AREAWATER": "22279",
+            "STATE": "08",
+            "BASENAME": "42",
+            "OID": "2139035951821090",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7188171",
+            "NAME": "State House District 42",
+            "OBJECTID": 2865,
+            "CENTLON": "-104.8348685",
+            "LSY": "2024",
+            "AREALAND": "33521589",
+            "INTPTLON": "-104.8365751",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "080050073012018",
+            "CENTLAT": "+39.7368128",
+            "BLOCK": "2018",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "2018",
+            "OID": "210701002492530",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7368128",
+            "NAME": "Block 2018",
+            "OBJECTID": 4700438,
+            "TRACT": "007301",
+            "CENTLON": "-104.8296994",
+            "BLKGRP": "2",
+            "AREALAND": "43544",
+            "INTPTLON": "-104.8296994",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "08005007301",
+            "CENTLAT": "+39.7382028",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "73.01",
+            "OID": "207903717318669",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7382028",
+            "NAME": "Census Tract 73.01",
+            "OBJECTID": 15781,
+            "TRACT": "007301",
+            "CENTLON": "-104.8362493",
+            "AREALAND": "858950",
+            "INTPTLON": "-104.8362493",
+            "MTFCC": "G5020",
+            "COUNTY": "005"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0806",
+            "CENTLAT": "+39.6793667",
+            "CDSESSN": "119",
+            "AREAWATER": "11206555",
+            "BASENAME": "6",
+            "STATE": "08",
+            "OID": "2119035951820675",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6805811",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 159,
+            "CENTLON": "-104.7822850",
+            "CD119": "06",
+            "AREALAND": "794278606",
+            "INTPTLON": "-104.7841143",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -104.828696,
+          "y": 39.737272
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

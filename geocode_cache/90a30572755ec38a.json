@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:15:45.428816+00:00",
+  "elapsed": 0.158302,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4703",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:15:45 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a40b02a35a8960be94f534cf99ab2d943bbd60542c3495cf4640c72bc703406040753919e0894671ec4d060d780c59266b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a40b02a35a8960be94f534cf99ab2d943bbd60542c3495cf4640c72bc703406040753919e0894671ec4d060d780c59266b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-80.314103&y=26.004569"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-80.314103&y=26.004569",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00294478",
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": "45963764988",
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 34,
+            "CENTLON": "-082.5022125",
+            "AREALAND": "138970527491",
+            "INTPTLON": "-082.5143005",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "370",
+            "CENTLAT": "+25.9851061",
+            "AREAWATER": "15235730326",
+            "BASENAME": "Miami-Port St. Lucie-Fort Lauderdale, FL",
+            "OID": "2619034687908078",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+25.9895844",
+            "NAME": "Miami-Port St. Lucie-Fort Lauderdale, FL CSA",
+            "OBJECTID": 125,
+            "CSA": "370",
+            "CENTLON": "-080.8284739",
+            "INTPTLON": "-080.8129936",
+            "AREALAND": "21853682937",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92236",
+            "GEOID": "1201192236",
+            "CENTLAT": "+25.9962013",
+            "AREAWATER": "11172326",
+            "STATE": "12",
+            "BASENAME": "Miramar-Pembroke Pines",
+            "OID": "27690379248398",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+25.9965886",
+            "NAME": "Miramar-Pembroke Pines CCD",
+            "OBJECTID": 31993,
+            "CENTLON": "-080.3358717",
+            "COUSUBCC": "Z5",
+            "AREALAND": "164054595",
+            "INTPTLON": "-080.3340253",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935857",
+            "COUNTY": "011"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "56602",
+            "CENTLAT": "+26.1955771",
+            "AREAWATER": "226689526",
+            "BASENAME": "Miami--Fort Lauderdale, FL",
+            "OID": "27021354285387",
+            "UA": "56602",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.1961813",
+            "NAME": "Miami--Fort Lauderdale, FL Urban Area",
+            "OBJECTID": 162,
+            "CENTLON": "-080.2284942",
+            "AREALAND": "3222753035",
+            "INTPTLON": "-080.2303945",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 1,
+            "NECTAPCI": "N",
+            "GEOID": "1255775",
+            "CENTLAT": "+26.0128212",
+            "AREAWATER": "5390263",
+            "BASENAME": "Pembroke Pines",
+            "STATE": "12",
+            "OID": "27890379248614",
+            "LSADC": "25",
+            "PLACE": "55775",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+26.0147158",
+            "NAME": "Pembroke Pines city",
+            "OBJECTID": 31882,
+            "PLACECC": "C1",
+            "CENTLON": "-080.3382086",
+            "CBSAPCI": "N",
+            "AREALAND": "84643990",
+            "INTPTLON": "-080.3401706",
+            "PLACENS": "02404502",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "12011",
+            "CENTLAT": "+26.1522357",
+            "AREAWATER": "273317276",
+            "STATE": "12",
+            "BASENAME": "Broward",
+            "OID": "27590379244928",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+26.1935353",
+            "NAME": "Broward County",
+            "OBJECTID": 1080,
+            "CENTLON": "-080.4604615",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295753",
+            "AREALAND": "3115495919",
+            "INTPTLON": "-080.4766834",
+            "MTFCC": "G4020",
+            "COUNTY": "011"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "12035",
+            "CENTLAT": "+26.1445518",
+            "AREAWATER": "21725725",
+            "STATE": "12",
+            "BASENAME": "35",
+            "OID": "2129035963375454",
+            "SLDU": "035",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.1083141",
+            "NAME": "State Senate District 35",
+            "OBJECTID": 1307,
+            "CENTLON": "-080.5703599",
+            "LSY": "2024",
+            "AREALAND": "2451976027",
+            "INTPTLON": "-080.5522811",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "12104",
+            "CENTLAT": "+25.9826251",
+            "SLDL": "104",
+            "AREAWATER": "4458962",
+            "STATE": "12",
+            "BASENAME": "104",
+            "OID": "2139035963375675",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+25.9821529",
+            "NAME": "State House District 104",
+            "OBJECTID": 2427,
+            "CENTLON": "-080.2857672",
+            "LSY": "2024",
+            "AREALAND": "74715992",
+            "INTPTLON": "-080.2857424",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "120111103541003",
+            "CENTLAT": "+26.0045209",
+            "BLOCK": "1003",
+            "AREAWATER": "0",
+            "STATE": "12",
+            "BASENAME": "1003",
+            "OID": "210701003620571",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.0045209",
+            "NAME": "Block 1003",
+            "OBJECTID": 1930981,
+            "TRACT": "110354",
+            "CENTLON": "-080.3155233",
+            "BLKGRP": "1",
+            "AREALAND": "319495",
+            "INTPTLON": "-080.3155233",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "12011110354",
+            "CENTLAT": "+26.0027452",
+            "AREAWATER": "32163",
+            "STATE": "12",
+            "BASENAME": "1103.54",
+            "OID": "2079015503860445",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.0047932",
+            "NAME": "Census Tract 1103.54",
+            "OBJECTID": 2163,
+            "TRACT": "110354",
+            "CENTLON": "-080.3197773",
+            "AREALAND": "1416197",
+            "INTPTLON": "-080.3241191",
+            "MTFCC": "G5020",
+            "COUNTY": "011"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1225",
+            "CENTLAT": "+26.0468482",
+            "CDSESSN": "119",
+            "AREAWATER": "98134387",
+            "BASENAME": "25",
+            "STATE": "12",
+            "OID": "2119035951820892",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.0482774",
+            "NAME": "Congressional District 25",
+            "OBJECTID": 292,
+            "CENTLON": "-080.2693645",
+            "CD119": "25",
+            "AREALAND": "514783023",
+            "INTPTLON": "-080.2756449",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -80.314103,
+          "y": 26.004569
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

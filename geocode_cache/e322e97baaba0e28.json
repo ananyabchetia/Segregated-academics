@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T02:11:53.066804+00:00",
+  "elapsed": 0.161194,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4576",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:11:53 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-82.366311&y=28.87687"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-82.366311&y=28.87687",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 546439,
+            "GEOID": "12010",
+            "CENTLAT": "+28.6370681",
+            "AREAWATER": 1827888661,
+            "STATE": "12",
+            "BASENAME": "10",
+            "OID": "212904690226499",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.6459961",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 1543,
+            "CENTLON": "-082.5460350",
+            "LSY": "2018",
+            "HU100": 257683,
+            "AREALAND": 3870227238,
+            "INTPTLON": "-082.5335608",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "07472",
+            "CENTLAT": "+28.8921800",
+            "AREAWATER": 9556843,
+            "BASENAME": "Beverly Hills--Homosassa Springs--Pine Ridge, FL",
+            "OID": "2702132391317956",
+            "UA": "07472",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.8929679",
+            "NAME": "Beverly Hills--Homosassa Springs--Pine Ridge, FL Urban Area",
+            "OBJECTID": 2453,
+            "CENTLON": "-082.4445809",
+            "AREALAND": 307760295,
+            "INTPTLON": "-082.4438727",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91625",
+            "POP100": 76185,
+            "GEOID": "1201791625",
+            "CENTLAT": "+28.8222927",
+            "AREAWATER": 93189145,
+            "STATE": "12",
+            "BASENAME": "Inverness",
+            "OID": "2769086675901",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.8258674",
+            "NAME": "Inverness CCD",
+            "OBJECTID": 33342,
+            "CENTLON": "-082.3490395",
+            "COUSUBCC": "Z5",
+            "HU100": 40270,
+            "AREALAND": 674167620,
+            "INTPTLON": "-082.3424489",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935808",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 9284,
+            "GEOID": "1229425",
+            "CENTLAT": "+28.9450741",
+            "AREAWATER": 9914190,
+            "STATE": "12",
+            "BASENAME": "Hernando",
+            "OID": "2809086675908",
+            "LSADC": "57",
+            "PLACE": "29425",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.9545288",
+            "NAME": "Hernando CDP",
+            "OBJECTID": 22480,
+            "PLACECC": "U1",
+            "CENTLON": "-082.3780607",
+            "CBSAPCI": "N",
+            "HU100": 5386,
+            "AREALAND": 82136582,
+            "INTPTLON": "-082.3934590",
+            "PLACENS": "02402580",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 172829,
+            "GEOID": "12034",
+            "CENTLAT": "+28.8035014",
+            "SLDL": "034",
+            "AREAWATER": 1358436180,
+            "STATE": "12",
+            "BASENAME": "34",
+            "OID": "213904690229341",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.8160541",
+            "NAME": "State House District 34",
+            "OBJECTID": 4542,
+            "CENTLON": "-082.6120186",
+            "LSY": "2018",
+            "HU100": 90782,
+            "AREALAND": 1775699507,
+            "INTPTLON": "-082.6204462",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 153843,
+            "GEOID": "12017",
+            "CENTLAT": "+28.8522432",
+            "AREAWATER": 981147323,
+            "STATE": "12",
+            "BASENAME": "Citrus",
+            "OID": "2759086675897",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.8502922",
+            "NAME": "Citrus County",
+            "OBJECTID": 338,
+            "CENTLON": "-082.5941776",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295752",
+            "AREALAND": 1507161659,
+            "INTPTLON": "-082.5955524",
+            "HU100": 81687,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 820835,
+            "GEOID": "1211",
+            "CENTLAT": "+28.7822839",
+            "CDSESSN": "116",
+            "AREAWATER": 2054670305,
+            "STATE": "12",
+            "BASENAME": "11",
+            "OID": "211904690222364",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.7859153",
+            "NAME": "Congressional District 11",
+            "OBJECTID": 295,
+            "CENTLON": "-082.2793792",
+            "HU100": 412450,
+            "AREALAND": 6237484040,
+            "INTPTLON": "-082.2696935",
+            "CD116": "11",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5546,
+            "GEOID": "12017450705",
+            "CENTLAT": "+28.8782743",
+            "AREAWATER": 157166,
+            "STATE": "12",
+            "BASENAME": "4507.05",
+            "OID": "2079015482329421",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.8779343",
+            "NAME": "Census Tract 4507.05",
+            "OBJECTID": 12874,
+            "TRACT": "450705",
+            "CENTLON": "-082.3942525",
+            "HU100": 2656,
+            "AREALAND": 22982495,
+            "INTPTLON": "-082.3907709",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 285,
+            "GEOID": "120174507051003",
+            "CENTLAT": "+28.8824901",
+            "BLOCK": "1003",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "1003",
+            "OID": "210701000785980",
+            "LSADC": "BK",
+            "INTPTLAT": "+28.8824901",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1003",
+            "OBJECTID": 1947694,
+            "TRACT": "450705",
+            "CENTLON": "-082.3735535",
+            "BLKGRP": "1",
+            "AREALAND": 2496091,
+            "HU100": 178,
+            "INTPTLON": "-082.3735535",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "017"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -82.366311,
+          "y": 28.87687
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

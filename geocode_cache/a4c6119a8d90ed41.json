@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:25:34.629738+00:00",
+  "elapsed": 0.191769,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4896",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:25:34 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.836052&y=32.433642"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.836052&y=32.433642",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 111086,
+            "GEOID": "22038",
+            "CENTLAT": "+32.1384695",
+            "AREAWATER": 64618117,
+            "STATE": "22",
+            "BASENAME": "38",
+            "OID": "212904492477234",
+            "LSADC": "LU",
+            "SLDU": "038",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.1419627",
+            "NAME": "State Senate District 38",
+            "OBJECTID": 513,
+            "CENTLON": "-093.7718295",
+            "LSY": "2018",
+            "HU100": 49888,
+            "AREALAND": 3152038407,
+            "INTPTLON": "-093.7521610",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01629543",
+            "POP100": 4657757,
+            "GEOID": "22",
+            "CENTLAT": "+30.9025928",
+            "AREAWATER": 23737664982,
+            "STATE": "22",
+            "BASENAME": "Louisiana",
+            "STUSAB": "LA",
+            "OID": "2749052402301",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.8634368",
+            "DIVISION": "7",
+            "NAME": "Louisiana",
+            "REGION": "3",
+            "OBJECTID": 36,
+            "CENTLON": "-091.7982299",
+            "AREALAND": 111913975425,
+            "INTPTLON": "-091.7987173",
+            "HU100": 2073200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 430373,
+            "GEOID": "508",
+            "CENTLAT": "+32.4889193",
+            "AREAWATER": 323063152,
+            "BASENAME": "Shreveport-Bossier City-Minden, LA",
+            "OID": "2619013782255232",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4906379",
+            "NAME": "Shreveport-Bossier City-Minden, LA CSA",
+            "CSA": "508",
+            "OBJECTID": 88,
+            "CENTLON": "-093.6691158",
+            "HU100": 198151,
+            "AREALAND": 8258763846,
+            "INTPTLON": "-093.6711914",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "81739",
+            "CENTLAT": "+32.4837488",
+            "AREAWATER": 6661335,
+            "BASENAME": "Shreveport, LA",
+            "OID": "27021145012889",
+            "UA": "81739",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4839177",
+            "NAME": "Shreveport, LA Urban Area",
+            "OBJECTID": 261,
+            "CENTLON": "-093.7624437",
+            "AREALAND": 468381155,
+            "INTPTLON": "-093.7618052",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "95617",
+            "POP100": 24465,
+            "GEOID": "2201795617",
+            "CENTLAT": "+32.4146588",
+            "AREAWATER": 2119238,
+            "STATE": "22",
+            "BASENAME": "12",
+            "OID": "27690405579137",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.4150947",
+            "NAME": "District 12",
+            "OBJECTID": 32188,
+            "CENTLON": "-093.9426004",
+            "COUSUBCC": "Z1",
+            "HU100": 11086,
+            "AREALAND": 231996298,
+            "INTPTLON": "-093.9425830",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929821",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 35887,
+            "GEOID": "22003",
+            "CENTLAT": "+32.4389743",
+            "SLDL": "003",
+            "AREAWATER": 266872,
+            "STATE": "22",
+            "BASENAME": "3",
+            "OID": "213904492477369",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.4403279",
+            "NAME": "State House District 3",
+            "OBJECTID": 2,
+            "CENTLON": "-093.7986838",
+            "LSY": "2018",
+            "HU100": 16444,
+            "AREALAND": 53486765,
+            "INTPTLON": "-093.7990814",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 187593,
+            "GEOID": "2270000",
+            "CENTLAT": "+32.4652943",
+            "AREAWATER": 40270180,
+            "STATE": "22",
+            "BASENAME": "Shreveport",
+            "OID": "27890144997160",
+            "LSADC": "25",
+            "PLACE": "70000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.4668790",
+            "NAME": "Shreveport city",
+            "OBJECTID": 15443,
+            "PLACECC": "C1",
+            "CENTLON": "-093.7955178",
+            "CBSAPCI": "Y",
+            "HU100": 89863,
+            "AREALAND": 279195930,
+            "INTPTLON": "-093.7921930",
+            "PLACENS": "02405463",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 237848,
+            "GEOID": "22017",
+            "CENTLAT": "+32.5801941",
+            "AREAWATER": 149099670,
+            "STATE": "22",
+            "BASENAME": "Caddo",
+            "OID": "27590144975473",
+            "LSADC": "15",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.5801062",
+            "NAME": "Caddo Parish",
+            "OBJECTID": 2530,
+            "CENTLON": "-093.8822231",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00558458",
+            "AREALAND": 2277812437,
+            "INTPTLON": "-093.8849698",
+            "HU100": 112323,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 728346,
+            "GEOID": "2204",
+            "CENTLAT": "+31.7917445",
+            "CDSESSN": "116",
+            "AREAWATER": 1104879605,
+            "STATE": "22",
+            "BASENAME": "4",
+            "OID": "211904486863904",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.7920513",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 99,
+            "CENTLON": "-093.1775495",
+            "HU100": 337484,
+            "AREALAND": 32210671190,
+            "INTPTLON": "-093.1795973",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3926,
+            "GEOID": "22017024201",
+            "CENTLAT": "+32.4204176",
+            "AREAWATER": 216994,
+            "STATE": "22",
+            "BASENAME": "242.01",
+            "OID": "20790405598665",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4213104",
+            "NAME": "Census Tract 242.01",
+            "OBJECTID": 31722,
+            "TRACT": "024201",
+            "CENTLON": "-093.8520681",
+            "HU100": 1840,
+            "AREALAND": 14965711,
+            "INTPTLON": "-093.8452165",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 31,
+            "GEOID": "220170242011001",
+            "CENTLAT": "+32.4337799",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "1001",
+            "OID": "210701003015835",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.4337799",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 5949198,
+            "TRACT": "024201",
+            "CENTLON": "-093.8364630",
+            "BLKGRP": "1",
+            "AREALAND": 1039422,
+            "HU100": 10,
+            "INTPTLON": "-093.8364630",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "017"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -93.836052,
+          "y": 32.433642
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

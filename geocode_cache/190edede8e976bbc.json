@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:22:37.987655+00:00",
+  "elapsed": 0.153052,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4909",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:22:37 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.999637&y=40.017306"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.999637&y=40.017306",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 167640,
+            "GEOID": "18020",
+            "CENTLAT": "+40.0429304",
+            "AREAWATER": 8182538,
+            "STATE": "18",
+            "BASENAME": "20",
+            "OID": "212904487292444",
+            "LSADC": "LU",
+            "SLDU": "020",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0422120",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 157,
+            "CENTLON": "-086.0520639",
+            "LSY": "2018",
+            "HU100": 64807,
+            "AREALAND": 402142868,
+            "INTPTLON": "-086.0529029",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00448508",
+            "POP100": 6785528,
+            "GEOID": "18",
+            "CENTLAT": "+39.9059403",
+            "AREAWATER": 1541613641,
+            "STATE": "18",
+            "BASENAME": "Indiana",
+            "STUSAB": "IN",
+            "OID": "2749051705222",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9013136",
+            "DIVISION": "3",
+            "NAME": "Indiana",
+            "REGION": "2",
+            "OBJECTID": 7,
+            "CENTLON": "-086.2872770",
+            "AREALAND": 92788998225,
+            "INTPTLON": "-086.2919129",
+            "HU100": 2923175,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2492514,
+            "GEOID": "294",
+            "CENTLAT": "+39.6530262",
+            "AREAWATER": 131406543,
+            "BASENAME": "Indianapolis-Carmel-Muncie, IN",
+            "OID": "2619013782255145",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6532292",
+            "NAME": "Indianapolis-Carmel-Muncie, IN CSA",
+            "CSA": "294",
+            "OBJECTID": 52,
+            "CENTLON": "-086.0710313",
+            "HU100": 1059844,
+            "AREALAND": 18806584161,
+            "INTPTLON": "-086.0719583",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "41212",
+            "CENTLAT": "+39.8151907",
+            "AREAWATER": 25868959,
+            "BASENAME": "Indianapolis, IN",
+            "OID": "2702166080321",
+            "UA": "41212",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.8150380",
+            "NAME": "Indianapolis, IN Urban Area",
+            "OBJECTID": 1422,
+            "CENTLON": "-086.1448749",
+            "AREALAND": 1871391730,
+            "INTPTLON": "-086.1440681",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "54198",
+            "POP100": 64067,
+            "GEOID": "1805754198",
+            "CENTLAT": "+40.0510958",
+            "AREAWATER": 5913914,
+            "STATE": "18",
+            "BASENAME": "Noblesville",
+            "OID": "2769066366929",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.0535128",
+            "NAME": "Noblesville township",
+            "OBJECTID": 27928,
+            "CENTLON": "-086.0238201",
+            "COUSUBCC": "T1",
+            "HU100": 25173,
+            "AREALAND": 121276231,
+            "INTPTLON": "-086.0217090",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00453676",
+            "UR": "M",
+            "COUNTY": "057"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 81082,
+            "GEOID": "18029",
+            "CENTLAT": "+40.0801347",
+            "SLDL": "029",
+            "AREAWATER": 7129013,
+            "STATE": "18",
+            "BASENAME": "29",
+            "OID": "213904487292728",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0816829",
+            "NAME": "State House District 29",
+            "OBJECTID": 746,
+            "CENTLON": "-085.9576204",
+            "LSY": "2018",
+            "HU100": 31339,
+            "AREALAND": 304686497,
+            "INTPTLON": "-085.9556344",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 69604,
+            "GEOID": "1854180",
+            "CENTLAT": "+40.0354823",
+            "AREAWATER": 3687430,
+            "STATE": "18",
+            "BASENAME": "Noblesville",
+            "OID": "2789066366938",
+            "LSADC": "25",
+            "PLACE": "54180",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.0352991",
+            "NAME": "Noblesville city",
+            "OBJECTID": 8092,
+            "PLACECC": "C1",
+            "CENTLON": "-086.0041858",
+            "CBSAPCI": "N",
+            "HU100": 27101,
+            "AREALAND": 88924473,
+            "INTPTLON": "-086.0001634",
+            "PLACENS": "02395240",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 347467,
+            "GEOID": "18057",
+            "CENTLAT": "+40.0724296",
+            "AREAWATER": 20952876,
+            "STATE": "18",
+            "BASENAME": "Hamilton",
+            "OID": "2759066366917",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.0535128",
+            "NAME": "Hamilton County",
+            "OBJECTID": 330,
+            "CENTLON": "-086.0520295",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00450356",
+            "AREALAND": 1021431273,
+            "INTPTLON": "-086.0217090",
+            "HU100": 135064,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "057"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 804869,
+            "GEOID": "1805",
+            "CENTLAT": "+40.2536098",
+            "CDSESSN": "116",
+            "AREAWATER": 40431063,
+            "STATE": "18",
+            "BASENAME": "5",
+            "OID": "211904487255192",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2486316",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 228,
+            "CENTLON": "-085.8620173",
+            "HU100": 344456,
+            "AREALAND": 4985645511,
+            "INTPTLON": "-085.8695988",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 11255,
+            "GEOID": "18057110513",
+            "CENTLAT": "+40.0256788",
+            "AREAWATER": 90350,
+            "STATE": "18",
+            "BASENAME": "1105.13",
+            "OID": "2079015682150421",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.0272235",
+            "NAME": "Census Tract 1105.13",
+            "OBJECTID": 5381,
+            "TRACT": "110513",
+            "CENTLON": "-085.9786003",
+            "HU100": 4519,
+            "AREALAND": 20049751,
+            "INTPTLON": "-085.9814585",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "057"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 24,
+            "GEOID": "180571105132009",
+            "CENTLAT": "+40.0131090",
+            "BLOCK": "2009",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "2009",
+            "OID": "210701007364127",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.0131090",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2009",
+            "OBJECTID": 885072,
+            "TRACT": "110513",
+            "CENTLON": "-085.9987981",
+            "BLKGRP": "2",
+            "AREALAND": 770334,
+            "HU100": 3,
+            "INTPTLON": "-085.9987981",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "057"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -85.999637,
+          "y": 40.017306
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

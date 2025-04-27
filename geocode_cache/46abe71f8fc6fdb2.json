@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:33:41.927314+00:00",
+  "elapsed": 0.215105,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4546",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:33:41 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4327a24e2000b26f53b3bae498405d3055628bd84a04bb06fdeb4c18acf2572af9889b2ab286d6b437eca125e12d9308b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4327a24e2000b26f53b3bae498405d3055628bd84a04bb06fdeb4c18acf2572af9889b2ab286d6b437eca125e12d9308b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.275731&y=39.98645"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.275731&y=39.98645",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 277109,
+            "GEOID": "42013",
+            "CENTLAT": "+39.9387925",
+            "AREAWATER": 71249253,
+            "STATE": "42",
+            "BASENAME": "13",
+            "OID": "212904690193429",
+            "LSADC": "LU",
+            "SLDU": "013",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.9379880",
+            "NAME": "State Senate District 13",
+            "OBJECTID": 864,
+            "CENTLON": "-076.1983274",
+            "LSY": "2018",
+            "HU100": 106182,
+            "AREALAND": 1266670257,
+            "INTPTLON": "-076.1928105",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "47530",
+            "CENTLAT": "+40.0965360",
+            "AREAWATER": 3497706,
+            "BASENAME": "Lancaster--Manheim, PA",
+            "OID": "27021211205567",
+            "UA": "47530",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.0958903",
+            "NAME": "Lancaster--Manheim, PA Urban Area",
+            "OBJECTID": 393,
+            "CENTLON": "-076.3121817",
+            "AREALAND": 470163952,
+            "INTPTLON": "-076.3121347",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "83256",
+            "POP100": 17383,
+            "GEOID": "4207183256",
+            "CENTLAT": "+39.9946718",
+            "AREAWATER": 589939,
+            "STATE": "42",
+            "BASENAME": "West Lampeter",
+            "OID": "27690274784639",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9940534",
+            "NAME": "West Lampeter township",
+            "OBJECTID": 3718,
+            "CENTLON": "-076.2559250",
+            "COUSUBCC": "T1",
+            "HU100": 7566,
+            "AREALAND": 42464200,
+            "INTPTLON": "-076.2569239",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01216652",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 9149,
+            "GEOID": "4285464",
+            "CENTLAT": "+39.9809891",
+            "AREAWATER": 70218,
+            "STATE": "42",
+            "BASENAME": "Willow Street",
+            "OID": "28090274786180",
+            "LSADC": "57",
+            "PLACE": "85464",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9808805",
+            "NAME": "Willow Street CDP",
+            "OBJECTID": 20478,
+            "PLACECC": "U1",
+            "CENTLON": "-076.2706260",
+            "CBSAPCI": "N",
+            "HU100": 4623,
+            "AREALAND": 14149976,
+            "INTPTLON": "-076.2718586",
+            "PLACENS": "02390520",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 67974,
+            "GEOID": "42043",
+            "CENTLAT": "+40.0376782",
+            "SLDL": "043",
+            "AREAWATER": 2812109,
+            "STATE": "42",
+            "BASENAME": "43",
+            "OID": "213904690193901",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0361950",
+            "NAME": "State House District 43",
+            "OBJECTID": 1701,
+            "CENTLON": "-076.2069066",
+            "LSY": "2018",
+            "HU100": 26458,
+            "AREALAND": 247399531,
+            "INTPTLON": "-076.2044647",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 552984,
+            "GEOID": "42071",
+            "CENTLAT": "+40.0422984",
+            "AREAWATER": 103368819,
+            "STATE": "42",
+            "BASENAME": "Lancaster",
+            "OID": "27590274782793",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.0419921",
+            "NAME": "Lancaster County",
+            "OBJECTID": 1415,
+            "CENTLON": "-076.2475797",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01209181",
+            "AREALAND": 2444751632,
+            "INTPTLON": "-076.2501980",
+            "HU100": 216502,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 748591,
+            "GEOID": "4211",
+            "CENTLAT": "+39.9682337",
+            "CDSESSN": "116",
+            "AREAWATER": 113306548,
+            "STATE": "42",
+            "BASENAME": "11",
+            "OID": "211904690192815",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.9707441",
+            "NAME": "Congressional District 11",
+            "OBJECTID": 281,
+            "CENTLON": "-076.3940529",
+            "HU100": 296907,
+            "AREALAND": 3892688684,
+            "INTPTLON": "-076.3980211",
+            "CD116": "11",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5242,
+            "GEOID": "42071013303",
+            "CENTLAT": "+39.9754456",
+            "AREAWATER": 122488,
+            "STATE": "42",
+            "BASENAME": "133.03",
+            "OID": "207903716998415",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9822281",
+            "NAME": "Census Tract 133.03",
+            "OBJECTID": 42877,
+            "TRACT": "013303",
+            "CENTLON": "-076.2502869",
+            "HU100": 2833,
+            "AREALAND": 15660193,
+            "INTPTLON": "-076.2567169",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 45,
+            "GEOID": "420710133033001",
+            "CENTLAT": "+39.9857974",
+            "BLOCK": "3001",
+            "AREAWATER": 2831,
+            "STATE": "42",
+            "BASENAME": "3001",
+            "OID": "210701007561158",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.9858195",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 3569347,
+            "TRACT": "013303",
+            "CENTLON": "-076.2746582",
+            "BLKGRP": "3",
+            "AREALAND": 101823,
+            "HU100": 28,
+            "INTPTLON": "-076.2746737",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.275731,
+          "y": 39.98645
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

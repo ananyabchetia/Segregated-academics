@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T01:55:08.336659+00:00",
+  "elapsed": 0.209309,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4583",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 01:55:08 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4d67cc3d519841e4ec64f92616a740af5a8ef153a8c8b64c94a73765d5b4c9bc4c07c45a8bb6d6016e2f34710e3b61194"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4d67cc3d519841e4ec64f92616a740af5a8ef153a8c8b64c94a73765d5b4c9bc4c07c45a8bb6d6016e2f34710e3b61194",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-147.363061&y=64.77613"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-147.363061&y=64.77613",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 35140,
+            "GEOID": "0200B",
+            "CENTLAT": "+64.9707731",
+            "AREAWATER": 5117897,
+            "STATE": "02",
+            "BASENAME": "B",
+            "OID": "212904689816064",
+            "LSADC": "LU",
+            "SLDU": "00B",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+65.0000258",
+            "NAME": "State Senate District B",
+            "OBJECTID": 595,
+            "CENTLON": "-148.1511560",
+            "LSY": "2018",
+            "HU100": 15634,
+            "AREALAND": 2237925968,
+            "INTPTLON": "-148.1509352",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785533",
+            "POP100": 733391,
+            "GEOID": "02",
+            "CENTLAT": "+63.4130518",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-152.8796317",
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "HU100": 326200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "28549",
+            "CENTLAT": "+64.8119659",
+            "AREAWATER": 6579721,
+            "BASENAME": "Fairbanks, AK",
+            "OID": "27021495881038",
+            "UA": "28549",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+64.8553105",
+            "NAME": "Fairbanks, AK Urban Area",
+            "OBJECTID": 1530,
+            "CENTLON": "-147.5828154",
+            "AREALAND": 192442666,
+            "INTPTLON": "-147.7562035",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "24450",
+            "POP100": 95655,
+            "GEOID": "0209024450",
+            "CENTLAT": "+64.8100713",
+            "AREAWATER": 259343323,
+            "STATE": "02",
+            "BASENAME": "Fairbanks North Star",
+            "OID": "27690495867194",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+64.6760436",
+            "NAME": "Fairbanks North Star census subarea",
+            "OBJECTID": 17717,
+            "CENTLON": "-146.5667976",
+            "COUSUBCC": "Z5",
+            "HU100": 42659,
+            "AREALAND": 18997068212,
+            "INTPTLON": "-146.5481586",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939940",
+            "UR": "M",
+            "COUNTY": "090"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 19031,
+            "GEOID": "0205000",
+            "CENTLAT": "+64.8005795",
+            "AREAWATER": 2741701,
+            "STATE": "02",
+            "BASENAME": "Badger",
+            "OID": "280903716866532",
+            "LSADC": "57",
+            "PLACE": "05000",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+64.8000813",
+            "NAME": "Badger CDP",
+            "OBJECTID": 29949,
+            "PLACECC": "U1",
+            "CENTLON": "-147.3875367",
+            "CBSAPCI": "N",
+            "HU100": 7931,
+            "AREALAND": 170012219,
+            "INTPTLON": "-147.3851292",
+            "PLACENS": "02582709",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 17623,
+            "GEOID": "02003",
+            "CENTLAT": "+64.8031109",
+            "SLDL": "003",
+            "AREAWATER": 4484049,
+            "STATE": "02",
+            "BASENAME": "3",
+            "OID": "213904689816250",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+64.8040783",
+            "NAME": "State House District 3",
+            "OBJECTID": 1534,
+            "CENTLON": "-147.3581230",
+            "LSY": "2018",
+            "HU100": 7259,
+            "AREALAND": 151546175,
+            "INTPTLON": "-147.3587041",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 95655,
+            "GEOID": "02090",
+            "CENTLAT": "+64.8100713",
+            "AREAWATER": 259343323,
+            "STATE": "02",
+            "BASENAME": "Fairbanks North Star",
+            "OID": "27590495867160",
+            "LSADC": "04",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+64.6760436",
+            "NAME": "Fairbanks North Star Borough",
+            "OBJECTID": 1463,
+            "CENTLON": "-146.5667976",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01419969",
+            "AREALAND": 18997068212,
+            "INTPTLON": "-146.5481586",
+            "HU100": 42659,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "090"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733391,
+            "GEOID": "0200",
+            "CENTLAT": "+63.4130518",
+            "CDSESSN": "116",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692178999",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 355,
+            "CENTLON": "-152.8796317",
+            "HU100": 326200,
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4716,
+            "GEOID": "02090001600",
+            "CENTLAT": "+64.7531345",
+            "AREAWATER": 178393,
+            "STATE": "02",
+            "BASENAME": "16",
+            "OID": "20790495880173",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+64.7584714",
+            "NAME": "Census Tract 16",
+            "OBJECTID": 81587,
+            "TRACT": "001600",
+            "CENTLON": "-147.3552313",
+            "HU100": 2101,
+            "AREALAND": 25027079,
+            "INTPTLON": "-147.3627589",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "090"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 65,
+            "GEOID": "020900016001018",
+            "CENTLAT": "+64.7739332",
+            "BLOCK": "1018",
+            "AREAWATER": 0,
+            "STATE": "02",
+            "BASENAME": "1018",
+            "OID": "210701000588995",
+            "LSADC": "BK",
+            "INTPTLAT": "+64.7728360",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1018",
+            "OBJECTID": 4027751,
+            "TRACT": "001600",
+            "CENTLON": "-147.3548683",
+            "BLKGRP": "1",
+            "AREALAND": 233386,
+            "HU100": 61,
+            "INTPTLON": "-147.3545630",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "090"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -147.363061,
+          "y": 64.77613
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

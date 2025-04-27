@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:41:43.880595+00:00",
+  "elapsed": 0.188302,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4834",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:41:43 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-100.976964&y=35.554628"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-100.976964&y=35.554628",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 869269,
+            "GEOID": "48031",
+            "CENTLAT": "+34.5068093",
+            "AREAWATER": 351189653,
+            "STATE": "48",
+            "BASENAME": "31",
+            "OID": "212904690778959",
+            "LSADC": "LU",
+            "SLDU": "031",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5057455",
+            "NAME": "State Senate District 31",
+            "OBJECTID": 873,
+            "CENTLON": "-101.8503598",
+            "LSY": "2018",
+            "HU100": 361686,
+            "AREALAND": 94500394086,
+            "INTPTLON": "-101.8478868",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 311362,
+            "GEOID": "108",
+            "CENTLAT": "+35.4032661",
+            "AREAWATER": 113498376,
+            "BASENAME": "Amarillo-Pampa-Borger, TX",
+            "OID": "2619013782255080",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3963177",
+            "NAME": "Amarillo-Pampa-Borger, TX CSA",
+            "CSA": "108",
+            "OBJECTID": 73,
+            "CENTLON": "-101.5910554",
+            "HU100": 134233,
+            "AREALAND": 20430948210,
+            "INTPTLON": "-101.5947616",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "67240",
+            "CENTLAT": "+35.5451610",
+            "AREAWATER": 0,
+            "BASENAME": "Pampa, TX",
+            "OID": "27021309356853",
+            "UA": "67240",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5451610",
+            "NAME": "Pampa, TX Urban Area",
+            "OBJECTID": 571,
+            "CENTLON": "-100.9656498",
+            "AREALAND": 21374659,
+            "INTPTLON": "-100.9656498",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92955",
+            "POP100": 17797,
+            "GEOID": "4817992955",
+            "CENTLAT": "+35.4125749",
+            "AREAWATER": 1240911,
+            "STATE": "48",
+            "BASENAME": "Pampa",
+            "OID": "27690309329901",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4177088",
+            "NAME": "Pampa CCD",
+            "OBJECTID": 24610,
+            "CENTLON": "-101.0237630",
+            "COUSUBCC": "Z5",
+            "HU100": 8888,
+            "AREALAND": 536307561,
+            "INTPTLON": "-101.0153021",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939072",
+            "UR": "M",
+            "COUNTY": "179"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 148927,
+            "GEOID": "48088",
+            "CENTLAT": "+34.8509513",
+            "SLDL": "088",
+            "AREAWATER": 106126902,
+            "STATE": "48",
+            "BASENAME": "88",
+            "OID": "213904690780001",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8400774",
+            "NAME": "State House District 88",
+            "OBJECTID": 4495,
+            "CENTLON": "-101.5550107",
+            "LSY": "2018",
+            "HU100": 65383,
+            "AREALAND": 39828013816,
+            "INTPTLON": "-101.5096995",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 16867,
+            "GEOID": "4854912",
+            "CENTLAT": "+35.5478525",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "Pampa",
+            "OID": "27890309335074",
+            "LSADC": "25",
+            "PLACE": "54912",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5478525",
+            "NAME": "Pampa city",
+            "OBJECTID": 10482,
+            "PLACECC": "C1",
+            "CENTLON": "-100.9650320",
+            "CBSAPCI": "Y",
+            "HU100": 8409,
+            "AREALAND": 23361938,
+            "INTPTLON": "-100.9650320",
+            "PLACENS": "02411365",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 21227,
+            "GEOID": "48179",
+            "CENTLAT": "+35.4010745",
+            "AREAWATER": 8700790,
+            "STATE": "48",
+            "BASENAME": "Gray",
+            "OID": "27590309321346",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.4025424",
+            "NAME": "Gray County",
+            "OBJECTID": 3017,
+            "CENTLON": "-100.8125580",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383875",
+            "AREALAND": 2398261679,
+            "INTPTLON": "-100.8123736",
+            "HU100": 9996,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "179"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 707470,
+            "GEOID": "4813",
+            "CENTLAT": "+34.8353485",
+            "CDSESSN": "116",
+            "AREAWATER": 762549126,
+            "STATE": "48",
+            "BASENAME": "13",
+            "OID": "211904690225257",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8376887",
+            "NAME": "Congressional District 13",
+            "OBJECTID": 424,
+            "CENTLON": "-100.5933333",
+            "HU100": 308687,
+            "AREALAND": 99328212501,
+            "INTPTLON": "-100.5978721",
+            "CD116": "13",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4864,
+            "GEOID": "48179950400",
+            "CENTLAT": "+35.5565445",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "9504",
+            "OID": "20790309350823",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5565445",
+            "NAME": "Census Tract 9504",
+            "OBJECTID": 61829,
+            "TRACT": "950400",
+            "CENTLON": "-100.9797091",
+            "HU100": 2430,
+            "AREALAND": 7157680,
+            "INTPTLON": "-100.9797091",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "179"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 17,
+            "GEOID": "481799504003017",
+            "CENTLAT": "+35.5541602",
+            "BLOCK": "3017",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "3017",
+            "OID": "210701002435767",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.5541602",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3017",
+            "OBJECTID": 5685217,
+            "TRACT": "950400",
+            "CENTLON": "-100.9772219",
+            "BLKGRP": "3",
+            "AREALAND": 33024,
+            "HU100": 5,
+            "INTPTLON": "-100.9772219",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "179"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -100.976964,
+          "y": 35.554628
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

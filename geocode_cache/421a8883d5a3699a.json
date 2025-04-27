@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:23:56.323148+00:00",
+  "elapsed": 0.161095,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4874",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:23:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.909246&y=41.40539"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.909246&y=41.40539",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 59565,
+            "GEOID": "19040",
+            "CENTLAT": "+41.0637887",
+            "AREAWATER": 63843363,
+            "STATE": "19",
+            "BASENAME": "40",
+            "OID": "212904486719849",
+            "LSADC": "LU",
+            "SLDU": "040",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0670431",
+            "NAME": "State Senate District 40",
+            "OBJECTID": 11,
+            "CENTLON": "-092.7567180",
+            "LSY": "2018",
+            "HU100": 26742,
+            "AREALAND": 4618637461,
+            "INTPTLON": "-092.7623317",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779785",
+            "POP100": 3190369,
+            "GEOID": "19",
+            "CENTLAT": "+42.0753617",
+            "AREAWATER": 1085996889,
+            "STATE": "19",
+            "BASENAME": "Iowa",
+            "STUSAB": "IA",
+            "OID": "2749058169487",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0700243",
+            "DIVISION": "4",
+            "NAME": "Iowa",
+            "REGION": "2",
+            "OBJECTID": 14,
+            "CENTLON": "-093.4958520",
+            "AREALAND": 144659688848,
+            "INTPTLON": "-093.4933473",
+            "HU100": 1412789,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 890322,
+            "GEOID": "218",
+            "CENTLAT": "+41.6192005",
+            "AREAWATER": 142702765,
+            "BASENAME": "Des Moines-Ames-West Des Moines, IA",
+            "OID": "2619013782255118",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.6188860",
+            "NAME": "Des Moines-Ames-West Des Moines, IA CSA",
+            "CSA": "218",
+            "OBJECTID": 25,
+            "CENTLON": "-093.5769871",
+            "HU100": 378019,
+            "AREALAND": 15231055305,
+            "INTPTLON": "-093.5790272",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "68347",
+            "CENTLAT": "+41.4067161",
+            "AREAWATER": 4377,
+            "BASENAME": "Pella, IA",
+            "OID": "27021363128383",
+            "UA": "68347",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.4073928",
+            "NAME": "Pella, IA Urban Area",
+            "OBJECTID": 1161,
+            "CENTLON": "-092.9180877",
+            "AREALAND": 18027947,
+            "INTPTLON": "-092.9173869",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92376",
+            "POP100": 12787,
+            "GEOID": "1912592376",
+            "CENTLAT": "+41.4200840",
+            "AREAWATER": 3151436,
+            "STATE": "19",
+            "BASENAME": "Lake Prairie",
+            "OID": "27690363103866",
+            "LSADC": "44",
+            "FUNCSTAT": "G",
+            "INTPTLAT": "+41.4153600",
+            "NAME": "Lake Prairie township",
+            "OBJECTID": 16010,
+            "CENTLON": "-092.9244834",
+            "COUSUBCC": "Z1",
+            "HU100": 5091,
+            "AREALAND": 182237980,
+            "INTPTLON": "-092.9273568",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00468189",
+            "UR": "M",
+            "COUNTY": "125"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 30821,
+            "GEOID": "19079",
+            "CENTLAT": "+41.3510769",
+            "SLDL": "079",
+            "AREAWATER": 8146718,
+            "STATE": "19",
+            "BASENAME": "79",
+            "OID": "213904486719941",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3475989",
+            "NAME": "State House District 79",
+            "OBJECTID": 1077,
+            "CENTLON": "-092.7873697",
+            "LSY": "2018",
+            "HU100": 12977,
+            "AREALAND": 931481329,
+            "INTPTLON": "-092.7911171",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 10464,
+            "GEOID": "1962040",
+            "CENTLAT": "+41.4051555",
+            "AREAWATER": 4377,
+            "STATE": "19",
+            "BASENAME": "Pella",
+            "OID": "27890363111921",
+            "LSADC": "25",
+            "PLACE": "62040",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.4047250",
+            "NAME": "Pella city",
+            "OBJECTID": 5703,
+            "PLACECC": "C1",
+            "CENTLON": "-092.9189103",
+            "CBSAPCI": "Y",
+            "HU100": 4271,
+            "AREALAND": 23782239,
+            "INTPTLON": "-092.9192189",
+            "PLACENS": "02396174",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 33414,
+            "GEOID": "19125",
+            "CENTLAT": "+41.3343765",
+            "AREAWATER": 41484608,
+            "STATE": "19",
+            "BASENAME": "Marion",
+            "OID": "27590363093290",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.3314327",
+            "NAME": "Marion County",
+            "OBJECTID": 1044,
+            "CENTLON": "-093.0994367",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00465251",
+            "AREALAND": 1436123086,
+            "INTPTLON": "-093.0938678",
+            "HU100": 14073,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "125"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 785353,
+            "GEOID": "1902",
+            "CENTLAT": "+41.2099399",
+            "CDSESSN": "116",
+            "AREAWATER": 433929677,
+            "STATE": "19",
+            "BASENAME": "2",
+            "OID": "211904486640009",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.2085154",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 11,
+            "CENTLON": "-092.1543908",
+            "HU100": 349070,
+            "AREALAND": 31755758881,
+            "INTPTLON": "-092.1491879",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3166,
+            "GEOID": "19125030202",
+            "CENTLAT": "+41.3943801",
+            "AREAWATER": 0,
+            "STATE": "19",
+            "BASENAME": "302.02",
+            "OID": "2079015485028037",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3943801",
+            "NAME": "Census Tract 302.02",
+            "OBJECTID": 3161,
+            "TRACT": "030202",
+            "CENTLON": "-092.9034267",
+            "HU100": 1510,
+            "AREALAND": 6797007,
+            "INTPTLON": "-092.9034267",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "125"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 231,
+            "GEOID": "191250302023000",
+            "CENTLAT": "+41.4053506",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "19",
+            "BASENAME": "3000",
+            "OID": "210701001297642",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.4053506",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 4354422,
+            "TRACT": "030202",
+            "CENTLON": "-092.9071301",
+            "BLKGRP": "3",
+            "AREALAND": 231486,
+            "HU100": 110,
+            "INTPTLON": "-092.9071301",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "125"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -92.909246,
+          "y": 41.40539
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

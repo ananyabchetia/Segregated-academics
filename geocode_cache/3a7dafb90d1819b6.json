@@ -1,0 +1,258 @@
+{
+  "created_at": "2025-03-12T20:26:30.461671+00:00",
+  "elapsed": 0.16873,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3928",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:26:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-149.144651&y=61.57257"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-149.144651&y=61.57257",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01785533",
+            "GEOID": "02",
+            "CENTLAT": "+63.4136458",
+            "AREAWATER": "244685829328",
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 3,
+            "CENTLON": "-152.8788722",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "47440",
+            "GEOID": "0217047440",
+            "CENTLAT": "+62.3053103",
+            "AREAWATER": "1451213967",
+            "STATE": "02",
+            "BASENAME": "Matanuska-Susitna",
+            "OID": "2769045842719",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+62.2656263",
+            "NAME": "Matanuska-Susitna census subarea",
+            "OBJECTID": 9,
+            "CENTLON": "-149.6020775",
+            "COUSUBCC": "Z5",
+            "AREALAND": "63991719121",
+            "INTPTLON": "-149.5039935",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939955",
+            "COUNTY": "170"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "92459",
+            "CENTLAT": "+61.5869804",
+            "AREAWATER": "6247728",
+            "BASENAME": "Wasilla--Knik-Fairview--North Lakes, AK",
+            "OID": "2702132391318099",
+            "UA": "92459",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.5896855",
+            "NAME": "Wasilla--Knik-Fairview--North Lakes, AK Urban Area",
+            "OBJECTID": 867,
+            "CENTLON": "-149.3682956",
+            "AREALAND": "149238239",
+            "INTPTLON": "-149.3673547",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "02170",
+            "CENTLAT": "+62.3053103",
+            "AREAWATER": "1451213967",
+            "STATE": "02",
+            "BASENAME": "Matanuska-Susitna",
+            "OID": "2759045842714",
+            "LSADC": "04",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+62.2656263",
+            "NAME": "Matanuska-Susitna Borough",
+            "OBJECTID": 304,
+            "CENTLON": "-149.6020775",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01419976",
+            "AREALAND": "63991719121",
+            "INTPTLON": "-149.5039935",
+            "MTFCC": "G4020",
+            "COUNTY": "170"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "0200M",
+            "CENTLAT": "+61.5282363",
+            "AREAWATER": "152281754",
+            "STATE": "02",
+            "BASENAME": "M",
+            "OID": "2129035963375053",
+            "SLDU": "00M",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+61.5539660",
+            "NAME": "State Senate District M",
+            "OBJECTID": 1301,
+            "CENTLON": "-149.1476546",
+            "LSY": "2024",
+            "AREALAND": "672875562",
+            "INTPTLON": "-149.1424986",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "02025",
+            "CENTLAT": "+61.5311824",
+            "SLDL": "025",
+            "AREAWATER": "78535425",
+            "STATE": "02",
+            "BASENAME": "25",
+            "OID": "2139035963375086",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+61.5339151",
+            "NAME": "State House District 25",
+            "OBJECTID": 576,
+            "CENTLON": "-148.9878430",
+            "LSY": "2024",
+            "AREALAND": "462941707",
+            "INTPTLON": "-148.9878108",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "021700012012030",
+            "CENTLAT": "+61.5723480",
+            "BLOCK": "2030",
+            "AREAWATER": "0",
+            "STATE": "02",
+            "BASENAME": "2030",
+            "OID": "210701000652047",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.5723480",
+            "NAME": "Block 2030",
+            "OBJECTID": 2902927,
+            "TRACT": "001201",
+            "CENTLON": "-149.1338891",
+            "BLKGRP": "2",
+            "AREALAND": "565638",
+            "INTPTLON": "-149.1338891",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "170"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "02170001201",
+            "CENTLAT": "+61.5795204",
+            "AREAWATER": "60643",
+            "STATE": "02",
+            "BASENAME": "12.01",
+            "OID": "207903716812700",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.5814032",
+            "NAME": "Census Tract 12.01",
+            "OBJECTID": 15669,
+            "TRACT": "001201",
+            "CENTLON": "-149.1148444",
+            "AREALAND": "22370881",
+            "INTPTLON": "-149.1114249",
+            "MTFCC": "G5020",
+            "COUNTY": "170"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0200",
+            "CENTLAT": "+63.4136458",
+            "CDSESSN": "119",
+            "AREAWATER": "244685829328",
+            "BASENAME": "Congressional District (at Large)",
+            "STATE": "02",
+            "OID": "2119035963374560",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 217,
+            "CENTLON": "-152.8788722",
+            "CD119": "00",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -149.144651,
+          "y": 61.57257
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

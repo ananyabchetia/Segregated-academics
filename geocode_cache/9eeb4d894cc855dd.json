@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:25:40.137881+00:00",
+  "elapsed": 0.264348,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4489",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:25:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-101.298011&y=48.24776"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-101.298011&y=48.24776",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 16604,
+            "GEOID": "38040",
+            "CENTLAT": "+48.3610626",
+            "AREAWATER": 2054678,
+            "STATE": "38",
+            "BASENAME": "40",
+            "OID": "212904690148414",
+            "LSADC": "LU",
+            "SLDU": "040",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.3638419",
+            "NAME": "State Senate District 40",
+            "OBJECTID": 682,
+            "CENTLON": "-101.1891356",
+            "LSY": "2018",
+            "HU100": 7616,
+            "AREALAND": 445554695,
+            "INTPTLON": "-101.1980751",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779797",
+            "POP100": 779094,
+            "GEOID": "38",
+            "CENTLAT": "+47.4504657",
+            "AREAWATER": 4410633765,
+            "STATE": "38",
+            "BASENAME": "North Dakota",
+            "STUSAB": "ND",
+            "OID": "2749051615269",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4421740",
+            "DIVISION": "4",
+            "NAME": "North Dakota",
+            "REGION": "2",
+            "OBJECTID": 48,
+            "CENTLON": "-100.4660576",
+            "AREALAND": 178698456949,
+            "INTPTLON": "-100.4608258",
+            "HU100": 370642,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "57655",
+            "CENTLAT": "+48.2329679",
+            "AREAWATER": 88432,
+            "BASENAME": "Minot, ND",
+            "OID": "27021511583172",
+            "UA": "57655",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.2336062",
+            "NAME": "Minot, ND Urban Area",
+            "OBJECTID": 1737,
+            "CENTLON": "-101.2781735",
+            "AREALAND": 69075358,
+            "INTPTLON": "-101.2785411",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "53380",
+            "POP100": 48377,
+            "GEOID": "3810153380",
+            "CENTLAT": "+48.2374724",
+            "AREAWATER": 87247,
+            "STATE": "38",
+            "BASENAME": "Minot",
+            "OID": "27690511539410",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+48.2361251",
+            "NAME": "Minot city",
+            "OBJECTID": 2072,
+            "CENTLON": "-101.2779815",
+            "COUSUBCC": "C5",
+            "HU100": 23447,
+            "AREALAND": 70591632,
+            "INTPTLON": "-101.2775330",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01036165",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 16604,
+            "GEOID": "38040",
+            "CENTLAT": "+48.3610626",
+            "SLDL": "040",
+            "AREAWATER": 2054678,
+            "STATE": "38",
+            "BASENAME": "40",
+            "OID": "213904690191734",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.3638419",
+            "NAME": "State House District 40",
+            "OBJECTID": 1110,
+            "CENTLON": "-101.1891356",
+            "LSY": "2018",
+            "HU100": 7616,
+            "AREALAND": 445554695,
+            "INTPTLON": "-101.1980751",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 48377,
+            "GEOID": "3853380",
+            "CENTLAT": "+48.2374724",
+            "AREAWATER": 87247,
+            "STATE": "38",
+            "BASENAME": "Minot",
+            "OID": "27890511552013",
+            "LSADC": "25",
+            "PLACE": "53380",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.2361251",
+            "NAME": "Minot city",
+            "OBJECTID": 7503,
+            "PLACECC": "C5",
+            "CENTLON": "-101.2779815",
+            "CBSAPCI": "Y",
+            "HU100": 23447,
+            "AREALAND": 70591632,
+            "INTPTLON": "-101.2775330",
+            "PLACENS": "01036165",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 69919,
+            "GEOID": "38101",
+            "CENTLAT": "+48.2210915",
+            "AREAWATER": 111244414,
+            "STATE": "38",
+            "BASENAME": "Ward",
+            "OID": "27590511531168",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.2166858",
+            "NAME": "Ward County",
+            "OBJECTID": 464,
+            "CENTLON": "-101.5403617",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01034231",
+            "AREALAND": 5213719156,
+            "INTPTLON": "-101.5405369",
+            "HU100": 32176,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 779094,
+            "GEOID": "3800",
+            "CENTLAT": "+47.4504657",
+            "CDSESSN": "116",
+            "AREAWATER": 4410633765,
+            "STATE": "38",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692356459",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.4421740",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 133,
+            "CENTLON": "-100.4660576",
+            "HU100": 370642,
+            "AREALAND": 178698456949,
+            "INTPTLON": "-100.4608258",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5651,
+            "GEOID": "38101010301",
+            "CENTLAT": "+48.2668701",
+            "AREAWATER": 0,
+            "STATE": "38",
+            "BASENAME": "103.01",
+            "OID": "20790511580915",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.2668701",
+            "NAME": "Census Tract 103.01",
+            "OBJECTID": 82315,
+            "TRACT": "010301",
+            "CENTLON": "-101.3100418",
+            "HU100": 2853,
+            "AREALAND": 7507194,
+            "INTPTLON": "-101.3100418",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 68,
+            "GEOID": "381010103013025",
+            "CENTLAT": "+48.2516958",
+            "BLOCK": "3025",
+            "AREAWATER": 0,
+            "STATE": "38",
+            "BASENAME": "3025",
+            "OID": "210701003176715",
+            "LSADC": "BK",
+            "INTPTLAT": "+48.2516958",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3025",
+            "OBJECTID": 2001274,
+            "TRACT": "010301",
+            "CENTLON": "-101.2990850",
+            "BLKGRP": "3",
+            "AREALAND": 401701,
+            "HU100": 35,
+            "INTPTLON": "-101.2990850",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "101"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -101.298011,
+          "y": 48.24776
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

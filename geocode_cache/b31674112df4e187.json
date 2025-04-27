@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-03-13T05:28:08.245415+00:00",
+  "elapsed": 0.147432,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4434",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:28:08 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.806551&y=41.13608"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.806551&y=41.13608",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 372953,
+            "GEOID": "39022",
+            "CENTLAT": "+40.8804356",
+            "AREAWATER": 28134850,
+            "STATE": "39",
+            "BASENAME": "22",
+            "OID": "212904692055172",
+            "LSADC": "LU",
+            "SLDU": "022",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8784680",
+            "NAME": "State Senate District 22",
+            "OBJECTID": 1793,
+            "CENTLON": "-082.2334371",
+            "LSY": "2018",
+            "HU100": 157062,
+            "AREALAND": 3786972001,
+            "INTPTLON": "-082.2360539",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3633962,
+            "GEOID": "184",
+            "CENTLAT": "+41.3582701",
+            "AREAWATER": 7933921665,
+            "BASENAME": "Cleveland-Akron-Canton, OH",
+            "OID": "2619013782255104",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3608812",
+            "NAME": "Cleveland-Akron-Canton, OH CSA",
+            "CSA": "184",
+            "OBJECTID": 11,
+            "CENTLON": "-081.5713982",
+            "HU100": 1662778,
+            "AREALAND": 16670788120,
+            "INTPTLON": "-081.5787755",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "56062",
+            "CENTLAT": "+41.1324599",
+            "AREAWATER": 718382,
+            "BASENAME": "Medina, OH",
+            "OID": "2702132391318082",
+            "UA": "56062",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1271191",
+            "NAME": "Medina, OH Urban Area",
+            "OBJECTID": 1840,
+            "CENTLON": "-081.8475786",
+            "AREALAND": 71948128,
+            "INTPTLON": "-081.8426370",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "51856",
+            "POP100": 13131,
+            "GEOID": "3910351856",
+            "CENTLAT": "+41.0951098",
+            "AREAWATER": 154584,
+            "STATE": "39",
+            "BASENAME": "Montville",
+            "OID": "27690347816555",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0966312",
+            "NAME": "Montville township",
+            "OBJECTID": 31095,
+            "CENTLON": "-081.8279557",
+            "COUSUBCC": "T1",
+            "HU100": 4895,
+            "AREALAND": 55231966,
+            "INTPTLON": "-081.8349188",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086602",
+            "UR": "M",
+            "COUNTY": "103"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 126098,
+            "GEOID": "39069",
+            "CENTLAT": "+41.1001889",
+            "SLDL": "069",
+            "AREAWATER": 3260138,
+            "STATE": "39",
+            "BASENAME": "69",
+            "OID": "213904692057191",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1035800",
+            "NAME": "State House District 69",
+            "OBJECTID": 2572,
+            "CENTLON": "-081.8327891",
+            "LSY": "2018",
+            "HU100": 51974,
+            "AREALAND": 667239379,
+            "INTPTLON": "-081.8393984",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 182470,
+            "GEOID": "39103",
+            "CENTLAT": "+41.1175518",
+            "AREAWATER": 4196171,
+            "STATE": "39",
+            "BASENAME": "Medina",
+            "OID": "27590347808330",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.1161742",
+            "NAME": "Medina County",
+            "OBJECTID": 3090,
+            "CENTLON": "-081.8998062",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074064",
+            "AREALAND": 1091571154,
+            "INTPTLON": "-081.8997641",
+            "HU100": 75169,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "103"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 737340,
+            "GEOID": "3907",
+            "CENTLAT": "+40.7066557",
+            "CDSESSN": "116",
+            "AREAWATER": 64562455,
+            "STATE": "39",
+            "BASENAME": "7",
+            "OID": "211904690778966",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4811635",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 137,
+            "CENTLON": "-082.0582615",
+            "HU100": 312313,
+            "AREALAND": 10010016396,
+            "INTPTLON": "-082.3929179",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3568,
+            "GEOID": "39103408301",
+            "CENTLAT": "+41.1297251",
+            "AREAWATER": 35246,
+            "STATE": "39",
+            "BASENAME": "4083.01",
+            "OID": "20790347838016",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1322017",
+            "NAME": "Census Tract 4083.01",
+            "OBJECTID": 54188,
+            "TRACT": "408301",
+            "CENTLON": "-081.8236846",
+            "HU100": 1460,
+            "AREALAND": 7590614,
+            "INTPTLON": "-081.8266087",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "103"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 102,
+            "GEOID": "391034083012001",
+            "CENTLAT": "+41.1336476",
+            "BLOCK": "2001",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "2001",
+            "OID": "210701004016354",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.1336476",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2001",
+            "OBJECTID": 1444351,
+            "TRACT": "408301",
+            "CENTLON": "-081.8083442",
+            "BLKGRP": "2",
+            "AREALAND": 379367,
+            "HU100": 40,
+            "INTPTLON": "-081.8083442",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "103"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.806551,
+          "y": 41.13608
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

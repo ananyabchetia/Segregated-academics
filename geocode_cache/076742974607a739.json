@@ -1,0 +1,260 @@
+{
+  "created_at": "2025-03-12T21:46:25.347831+00:00",
+  "elapsed": 0.408863,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3858",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:46:25 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4382bdb245d23aecf920eb7fc225573bfaccb8464467b78cd3f5e77b5f963528411118c69b614b28833339fcaecdf522b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4382bdb245d23aecf920eb7fc225573bfaccb8464467b78cd3f5e77b5f963528411118c69b614b28833339fcaecdf522b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-116.44709&y=43.936059"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-116.44709&y=43.936059",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779783",
+            "GEOID": "16",
+            "CENTLAT": "+44.3524056",
+            "AREAWATER": "2390953422",
+            "STATE": "16",
+            "BASENAME": "Idaho",
+            "STUSAB": "ID",
+            "OID": "27490130780184",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3484220",
+            "DIVISION": "8",
+            "NAME": "Idaho",
+            "REGION": "4",
+            "OBJECTID": 39,
+            "CENTLON": "-114.6136830",
+            "AREALAND": "214050547785",
+            "INTPTLON": "-114.5588540",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "147",
+            "CENTLAT": "+43.1403721",
+            "AREAWATER": "357191693",
+            "BASENAME": "Boise City-Mountain Home-Ontario, ID-OR",
+            "OID": "2619034687907983",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.1502054",
+            "NAME": "Boise City-Mountain Home-Ontario, ID-OR CSA",
+            "OBJECTID": 67,
+            "CSA": "147",
+            "CENTLON": "-116.6515370",
+            "INTPTLON": "-116.6385243",
+            "AREALAND": "65102665874",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93427",
+            "GEOID": "1604593427",
+            "CENTLAT": "+44.1065560",
+            "AREAWATER": "7046616",
+            "STATE": "16",
+            "BASENAME": "Sweet",
+            "OID": "27690359223948",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.1120736",
+            "NAME": "Sweet CCD",
+            "OBJECTID": 12288,
+            "CENTLON": "-116.3509913",
+            "COUSUBCC": "Z5",
+            "AREALAND": "1170072563",
+            "INTPTLON": "-116.3363949",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936815",
+            "COUNTY": "045"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "16045",
+            "CENTLAT": "+44.0610021",
+            "AREAWATER": "12481361",
+            "STATE": "16",
+            "BASENAME": "Gem",
+            "OID": "27590147054597",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0614727",
+            "NAME": "Gem County",
+            "OBJECTID": 1206,
+            "CENTLON": "-116.3981764",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00395442",
+            "AREALAND": "1449806862",
+            "INTPTLON": "-116.3987839",
+            "MTFCC": "G4020",
+            "COUNTY": "045"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "16014",
+            "CENTLAT": "+44.0188639",
+            "AREAWATER": "15460928",
+            "STATE": "16",
+            "BASENAME": "14",
+            "OID": "2129035951821249",
+            "SLDU": "014",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0221564",
+            "NAME": "State Senate District 14",
+            "OBJECTID": 647,
+            "CENTLON": "-116.3956200",
+            "LSY": "2024",
+            "AREALAND": "1668417943",
+            "INTPTLON": "-116.3782969",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "16014",
+            "CENTLAT": "+44.0188639",
+            "SLDL": "014",
+            "AREAWATER": "15460928",
+            "STATE": "16",
+            "BASENAME": "14",
+            "OID": "2139035951821295",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0221564",
+            "NAME": "State House District 14",
+            "OBJECTID": 1366,
+            "CENTLON": "-116.3956200",
+            "LSY": "2024",
+            "AREALAND": "1668417943",
+            "INTPTLON": "-116.3782969",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "160459601001180",
+            "CENTLAT": "+43.9391641",
+            "BLOCK": "1180",
+            "AREAWATER": "15419",
+            "STATE": "16",
+            "BASENAME": "1180",
+            "OID": "210701002315915",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.9296757",
+            "NAME": "Block 1180",
+            "OBJECTID": 2495939,
+            "TRACT": "960100",
+            "CENTLON": "-116.4513549",
+            "BLKGRP": "1",
+            "AREALAND": "10950462",
+            "INTPTLON": "-116.4605267",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "045"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "16045960100",
+            "CENTLAT": "+44.0929078",
+            "AREAWATER": "9307106",
+            "STATE": "16",
+            "BASENAME": "9601",
+            "OID": "20790359238723",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.1930590",
+            "NAME": "Census Tract 9601",
+            "OBJECTID": 47306,
+            "TRACT": "960100",
+            "CENTLON": "-116.3669871",
+            "AREALAND": "1255907926",
+            "INTPTLON": "-116.3452329",
+            "MTFCC": "G5020",
+            "COUNTY": "045"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1601",
+            "CENTLAT": "+45.3066731",
+            "CDSESSN": "119",
+            "AREAWATER": "1308787175",
+            "BASENAME": "1",
+            "STATE": "16",
+            "OID": "2119035951821020",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3105778",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 309,
+            "CENTLON": "-116.0309812",
+            "CD119": "01",
+            "AREALAND": "102045013566",
+            "INTPTLON": "-116.0349740",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -116.44709,
+          "y": 43.936059
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

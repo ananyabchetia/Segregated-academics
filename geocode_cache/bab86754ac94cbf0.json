@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:30:26.645420+00:00",
+  "elapsed": 0.228361,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4859",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:30:26 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.068451&y=44.97083"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.068451&y=44.97083",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 150059,
+            "GEOID": "41010",
+            "CENTLAT": "+44.8847291",
+            "AREAWATER": 5214006,
+            "STATE": "41",
+            "BASENAME": "10",
+            "OID": "212904486864156",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8849411",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 103,
+            "CENTLON": "-123.0326904",
+            "LSY": "2018",
+            "HU100": 57547,
+            "AREALAND": 319829579,
+            "INTPTLON": "-123.0344329",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01155107",
+            "POP100": 4237256,
+            "GEOID": "41",
+            "CENTLAT": "+43.9396009",
+            "AREAWATER": 6170953359,
+            "STATE": "41",
+            "BASENAME": "Oregon",
+            "STUSAB": "OR",
+            "OID": "27490206508673",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9717125",
+            "DIVISION": "9",
+            "NAME": "Oregon",
+            "REGION": "4",
+            "OBJECTID": 32,
+            "CENTLON": "-120.6109265",
+            "AREALAND": 248628426864,
+            "INTPTLON": "-120.6229578",
+            "HU100": 1813747,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3280736,
+            "GEOID": "440",
+            "CENTLAT": "+45.2912406",
+            "AREAWATER": 512358767,
+            "BASENAME": "Portland-Vancouver-Salem, OR-WA",
+            "OID": "2619013782255208",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2917994",
+            "NAME": "Portland-Vancouver-Salem, OR-WA CSA",
+            "CSA": "440",
+            "OBJECTID": 153,
+            "CENTLON": "-122.6219403",
+            "HU100": 1333284,
+            "AREALAND": 32932077106,
+            "INTPTLON": "-122.6239684",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "78229",
+            "CENTLAT": "+44.9331944",
+            "AREAWATER": 176238,
+            "BASENAME": "Salem, OR",
+            "OID": "27021446489071",
+            "UA": "78229",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9331527",
+            "NAME": "Salem, OR Urban Area",
+            "OBJECTID": 2461,
+            "CENTLON": "-123.0066338",
+            "AREALAND": 188247416,
+            "INTPTLON": "-123.0034205",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92754",
+            "POP100": 34462,
+            "GEOID": "4105392754",
+            "CENTLAT": "+44.9839860",
+            "AREAWATER": 2685256,
+            "STATE": "41",
+            "BASENAME": "Salem",
+            "OID": "27690447341829",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9783558",
+            "NAME": "Salem CCD",
+            "OBJECTID": 35609,
+            "CENTLON": "-123.1298417",
+            "COUSUBCC": "Z5",
+            "HU100": 13638,
+            "AREALAND": 192557955,
+            "INTPTLON": "-123.1138922",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938110",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 75143,
+            "GEOID": "41020",
+            "CENTLAT": "+44.8993704",
+            "SLDL": "020",
+            "AREAWATER": 4932626,
+            "STATE": "41",
+            "BASENAME": "20",
+            "OID": "213904486864383",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.9020653",
+            "NAME": "State House District 20",
+            "OBJECTID": 752,
+            "CENTLON": "-123.1181082",
+            "LSY": "2018",
+            "HU100": 29267,
+            "AREALAND": 126309664,
+            "INTPTLON": "-123.1155449",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 175535,
+            "GEOID": "4164900",
+            "CENTLAT": "+44.9232142",
+            "AREAWATER": 1418529,
+            "STATE": "41",
+            "BASENAME": "Salem",
+            "OID": "27890446398978",
+            "LSADC": "25",
+            "PLACE": "64900",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9238996",
+            "NAME": "Salem city",
+            "OBJECTID": 17884,
+            "PLACECC": "C1",
+            "CENTLON": "-123.0244357",
+            "CBSAPCI": "Y",
+            "HU100": 67411,
+            "AREALAND": 126399859,
+            "INTPTLON": "-123.0230068",
+            "PLACENS": "02411764",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 87433,
+            "GEOID": "41053",
+            "CENTLAT": "+44.9034862",
+            "AREAWATER": 8146766,
+            "STATE": "41",
+            "BASENAME": "Polk",
+            "OID": "27590447338676",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9003723",
+            "NAME": "Polk County",
+            "OBJECTID": 2841,
+            "CENTLON": "-123.4133129",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01135862",
+            "AREALAND": 1918983379,
+            "INTPTLON": "-123.3986397",
+            "HU100": 33828,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 847547,
+            "GEOID": "4105",
+            "CENTLAT": "+45.0203752",
+            "CDSESSN": "116",
+            "AREAWATER": 1206007454,
+            "STATE": "41",
+            "BASENAME": "5",
+            "OID": "211904487269604",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.0283647",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 33,
+            "CENTLON": "-123.1892594",
+            "HU100": 350683,
+            "AREALAND": 13442560992,
+            "INTPTLON": "-123.1951639",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 8747,
+            "GEOID": "41053005205",
+            "CENTLAT": "+44.9597124",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "52.05",
+            "OID": "2079015483383564",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9597124",
+            "NAME": "Census Tract 52.05",
+            "OBJECTID": 45548,
+            "TRACT": "005205",
+            "CENTLON": "-123.0676660",
+            "HU100": 3433,
+            "AREALAND": 4451705,
+            "INTPTLON": "-123.0676660",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "053"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 248,
+            "GEOID": "410530052053001",
+            "CENTLAT": "+44.9703072",
+            "BLOCK": "3001",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "3001",
+            "OID": "210701003402680",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.9703072",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 5039551,
+            "TRACT": "005205",
+            "CENTLON": "-123.0692440",
+            "BLKGRP": "3",
+            "AREALAND": 91238,
+            "HU100": 87,
+            "INTPTLON": "-123.0692440",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "053"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -123.068451,
+          "y": 44.97083
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

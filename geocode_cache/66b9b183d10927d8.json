@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-03-13T05:21:48.131689+00:00",
+  "elapsed": 0.215684,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4548",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:21:48 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49335e2a9991df5b5c42d879cc4c119fc76e3c500431d8a2f8b51305c584c7e3b6b073080994fe11343fbe8af6ee11128"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49335e2a9991df5b5c42d879cc4c119fc76e3c500431d8a2f8b51305c584c7e3b6b073080994fe11343fbe8af6ee11128",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.550303&y=41.454155"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.550303&y=41.454155",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 307741,
+            "GEOID": "36040",
+            "CENTLAT": "+41.3451508",
+            "AREAWATER": 96039544,
+            "STATE": "36",
+            "BASENAME": "40",
+            "OID": "212904690195348",
+            "LSADC": "LU",
+            "SLDU": "040",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3452047",
+            "NAME": "State Senate District 40",
+            "OBJECTID": 926,
+            "CENTLON": "-073.7056442",
+            "LSY": "2018",
+            "HU100": 116419,
+            "AREALAND": 1059779860,
+            "INTPTLON": "-073.7038293",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "56748",
+            "POP100": 11541,
+            "GEOID": "3607956748",
+            "CENTLAT": "+41.4849010",
+            "AREAWATER": 1802485,
+            "STATE": "36",
+            "BASENAME": "Patterson",
+            "OID": "27690696185762",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.4841616",
+            "NAME": "Patterson town",
+            "OBJECTID": 15337,
+            "CENTLON": "-073.5921253",
+            "COUSUBCC": "T1",
+            "HU100": 4101,
+            "AREALAND": 83418245,
+            "INTPTLON": "-073.5877857",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00979345",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3776,
+            "GEOID": "3660103",
+            "CENTLAT": "+41.4737024",
+            "AREAWATER": 1085369,
+            "STATE": "36",
+            "BASENAME": "Putnam Lake",
+            "OID": "28090696197705",
+            "LSADC": "57",
+            "PLACE": "60103",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.4742649",
+            "NAME": "Putnam Lake CDP",
+            "OBJECTID": 22647,
+            "PLACECC": "U1",
+            "CENTLON": "-073.5507374",
+            "CBSAPCI": "N",
+            "HU100": 1556,
+            "AREALAND": 11793366,
+            "INTPTLON": "-073.5504868",
+            "PLACENS": "02389714",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 133047,
+            "GEOID": "36094",
+            "CENTLAT": "+41.3746953",
+            "SLDL": "094",
+            "AREAWATER": 40062043,
+            "STATE": "36",
+            "BASENAME": "94",
+            "OID": "213904690195620",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3690581",
+            "NAME": "Assembly District 94",
+            "OBJECTID": 2736,
+            "CENTLON": "-073.7217263",
+            "LSY": "2018",
+            "HU100": 51236,
+            "AREALAND": 537107843,
+            "INTPTLON": "-073.7203775",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 97668,
+            "GEOID": "36079",
+            "CENTLAT": "+41.4267367",
+            "AREAWATER": 41226168,
+            "STATE": "36",
+            "BASENAME": "Putnam",
+            "OID": "27590696185754",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.4279067",
+            "NAME": "Putnam County",
+            "OBJECTID": 2904,
+            "CENTLON": "-073.7495453",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974138",
+            "AREALAND": 596224258,
+            "INTPTLON": "-073.7438608",
+            "HU100": 38308,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 748442,
+            "GEOID": "3618",
+            "CENTLAT": "+41.4116522",
+            "CDSESSN": "116",
+            "AREAWATER": 160164181,
+            "STATE": "36",
+            "BASENAME": "18",
+            "OID": "211904690193563",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.4116573",
+            "NAME": "Congressional District 18",
+            "OBJECTID": 389,
+            "CENTLON": "-074.0803216",
+            "HU100": 284724,
+            "AREALAND": 3507049026,
+            "INTPTLON": "-074.0809815",
+            "CD116": "18",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3602,
+            "GEOID": "36079010100",
+            "CENTLAT": "+41.4746641",
+            "AREAWATER": 1085369,
+            "STATE": "36",
+            "BASENAME": "101",
+            "OID": "20790696197760",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.4748323",
+            "NAME": "Census Tract 101",
+            "OBJECTID": 82996,
+            "TRACT": "010100",
+            "CENTLON": "-073.5483053",
+            "HU100": 1494,
+            "AREALAND": 9949271,
+            "INTPTLON": "-073.5489082",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 79,
+            "GEOID": "360790101003011",
+            "CENTLAT": "+41.4532449",
+            "BLOCK": "3011",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "3011",
+            "OID": "210701006038984",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.4517310",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3011",
+            "OBJECTID": 2820025,
+            "TRACT": "010100",
+            "CENTLON": "-073.5462033",
+            "BLKGRP": "3",
+            "AREALAND": 659431,
+            "HU100": 26,
+            "INTPTLON": "-073.5494005",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "079"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.550303,
+          "y": 41.454155
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

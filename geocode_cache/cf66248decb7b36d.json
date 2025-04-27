@@ -1,0 +1,243 @@
+{
+  "cookies": {
+    "TS0193e6a1": "01283c52a4382bdb245d23aecf920eb7fc225573bfaccb8464467b78cd3f5e77b5f963528411118c69b614b28833339fcaecdf522b"
+  },
+  "created_at": "2025-03-12T21:44:24.649778+00:00",
+  "elapsed": 0.153067,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3441",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:44:24 GMT",
+    "Set-Cookie": "TS0193e6a1=01283c52a4382bdb245d23aecf920eb7fc225573bfaccb8464467b78cd3f5e77b5f963528411118c69b614b28833339fcaecdf522b; Path=/; Domain=.geocoding.geo.census.gov; Secure; HttpOnly; ",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-83.414158&y=31.984674"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-83.414158&y=31.984674",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92550",
+            "GEOID": "1331592550",
+            "CENTLAT": "+31.9119539",
+            "AREAWATER": "2335908",
+            "STATE": "13",
+            "BASENAME": "Rochelle",
+            "OID": "2769091933117",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.9128496",
+            "NAME": "Rochelle CCD",
+            "OBJECTID": 9260,
+            "CENTLON": "-083.4147650",
+            "COUSUBCC": "Z5",
+            "AREALAND": "181207863",
+            "INTPTLON": "-083.4170419",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936502",
+            "COUNTY": "315"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13315",
+            "CENTLAT": "+31.9728716",
+            "AREAWATER": "11147628",
+            "STATE": "13",
+            "BASENAME": "Wilcox",
+            "OID": "2759091933113",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.9627199",
+            "NAME": "Wilcox County",
+            "OBJECTID": 310,
+            "CENTLON": "-083.4323216",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00345499",
+            "AREALAND": "978525379",
+            "INTPTLON": "-083.4382586",
+            "MTFCC": "G4020",
+            "COUNTY": "315"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13020",
+            "CENTLAT": "+32.2874883",
+            "AREAWATER": "99758493",
+            "STATE": "13",
+            "BASENAME": "20",
+            "OID": "2129035952733180",
+            "SLDU": "020",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.2890560",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 755,
+            "CENTLON": "-083.2651604",
+            "LSY": "2024",
+            "AREALAND": "7892308517",
+            "INTPTLON": "-083.2703197",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13148",
+            "CENTLAT": "+32.0782517",
+            "SLDL": "148",
+            "AREAWATER": "45015988",
+            "STATE": "13",
+            "BASENAME": "148",
+            "OID": "2139035952733286",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.0771125",
+            "NAME": "State House District 148",
+            "OBJECTID": 3866,
+            "CENTLON": "-083.5535491",
+            "LSY": "2024",
+            "AREALAND": "3157673546",
+            "INTPTLON": "-083.5562517",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "133159604001000",
+            "CENTLAT": "+31.9884941",
+            "BLOCK": "1000",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "1000",
+            "OID": "210701005007063",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.9884941",
+            "NAME": "Block 1000",
+            "OBJECTID": 6422800,
+            "TRACT": "960400",
+            "CENTLON": "-083.4153916",
+            "BLKGRP": "1",
+            "AREALAND": "439766",
+            "INTPTLON": "-083.4153916",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "315"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13315960400",
+            "CENTLAT": "+31.9119539",
+            "AREAWATER": "2335908",
+            "STATE": "13",
+            "BASENAME": "9604",
+            "OID": "207903717415026",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.9128496",
+            "NAME": "Census Tract 9604",
+            "OBJECTID": 52415,
+            "TRACT": "960400",
+            "CENTLON": "-083.4147650",
+            "AREALAND": "181207863",
+            "INTPTLON": "-083.4170419",
+            "MTFCC": "G5020",
+            "COUNTY": "315"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1308",
+            "CENTLAT": "+31.7317040",
+            "CDSESSN": "119",
+            "AREAWATER": "394260280",
+            "BASENAME": "8",
+            "STATE": "13",
+            "OID": "2119035952732985",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.7321819",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 257,
+            "CENTLON": "-083.2953287",
+            "CD119": "08",
+            "AREALAND": "28304030229",
+            "INTPTLON": "-083.2961646",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -83.414158,
+          "y": 31.984674
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

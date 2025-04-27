@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:54:05.717002+00:00",
+  "elapsed": 0.182307,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4606",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:54:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47e812dcda52857c453ab7328251c7db0ac1d00ed76848e789c9356d5a59e41c6a780930df305fda3916aada2e9ab169b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47e812dcda52857c453ab7328251c7db0ac1d00ed76848e789c9356d5a59e41c6a780930df305fda3916aada2e9ab169b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-88.272388&y=42.097909"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-88.272388&y=42.097909",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779784",
+            "GEOID": "17",
+            "CENTLAT": "+40.1006068",
+            "AREAWATER": "6215985268",
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 35,
+            "CENTLON": "-089.1500794",
+            "AREALAND": "143778736090",
+            "INTPTLON": "-089.1526108",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "176",
+            "CENTLAT": "+41.6973467",
+            "AREAWATER": "6301083014",
+            "BASENAME": "Chicago-Naperville, IL-IN-WI",
+            "OID": "2619034687907999",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.6992315",
+            "NAME": "Chicago-Naperville, IL-IN-WI CSA",
+            "OBJECTID": 178,
+            "CSA": "176",
+            "CENTLON": "-088.0058328",
+            "INTPTLON": "-088.0040825",
+            "AREALAND": "27542100880",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "21046",
+            "GEOID": "1708921046",
+            "CENTLAT": "+42.1103528",
+            "AREAWATER": "2592818",
+            "STATE": "17",
+            "BASENAME": "Dundee",
+            "OID": "27690597305125",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1104347",
+            "NAME": "Dundee township",
+            "OBJECTID": 7304,
+            "CENTLON": "-088.2964965",
+            "COUSUBCC": "T1",
+            "AREALAND": "90357192",
+            "INTPTLON": "-088.3013513",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00428917",
+            "COUNTY": "089"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "16264",
+            "CENTLAT": "+41.8288016",
+            "AREAWATER": "100989628",
+            "BASENAME": "Chicago, IL--IN",
+            "OID": "27021134695568",
+            "UA": "16264",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8304099",
+            "NAME": "Chicago, IL--IN Urban Area",
+            "OBJECTID": 1837,
+            "CENTLON": "-087.9067296",
+            "AREALAND": "6055282007",
+            "INTPTLON": "-087.9086694",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 3,
+            "NECTAPCI": "N",
+            "GEOID": "1721696",
+            "CENTLAT": "+42.0971004",
+            "AREAWATER": "625397",
+            "BASENAME": "East Dundee",
+            "STATE": "17",
+            "OID": "27890136796497",
+            "LSADC": "47",
+            "PLACE": "21696",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0974370",
+            "NAME": "East Dundee village",
+            "OBJECTID": 21205,
+            "PLACECC": "C1",
+            "CENTLON": "-088.2543692",
+            "CBSAPCI": "N",
+            "AREALAND": "7583598",
+            "INTPTLON": "-088.2480785",
+            "PLACENS": "02398774",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "17089",
+            "CENTLAT": "+41.9386581",
+            "AREAWATER": "12708795",
+            "STATE": "17",
+            "BASENAME": "Kane",
+            "OID": "27590596892405",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.9395938",
+            "NAME": "Kane County",
+            "OBJECTID": 1484,
+            "CENTLON": "-088.4286611",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00424246",
+            "AREALAND": "1344911347",
+            "INTPTLON": "-088.4280395",
+            "MTFCC": "G4020",
+            "COUNTY": "089"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "17033",
+            "CENTLAT": "+42.0131145",
+            "AREAWATER": "7942742",
+            "STATE": "17",
+            "BASENAME": "33",
+            "OID": "2129035951832096",
+            "SLDU": "033",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0138764",
+            "NAME": "State Senate District 33",
+            "OBJECTID": 442,
+            "CENTLON": "-088.3658778",
+            "LSY": "2024",
+            "AREALAND": "463107207",
+            "INTPTLON": "-088.3656014",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "17066",
+            "CENTLAT": "+42.1238112",
+            "SLDL": "066",
+            "AREAWATER": "4533731",
+            "STATE": "17",
+            "BASENAME": "66",
+            "OID": "2139035951832149",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1226887",
+            "NAME": "State House District 66",
+            "OBJECTID": 3810,
+            "CENTLON": "-088.3229074",
+            "LSY": "2024",
+            "AREALAND": "141786387",
+            "INTPTLON": "-088.3228703",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "170898505002008",
+            "CENTLAT": "+42.0972197",
+            "BLOCK": "2008",
+            "AREAWATER": "0",
+            "STATE": "17",
+            "BASENAME": "2008",
+            "OID": "210701005719776",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0972197",
+            "NAME": "Block 2008",
+            "OBJECTID": 4314593,
+            "TRACT": "850500",
+            "CENTLON": "-088.2703743",
+            "BLKGRP": "2",
+            "AREALAND": "109191",
+            "INTPTLON": "-088.2703743",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "089"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "17089850500",
+            "CENTLAT": "+42.0812171",
+            "AREAWATER": "629481",
+            "STATE": "17",
+            "BASENAME": "8505",
+            "OID": "20790597774017",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0861713",
+            "NAME": "Census Tract 8505",
+            "OBJECTID": 78956,
+            "TRACT": "850500",
+            "CENTLON": "-088.2664568",
+            "AREALAND": "12571725",
+            "INTPTLON": "-088.2677677",
+            "MTFCC": "G5020",
+            "COUNTY": "089"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1708",
+            "CENTLAT": "+42.0298624",
+            "CDSESSN": "119",
+            "AREAWATER": "15207912",
+            "BASENAME": "8",
+            "STATE": "17",
+            "OID": "2119035951831943",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0276703",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 183,
+            "CENTLON": "-088.1989532",
+            "CD119": "08",
+            "AREALAND": "739318970",
+            "INTPTLON": "-088.1971781",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -88.272388,
+          "y": 42.097909
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:19:21.324233+00:00",
+  "elapsed": 0.170373,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4870",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:19:21 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49335e2a9991df5b5c42d879cc4c119fc76e3c500431d8a2f8b51305c584c7e3b6b073080994fe11343fbe8af6ee11128"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49335e2a9991df5b5c42d879cc4c119fc76e3c500431d8a2f8b51305c584c7e3b6b073080994fe11343fbe8af6ee11128",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.786111&y=42.06353"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.786111&y=42.06353",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 288173,
+            "GEOID": "36058",
+            "CENTLAT": "+42.3250494",
+            "AREAWATER": 193909580,
+            "STATE": "36",
+            "BASENAME": "58",
+            "OID": "212904690195414",
+            "LSADC": "LU",
+            "SLDU": "058",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3223372",
+            "NAME": "State Senate District 58",
+            "OBJECTID": 876,
+            "CENTLON": "-077.1364650",
+            "LSY": "2018",
+            "HU100": 137753,
+            "AREALAND": 6804190516,
+            "INTPTLON": "-077.1364466",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 177732,
+            "GEOID": "236",
+            "CENTLAT": "+42.2392812",
+            "AREAWATER": 43915202,
+            "BASENAME": "Elmira-Corning, NY",
+            "OID": "2619013782255124",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2294220",
+            "NAME": "Elmira-Corning, NY CSA",
+            "CSA": "236",
+            "OBJECTID": 31,
+            "CENTLON": "-077.2422896",
+            "HU100": 86312,
+            "AREALAND": 4656386844,
+            "INTPTLON": "-077.2391561",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "27118",
+            "CENTLAT": "+42.1317429",
+            "AREAWATER": 1180585,
+            "BASENAME": "Elmira, NY",
+            "OID": "27021100836094",
+            "UA": "27118",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0864045",
+            "NAME": "Elmira, NY Urban Area",
+            "OBJECTID": 2094,
+            "CENTLON": "-076.8419629",
+            "AREALAND": 82097640,
+            "INTPTLON": "-076.8251795",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "69617",
+            "POP100": 9691,
+            "GEOID": "3601569617",
+            "CENTLAT": "+42.0400123",
+            "AREAWATER": 1099712,
+            "STATE": "36",
+            "BASENAME": "Southport",
+            "OID": "27690100832442",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0499738",
+            "NAME": "Southport town",
+            "OBJECTID": 19505,
+            "CENTLON": "-076.8775565",
+            "COUSUBCC": "T1",
+            "HU100": 4527,
+            "AREALAND": 120172426,
+            "INTPTLON": "-076.8774236",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00979509",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 6782,
+            "GEOID": "3669606",
+            "CENTLAT": "+42.0639969",
+            "AREAWATER": 566610,
+            "STATE": "36",
+            "BASENAME": "Southport",
+            "OID": "28090100833080",
+            "LSADC": "57",
+            "PLACE": "69606",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0646823",
+            "NAME": "Southport CDP",
+            "OBJECTID": 29639,
+            "PLACECC": "U1",
+            "CENTLON": "-076.8183661",
+            "CBSAPCI": "N",
+            "HU100": 3376,
+            "AREALAND": 16513353,
+            "INTPTLON": "-076.8224648",
+            "PLACENS": "02390328",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 128530,
+            "GEOID": "36124",
+            "CENTLAT": "+42.1475415",
+            "SLDL": "124",
+            "AREAWATER": 18890557,
+            "STATE": "36",
+            "BASENAME": "124",
+            "OID": "213904690195716",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1485630",
+            "NAME": "Assembly District 124",
+            "OBJECTID": 3150,
+            "CENTLON": "-076.4348035",
+            "LSY": "2018",
+            "HU100": 58936,
+            "AREALAND": 2096934570,
+            "INTPTLON": "-076.4279918",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 84148,
+            "GEOID": "36015",
+            "CENTLAT": "+42.1412173",
+            "AREAWATER": 8875327,
+            "STATE": "36",
+            "BASENAME": "Chemung",
+            "OID": "27590100832375",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1486972",
+            "NAME": "Chemung County",
+            "OBJECTID": 1907,
+            "CENTLON": "-076.7600106",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974106",
+            "AREALAND": 1054988422,
+            "INTPTLON": "-076.7524712",
+            "HU100": 38985,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 693509,
+            "GEOID": "3623",
+            "CENTLAT": "+42.3439915",
+            "CDSESSN": "116",
+            "AREAWATER": 1602174040,
+            "STATE": "36",
+            "BASENAME": "23",
+            "OID": "211904690193539",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3442440",
+            "NAME": "Congressional District 23",
+            "OBJECTID": 403,
+            "CENTLON": "-077.8438245",
+            "HU100": 339046,
+            "AREALAND": 19093117487,
+            "INTPTLON": "-077.8458079",
+            "CD116": "23",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2934,
+            "GEOID": "36015011101",
+            "CENTLAT": "+42.0639155",
+            "AREAWATER": 306020,
+            "STATE": "36",
+            "BASENAME": "111.01",
+            "OID": "2079015482303674",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0639445",
+            "NAME": "Census Tract 111.01",
+            "OBJECTID": 32110,
+            "TRACT": "011101",
+            "CENTLON": "-076.7852928",
+            "HU100": 1527,
+            "AREALAND": 5850116,
+            "INTPTLON": "-076.7812550",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 28,
+            "GEOID": "360150111011016",
+            "CENTLAT": "+42.0625154",
+            "BLOCK": "1016",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "1016",
+            "OID": "210701006772612",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.0625154",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1016",
+            "OBJECTID": 5728000,
+            "TRACT": "011101",
+            "CENTLON": "-076.7872961",
+            "BLKGRP": "1",
+            "AREALAND": 186847,
+            "HU100": 6,
+            "INTPTLON": "-076.7872961",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "015"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.786111,
+          "y": 42.06353
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:26:39.851020+00:00",
+  "elapsed": 0.168288,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4891",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:26:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.545841&y=43.38111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.545841&y=43.38111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 42534,
+            "GEOID": "23034",
+            "CENTLAT": "+43.3800825",
+            "AREAWATER": 76107826,
+            "STATE": "23",
+            "BASENAME": "34",
+            "OID": "212904492476813",
+            "LSADC": "LU",
+            "SLDU": "034",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.3835186",
+            "NAME": "State Senate District 34",
+            "OBJECTID": 168,
+            "CENTLON": "-070.7549637",
+            "LSY": "2018",
+            "HU100": 24845,
+            "AREALAND": 647362867,
+            "INTPTLON": "-070.7536792",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779787",
+            "POP100": 1362359,
+            "GEOID": "23",
+            "CENTLAT": "+45.2610879",
+            "AREAWATER": 11744937116,
+            "STATE": "23",
+            "BASENAME": "Maine",
+            "STUSAB": "ME",
+            "OID": "27490100936543",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4092843",
+            "DIVISION": "1",
+            "NAME": "Maine",
+            "REGION": "1",
+            "OBJECTID": 50,
+            "CENTLON": "-069.2136626",
+            "AREALAND": 79888428972,
+            "INTPTLON": "-068.6666160",
+            "HU100": 739072,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 662879,
+            "GEOID": "438",
+            "CENTLAT": "+43.7284113",
+            "AREAWATER": 2084925260,
+            "BASENAME": "Portland-Lewiston-South Portland, ME",
+            "OID": "2619013782255207",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.7286471",
+            "NAME": "Portland-Lewiston-South Portland, ME CSA",
+            "CSA": "438",
+            "OBJECTID": 152,
+            "CENTLON": "-070.3870016",
+            "HU100": 330425,
+            "AREALAND": 6602735785,
+            "INTPTLON": "-070.3839894",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "71506",
+            "CENTLAT": "+43.1278337",
+            "AREAWATER": 17722378,
+            "BASENAME": "Portsmouth, NH--ME",
+            "OID": "27021205309819",
+            "UA": "71506",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0279002",
+            "NAME": "Portsmouth, NH--ME Urban Area",
+            "OBJECTID": 400,
+            "CENTLON": "-070.7268109",
+            "AREALAND": 296156400,
+            "INTPTLON": "-070.8455833",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "36535",
+            "POP100": 11536,
+            "GEOID": "2303136535",
+            "CENTLAT": "+43.3826842",
+            "AREAWATER": 22690166,
+            "STATE": "23",
+            "BASENAME": "Kennebunk",
+            "OID": "27690205295287",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.3804268",
+            "NAME": "Kennebunk town",
+            "OBJECTID": 32910,
+            "CENTLON": "-070.5568021",
+            "COUSUBCC": "T1",
+            "HU100": 6254,
+            "AREALAND": 90918060,
+            "INTPTLON": "-070.5539585",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00582539",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5776,
+            "GEOID": "2336500",
+            "CENTLAT": "+43.3841064",
+            "AREAWATER": 0,
+            "STATE": "23",
+            "BASENAME": "Kennebunk",
+            "OID": "28090205300631",
+            "LSADC": "57",
+            "PLACE": "36500",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3841064",
+            "NAME": "Kennebunk CDP",
+            "OBJECTID": 26610,
+            "PLACECC": "U1",
+            "CENTLON": "-070.5441649",
+            "CBSAPCI": "N",
+            "HU100": 3122,
+            "AREALAND": 17477291,
+            "INTPTLON": "-070.5441649",
+            "PLACENS": "02377920",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 9806,
+            "GEOID": "23008",
+            "CENTLAT": "+43.4023674",
+            "SLDL": "008",
+            "AREAWATER": 1003026,
+            "STATE": "23",
+            "BASENAME": "8",
+            "OID": "213905083430701",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.4008086",
+            "NAME": "State House District 8",
+            "OBJECTID": 592,
+            "CENTLON": "-070.5805760",
+            "LSY": "2018",
+            "HU100": 4714,
+            "AREALAND": 80099693,
+            "INTPTLON": "-070.5744688",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 211972,
+            "GEOID": "23031",
+            "CENTLAT": "+43.4287000",
+            "AREAWATER": 721379327,
+            "STATE": "23",
+            "BASENAME": "York",
+            "OID": "27590205293681",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.4260188",
+            "NAME": "York County",
+            "OBJECTID": 2329,
+            "CENTLON": "-070.6698553",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00581301",
+            "AREALAND": 2567159622,
+            "INTPTLON": "-070.6684248",
+            "HU100": 112198,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 704211,
+            "GEOID": "2301",
+            "CENTLAT": "+43.8423336",
+            "CDSESSN": "116",
+            "AREAWATER": 4731822605,
+            "STATE": "23",
+            "BASENAME": "1",
+            "OID": "211904486862976",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8460537",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 34,
+            "CENTLON": "-069.9268502",
+            "HU100": 366425,
+            "AREALAND": 8513824047,
+            "INTPTLON": "-069.9152497",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4486,
+            "GEOID": "23031028003",
+            "CENTLAT": "+43.3930411",
+            "AREAWATER": 0,
+            "STATE": "23",
+            "BASENAME": "280.03",
+            "OID": "2079015615689177",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3930411",
+            "NAME": "Census Tract 280.03",
+            "OBJECTID": 28983,
+            "TRACT": "028003",
+            "CENTLON": "-070.5521558",
+            "HU100": 2273,
+            "AREALAND": 15542411,
+            "INTPTLON": "-070.5521558",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 20,
+            "GEOID": "230310280031005",
+            "CENTLAT": "+43.3806069",
+            "BLOCK": "1005",
+            "AREAWATER": 0,
+            "STATE": "23",
+            "BASENAME": "1005",
+            "OID": "210701003344579",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.3806069",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1005",
+            "OBJECTID": 4284124,
+            "TRACT": "028003",
+            "CENTLON": "-070.5461402",
+            "BLKGRP": "1",
+            "AREALAND": 33764,
+            "HU100": 8,
+            "INTPTLON": "-070.5461402",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "031"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -70.545841,
+          "y": 43.38111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

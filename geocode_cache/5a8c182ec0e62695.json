@@ -1,0 +1,258 @@
+{
+  "created_at": "2025-03-12T21:41:59.886336+00:00",
+  "elapsed": 0.15449,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3799",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:41:59 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a493da9a6885420cd760e5560c4a47539e88c922e480bfbfde9c804774f945131226b3f477ba7a4806e5800b8c9004735a",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.457991&y=31.22912"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.457991&y=31.22912",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91116",
+            "GEOID": "1312791116",
+            "CENTLAT": "+31.2968832",
+            "AREAWATER": "26189693",
+            "STATE": "13",
+            "BASENAME": "Everett",
+            "OID": "27690374525837",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2958580",
+            "NAME": "Everett CCD",
+            "OBJECTID": 27938,
+            "CENTLON": "-081.5171589",
+            "COUSUBCC": "Z5",
+            "AREALAND": "327622273",
+            "INTPTLON": "-081.5144981",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936256",
+            "COUNTY": "127"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "11026",
+            "CENTLAT": "+31.2016117",
+            "AREAWATER": "3473397",
+            "BASENAME": "Brunswick--St. Simons, GA",
+            "OID": "27021374557659",
+            "UA": "11026",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2024993",
+            "NAME": "Brunswick--St. Simons, GA Urban Area",
+            "OBJECTID": 785,
+            "CENTLON": "-081.4940822",
+            "AREALAND": "152788326",
+            "INTPTLON": "-081.4948755",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13127",
+            "CENTLAT": "+31.2132790",
+            "AREAWATER": "429140130",
+            "STATE": "13",
+            "BASENAME": "Glynn",
+            "OID": "27590374508909",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.2127098",
+            "NAME": "Glynn County",
+            "OBJECTID": 768,
+            "CENTLON": "-081.4936325",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01671513",
+            "AREALAND": "1086818213",
+            "INTPTLON": "-081.4964503",
+            "MTFCC": "G4020",
+            "COUNTY": "127"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13003",
+            "CENTLAT": "+31.0832378",
+            "AREAWATER": "1214169691",
+            "STATE": "13",
+            "BASENAME": "3",
+            "OID": "2129035952733147",
+            "SLDU": "003",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.0840622",
+            "NAME": "State Senate District 3",
+            "OBJECTID": 408,
+            "CENTLON": "-081.7674841",
+            "LSY": "2024",
+            "AREALAND": "7472429716",
+            "INTPTLON": "-081.7692910",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13179",
+            "CENTLAT": "+31.2118190",
+            "SLDL": "179",
+            "AREAWATER": "241236423",
+            "STATE": "13",
+            "BASENAME": "179",
+            "OID": "2139035952733411",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.2100700",
+            "NAME": "State House District 179",
+            "OBJECTID": 2941,
+            "CENTLON": "-081.3727886",
+            "LSY": "2024",
+            "AREALAND": "320983046",
+            "INTPTLON": "-081.3728525",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "131270004051056",
+            "CENTLAT": "+31.2287427",
+            "BLOCK": "1056",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "1056",
+            "OID": "210701005273010",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2287427",
+            "NAME": "Block 1056",
+            "OBJECTID": 7727590,
+            "TRACT": "000405",
+            "CENTLON": "-081.4609306",
+            "BLKGRP": "1",
+            "AREALAND": "236522",
+            "INTPTLON": "-081.4609306",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "127"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13127000405",
+            "CENTLAT": "+31.2396555",
+            "AREAWATER": "68358",
+            "STATE": "13",
+            "BASENAME": "4.05",
+            "OID": "2079015488081148",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2385719",
+            "NAME": "Census Tract 4.05",
+            "OBJECTID": 72798,
+            "TRACT": "000405",
+            "CENTLON": "-081.4716059",
+            "AREALAND": "12088379",
+            "INTPTLON": "-081.4708640",
+            "MTFCC": "G5020",
+            "COUNTY": "127"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1301",
+            "CENTLAT": "+31.4225716",
+            "CDSESSN": "119",
+            "AREAWATER": "2060557591",
+            "BASENAME": "1",
+            "STATE": "13",
+            "OID": "2119035952732975",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.4258445",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 16,
+            "CENTLON": "-081.8106296",
+            "CD119": "01",
+            "AREALAND": "19062635974",
+            "INTPTLON": "-081.8058269",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -81.457991,
+          "y": 31.22912
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:30:33.569200+00:00",
+  "elapsed": 0.16619,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4582",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:30:33 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-90.558891&y=36.05798"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-90.558891&y=36.05798",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00068085",
+            "GEOID": "05",
+            "CENTLAT": "+34.8941718",
+            "AREAWATER": "3122689286",
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-092.4418676",
+            "AREALAND": "134658544258",
+            "INTPTLON": "-092.4446262",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "308",
+            "CENTLAT": "+35.8163754",
+            "AREAWATER": "33456458",
+            "BASENAME": "Jonesboro-Paragould, AR",
+            "OID": "2619034687908048",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8157052",
+            "NAME": "Jonesboro-Paragould, AR CSA",
+            "OBJECTID": 117,
+            "CSA": "308",
+            "CENTLON": "-090.6233797",
+            "INTPTLON": "-090.6219717",
+            "AREALAND": "5290850938",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91078",
+            "GEOID": "0505591078",
+            "CENTLAT": "+36.0555964",
+            "AREAWATER": "198363",
+            "STATE": "05",
+            "BASENAME": "Bula",
+            "OID": "2769019626510256",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.0554142",
+            "NAME": "Bula township",
+            "OBJECTID": 8058,
+            "CENTLON": "-090.5394168",
+            "COUSUBCC": "Z1",
+            "AREALAND": "85271313",
+            "INTPTLON": "-090.5412046",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02805590",
+            "COUNTY": "055"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "67402",
+            "CENTLAT": "+36.0604793",
+            "AREAWATER": "173084",
+            "BASENAME": "Paragould, AR",
+            "OID": "27021309376942",
+            "UA": "67402",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.0642216",
+            "NAME": "Paragould, AR Urban Area",
+            "OBJECTID": 2225,
+            "CENTLON": "-090.5121008",
+            "AREALAND": "41925969",
+            "INTPTLON": "-090.5118637",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 3,
+            "NECTAPCI": "N",
+            "GEOID": "0553390",
+            "CENTLAT": "+36.0555198",
+            "AREAWATER": "417340",
+            "BASENAME": "Paragould",
+            "STATE": "05",
+            "OID": "27890309364618",
+            "LSADC": "25",
+            "PLACE": "53390",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.0522893",
+            "NAME": "Paragould city",
+            "OBJECTID": 31825,
+            "PLACECC": "C1",
+            "CENTLON": "-090.5148665",
+            "CBSAPCI": "Y",
+            "AREALAND": "82294384",
+            "INTPTLON": "-090.5104635",
+            "PLACENS": "02404471",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "05055",
+            "CENTLAT": "+36.1176876",
+            "AREAWATER": "5255220",
+            "STATE": "05",
+            "BASENAME": "Greene",
+            "OID": "27590309339730",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.1206072",
+            "NAME": "Greene County",
+            "OBJECTID": 610,
+            "CENTLON": "-090.5591019",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00066857",
+            "AREALAND": "1495322286",
+            "INTPTLON": "-090.5663459",
+            "MTFCC": "G4020",
+            "COUNTY": "055"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "05021",
+            "CENTLAT": "+36.2689212",
+            "AREAWATER": "21900925",
+            "STATE": "05",
+            "BASENAME": "21",
+            "OID": "2129035804688253",
+            "SLDU": "021",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.2744469",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 1392,
+            "CENTLON": "-090.6905544",
+            "LSY": "2024",
+            "AREALAND": "5181353144",
+            "INTPTLON": "-090.6839026",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "05031",
+            "CENTLAT": "+36.0279700",
+            "SLDL": "031",
+            "AREAWATER": "1068644",
+            "STATE": "05",
+            "BASENAME": "31",
+            "OID": "2139035811681126",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.0310933",
+            "NAME": "State House District 31",
+            "OBJECTID": 28,
+            "CENTLON": "-090.5170366",
+            "LSY": "2024",
+            "AREALAND": "149844834",
+            "INTPTLON": "-090.5173129",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "050554808013008",
+            "CENTLAT": "+36.0526064",
+            "BLOCK": "3008",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "3008",
+            "OID": "210701005382428",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.0526064",
+            "NAME": "Block 3008",
+            "OBJECTID": 6179258,
+            "TRACT": "480801",
+            "CENTLON": "-090.5548773",
+            "BLKGRP": "3",
+            "AREALAND": "1363869",
+            "INTPTLON": "-090.5548773",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "055"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "05055480801",
+            "CENTLAT": "+36.0522308",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "4808.01",
+            "OID": "207903693137072",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.0522308",
+            "NAME": "Census Tract 4808.01",
+            "OBJECTID": 25474,
+            "TRACT": "480801",
+            "CENTLON": "-090.5410889",
+            "AREALAND": "11143426",
+            "INTPTLON": "-090.5410889",
+            "MTFCC": "G5020",
+            "COUNTY": "055"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0501",
+            "CENTLAT": "+35.3577472",
+            "CDSESSN": "119",
+            "AREAWATER": "1427579739",
+            "BASENAME": "1",
+            "STATE": "05",
+            "OID": "2119035786460154",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3511723",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 19,
+            "CENTLON": "-091.3246271",
+            "CD119": "01",
+            "AREALAND": "51408923444",
+            "INTPTLON": "-091.3350800",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -90.558891,
+          "y": 36.05798
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T02:17:46.145125+00:00",
+  "elapsed": 0.143217,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4524",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:17:46 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.3817&y=31.1863"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.3817&y=31.1863",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 177449,
+            "GEOID": "13003",
+            "CENTLAT": "+31.1626912",
+            "AREAWATER": 1203860920,
+            "STATE": "13",
+            "BASENAME": "3",
+            "OID": "212904487270226",
+            "LSADC": "LU",
+            "SLDU": "003",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.1544914",
+            "NAME": "State Senate District 3",
+            "OBJECTID": 34,
+            "CENTLON": "-081.6308720",
+            "LSY": "2018",
+            "HU100": 82558,
+            "AREALAND": 5445402503,
+            "INTPTLON": "-081.6248890",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01705317",
+            "POP100": 10711908,
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": 4418749570,
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 37,
+            "CENTLON": "-083.4165286",
+            "AREALAND": 149486234922,
+            "INTPTLON": "-083.4235109",
+            "HU100": 4410956,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "11026",
+            "CENTLAT": "+31.2016126",
+            "AREAWATER": 3458577,
+            "BASENAME": "Brunswick--St. Simons, GA",
+            "OID": "27021374557659",
+            "UA": "11026",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2024993",
+            "NAME": "Brunswick--St. Simons, GA Urban Area",
+            "OBJECTID": 1292,
+            "CENTLON": "-081.4940714",
+            "AREALAND": 152826893,
+            "INTPTLON": "-081.4948755",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92658",
+            "POP100": 16981,
+            "GEOID": "1312792658",
+            "CENTLAT": "+31.2177502",
+            "AREAWATER": 203441189,
+            "STATE": "13",
+            "BASENAME": "St. Simons",
+            "OID": "27690374525838",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.2123171",
+            "NAME": "St. Simons CCD",
+            "OBJECTID": 24078,
+            "CENTLON": "-081.3111425",
+            "COUSUBCC": "Z5",
+            "HU100": 12376,
+            "AREALAND": 149549347,
+            "INTPTLON": "-081.3150730",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936522",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 14982,
+            "GEOID": "1368040",
+            "CENTLAT": "+31.1773987",
+            "AREAWATER": 2650456,
+            "STATE": "13",
+            "BASENAME": "St. Simons",
+            "OID": "28090374532827",
+            "LSADC": "57",
+            "PLACE": "68040",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.1801490",
+            "NAME": "St. Simons CDP",
+            "OBJECTID": 23328,
+            "PLACECC": "U1",
+            "CENTLON": "-081.3857252",
+            "CBSAPCI": "N",
+            "HU100": 10741,
+            "AREALAND": 42689636,
+            "INTPTLON": "-081.3853765",
+            "PLACENS": "02402813",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 54642,
+            "GEOID": "13167",
+            "CENTLAT": "+31.5373185",
+            "SLDL": "167",
+            "AREAWATER": 402415659,
+            "STATE": "13",
+            "BASENAME": "167",
+            "OID": "213904487270397",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.5374043",
+            "NAME": "State House District 167",
+            "OBJECTID": 718,
+            "CENTLON": "-081.5356034",
+            "LSY": "2018",
+            "HU100": 25016,
+            "AREALAND": 2733399103,
+            "INTPTLON": "-081.5403976",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 84499,
+            "GEOID": "13127",
+            "CENTLAT": "+31.2132790",
+            "AREAWATER": 429107116,
+            "STATE": "13",
+            "BASENAME": "Glynn",
+            "OID": "27590374508909",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.2127098",
+            "NAME": "Glynn County",
+            "OBJECTID": 2063,
+            "CENTLON": "-081.4936325",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01671513",
+            "AREALAND": 1086851231,
+            "INTPTLON": "-081.4964503",
+            "HU100": 42156,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 755781,
+            "GEOID": "1301",
+            "CENTLAT": "+31.3151759",
+            "CDSESSN": "116",
+            "AREAWATER": 2075292823,
+            "STATE": "13",
+            "BASENAME": "1",
+            "OID": "211904486864158",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.3174384",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 231,
+            "CENTLON": "-081.9317663",
+            "HU100": 330839,
+            "AREALAND": 21048444071,
+            "INTPTLON": "-081.9425449",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3612,
+            "GEOID": "13127000303",
+            "CENTLAT": "+31.2001081",
+            "AREAWATER": 1516520,
+            "STATE": "13",
+            "BASENAME": "3.03",
+            "OID": "2079015488079102",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.1998224",
+            "NAME": "Census Tract 3.03",
+            "OBJECTID": 67728,
+            "TRACT": "000303",
+            "CENTLON": "-081.3919406",
+            "HU100": 1867,
+            "AREALAND": 12151424,
+            "INTPTLON": "-081.3850874",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 395,
+            "GEOID": "131270003031019",
+            "CENTLAT": "+31.1893044",
+            "BLOCK": "1019",
+            "AREAWATER": 8834,
+            "STATE": "13",
+            "BASENAME": "1019",
+            "OID": "210701005272576",
+            "LSADC": "BK",
+            "INTPTLAT": "+31.1867970",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1019",
+            "OBJECTID": 7771990,
+            "TRACT": "000303",
+            "CENTLON": "-081.3827561",
+            "BLKGRP": "1",
+            "AREALAND": 746769,
+            "HU100": 218,
+            "INTPTLON": "-081.3866230",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "127"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.3817,
+          "y": 31.1863
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

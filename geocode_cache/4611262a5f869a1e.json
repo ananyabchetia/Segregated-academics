@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T20:26:29.783034+00:00",
+  "elapsed": 0.157493,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4302",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:26:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-152.353651&y=57.81004"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-152.353651&y=57.81004",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01785533",
+            "GEOID": "02",
+            "CENTLAT": "+63.4136458",
+            "AREAWATER": "244685829328",
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 3,
+            "CENTLON": "-152.8788722",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "41200",
+            "GEOID": "0215041200",
+            "CENTLAT": "+57.6566173",
+            "AREAWATER": "14147958947",
+            "STATE": "02",
+            "BASENAME": "Kodiak Island",
+            "OID": "2769045754933",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+57.7044003",
+            "NAME": "Kodiak Island census subarea",
+            "OBJECTID": 24715,
+            "CENTLON": "-153.7754909",
+            "COUSUBCC": "Z5",
+            "AREALAND": "17325688361",
+            "INTPTLON": "-153.9183721",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939949",
+            "COUNTY": "150"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "0249200",
+            "CENTLAT": "+57.8175843",
+            "AREAWATER": "431618",
+            "BASENAME": "Mill Bay",
+            "STATE": "02",
+            "OID": "2809015504119548",
+            "LSADC": "57",
+            "PLACE": "49200",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+57.8155011",
+            "NAME": "Mill Bay CDP",
+            "OBJECTID": 22149,
+            "PLACECC": "U1",
+            "CENTLON": "-152.3677049",
+            "CBSAPCI": "N",
+            "AREALAND": "8918737",
+            "INTPTLON": "-152.3675422",
+            "PLACENS": "02805896",
+            "MTFCC": "G4210"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "45667",
+            "CENTLAT": "+57.8114475",
+            "AREAWATER": "656531",
+            "BASENAME": "Kodiak--Mill Bay, AK",
+            "OID": "2702145755004",
+            "UA": "45667",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+57.8101023",
+            "NAME": "Kodiak--Mill Bay, AK Urban Area",
+            "OBJECTID": 853,
+            "CENTLON": "-152.3745122",
+            "AREALAND": "12910137",
+            "INTPTLON": "-152.3720502",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "02150",
+            "CENTLAT": "+57.6566173",
+            "AREAWATER": "14147958947",
+            "STATE": "02",
+            "BASENAME": "Kodiak Island",
+            "OID": "2759045754931",
+            "LSADC": "04",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+57.7044003",
+            "NAME": "Kodiak Island Borough",
+            "OBJECTID": 157,
+            "CENTLON": "-153.7754909",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01419974",
+            "AREALAND": "17325688361",
+            "INTPTLON": "-153.9183721",
+            "MTFCC": "G4020",
+            "COUNTY": "150"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "0200C",
+            "CENTLAT": "+59.4526872",
+            "AREAWATER": "30767820419",
+            "STATE": "02",
+            "BASENAME": "C",
+            "OID": "2129035963375062",
+            "SLDU": "00C",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+60.7200175",
+            "NAME": "State Senate District C",
+            "OBJECTID": 1660,
+            "CENTLON": "-149.5100473",
+            "LSY": "2024",
+            "AREALAND": "42142701084",
+            "INTPTLON": "-146.7261132",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "02005",
+            "CENTLAT": "+59.3909757",
+            "SLDL": "005",
+            "AREAWATER": "27079507219",
+            "STATE": "02",
+            "BASENAME": "5",
+            "OID": "2139035963375126",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+60.7200175",
+            "NAME": "State House District 5",
+            "OBJECTID": 2761,
+            "CENTLON": "-149.2192609",
+            "LSY": "2024",
+            "AREALAND": "35713136923",
+            "INTPTLON": "-146.7261132",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "021500002001008",
+            "CENTLAT": "+57.8112180",
+            "BLOCK": "1008",
+            "AREAWATER": "0",
+            "STATE": "02",
+            "BASENAME": "1008",
+            "OID": "210701000284201",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+57.8112180",
+            "NAME": "Block 1008",
+            "OBJECTID": 6873749,
+            "TRACT": "000200",
+            "CENTLON": "-152.3506624",
+            "BLKGRP": "1",
+            "AREALAND": "231626",
+            "INTPTLON": "-152.3506624",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "150"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "02150000200",
+            "CENTLAT": "+57.8137376",
+            "AREAWATER": "551850",
+            "STATE": "02",
+            "BASENAME": "2",
+            "OID": "2079045754994",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+57.8131421",
+            "NAME": "Census Tract 2",
+            "OBJECTID": 31360,
+            "TRACT": "000200",
+            "CENTLON": "-152.3780530",
+            "AREALAND": "14068979",
+            "INTPTLON": "-152.3828503",
+            "MTFCC": "G5020",
+            "COUNTY": "150"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0200",
+            "CENTLAT": "+63.4136458",
+            "CDSESSN": "119",
+            "AREAWATER": "244685829328",
+            "BASENAME": "Congressional District (at Large)",
+            "STATE": "02",
+            "OID": "2119035963374560",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 217,
+            "CENTLON": "-152.8788722",
+            "CD119": "00",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -152.353651,
+          "y": 57.81004
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

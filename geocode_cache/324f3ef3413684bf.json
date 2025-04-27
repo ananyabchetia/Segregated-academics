@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:13:03.588298+00:00",
+  "elapsed": 0.158369,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4913",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:13:03 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.867111&y=26.6105"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.867111&y=26.6105",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 579819,
+            "GEOID": "12027",
+            "CENTLAT": "+26.5732584",
+            "AREAWATER": 1759488404,
+            "STATE": "12",
+            "BASENAME": "27",
+            "OID": "212904690225642",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.5703959",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1316,
+            "CENTLON": "-082.0788185",
+            "LSY": "2018",
+            "HU100": 318621,
+            "AREALAND": 1133188612,
+            "INTPTLON": "-082.0780718",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1176193,
+            "GEOID": "163",
+            "CENTLAT": "+26.3343599",
+            "AREAWATER": 3562371438,
+            "BASENAME": "Cape Coral-Fort Myers-Naples, FL",
+            "OID": "2619013782255096",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.3308814",
+            "NAME": "Cape Coral-Fort Myers-Naples, FL CSA",
+            "CSA": "163",
+            "OBJECTID": 3,
+            "CENTLON": "-081.5359701",
+            "HU100": 659693,
+            "AREALAND": 10188775927,
+            "INTPTLON": "-081.5373879",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "13510",
+            "CENTLAT": "+26.6051258",
+            "AREAWATER": 101715750,
+            "BASENAME": "Cape Coral, FL",
+            "OID": "27021349587831",
+            "UA": "13510",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.6079911",
+            "NAME": "Cape Coral, FL Urban Area",
+            "OBJECTID": 467,
+            "CENTLON": "-081.8506683",
+            "AREALAND": 859359686,
+            "INTPTLON": "-081.8535636",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91131",
+            "POP100": 173056,
+            "GEOID": "1207191131",
+            "CENTLAT": "+26.5588999",
+            "AREAWATER": 70411996,
+            "STATE": "12",
+            "BASENAME": "Fort Myers",
+            "OID": "27690349496015",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.5590348",
+            "NAME": "Fort Myers CCD",
+            "OBJECTID": 3416,
+            "CENTLON": "-081.8918716",
+            "COUSUBCC": "Z5",
+            "HU100": 101341,
+            "AREALAND": 208558413,
+            "INTPTLON": "-081.8919943",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935769",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 193526,
+            "GEOID": "12078",
+            "CENTLAT": "+26.5421107",
+            "SLDL": "078",
+            "AREAWATER": 74258708,
+            "STATE": "12",
+            "BASENAME": "78",
+            "OID": "213904690229235",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.5442011",
+            "NAME": "State House District 78",
+            "OBJECTID": 4541,
+            "CENTLON": "-081.7611241",
+            "LSY": "2018",
+            "HU100": 103600,
+            "AREALAND": 506419773,
+            "INTPTLON": "-081.7642958",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 86395,
+            "GEOID": "1224125",
+            "CENTLAT": "+26.6194638",
+            "AREAWATER": 23814584,
+            "STATE": "12",
+            "BASENAME": "Fort Myers",
+            "OID": "27890349540126",
+            "LSADC": "25",
+            "PLACE": "24125",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+26.6200745",
+            "NAME": "Fort Myers city",
+            "OBJECTID": 4343,
+            "PLACECC": "C1",
+            "CENTLON": "-081.8302334",
+            "CBSAPCI": "Y",
+            "HU100": 45595,
+            "AREALAND": 103175585,
+            "INTPTLON": "-081.8295466",
+            "PLACENS": "02403643",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 760822,
+            "GEOID": "12071",
+            "CENTLAT": "+26.5635583",
+            "AREAWATER": 1900583561,
+            "STATE": "12",
+            "BASENAME": "Lee",
+            "OID": "27590349480135",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+26.5632731",
+            "NAME": "Lee County",
+            "OBJECTID": 2520,
+            "CENTLON": "-081.9847892",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295758",
+            "AREALAND": 2022803068,
+            "INTPTLON": "-081.9841817",
+            "HU100": 416332,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 835012,
+            "GEOID": "1219",
+            "CENTLAT": "+26.3938118",
+            "CDSESSN": "116",
+            "AREAWATER": 3172444026,
+            "STATE": "12",
+            "BASENAME": "19",
+            "OID": "211904690224055",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.4314464",
+            "NAME": "Congressional District 19",
+            "OBJECTID": 116,
+            "CENTLON": "-081.9616179",
+            "HU100": 502202,
+            "AREALAND": 1936022220,
+            "INTPTLON": "-082.0520354",
+            "CD116": "19",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2955,
+            "GEOID": "12071001104",
+            "CENTLAT": "+26.6080127",
+            "AREAWATER": 16116,
+            "STATE": "12",
+            "BASENAME": "11.04",
+            "OID": "2079015754861305",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.6080741",
+            "NAME": "Census Tract 11.04",
+            "OBJECTID": 12150,
+            "TRACT": "001104",
+            "CENTLON": "-081.8638023",
+            "HU100": 1550,
+            "AREALAND": 1307009,
+            "INTPTLON": "-081.8628220",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 214,
+            "GEOID": "120710011041001",
+            "CENTLAT": "+26.6097637",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "1001",
+            "OID": "210701000205700",
+            "LSADC": "BK",
+            "INTPTLAT": "+26.6097637",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 3466772,
+            "TRACT": "001104",
+            "CENTLON": "-081.8658061",
+            "BLKGRP": "1",
+            "AREALAND": 105895,
+            "HU100": 86,
+            "INTPTLON": "-081.8658061",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.867111,
+          "y": 26.6105
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

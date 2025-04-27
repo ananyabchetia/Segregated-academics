@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:09:21.432879+00:00",
+  "elapsed": 0.457579,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4831",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:09:21 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.732568&y=40.517105"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.732568&y=40.517105",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 153199,
+            "GEOID": "08001",
+            "CENTLAT": "+39.8602083",
+            "AREAWATER": 167791463,
+            "STATE": "08",
+            "BASENAME": "1",
+            "OID": "212904487291902",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.8721293",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 235,
+            "CENTLON": "-103.2772563",
+            "LSY": "2018",
+            "HU100": 61479,
+            "AREALAND": 54264065224,
+            "INTPTLON": "-103.2533563",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779779",
+            "POP100": 5773714,
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": 1185766400,
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 42,
+            "CENTLON": "-105.5478280",
+            "AREALAND": 268418746964,
+            "INTPTLON": "-105.5087122",
+            "HU100": 2491404,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3623560,
+            "GEOID": "216",
+            "CENTLAT": "+39.8135767",
+            "AREAWATER": 268186446,
+            "BASENAME": "Denver-Aurora, CO",
+            "OID": "2619013782255116",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.8155108",
+            "NAME": "Denver-Aurora, CO CSA",
+            "CSA": "216",
+            "OBJECTID": 23,
+            "CENTLON": "-104.7704290",
+            "HU100": 1503302,
+            "AREALAND": 33814963759,
+            "INTPTLON": "-104.7708865",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "25930",
+            "CENTLAT": "+40.5274346",
+            "AREAWATER": 0,
+            "BASENAME": "Eaton, CO",
+            "OID": "27021370843813",
+            "UA": "25930",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5274346",
+            "NAME": "Eaton, CO Urban Area",
+            "OBJECTID": 1277,
+            "CENTLON": "-104.7168512",
+            "AREALAND": 5595173,
+            "INTPTLON": "-104.7168512",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91634",
+            "POP100": 141979,
+            "GEOID": "0812391634",
+            "CENTLAT": "+40.4440181",
+            "AREAWATER": 6107891,
+            "STATE": "08",
+            "BASENAME": "Greeley",
+            "OID": "27690370824218",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4426220",
+            "NAME": "Greeley CCD",
+            "OBJECTID": 18008,
+            "CENTLON": "-104.6936461",
+            "COUSUBCC": "Z5",
+            "HU100": 52972,
+            "AREALAND": 381218428,
+            "INTPTLON": "-104.6945254",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935479",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 103927,
+            "GEOID": "08048",
+            "CENTLAT": "+40.4386850",
+            "SLDL": "048",
+            "AREAWATER": 24094311,
+            "STATE": "08",
+            "BASENAME": "48",
+            "OID": "213904487292010",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4380665",
+            "NAME": "State House District 48",
+            "OBJECTID": 1795,
+            "CENTLON": "-104.7650126",
+            "LSY": "2018",
+            "HU100": 38504,
+            "AREALAND": 1289995443,
+            "INTPTLON": "-104.7614117",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5802,
+            "GEOID": "0822860",
+            "CENTLAT": "+40.5256851",
+            "AREAWATER": 0,
+            "STATE": "08",
+            "BASENAME": "Eaton",
+            "OID": "27890370836038",
+            "LSADC": "43",
+            "PLACE": "22860",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5256851",
+            "NAME": "Eaton town",
+            "OBJECTID": 3318,
+            "PLACECC": "C1",
+            "CENTLON": "-104.7129871",
+            "CBSAPCI": "N",
+            "HU100": 2146,
+            "AREALAND": 8185005,
+            "INTPTLON": "-104.7129871",
+            "PLACENS": "02412462",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 328981,
+            "GEOID": "08123",
+            "CENTLAT": "+40.5542451",
+            "AREAWATER": 82372144,
+            "STATE": "08",
+            "BASENAME": "Weld",
+            "OID": "27590370815984",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5559610",
+            "NAME": "Weld County",
+            "OBJECTID": 3040,
+            "CENTLON": "-104.3937513",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198177",
+            "AREALAND": 10320950482,
+            "INTPTLON": "-104.3836660",
+            "HU100": 119962,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 870537,
+            "GEOID": "0804",
+            "CENTLAT": "+39.0450346",
+            "CDSESSN": "116",
+            "AREAWATER": 441608726,
+            "STATE": "08",
+            "BASENAME": "4",
+            "OID": "211904690197068",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.0706831",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 192,
+            "CENTLON": "-103.3732056",
+            "HU100": 338356,
+            "AREALAND": 98681273637,
+            "INTPTLON": "-103.4138530",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 8197,
+            "GEOID": "08123001500",
+            "CENTLAT": "+40.4985948",
+            "AREAWATER": 1261313,
+            "STATE": "08",
+            "BASENAME": "15",
+            "OID": "20790370842907",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5002661",
+            "NAME": "Census Tract 15",
+            "OBJECTID": 58498,
+            "TRACT": "001500",
+            "CENTLON": "-104.6923131",
+            "HU100": 3084,
+            "AREALAND": 169556191,
+            "INTPTLON": "-104.6925997",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 108,
+            "GEOID": "081230015005053",
+            "CENTLAT": "+40.5180314",
+            "BLOCK": "5053",
+            "AREAWATER": 0,
+            "STATE": "08",
+            "BASENAME": "5053",
+            "OID": "210701003585248",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.5180314",
+            "FUNCSTAT": "S",
+            "NAME": "Block 5053",
+            "OBJECTID": 5286353,
+            "TRACT": "001500",
+            "CENTLON": "-104.7327345",
+            "BLKGRP": "5",
+            "AREALAND": 108072,
+            "HU100": 36,
+            "INTPTLON": "-104.7327345",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "123"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -104.732568,
+          "y": 40.517105
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

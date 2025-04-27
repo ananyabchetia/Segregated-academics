@@ -1,0 +1,264 @@
+{
+  "created_at": "2025-03-12T20:33:05.568354+00:00",
+  "elapsed": 0.523325,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3896",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:33:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-120.678803&y=38.411812"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-120.678803&y=38.411812",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779778",
+            "GEOID": "06",
+            "CENTLAT": "+37.1547616",
+            "AREAWATER": "20290471105",
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 41,
+            "CENTLON": "-119.5277735",
+            "AREALAND": "403674598069",
+            "INTPTLON": "-119.5434183",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93300",
+            "GEOID": "0600593300",
+            "CENTLAT": "+38.4765797",
+            "AREAWATER": "270834",
+            "STATE": "06",
+            "BASENAME": "Sutter Creek-Plymouth",
+            "OID": "27690143931563",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4734154",
+            "NAME": "Sutter Creek-Plymouth CCD",
+            "OBJECTID": 16663,
+            "CENTLON": "-120.7933933",
+            "COUSUBCC": "Z5",
+            "AREALAND": "441613225",
+            "INTPTLON": "-120.7927963",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935335",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0657148",
+            "CENTLAT": "+38.4030395",
+            "AREAWATER": "0",
+            "BASENAME": "Pine Grove",
+            "STATE": "06",
+            "OID": "280903717389415",
+            "LSADC": "57",
+            "PLACE": "57148",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4030395",
+            "NAME": "Pine Grove CDP",
+            "OBJECTID": 26814,
+            "PLACECC": "U1",
+            "CENTLON": "-120.6570875",
+            "CBSAPCI": "N",
+            "AREALAND": "19383669",
+            "INTPTLON": "-120.6570875",
+            "PLACENS": "02583114",
+            "MTFCC": "G4210"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "06005",
+            "CENTLAT": "+38.4466174",
+            "AREAWATER": "29437117",
+            "STATE": "06",
+            "BASENAME": "Amador",
+            "OID": "27590143912562",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4435493",
+            "NAME": "Amador County",
+            "OBJECTID": 489,
+            "CENTLON": "-120.6516693",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01675841",
+            "AREALAND": "1539967080",
+            "INTPTLON": "-120.6538580",
+            "MTFCC": "G4020",
+            "COUNTY": "005"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "06004",
+            "CENTLAT": "+37.4285137",
+            "AREAWATER": "1064514577",
+            "STATE": "06",
+            "BASENAME": "4",
+            "OID": "2129035951820718",
+            "SLDU": "004",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.5924584",
+            "NAME": "State Senate District 4",
+            "OBJECTID": 1474,
+            "CENTLON": "-118.9183861",
+            "LSY": "2024",
+            "AREALAND": "64836666064",
+            "INTPTLON": "-118.5674019",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "06001",
+            "CENTLAT": "+40.6469663",
+            "SLDL": "001",
+            "AREAWATER": "2142831973",
+            "STATE": "06",
+            "BASENAME": "1",
+            "OID": "2139035951821030",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6702540",
+            "NAME": "Assembly District 1",
+            "OBJECTID": 298,
+            "CENTLON": "-121.2547360",
+            "LSY": "2024",
+            "AREALAND": "68501821223",
+            "INTPTLON": "-121.2532318",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "060050004011026",
+            "CENTLAT": "+38.4117791",
+            "BLOCK": "1026",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "1026",
+            "OID": "210701000713499",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4117791",
+            "NAME": "Block 1026",
+            "OBJECTID": 6243389,
+            "TRACT": "000401",
+            "CENTLON": "-120.6803353",
+            "BLKGRP": "1",
+            "AREALAND": "191886",
+            "INTPTLON": "-120.6803353",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "06005000401",
+            "CENTLAT": "+38.3988334",
+            "AREAWATER": "19726",
+            "STATE": "06",
+            "BASENAME": "4.01",
+            "OID": "20790143952268",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4014820",
+            "NAME": "Census Tract 4.01",
+            "OBJECTID": 5745,
+            "TRACT": "000401",
+            "CENTLON": "-120.7422536",
+            "AREALAND": "42374587",
+            "INTPTLON": "-120.7460550",
+            "MTFCC": "G5020",
+            "COUNTY": "005"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0605",
+            "CENTLAT": "+37.7091670",
+            "CDSESSN": "119",
+            "AREAWATER": "414580789",
+            "BASENAME": "5",
+            "STATE": "06",
+            "OID": "2119035951820638",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.7133001",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 52,
+            "CENTLON": "-119.8507358",
+            "CD119": "05",
+            "AREALAND": "25401888556",
+            "INTPTLON": "-119.8504285",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -120.678803,
+          "y": 38.411812
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:24:56.448172+00:00",
+  "elapsed": 0.188617,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4856",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:24:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.641472&y=36.74897"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.641472&y=36.74897",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 107529,
+            "GEOID": "21001",
+            "CENTLAT": "+36.7347373",
+            "AREAWATER": 385198140,
+            "STATE": "21",
+            "BASENAME": "1",
+            "OID": "212904487270929",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.7404112",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 220,
+            "CENTLON": "-088.4370697",
+            "LSY": "2018",
+            "HU100": 51979,
+            "AREALAND": 5284438003,
+            "INTPTLON": "-088.4377260",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779786",
+            "POP100": 4505836,
+            "GEOID": "21",
+            "CENTLAT": "+37.5351655",
+            "AREAWATER": 2368025703,
+            "STATE": "21",
+            "BASENAME": "Kentucky",
+            "STUSAB": "KY",
+            "OID": "27490100360204",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5336844",
+            "DIVISION": "6",
+            "NAME": "Kentucky",
+            "REGION": "3",
+            "OBJECTID": 49,
+            "CENTLON": "-085.3018167",
+            "AREALAND": 102282796080,
+            "INTPTLON": "-085.2929801",
+            "HU100": 1994323,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 135309,
+            "GEOID": "424",
+            "CENTLAT": "+37.0007238",
+            "AREAWATER": 220469145,
+            "BASENAME": "Paducah-Mayfield, KY-IL",
+            "OID": "2619013782255200",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0007643",
+            "NAME": "Paducah-Mayfield, KY-IL CSA",
+            "CSA": "424",
+            "OBJECTID": 145,
+            "CENTLON": "-088.6653993",
+            "HU100": 63582,
+            "AREALAND": 4138346705,
+            "INTPTLON": "-088.6603651",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "55765",
+            "CENTLAT": "+36.7401495",
+            "AREAWATER": 157581,
+            "BASENAME": "Mayfield, KY",
+            "OID": "27021147256640",
+            "UA": "55765",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7410205",
+            "NAME": "Mayfield, KY Urban Area",
+            "OBJECTID": 319,
+            "CENTLON": "-088.6429069",
+            "AREALAND": 24373241,
+            "INTPTLON": "-088.6430011",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92256",
+            "POP100": 15019,
+            "GEOID": "2108392256",
+            "CENTLAT": "+36.7201837",
+            "AREAWATER": 1245203,
+            "STATE": "21",
+            "BASENAME": "Mayfield",
+            "OID": "27690147241484",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7187395",
+            "NAME": "Mayfield CCD",
+            "OBJECTID": 33311,
+            "CENTLON": "-088.6624861",
+            "COUSUBCC": "Z5",
+            "HU100": 6725,
+            "AREALAND": 114935511,
+            "INTPTLON": "-088.6648368",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01937136",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42064,
+            "GEOID": "21002",
+            "CENTLAT": "+36.7459467",
+            "SLDL": "002",
+            "AREAWATER": 14131519,
+            "STATE": "21",
+            "BASENAME": "2",
+            "OID": "213904487271265",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.7444485",
+            "NAME": "State House District 2",
+            "OBJECTID": 359,
+            "CENTLON": "-088.6546087",
+            "LSY": "2018",
+            "HU100": 18836,
+            "AREALAND": 1572208541,
+            "INTPTLON": "-088.6577958",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 10017,
+            "GEOID": "2150898",
+            "CENTLAT": "+36.7370535",
+            "AREAWATER": 87538,
+            "STATE": "21",
+            "BASENAME": "Mayfield",
+            "OID": "27890147248460",
+            "LSADC": "25",
+            "PLACE": "50898",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.7374589",
+            "NAME": "Mayfield city",
+            "OBJECTID": 17211,
+            "PLACECC": "C1",
+            "CENTLON": "-088.6447251",
+            "CBSAPCI": "Y",
+            "HU100": 4556,
+            "AREALAND": 18941498,
+            "INTPTLON": "-088.6444909",
+            "PLACENS": "02405040",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 36649,
+            "GEOID": "21083",
+            "CENTLAT": "+36.7229700",
+            "AREAWATER": 13037984,
+            "STATE": "21",
+            "BASENAME": "Graves",
+            "OID": "27590147234857",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.7233435",
+            "NAME": "Graves County",
+            "OBJECTID": 1206,
+            "CENTLON": "-088.6512085",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00516888",
+            "AREALAND": 1429035010,
+            "INTPTLON": "-088.6498974",
+            "HU100": 16472,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 719139,
+            "GEOID": "2101",
+            "CENTLAT": "+37.0873969",
+            "CDSESSN": "116",
+            "AREAWATER": 1217792757,
+            "STATE": "21",
+            "BASENAME": "1",
+            "OID": "211904487269595",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0846029",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 256,
+            "CENTLON": "-087.1864498",
+            "HU100": 329859,
+            "AREALAND": 31298428711,
+            "INTPTLON": "-087.1849382",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4050,
+            "GEOID": "21083020100",
+            "CENTLAT": "+36.7631280",
+            "AREAWATER": 391425,
+            "STATE": "21",
+            "BASENAME": "201",
+            "OID": "20790147252770",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7585958",
+            "NAME": "Census Tract 201",
+            "OBJECTID": 25053,
+            "TRACT": "020100",
+            "CENTLON": "-088.6650147",
+            "HU100": 1884,
+            "AREALAND": 33939763,
+            "INTPTLON": "-088.6669432",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "210830201002036",
+            "CENTLAT": "+36.7490556",
+            "BLOCK": "2036",
+            "AREAWATER": 0,
+            "STATE": "21",
+            "BASENAME": "2036",
+            "OID": "210701003468240",
+            "LSADC": "BK",
+            "INTPTLAT": "+36.7490556",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2036",
+            "OBJECTID": 7606186,
+            "TRACT": "020100",
+            "CENTLON": "-088.6418097",
+            "BLKGRP": "2",
+            "AREALAND": 13689,
+            "HU100": 0,
+            "INTPTLON": "-088.6418097",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "083"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.641472,
+          "y": 36.74897
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

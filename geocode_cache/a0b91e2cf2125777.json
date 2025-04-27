@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:05:50.013988+00:00",
+  "elapsed": 0.155612,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4553",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:05:50 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49ef3312d5076b07a10edb14acaf89c506b8afb692aa3946734dc4ece9928343839cd27c2957a70ec5c56168364933634"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49ef3312d5076b07a10edb14acaf89c506b8afb692aa3946734dc4ece9928343839cd27c2957a70ec5c56168364933634",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.252666&y=42.331045"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.252666&y=42.331045",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 152834,
+            "GEOID": "25004",
+            "CENTLAT": "+42.4009499",
+            "AREAWATER": 67855606,
+            "STATE": "25",
+            "BASENAME": "Berkshire, Hampshire, Franklin & Hampden",
+            "OID": "212904693077275",
+            "LSADC": "07",
+            "SLDU": "004",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3983684",
+            "NAME": "Berkshire, Hampshire, Franklin & Hampden District",
+            "OBJECTID": 1531,
+            "CENTLON": "-073.0778754",
+            "LSY": "2018",
+            "HU100": 82140,
+            "AREALAND": 3829660428,
+            "INTPTLON": "-073.0733318",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "48745",
+            "CENTLAT": "+42.3213713",
+            "AREAWATER": 425301,
+            "BASENAME": "Lee, MA",
+            "OID": "27021225539586",
+            "UA": "48745",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3582569",
+            "NAME": "Lee, MA Urban Area",
+            "OBJECTID": 540,
+            "CENTLON": "-073.2665617",
+            "AREALAND": 32524986,
+            "INTPTLON": "-073.2816855",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "34970",
+            "POP100": 5095,
+            "GEOID": "2500334970",
+            "CENTLAT": "+42.3716363",
+            "AREAWATER": 1168188,
+            "STATE": "25",
+            "BASENAME": "Lenox",
+            "OID": "27690225518919",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.3678582",
+            "NAME": "Lenox town",
+            "OBJECTID": 1134,
+            "CENTLON": "-073.2759901",
+            "COUSUBCC": "T1",
+            "HU100": 3184,
+            "AREALAND": 54950826,
+            "INTPTLON": "-073.2697633",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618269",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 466,
+            "GEOID": "2535040",
+            "CENTLAT": "+42.3338755",
+            "AREAWATER": 22407,
+            "STATE": "25",
+            "BASENAME": "Lenox Dale",
+            "OID": "2809015504637330",
+            "LSADC": "57",
+            "PLACE": "35040",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3337341",
+            "NAME": "Lenox Dale CDP",
+            "OBJECTID": 24373,
+            "PLACECC": "U1",
+            "CENTLON": "-073.2495919",
+            "CBSAPCI": "N",
+            "HU100": 229,
+            "AREALAND": 1417168,
+            "INTPTLON": "-073.2491986",
+            "PLACENS": "02804355",
+            "MTFCC": "G4210",
+            "UR": "U"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 39595,
+            "GEOID": "25068",
+            "CENTLAT": "+42.2074164",
+            "SLDL": "068",
+            "AREAWATER": 44813787,
+            "STATE": "25",
+            "BASENAME": "4th Berkshire",
+            "OID": "213904693077469",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2125817",
+            "NAME": "4th Berkshire District",
+            "OBJECTID": 4691,
+            "CENTLON": "-073.2015968",
+            "LSY": "2018",
+            "HU100": 25029,
+            "AREALAND": 1595172491,
+            "INTPTLON": "-073.2132361",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 129026,
+            "GEOID": "25003",
+            "CENTLAT": "+42.3701333",
+            "AREAWATER": 50694129,
+            "STATE": "25",
+            "BASENAME": "Berkshire",
+            "OID": "27590225504147",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3714930",
+            "NAME": "Berkshire County",
+            "OBJECTID": 1015,
+            "CENTLON": "-073.2067163",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606928",
+            "AREALAND": 2400599906,
+            "INTPTLON": "-073.2179276",
+            "HU100": 69759,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 730467,
+            "GEOID": "2501",
+            "CENTLAT": "+42.3220873",
+            "CDSESSN": "116",
+            "AREAWATER": 129683314,
+            "STATE": "25",
+            "BASENAME": "1",
+            "OID": "211904690191786",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3310441",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 342,
+            "CENTLON": "-072.8559719",
+            "HU100": 326979,
+            "AREALAND": 6086808204,
+            "INTPTLON": "-072.8641784",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5095,
+            "GEOID": "25003913100",
+            "CENTLAT": "+42.3716363",
+            "AREAWATER": 1168188,
+            "STATE": "25",
+            "BASENAME": "9131",
+            "OID": "20790225532003",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3678582",
+            "NAME": "Census Tract 9131",
+            "OBJECTID": 36245,
+            "TRACT": "913100",
+            "CENTLON": "-073.2759901",
+            "HU100": 3184,
+            "AREALAND": 54950826,
+            "INTPTLON": "-073.2697633",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 103,
+            "GEOID": "250039131006024",
+            "CENTLAT": "+42.3313620",
+            "BLOCK": "6024",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "6024",
+            "OID": "210701006049934",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.3313620",
+            "FUNCSTAT": "S",
+            "NAME": "Block 6024",
+            "OBJECTID": 1559110,
+            "TRACT": "913100",
+            "CENTLON": "-073.2526410",
+            "BLKGRP": "6",
+            "AREALAND": 497592,
+            "HU100": 53,
+            "INTPTLON": "-073.2526410",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.252666,
+          "y": 42.331045
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

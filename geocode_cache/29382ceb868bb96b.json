@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:43:46.766069+00:00",
+  "elapsed": 0.27723,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4837",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:43:46 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.266633&y=32.316334"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.266633&y=32.316334",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 845787,
+            "GEOID": "48001",
+            "CENTLAT": "+32.8943889",
+            "AREAWATER": 813750639,
+            "STATE": "48",
+            "BASENAME": "1",
+            "OID": "212904690779031",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.8900157",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1134,
+            "CENTLON": "-094.8301078",
+            "LSY": "2018",
+            "HU100": 367679,
+            "AREALAND": 26808942961,
+            "INTPTLON": "-094.8269285",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 283891,
+            "GEOID": "540",
+            "CENTLAT": "+32.0907803",
+            "AREAWATER": 97036663,
+            "BASENAME": "Tyler-Jacksonville, TX",
+            "OID": "2619013782255244",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.1074586",
+            "NAME": "Tyler-Jacksonville, TX CSA",
+            "CSA": "540",
+            "OBJECTID": 100,
+            "CENTLON": "-095.2139324",
+            "HU100": 118377,
+            "AREALAND": 5113746015,
+            "INTPTLON": "-095.2205261",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "89326",
+            "CENTLAT": "+32.3177401",
+            "AREAWATER": 2199378,
+            "BASENAME": "Tyler, TX",
+            "OID": "27021732209762",
+            "UA": "89326",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3164868",
+            "NAME": "Tyler, TX Urban Area",
+            "OBJECTID": 1573,
+            "CENTLON": "-095.3122351",
+            "AREALAND": 211165770,
+            "INTPTLON": "-095.3131255",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93970",
+            "POP100": 103449,
+            "GEOID": "4842393970",
+            "CENTLAT": "+32.3835335",
+            "AREAWATER": 6776402,
+            "STATE": "48",
+            "BASENAME": "Tyler",
+            "OID": "27690732095953",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3826190",
+            "NAME": "Tyler CCD",
+            "OBJECTID": 268,
+            "CENTLON": "-095.3290080",
+            "COUSUBCC": "Z5",
+            "HU100": 42945,
+            "AREALAND": 426014098,
+            "INTPTLON": "-095.3289339",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939276",
+            "UR": "M",
+            "COUNTY": "423"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 177097,
+            "GEOID": "48006",
+            "CENTLAT": "+32.2725522",
+            "SLDL": "006",
+            "AREAWATER": 44107059,
+            "STATE": "48",
+            "BASENAME": "6",
+            "OID": "213904690779071",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.2627632",
+            "NAME": "State House District 6",
+            "OBJECTID": 2161,
+            "CENTLON": "-095.3150072",
+            "LSY": "2018",
+            "HU100": 74595,
+            "AREALAND": 770292726,
+            "INTPTLON": "-095.3144019",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 105995,
+            "GEOID": "4874144",
+            "CENTLAT": "+32.3183814",
+            "AREAWATER": 1343056,
+            "STATE": "48",
+            "BASENAME": "Tyler",
+            "OID": "27890732120237",
+            "LSADC": "25",
+            "PLACE": "74144",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.3172584",
+            "NAME": "Tyler city",
+            "OBJECTID": 5682,
+            "PLACECC": "C1",
+            "CENTLON": "-095.3062236",
+            "CBSAPCI": "Y",
+            "HU100": 46320,
+            "AREALAND": 148806389,
+            "INTPTLON": "-095.3058858",
+            "PLACENS": "02412122",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 233479,
+            "GEOID": "48423",
+            "CENTLAT": "+32.3749424",
+            "AREAWATER": 73163662,
+            "STATE": "48",
+            "BASENAME": "Smith",
+            "OID": "27590732061416",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.3770156",
+            "NAME": "Smith County",
+            "OBJECTID": 1976,
+            "CENTLON": "-095.2690261",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383997",
+            "AREALAND": 2386604289,
+            "INTPTLON": "-095.2700409",
+            "HU100": 97539,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "423"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 722363,
+            "GEOID": "4801",
+            "CENTLAT": "+31.9572314",
+            "CDSESSN": "116",
+            "AREAWATER": 950674369,
+            "STATE": "48",
+            "BASENAME": "1",
+            "OID": "211904690225167",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.9516781",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 318,
+            "CENTLON": "-094.5566939",
+            "HU100": 314427,
+            "AREALAND": 20380750312,
+            "INTPTLON": "-094.5520460",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3606,
+            "GEOID": "48423001200",
+            "CENTLAT": "+32.3247150",
+            "AREAWATER": 18713,
+            "STATE": "48",
+            "BASENAME": "12",
+            "OID": "20790732196541",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3244456",
+            "NAME": "Census Tract 12",
+            "OBJECTID": 8704,
+            "TRACT": "001200",
+            "CENTLON": "-095.2757262",
+            "HU100": 1643,
+            "AREALAND": 3349798,
+            "INTPTLON": "-095.2774881",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "423"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "484230012001011",
+            "CENTLAT": "+32.3173563",
+            "BLOCK": "1011",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "1011",
+            "OID": "210701000714225",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.3173563",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1011",
+            "OBJECTID": 1760906,
+            "TRACT": "001200",
+            "CENTLON": "-095.2667819",
+            "BLKGRP": "1",
+            "AREALAND": 62076,
+            "HU100": 0,
+            "INTPTLON": "-095.2667819",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "423"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.266633,
+          "y": 32.316334
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

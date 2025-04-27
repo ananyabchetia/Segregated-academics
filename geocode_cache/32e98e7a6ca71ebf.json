@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:47:58.696885+00:00",
+  "elapsed": 0.191594,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4898",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:47:58 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.507019&y=37.235955"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.507019&y=37.235955",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 227443,
+            "GEOID": "51003",
+            "CENTLAT": "+37.4536620",
+            "AREAWATER": 1045283519,
+            "STATE": "51",
+            "BASENAME": "3",
+            "OID": "212904690194389",
+            "LSADC": "LU",
+            "SLDU": "003",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.4398320",
+            "NAME": "State Senate District 3",
+            "OBJECTID": 1673,
+            "CENTLON": "-076.7516922",
+            "LSY": "2018",
+            "HU100": 96919,
+            "AREALAND": 3355445468,
+            "INTPTLON": "-076.7505732",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779803",
+            "POP100": 8631393,
+            "GEOID": "51",
+            "CENTLAT": "+37.5182631",
+            "AREAWATER": 8528070310,
+            "STATE": "51",
+            "BASENAME": "Virginia",
+            "STUSAB": "VA",
+            "OID": "2749099610787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5222512",
+            "DIVISION": "5",
+            "NAME": "Virginia",
+            "REGION": "3",
+            "OBJECTID": 11,
+            "CENTLON": "-078.6759174",
+            "AREALAND": 102258180558,
+            "INTPTLON": "-078.6681938",
+            "HU100": 3618247,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1890162,
+            "GEOID": "545",
+            "CENTLAT": "+36.5039596",
+            "AREAWATER": 6801711789,
+            "BASENAME": "Virginia Beach-Norfolk, VA-NC",
+            "OID": "2619013782255246",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.4986051",
+            "NAME": "Virginia Beach-Norfolk, VA-NC CSA",
+            "CSA": "545",
+            "OBJECTID": 102,
+            "CENTLON": "-076.2716098",
+            "HU100": 818589,
+            "AREALAND": 11364033685,
+            "INTPTLON": "-076.2681977",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "90892",
+            "CENTLAT": "+36.9138846",
+            "AREAWATER": 197576464,
+            "BASENAME": "Virginia Beach--Norfolk, VA",
+            "OID": "27021243682790",
+            "UA": "90892",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.9143078",
+            "NAME": "Virginia Beach--Norfolk, VA Urban Area",
+            "OBJECTID": 27,
+            "CENTLON": "-076.2914268",
+            "AREALAND": 1247532344,
+            "INTPTLON": "-076.2910797",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91290",
+            "POP100": 16647,
+            "GEOID": "5119991290",
+            "CENTLAT": "+37.2906787",
+            "AREAWATER": 45126685,
+            "STATE": "51",
+            "BASENAME": "1",
+            "OID": "27690695860752",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.2899164",
+            "NAME": "District 1",
+            "OBJECTID": 33236,
+            "CENTLON": "-076.6285279",
+            "COUSUBCC": "Z1",
+            "HU100": 7141,
+            "AREALAND": 153012413,
+            "INTPTLON": "-076.6323789",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01927194",
+            "UR": "M",
+            "COUNTY": "199"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 221,
+            "GEOID": "5188240",
+            "CENTLAT": "+37.2351483",
+            "AREAWATER": 28955,
+            "STATE": "51",
+            "BASENAME": "Yorktown",
+            "OID": "28090695909416",
+            "LSADC": "57",
+            "PLACE": "88240",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2340154",
+            "NAME": "Yorktown CDP",
+            "OBJECTID": 30775,
+            "PLACECC": "U1",
+            "CENTLON": "-076.5146622",
+            "CBSAPCI": "N",
+            "HU100": 123,
+            "AREALAND": 1634913,
+            "INTPTLON": "-076.5182017",
+            "PLACENS": "02390553",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 92312,
+            "GEOID": "51096",
+            "CENTLAT": "+37.2904180",
+            "SLDL": "096",
+            "AREAWATER": 327248105,
+            "STATE": "51",
+            "BASENAME": "96",
+            "OID": "213904690194576",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.2838568",
+            "NAME": "State House District 96",
+            "OBJECTID": 3002,
+            "CENTLON": "-076.5868735",
+            "LSY": "2018",
+            "HU100": 39319,
+            "AREALAND": 507536857,
+            "INTPTLON": "-076.5864075",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 70045,
+            "GEOID": "51199",
+            "CENTLAT": "+37.2381000",
+            "AREAWATER": 285635878,
+            "STATE": "51",
+            "BASENAME": "York",
+            "OID": "27590695787841",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.2209139",
+            "NAME": "York County",
+            "OBJECTID": 1944,
+            "CENTLON": "-076.4424677",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01480182",
+            "AREALAND": 271190280,
+            "INTPTLON": "-076.3955330",
+            "HU100": 27827,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "199"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 750830,
+            "GEOID": "5102",
+            "CENTLAT": "+37.3895836",
+            "CDSESSN": "116",
+            "AREAWATER": 5175493208,
+            "STATE": "51",
+            "BASENAME": "2",
+            "OID": "211904690192933",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.3936967",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 158,
+            "CENTLON": "-075.9436791",
+            "HU100": 318872,
+            "AREALAND": 2858739123,
+            "INTPTLON": "-075.9357243",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3724,
+            "GEOID": "51199050500",
+            "CENTLAT": "+37.2192344",
+            "AREAWATER": 6440206,
+            "STATE": "51",
+            "BASENAME": "505",
+            "OID": "20790695918244",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2202864",
+            "NAME": "Census Tract 505",
+            "OBJECTID": 46853,
+            "TRACT": "050500",
+            "CENTLON": "-076.5174892",
+            "HU100": 1350,
+            "AREALAND": 27316591,
+            "INTPTLON": "-076.5183356",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "199"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 3,
+            "GEOID": "511990505002022",
+            "CENTLAT": "+37.2362329",
+            "BLOCK": "2022",
+            "AREAWATER": 0,
+            "STATE": "51",
+            "BASENAME": "2022",
+            "OID": "210701006488913",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.2362329",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2022",
+            "OBJECTID": 320218,
+            "TRACT": "050500",
+            "CENTLON": "-076.5073176",
+            "BLKGRP": "2",
+            "AREALAND": 27336,
+            "HU100": 2,
+            "INTPTLON": "-076.5073176",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "199"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.507019,
+          "y": 37.235955
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

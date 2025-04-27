@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:08:37.235062+00:00",
+  "elapsed": 0.218681,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4920",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:08:37 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.357211&y=42.5977"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.357211&y=42.5977",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 288413,
+            "GEOID": "26015",
+            "CENTLAT": "+42.5538361",
+            "AREAWATER": 42643699,
+            "STATE": "26",
+            "BASENAME": "15",
+            "OID": "212904690195098",
+            "LSADC": "LU",
+            "SLDU": "015",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5542755",
+            "NAME": "State Senate District 15",
+            "OBJECTID": 1169,
+            "CENTLON": "-083.5177817",
+            "LSY": "2018",
+            "HU100": 120079,
+            "AREALAND": 519707770,
+            "INTPTLON": "-083.5232040",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779789",
+            "POP100": 10077331,
+            "GEOID": "26",
+            "CENTLAT": "+44.8382252",
+            "AREAWATER": 103872203398,
+            "STATE": "26",
+            "BASENAME": "Michigan",
+            "STUSAB": "MI",
+            "OID": "2749048217992",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8441768",
+            "DIVISION": "3",
+            "NAME": "Michigan",
+            "REGION": "2",
+            "OBJECTID": 54,
+            "CENTLON": "-085.6650495",
+            "AREALAND": 146614604273,
+            "INTPTLON": "-085.6604907",
+            "HU100": 4570173,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 5424742,
+            "GEOID": "220",
+            "CENTLAT": "+42.5316345",
+            "AREAWATER": 1333440243,
+            "BASENAME": "Detroit-Warren-Ann Arbor, MI",
+            "OID": "2619013782255119",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5319462",
+            "NAME": "Detroit-Warren-Ann Arbor, MI CSA",
+            "CSA": "220",
+            "OBJECTID": 26,
+            "CENTLON": "-083.4394965",
+            "HU100": 2350647,
+            "AREALAND": 16923399532,
+            "INTPTLON": "-083.4402563",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "23824",
+            "CENTLAT": "+42.4867038",
+            "AREAWATER": 87241053,
+            "BASENAME": "Detroit, MI",
+            "OID": "2702155293420",
+            "UA": "23824",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.4865814",
+            "NAME": "Detroit, MI Urban Area",
+            "OBJECTID": 825,
+            "CENTLON": "-083.2247433",
+            "AREALAND": 3327686104,
+            "INTPTLON": "-083.2274196",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "61020",
+            "POP100": 2238,
+            "GEOID": "2612561020",
+            "CENTLAT": "+42.5858177",
+            "AREAWATER": 4295314,
+            "STATE": "26",
+            "BASENAME": "Orchard Lake Village",
+            "OID": "2769055288244",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.5893597",
+            "NAME": "Orchard Lake Village city",
+            "OBJECTID": 2267,
+            "CENTLON": "-083.3756247",
+            "COUSUBCC": "C5",
+            "HU100": 877,
+            "AREALAND": 6209155,
+            "INTPTLON": "-083.3713089",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01626856",
+            "UR": "U",
+            "COUNTY": "125"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 92691,
+            "GEOID": "26029",
+            "CENTLAT": "+42.6515378",
+            "SLDL": "029",
+            "AREAWATER": 6409308,
+            "STATE": "26",
+            "BASENAME": "29",
+            "OID": "213904690195320",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6511686",
+            "NAME": "State House District 29",
+            "OBJECTID": 3123,
+            "CENTLON": "-083.2809720",
+            "LSY": "2018",
+            "HU100": 40548,
+            "AREALAND": 103436204,
+            "INTPTLON": "-083.2809107",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2238,
+            "GEOID": "2661020",
+            "CENTLAT": "+42.5858177",
+            "AREAWATER": 4295314,
+            "STATE": "26",
+            "BASENAME": "Orchard Lake Village",
+            "OID": "2789055288293",
+            "LSADC": "25",
+            "PLACE": "61020",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.5893597",
+            "NAME": "Orchard Lake Village city",
+            "OBJECTID": 646,
+            "PLACECC": "C5",
+            "CENTLON": "-083.3756247",
+            "CBSAPCI": "N",
+            "HU100": 877,
+            "AREALAND": 6209155,
+            "INTPTLON": "-083.3713089",
+            "PLACENS": "01626856",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1274395,
+            "GEOID": "26125",
+            "CENTLAT": "+42.6602706",
+            "AREAWATER": 103501949,
+            "STATE": "26",
+            "BASENAME": "Oakland",
+            "OID": "2759055288167",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.6604518",
+            "NAME": "Oakland County",
+            "OBJECTID": 1981,
+            "CENTLON": "-083.3858187",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01623005",
+            "AREALAND": 2246231043,
+            "INTPTLON": "-083.3842103",
+            "HU100": 554403,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "125"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 691502,
+            "GEOID": "2614",
+            "CENTLAT": "+42.4680081",
+            "CDSESSN": "116",
+            "AREAWATER": 98071948,
+            "STATE": "26",
+            "BASENAME": "14",
+            "OID": "211904690193370",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3892242",
+            "NAME": "Congressional District 14",
+            "OBJECTID": 167,
+            "CENTLON": "-083.1507819",
+            "HU100": 311645,
+            "AREALAND": 480167509,
+            "INTPTLON": "-082.9218407",
+            "CD116": "14",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2238,
+            "GEOID": "26125154500",
+            "CENTLAT": "+42.5858177",
+            "AREAWATER": 4295314,
+            "STATE": "26",
+            "BASENAME": "1545",
+            "OID": "2079055289500",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5893597",
+            "NAME": "Census Tract 1545",
+            "OBJECTID": 32373,
+            "TRACT": "154500",
+            "CENTLON": "-083.3756247",
+            "HU100": 877,
+            "AREALAND": 6209155,
+            "INTPTLON": "-083.3713089",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "125"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 41,
+            "GEOID": "261251545001005",
+            "CENTLAT": "+42.5985878",
+            "BLOCK": "1005",
+            "AREAWATER": 0,
+            "STATE": "26",
+            "BASENAME": "1005",
+            "OID": "210701008408172",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.5985878",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1005",
+            "OBJECTID": 7866066,
+            "TRACT": "154500",
+            "CENTLON": "-083.3563810",
+            "BLKGRP": "1",
+            "AREALAND": 103751,
+            "HU100": 17,
+            "INTPTLON": "-083.3563810",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "125"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -83.357211,
+          "y": 42.5977
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

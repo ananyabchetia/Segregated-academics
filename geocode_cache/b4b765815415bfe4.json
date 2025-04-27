@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T02:02:39.422974+00:00",
+  "elapsed": 0.147298,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4602",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:02:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4db5f0dde1b5c42019aaed115b1b1dde4f6f98ed8b66bd5a520f7d8bdac7153e2e58d0dfe3dacc291515afcb45dd719e1"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4db5f0dde1b5c42019aaed115b1b1dde4f6f98ed8b66bd5a520f7d8bdac7153e2e58d0dfe3dacc291515afcb45dd719e1",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.662785&y=35.297397"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.662785&y=35.297397",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 987581,
+            "GEOID": "06017",
+            "CENTLAT": "+35.9583731",
+            "AREAWATER": 2489341562,
+            "STATE": "06",
+            "BASENAME": "17",
+            "OID": "212904690192840",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.9662566",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 974,
+            "CENTLON": "-120.9838511",
+            "LSY": "2018",
+            "HU100": 386765,
+            "AREALAND": 18002094998,
+            "INTPTLON": "-120.9903433",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "79147",
+            "CENTLAT": "+35.2618882",
+            "AREAWATER": 55665,
+            "BASENAME": "San Luis Obispo, CA",
+            "OID": "27021408042909",
+            "UA": "79147",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2635007",
+            "NAME": "San Luis Obispo, CA Urban Area",
+            "OBJECTID": 1812,
+            "CENTLON": "-120.6592277",
+            "AREALAND": 36537326,
+            "INTPTLON": "-120.6623872",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92860",
+            "POP100": 66266,
+            "GEOID": "0607992860",
+            "CENTLAT": "+35.2367553",
+            "AREAWATER": 159069576,
+            "STATE": "06",
+            "BASENAME": "San Luis Obispo",
+            "OID": "27690407949948",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2348287",
+            "NAME": "San Luis Obispo CCD",
+            "OBJECTID": 34813,
+            "CENTLON": "-120.6768498",
+            "COUSUBCC": "Z5",
+            "HU100": 24611,
+            "AREALAND": 548587520,
+            "INTPTLON": "-120.6790925",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935291",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8583,
+            "GEOID": "0609835",
+            "CENTLAT": "+35.3053311",
+            "AREAWATER": 22384,
+            "STATE": "06",
+            "BASENAME": "California Polytechnic State University",
+            "OID": "2809015922651268",
+            "LSADC": "57",
+            "PLACE": "09835",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3069806",
+            "NAME": "California Polytechnic State University CDP",
+            "OBJECTID": 27458,
+            "PLACECC": "U1",
+            "CENTLON": "-120.6655276",
+            "CBSAPCI": "N",
+            "HU100": 125,
+            "AREALAND": 3986949,
+            "INTPTLON": "-120.6672761",
+            "PLACENS": "02805238",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 496919,
+            "GEOID": "06035",
+            "CENTLAT": "+35.2609647",
+            "SLDL": "035",
+            "AREAWATER": 1218693912,
+            "STATE": "06",
+            "BASENAME": "35",
+            "OID": "213904690193023",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2615007",
+            "NAME": "Assembly District 35",
+            "OBJECTID": 1176,
+            "CENTLON": "-120.4205151",
+            "LSY": "2018",
+            "HU100": 189309,
+            "AREALAND": 10947050295,
+            "INTPTLON": "-120.4180374",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 282424,
+            "GEOID": "06079",
+            "CENTLAT": "+35.3875380",
+            "AREAWATER": 815618272,
+            "STATE": "06",
+            "BASENAME": "San Luis Obispo",
+            "OID": "27590407929894",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.3881891",
+            "NAME": "San Luis Obispo County",
+            "OBJECTID": 3105,
+            "CENTLON": "-120.4507526",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277304",
+            "AREALAND": 8549172832,
+            "INTPTLON": "-120.4488974",
+            "HU100": 123715,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 740273,
+            "GEOID": "0624",
+            "CENTLAT": "+34.9172310",
+            "CDSESSN": "116",
+            "AREAWATER": 3683946407,
+            "STATE": "06",
+            "BASENAME": "24",
+            "OID": "211904492478256",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9196335",
+            "NAME": "Congressional District 24",
+            "OBJECTID": 18,
+            "CENTLON": "-120.1163759",
+            "HU100": 287069,
+            "AREALAND": 17825148853,
+            "INTPTLON": "-120.1128450",
+            "CD116": "24",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 7459,
+            "GEOID": "06079010903",
+            "CENTLAT": "+35.3005169",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "109.03",
+            "OID": "2079015482489104",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3005169",
+            "NAME": "Census Tract 109.03",
+            "OBJECTID": 22246,
+            "TRACT": "010903",
+            "CENTLON": "-120.6605569",
+            "HU100": 890,
+            "AREALAND": 1830171,
+            "INTPTLON": "-120.6605569",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "060790109033013",
+            "CENTLAT": "+35.2970412",
+            "BLOCK": "3013",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "3013",
+            "OID": "210701000633522",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.2970412",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3013",
+            "OBJECTID": 7973541,
+            "TRACT": "010903",
+            "CENTLON": "-120.6633463",
+            "BLKGRP": "3",
+            "AREALAND": 12061,
+            "HU100": 0,
+            "INTPTLON": "-120.6633463",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "079"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -120.662785,
+          "y": 35.297397
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

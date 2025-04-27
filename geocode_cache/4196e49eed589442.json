@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-03-13T05:45:23.971882+00:00",
+  "elapsed": 0.148402,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4190",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:45:24 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.024159&y=44.599516"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.024159&y=44.599516",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 148836,
+            "GEOID": "50CHI",
+            "CENTLAT": "+44.4644120",
+            "AREAWATER": 156451472,
+            "STATE": "50",
+            "BASENAME": "Chittenden",
+            "OID": "212904693072179",
+            "LSADC": "L8",
+            "SLDU": "CHI",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.4633289",
+            "NAME": "Chittenden State Senate District",
+            "OBJECTID": 1478,
+            "CENTLON": "-073.0762030",
+            "LSY": "2018",
+            "HU100": 64641,
+            "AREALAND": 1185602376,
+            "INTPTLON": "-073.0694099",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 285369,
+            "GEOID": "162",
+            "CENTLAT": "+44.5558124",
+            "AREAWATER": 677806802,
+            "BASENAME": "Burlington-South Burlington-Barre, VT",
+            "OID": "2619013782255095",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5676947",
+            "NAME": "Burlington-South Burlington-Barre, VT CSA",
+            "CSA": "162",
+            "OBJECTID": 2,
+            "CENTLON": "-072.8995086",
+            "HU100": 131637,
+            "AREALAND": 5015011839,
+            "INTPTLON": "-072.9027635",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "80350",
+            "POP100": 2062,
+            "GEOID": "5000780350",
+            "CENTLAT": "+44.6007873",
+            "AREAWATER": 540879,
+            "STATE": "50",
+            "BASENAME": "Westford",
+            "OID": "27690486876910",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6074224",
+            "NAME": "Westford town",
+            "OBJECTID": 2829,
+            "CENTLON": "-073.0043052",
+            "COUSUBCC": "T1",
+            "HU100": 850,
+            "AREALAND": 100686597,
+            "INTPTLON": "-073.0036416",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462251",
+            "UR": "R",
+            "COUNTY": "007"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 4424,
+            "GEOID": "50C83",
+            "CENTLAT": "+44.5793350",
+            "SLDL": "C83",
+            "AREAWATER": 893141,
+            "STATE": "50",
+            "BASENAME": "Chittenden-8-3",
+            "OID": "213904693072324",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.5901805",
+            "NAME": "Chittenden-8-3 State House District",
+            "OBJECTID": 4305,
+            "CENTLON": "-073.0194761",
+            "LSY": "2018",
+            "HU100": 1775,
+            "AREALAND": 153556172,
+            "INTPTLON": "-073.0163865",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 168323,
+            "GEOID": "50007",
+            "CENTLAT": "+44.4606453",
+            "AREAWATER": 214228923,
+            "STATE": "50",
+            "BASENAME": "Chittenden",
+            "OID": "27590486844551",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4633289",
+            "NAME": "Chittenden County",
+            "OBJECTID": 1536,
+            "CENTLON": "-073.0807346",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461760",
+            "AREALAND": 1391556759,
+            "INTPTLON": "-073.0694099",
+            "HU100": 73085,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6492,
+            "GEOID": "50007002900",
+            "CENTLAT": "+44.5123189",
+            "AREAWATER": 1441566,
+            "STATE": "50",
+            "BASENAME": "29",
+            "OID": "20790486949167",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5071466",
+            "NAME": "Census Tract 29",
+            "OBJECTID": 24502,
+            "TRACT": "002900",
+            "CENTLON": "-072.9179213",
+            "HU100": 2766,
+            "AREALAND": 342186424,
+            "INTPTLON": "-072.9170896",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 53,
+            "GEOID": "500070029001033",
+            "CENTLAT": "+44.6067846",
+            "BLOCK": "1033",
+            "AREAWATER": 20806,
+            "STATE": "50",
+            "BASENAME": "1033",
+            "OID": "210701004691499",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.6068139",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1033",
+            "OBJECTID": 3323506,
+            "TRACT": "002900",
+            "CENTLON": "-073.0257828",
+            "BLKGRP": "1",
+            "AREALAND": 2616685,
+            "HU100": 20,
+            "INTPTLON": "-073.0257539",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "007"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.024159,
+          "y": 44.599516
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

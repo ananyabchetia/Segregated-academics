@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:33:09.221057+00:00",
+  "elapsed": 0.19568,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4650",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:33:09 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4c09c65390ce759c9d514bbb1f63f63cee361399c303fc61cd32d86f5d8a5ea3a97c250877a1dacedba699db13c3272f0"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4c09c65390ce759c9d514bbb1f63f63cee361399c303fc61cd32d86f5d8a5ea3a97c250877a1dacedba699db13c3272f0",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.73182&y=28.034897"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.73182&y=28.034897",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00294478",
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": "45963764988",
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 34,
+            "CENTLON": "-082.5022125",
+            "AREALAND": "138970527491",
+            "INTPTLON": "-082.5143005",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "422",
+            "CENTLAT": "+28.5124606",
+            "AREAWATER": "3026125654",
+            "BASENAME": "Orlando-Lakeland-Deltona, FL",
+            "OID": "2619034687908097",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.5125827",
+            "NAME": "Orlando-Lakeland-Deltona, FL CSA",
+            "OBJECTID": 79,
+            "CSA": "422",
+            "CENTLON": "-081.4491586",
+            "INTPTLON": "-081.4489522",
+            "AREALAND": "19260772581",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93718",
+            "GEOID": "1210593718",
+            "CENTLAT": "+28.0119895",
+            "AREAWATER": "82496919",
+            "STATE": "12",
+            "BASENAME": "Winter Haven-Auburndale",
+            "OID": "27690369633713",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.0109470",
+            "NAME": "Winter Haven-Auburndale CCD",
+            "OBJECTID": 381,
+            "CENTLON": "-081.7476463",
+            "COUSUBCC": "Z5",
+            "AREALAND": "266500557",
+            "INTPTLON": "-081.7483046",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935978",
+            "COUNTY": "105"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "96697",
+            "CENTLAT": "+28.0510150",
+            "AREAWATER": "74206026",
+            "BASENAME": "Winter Haven, FL",
+            "OID": "27021369684145",
+            "UA": "96697",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+27.9593970",
+            "NAME": "Winter Haven, FL Urban Area",
+            "OBJECTID": 916,
+            "CENTLON": "-081.7108640",
+            "AREALAND": "369619647",
+            "INTPTLON": "-081.7921467",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 3,
+            "NECTAPCI": "N",
+            "GEOID": "1278275",
+            "CENTLAT": "+28.0111004",
+            "AREAWATER": "22567236",
+            "BASENAME": "Winter Haven",
+            "STATE": "12",
+            "OID": "27890369643899",
+            "LSADC": "25",
+            "PLACE": "78275",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.0458358",
+            "NAME": "Winter Haven city",
+            "OBJECTID": 31408,
+            "PLACECC": "C1",
+            "CENTLON": "-081.7010169",
+            "CBSAPCI": "Y",
+            "AREALAND": "86290986",
+            "INTPTLON": "-081.7327428",
+            "PLACENS": "02405773",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "12105",
+            "CENTLAT": "+27.9487195",
+            "AREAWATER": "549516311",
+            "STATE": "12",
+            "BASENAME": "Polk",
+            "OID": "27590369597060",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+27.9546849",
+            "NAME": "Polk County",
+            "OBJECTID": 109,
+            "CENTLON": "-081.6974038",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295747",
+            "AREALAND": "4657427357",
+            "INTPTLON": "-081.6941249",
+            "MTFCC": "G4020",
+            "COUNTY": "105"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "12012",
+            "CENTLAT": "+28.1088664",
+            "AREAWATER": "228759946",
+            "STATE": "12",
+            "BASENAME": "12",
+            "OID": "2129035963375587",
+            "SLDU": "012",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.1045518",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 98,
+            "CENTLON": "-081.7188990",
+            "LSY": "2024",
+            "AREALAND": "2359691125",
+            "INTPTLON": "-081.7171242",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "12048",
+            "CENTLAT": "+27.8647580",
+            "SLDL": "048",
+            "AREAWATER": "237801360",
+            "STATE": "12",
+            "BASENAME": "48",
+            "OID": "2139035963375631",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+27.8532615",
+            "NAME": "State House District 48",
+            "OBJECTID": 1687,
+            "CENTLON": "-081.4588111",
+            "LSY": "2024",
+            "AREALAND": "1672321129",
+            "INTPTLON": "-081.4543861",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "121050136011040",
+            "CENTLAT": "+28.0392756",
+            "BLOCK": "1040",
+            "AREAWATER": "0",
+            "STATE": "12",
+            "BASENAME": "1040",
+            "OID": "210701001177123",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.0392756",
+            "NAME": "Block 1040",
+            "OBJECTID": 5830812,
+            "TRACT": "013601",
+            "CENTLON": "-081.7321828",
+            "BLKGRP": "1",
+            "AREALAND": "228151",
+            "INTPTLON": "-081.7321828",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "105"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "12105013601",
+            "CENTLAT": "+28.0556611",
+            "AREAWATER": "1060047",
+            "STATE": "12",
+            "BASENAME": "136.01",
+            "OID": "2079015489753137",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.0562758",
+            "NAME": "Census Tract 136.01",
+            "OBJECTID": 73765,
+            "TRACT": "013601",
+            "CENTLON": "-081.7283832",
+            "AREALAND": "2503840",
+            "INTPTLON": "-081.7292384",
+            "MTFCC": "G5020",
+            "COUNTY": "105"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1218",
+            "CENTLAT": "+27.2703249",
+            "CDSESSN": "119",
+            "AREAWATER": "1646530674",
+            "BASENAME": "18",
+            "STATE": "12",
+            "OID": "2119035951820736",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+27.2688364",
+            "NAME": "Congressional District 18",
+            "OBJECTID": 291,
+            "CENTLON": "-081.3866451",
+            "CD119": "18",
+            "AREALAND": "16704392806",
+            "INTPTLON": "-081.3797669",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -81.73182,
+          "y": 28.034897
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

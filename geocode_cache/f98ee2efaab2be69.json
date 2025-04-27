@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:50:14.905978+00:00",
+  "elapsed": 0.181446,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4879",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:50:14 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.182711&y=47.7804"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.182711&y=47.7804",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 171010,
+            "GEOID": "53001",
+            "CENTLAT": "+47.7964304",
+            "AREAWATER": 6165627,
+            "STATE": "53",
+            "BASENAME": "1",
+            "OID": "212904690194672",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.7952818",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 775,
+            "CENTLON": "-122.1661260",
+            "LSY": "2018",
+            "HU100": 65828,
+            "AREALAND": 175590946,
+            "INTPTLON": "-122.1635472",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4953421,
+            "GEOID": "500",
+            "CENTLAT": "+47.4867133",
+            "AREAWATER": 3320288796,
+            "BASENAME": "Seattle-Tacoma, WA",
+            "OID": "2619013782255231",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.4819860",
+            "NAME": "Seattle-Tacoma, WA CSA",
+            "CSA": "500",
+            "OBJECTID": 87,
+            "CENTLON": "-122.1786225",
+            "HU100": 2051279,
+            "AREALAND": 31826717238,
+            "INTPTLON": "-122.1755863",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "80389",
+            "CENTLAT": "+47.4619968",
+            "AREAWATER": 150559818,
+            "BASENAME": "Seattle--Tacoma, WA",
+            "OID": "27021836495179",
+            "UA": "80389",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.4626540",
+            "NAME": "Seattle--Tacoma, WA Urban Area",
+            "OBJECTID": 1626,
+            "CENTLON": "-122.2804480",
+            "AREALAND": 2544707994,
+            "INTPTLON": "-122.2745170",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91872",
+            "POP100": 57605,
+            "GEOID": "5306191872",
+            "CENTLAT": "+47.8159427",
+            "AREAWATER": 371602,
+            "STATE": "53",
+            "BASENAME": "Maltby",
+            "OID": "27690921314950",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.8159243",
+            "NAME": "Maltby CCD",
+            "OBJECTID": 29752,
+            "CENTLON": "-122.1073902",
+            "COUSUBCC": "Z5",
+            "HU100": 19774,
+            "AREALAND": 123296317,
+            "INTPTLON": "-122.1043274",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939555",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 171010,
+            "GEOID": "53001",
+            "CENTLAT": "+47.7964304",
+            "SLDL": "001",
+            "AREAWATER": 6165627,
+            "STATE": "53",
+            "BASENAME": "1",
+            "OID": "213904690194788",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.7952818",
+            "NAME": "State House District 1",
+            "OBJECTID": 1996,
+            "CENTLON": "-122.1661260",
+            "LSY": "2018",
+            "HU100": 65828,
+            "AREALAND": 175590946,
+            "INTPTLON": "-122.1635472",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 48161,
+            "GEOID": "5307380",
+            "CENTLAT": "+47.7735312",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "Bothell",
+            "OID": "27890836057918",
+            "LSADC": "25",
+            "PLACE": "07380",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.7735312",
+            "NAME": "Bothell city",
+            "OBJECTID": 16348,
+            "PLACECC": "C1",
+            "CENTLON": "-122.2043760",
+            "CBSAPCI": "N",
+            "HU100": 20138,
+            "AREALAND": 35314926,
+            "INTPTLON": "-122.2043760",
+            "PLACENS": "02409882",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 827957,
+            "GEOID": "53061",
+            "CENTLAT": "+48.0463062",
+            "AREAWATER": 282894902,
+            "STATE": "53",
+            "BASENAME": "Snohomish",
+            "OID": "27590921030577",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.0549130",
+            "NAME": "Snohomish County",
+            "OBJECTID": 1238,
+            "CENTLON": "-121.7225381",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01529222",
+            "AREALAND": 5404075989,
+            "INTPTLON": "-121.7650375",
+            "HU100": 321523,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 789740,
+            "GEOID": "5301",
+            "CENTLAT": "+48.3693306",
+            "CDSESSN": "116",
+            "AREAWATER": 1096558885,
+            "STATE": "53",
+            "BASENAME": "1",
+            "OID": "211904690192985",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.3674893",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 131,
+            "CENTLON": "-121.6913388",
+            "HU100": 315409,
+            "AREALAND": 16010936559,
+            "INTPTLON": "-121.6579122",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4820,
+            "GEOID": "53061051938",
+            "CENTLAT": "+47.7868997",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "519.38",
+            "OID": "2079015780239617",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.7868997",
+            "NAME": "Census Tract 519.38",
+            "OBJECTID": 63774,
+            "TRACT": "051938",
+            "CENTLON": "-122.1893549",
+            "HU100": 1943,
+            "AREALAND": 3961856,
+            "INTPTLON": "-122.1893549",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 760,
+            "GEOID": "530610519383000",
+            "CENTLAT": "+47.7836819",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "3000",
+            "OID": "210701008000356",
+            "LSADC": "BK",
+            "INTPTLAT": "+47.7836819",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 5627119,
+            "TRACT": "051938",
+            "CENTLON": "-122.1808249",
+            "BLKGRP": "3",
+            "AREALAND": 648430,
+            "HU100": 311,
+            "INTPTLON": "-122.1808249",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -122.182711,
+          "y": 47.7804
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

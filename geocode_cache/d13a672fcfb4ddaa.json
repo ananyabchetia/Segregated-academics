@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T20:26:19.426726+00:00",
+  "elapsed": 0.177259,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4286",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:26:19 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-149.955792&y=61.147173"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-149.955792&y=61.147173",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01785533",
+            "GEOID": "02",
+            "CENTLAT": "+63.4136458",
+            "AREAWATER": "244685829328",
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 3,
+            "CENTLON": "-152.8788722",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "03050",
+            "GEOID": "0202003050",
+            "CENTLAT": "+61.1481849",
+            "AREAWATER": "614965903",
+            "STATE": "02",
+            "BASENAME": "Anchorage",
+            "OID": "2769045412861",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.1742503",
+            "NAME": "Anchorage census subarea",
+            "OBJECTID": 18476,
+            "CENTLON": "-149.1880455",
+            "COUSUBCC": "Z5",
+            "AREALAND": "4421287261",
+            "INTPTLON": "-149.2843294",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939927",
+            "COUNTY": "020"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "02305",
+            "CENTLAT": "+61.1686563",
+            "AREAWATER": "2698341",
+            "BASENAME": "Anchorage, AK",
+            "OID": "2702145413700",
+            "UA": "02305",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.1695843",
+            "NAME": "Anchorage, AK Urban Area",
+            "OBJECTID": 904,
+            "CENTLON": "-149.8546038",
+            "AREALAND": "237670960",
+            "INTPTLON": "-149.8541544",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 1,
+            "NECTAPCI": "N",
+            "GEOID": "0203000",
+            "CENTLAT": "+61.1481849",
+            "AREAWATER": "614965903",
+            "BASENAME": "Anchorage",
+            "STATE": "02",
+            "OID": "2789045412869",
+            "LSADC": "37",
+            "PLACE": "03000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+61.1742503",
+            "NAME": "Anchorage municipality",
+            "OBJECTID": 32595,
+            "PLACECC": "C1",
+            "CENTLON": "-149.1880455",
+            "CBSAPCI": "Y",
+            "AREALAND": "4421287261",
+            "INTPTLON": "-149.2843294",
+            "PLACENS": "02419025",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "02020",
+            "CENTLAT": "+61.1481849",
+            "AREAWATER": "614965903",
+            "STATE": "02",
+            "BASENAME": "Anchorage",
+            "OID": "2759045412859",
+            "LSADC": "12",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+61.1742503",
+            "NAME": "Anchorage Municipality",
+            "OBJECTID": 2751,
+            "CENTLON": "-149.1880455",
+            "COUNTYCC": "H6",
+            "COUNTYNS": "01416061",
+            "AREALAND": "4421287261",
+            "INTPTLON": "-149.2843294",
+            "MTFCC": "G4020",
+            "COUNTY": "020"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "0200H",
+            "CENTLAT": "+61.1450738",
+            "AREAWATER": "243683183",
+            "STATE": "02",
+            "BASENAME": "H",
+            "OID": "2129035963375069",
+            "SLDU": "00H",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+61.1648107",
+            "NAME": "State Senate District H",
+            "OBJECTID": 1300,
+            "CENTLON": "-150.1209033",
+            "LSY": "2024",
+            "AREALAND": "69844069",
+            "INTPTLON": "-150.1778033",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "02015",
+            "CENTLAT": "+61.1128681",
+            "SLDL": "015",
+            "AREAWATER": "23058698",
+            "STATE": "02",
+            "BASENAME": "15",
+            "OID": "2139035963375100",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+61.1228268",
+            "NAME": "State House District 15",
+            "OBJECTID": 2373,
+            "CENTLON": "-149.9769911",
+            "LSY": "2024",
+            "AREALAND": "14436967",
+            "INTPTLON": "-149.9633763",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "020200023013003",
+            "CENTLAT": "+61.1482934",
+            "BLOCK": "3003",
+            "AREAWATER": "0",
+            "STATE": "02",
+            "BASENAME": "3003",
+            "OID": "210701000398335",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.1482934",
+            "NAME": "Block 3003",
+            "OBJECTID": 3789781,
+            "TRACT": "002301",
+            "CENTLON": "-149.9579261",
+            "BLKGRP": "3",
+            "AREALAND": "164624",
+            "INTPTLON": "-149.9579261",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "020"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "02020002301",
+            "CENTLAT": "+61.1463861",
+            "AREAWATER": "213053110",
+            "STATE": "02",
+            "BASENAME": "23.01",
+            "OID": "2079045413516",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+61.1648107",
+            "NAME": "Census Tract 23.01",
+            "OBJECTID": 33111,
+            "TRACT": "002301",
+            "CENTLON": "-150.1501084",
+            "AREALAND": "50837376",
+            "INTPTLON": "-150.1778033",
+            "MTFCC": "G5020",
+            "COUNTY": "020"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0200",
+            "CENTLAT": "+63.4136458",
+            "CDSESSN": "119",
+            "AREAWATER": "244685829328",
+            "BASENAME": "Congressional District (at Large)",
+            "STATE": "02",
+            "OID": "2119035963374560",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 217,
+            "CENTLON": "-152.8788722",
+            "CD119": "00",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -149.955792,
+          "y": 61.147173
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

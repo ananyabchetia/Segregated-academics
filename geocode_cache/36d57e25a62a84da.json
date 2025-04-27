@@ -1,0 +1,258 @@
+{
+  "created_at": "2025-03-12T21:06:38.598710+00:00",
+  "elapsed": 0.148324,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3818",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:06:38 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-107.076114&y=37.258337"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-107.076114&y=37.258337",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779779",
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": "1185470836",
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-105.5478280",
+            "AREALAND": "268419044029",
+            "INTPTLON": "-105.5087122",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92812",
+            "GEOID": "0800792812",
+            "CENTLAT": "+37.1798004",
+            "AREAWATER": "2632303",
+            "STATE": "08",
+            "BASENAME": "Pagosa Springs",
+            "OID": "276901334572677",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.1776436",
+            "NAME": "Pagosa Springs CCD",
+            "OBJECTID": 14812,
+            "CENTLON": "-106.8880296",
+            "COUSUBCC": "Z5",
+            "AREALAND": "2228179052",
+            "INTPTLON": "-106.8858118",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935541",
+            "COUNTY": "007"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "66889",
+            "CENTLAT": "+37.2691569",
+            "AREAWATER": "848846",
+            "BASENAME": "Pagosa Springs, CO",
+            "OID": "270211338057370",
+            "UA": "66889",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2699337",
+            "NAME": "Pagosa Springs, CO Urban Area",
+            "OBJECTID": 2479,
+            "CENTLON": "-107.0754075",
+            "AREALAND": "16167799",
+            "INTPTLON": "-107.0761023",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "08007",
+            "CENTLAT": "+37.1937061",
+            "AREAWATER": "13740247",
+            "STATE": "08",
+            "BASENAME": "Archuleta",
+            "OID": "275901333230110",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.2023952",
+            "NAME": "Archuleta County",
+            "OBJECTID": 3102,
+            "CENTLON": "-107.0481382",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198119",
+            "AREALAND": "3496712164",
+            "INTPTLON": "-107.0508634",
+            "MTFCC": "G4020",
+            "COUNTY": "007"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "08006",
+            "CENTLAT": "+37.6761239",
+            "AREAWATER": "111984978",
+            "STATE": "08",
+            "BASENAME": "6",
+            "OID": "2129035951821061",
+            "SLDU": "006",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.9121275",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 1691,
+            "CENTLON": "-107.2452928",
+            "LSY": "2024",
+            "AREALAND": "47046615915",
+            "INTPTLON": "-107.0273363",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "08059",
+            "CENTLAT": "+37.3015039",
+            "SLDL": "059",
+            "AREAWATER": "66203624",
+            "STATE": "08",
+            "BASENAME": "59",
+            "OID": "2139035951821112",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.2998778",
+            "NAME": "State House District 59",
+            "OBJECTID": 977,
+            "CENTLON": "-107.8247382",
+            "LSY": "2024",
+            "AREALAND": "12802238913",
+            "INTPTLON": "-107.8123854",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "080079742022014",
+            "CENTLAT": "+37.2596394",
+            "BLOCK": "2014",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "2014",
+            "OID": "210701002873265",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2596394",
+            "NAME": "Block 2014",
+            "OBJECTID": 4219531,
+            "TRACT": "974202",
+            "CENTLON": "-107.0780459",
+            "BLKGRP": "2",
+            "AREALAND": "74948",
+            "INTPTLON": "-107.0780459",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "08007974202",
+            "CENTLAT": "+37.2590426",
+            "AREAWATER": "848846",
+            "STATE": "08",
+            "BASENAME": "9742.02",
+            "OID": "2079015503361855",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2591630",
+            "NAME": "Census Tract 9742.02",
+            "OBJECTID": 5283,
+            "TRACT": "974202",
+            "CENTLON": "-107.0949535",
+            "AREALAND": "18365297",
+            "INTPTLON": "-107.0951097",
+            "MTFCC": "G5020",
+            "COUNTY": "007"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0803",
+            "CENTLAT": "+38.4624199",
+            "CDSESSN": "119",
+            "AREAWATER": "353187542",
+            "BASENAME": "3",
+            "STATE": "08",
+            "OID": "2119035951820671",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4582100",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 157,
+            "CENTLON": "-106.9071843",
+            "CD119": "03",
+            "AREALAND": "129370970021",
+            "INTPTLON": "-106.8835657",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -107.076114,
+          "y": 37.258337
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

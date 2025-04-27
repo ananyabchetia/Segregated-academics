@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T20:31:11.613921+00:00",
+  "elapsed": 0.18263,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4214",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:31:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-94.384081&y=35.40122"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-94.384081&y=35.40122",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00068085",
+            "GEOID": "05",
+            "CENTLAT": "+34.8941718",
+            "AREAWATER": "3122689286",
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-092.4418676",
+            "AREALAND": "134658544258",
+            "INTPTLON": "-092.4446262",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "98133",
+            "GEOID": "0513198133",
+            "CENTLAT": "+35.3493767",
+            "AREAWATER": "11278067",
+            "STATE": "05",
+            "BASENAME": "Upper",
+            "OID": "27690341760709",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3492757",
+            "NAME": "Upper township",
+            "OBJECTID": 31847,
+            "CENTLON": "-094.3693739",
+            "COUSUBCC": "Z1",
+            "AREALAND": "166212842",
+            "INTPTLON": "-094.3708830",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00069119",
+            "COUNTY": "131"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "30925",
+            "CENTLAT": "+35.3759879",
+            "AREAWATER": "838677",
+            "BASENAME": "Fort Smith, AR--OK",
+            "OID": "27021341810602",
+            "UA": "30925",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3760077",
+            "NAME": "Fort Smith, AR--OK Urban Area",
+            "OBJECTID": 1691,
+            "CENTLON": "-094.3604246",
+            "AREALAND": "191595793",
+            "INTPTLON": "-094.3622062",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 2,
+            "NECTAPCI": "N",
+            "GEOID": "0524550",
+            "CENTLAT": "+35.3493557",
+            "AREAWATER": "10982893",
+            "BASENAME": "Fort Smith",
+            "STATE": "05",
+            "OID": "27890341788522",
+            "LSADC": "25",
+            "PLACE": "24550",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.3492757",
+            "NAME": "Fort Smith city",
+            "OBJECTID": 32130,
+            "PLACECC": "C1",
+            "CENTLON": "-094.3694658",
+            "CBSAPCI": "Y",
+            "AREALAND": "166249647",
+            "INTPTLON": "-094.3708830",
+            "PLACENS": "02403647",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "05131",
+            "CENTLAT": "+35.1987925",
+            "AREAWATER": "34508909",
+            "STATE": "05",
+            "BASENAME": "Sebastian",
+            "OID": "27590341699857",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.1969808",
+            "NAME": "Sebastian County",
+            "OBJECTID": 3197,
+            "CENTLON": "-094.2743928",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00069181",
+            "AREALAND": "1375759906",
+            "INTPTLON": "-094.2749889",
+            "MTFCC": "G4020",
+            "COUNTY": "131"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "05027",
+            "CENTLAT": "+35.3471941",
+            "AREAWATER": "9321451",
+            "STATE": "05",
+            "BASENAME": "27",
+            "OID": "2129035802833942",
+            "SLDU": "027",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3470646",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 148,
+            "CENTLON": "-094.3791929",
+            "LSY": "2024",
+            "AREALAND": "165288926",
+            "INTPTLON": "-094.3778502",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "05049",
+            "CENTLAT": "+35.4124689",
+            "SLDL": "049",
+            "AREAWATER": "4333794",
+            "STATE": "05",
+            "BASENAME": "49",
+            "OID": "2139035810462174",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.4128723",
+            "NAME": "State House District 49",
+            "OBJECTID": 1371,
+            "CENTLON": "-094.3979378",
+            "LSY": "2024",
+            "AREALAND": "33332377",
+            "INTPTLON": "-094.3989803",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "051310005021003",
+            "CENTLAT": "+35.4014590",
+            "BLOCK": "1003",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "1003",
+            "OID": "210701006696764",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4014590",
+            "NAME": "Block 1003",
+            "OBJECTID": 6959687,
+            "TRACT": "000502",
+            "CENTLON": "-094.3822298",
+            "BLKGRP": "1",
+            "AREALAND": "101169",
+            "INTPTLON": "-094.3822298",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "131"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "05131000502",
+            "CENTLAT": "+35.3955192",
+            "AREAWATER": "15042",
+            "STATE": "05",
+            "BASENAME": "5.02",
+            "OID": "20790341805318",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3945353",
+            "NAME": "Census Tract 5.02",
+            "OBJECTID": 4614,
+            "TRACT": "000502",
+            "CENTLON": "-094.3761690",
+            "AREALAND": "2912612",
+            "INTPTLON": "-094.3752489",
+            "MTFCC": "G5020",
+            "COUNTY": "131"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0503",
+            "CENTLAT": "+36.0053996",
+            "CDSESSN": "119",
+            "AREAWATER": "207863224",
+            "BASENAME": "3",
+            "STATE": "05",
+            "OID": "2119035786459611",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.0007166",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 18,
+            "CENTLON": "-094.0310802",
+            "CD119": "03",
+            "AREALAND": "10786555438",
+            "INTPTLON": "-094.0298134",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -94.384081,
+          "y": 35.40122
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

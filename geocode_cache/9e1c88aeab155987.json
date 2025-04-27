@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-03-13T02:19:06.467164+00:00",
+  "elapsed": 0.199433,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4557",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:19:06 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.352412&y=37.16882"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.352412&y=37.16882",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 205342,
+            "GEOID": "17059",
+            "CENTLAT": "+37.6330360",
+            "AREAWATER": 264958238,
+            "STATE": "17",
+            "BASENAME": "59",
+            "OID": "212904492478178",
+            "LSADC": "LU",
+            "SLDU": "059",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.6329804",
+            "NAME": "State Senate District 59",
+            "OBJECTID": 39,
+            "CENTLON": "-088.7485480",
+            "LSY": "2018",
+            "HU100": 100012,
+            "AREALAND": 9660023923,
+            "INTPTLON": "-088.7536870",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779784",
+            "POP100": 12812508,
+            "GEOID": "17",
+            "CENTLAT": "+40.1006037",
+            "AREAWATER": 6216594318,
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 18,
+            "CENTLON": "-089.1500819",
+            "AREALAND": 143778461053,
+            "INTPTLON": "-089.1526108",
+            "HU100": 5426429,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 135576,
+            "GEOID": "164",
+            "CENTLAT": "+37.2632251",
+            "AREAWATER": 88629522,
+            "BASENAME": "Cape Girardeau-Sikeston, MO-IL",
+            "OID": "2619013782255097",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.2669164",
+            "NAME": "Cape Girardeau-Sikeston, MO-IL CSA",
+            "CSA": "164",
+            "OBJECTID": 4,
+            "CENTLON": "-089.7241260",
+            "HU100": 60425,
+            "AREALAND": 4796192347,
+            "INTPTLON": "-089.7250783",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92304",
+            "POP100": 647,
+            "GEOID": "1700392304",
+            "CENTLAT": "+37.1583852",
+            "AREAWATER": 8378668,
+            "STATE": "17",
+            "BASENAME": "Olive Branch",
+            "OID": "27690130937684",
+            "LSADC": "29",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.1599943",
+            "NAME": "Olive Branch precinct",
+            "OBJECTID": 34681,
+            "CENTLON": "-089.3623517",
+            "COUSUBCC": "Z1",
+            "HU100": 329,
+            "AREALAND": 47586480,
+            "INTPTLON": "-089.3689628",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01928583",
+            "UR": "R",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 650,
+            "GEOID": "1755847",
+            "CENTLAT": "+37.1756600",
+            "AREAWATER": 15950,
+            "STATE": "17",
+            "BASENAME": "Olive Branch",
+            "OID": "280903711733565",
+            "LSADC": "57",
+            "PLACE": "55847",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.1836583",
+            "NAME": "Olive Branch CDP",
+            "OBJECTID": 24285,
+            "PLACECC": "U1",
+            "CENTLON": "-089.3524395",
+            "CBSAPCI": "N",
+            "HU100": 330,
+            "AREALAND": 24467109,
+            "INTPTLON": "-089.3495158",
+            "PLACENS": "02583440",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 97682,
+            "GEOID": "17118",
+            "CENTLAT": "+37.5503823",
+            "SLDL": "118",
+            "AREAWATER": 142938987,
+            "STATE": "17",
+            "BASENAME": "118",
+            "OID": "213904492478377",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.5488929",
+            "NAME": "State House District 118",
+            "OBJECTID": 230,
+            "CENTLON": "-088.6979215",
+            "LSY": "2018",
+            "HU100": 48387,
+            "AREALAND": 7273899609,
+            "INTPTLON": "-088.6947148",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 5240,
+            "GEOID": "17003",
+            "CENTLAT": "+37.1914684",
+            "AREAWATER": 44639203,
+            "STATE": "17",
+            "BASENAME": "Alexander",
+            "OID": "27590130932146",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1836583",
+            "NAME": "Alexander County",
+            "OBJECTID": 1602,
+            "CENTLON": "-089.3374928",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00424203",
+            "AREALAND": 609667765,
+            "INTPTLON": "-089.3495158",
+            "HU100": 2946,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 674870,
+            "GEOID": "1712",
+            "CENTLAT": "+37.9886166",
+            "CDSESSN": "116",
+            "AREAWATER": 462314953,
+            "STATE": "17",
+            "BASENAME": "12",
+            "OID": "211904487270252",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.9933075",
+            "NAME": "Congressional District 12",
+            "OBJECTID": 101,
+            "CENTLON": "-089.4301314",
+            "HU100": 312045,
+            "AREALAND": 12970770929,
+            "INTPTLON": "-089.4278909",
+            "CD116": "12",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1491,
+            "GEOID": "17003957700",
+            "CENTLAT": "+37.1348992",
+            "AREAWATER": 29944873,
+            "STATE": "17",
+            "BASENAME": "9577",
+            "OID": "20790130941159",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.1322588",
+            "NAME": "Census Tract 9577",
+            "OBJECTID": 45427,
+            "TRACT": "957700",
+            "CENTLON": "-089.3438631",
+            "HU100": 794,
+            "AREALAND": 275569419,
+            "INTPTLON": "-089.3422085",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 19,
+            "GEOID": "170039577002176",
+            "CENTLAT": "+37.1690219",
+            "BLOCK": "2176",
+            "AREAWATER": 0,
+            "STATE": "17",
+            "BASENAME": "2176",
+            "OID": "210701003627740",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.1690219",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2176",
+            "OBJECTID": 194398,
+            "TRACT": "957700",
+            "CENTLON": "-089.3524136",
+            "BLKGRP": "2",
+            "AREALAND": 8751,
+            "HU100": 4,
+            "INTPTLON": "-089.3524136",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "003"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -89.352412,
+          "y": 37.16882
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

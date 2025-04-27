@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:22:29.497279+00:00",
+  "elapsed": 0.1563,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4618",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:22:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ebca0077ffe163fb65e9ee32c34aa9ece23d1080d037b756a0f4075b2e2fea8202088f8c66b490cd5402a938ff3c0393"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ebca0077ffe163fb65e9ee32c34aa9ece23d1080d037b756a0f4075b2e2fea8202088f8c66b490cd5402a938ff3c0393",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-87.676281&y=34.72205"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-87.676281&y=34.72205",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779775",
+            "GEOID": "01",
+            "CENTLAT": "+32.7436844",
+            "AREAWATER": "4581556217",
+            "STATE": "01",
+            "BASENAME": "Alabama",
+            "STUSAB": "AL",
+            "OID": "2749065038753",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.7395785",
+            "DIVISION": "6",
+            "NAME": "Alabama",
+            "REGION": "3",
+            "OBJECTID": 14,
+            "CENTLON": "-086.8467928",
+            "AREALAND": "131185602422",
+            "INTPTLON": "-086.8434469",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "250",
+            "CENTLAT": "+34.6891878",
+            "AREAWATER": "245298909",
+            "BASENAME": "Florence-Muscle Shoals-Russellville, AL",
+            "OID": "2619034687908026",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.6961048",
+            "NAME": "Florence-Muscle Shoals-Russellville, AL CSA",
+            "OBJECTID": 2,
+            "CSA": "250",
+            "CENTLON": "-087.7631311",
+            "INTPTLON": "-087.7750128",
+            "AREALAND": "4907844109",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93186",
+            "GEOID": "0103393186",
+            "CENTLAT": "+34.7291350",
+            "AREAWATER": "9730270",
+            "STATE": "01",
+            "BASENAME": "Tri-Cities",
+            "OID": "27690106289021",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7265576",
+            "NAME": "Tri-Cities CCD",
+            "OBJECTID": 34484,
+            "CENTLON": "-087.6483599",
+            "COUSUBCC": "Z5",
+            "AREALAND": "179618128",
+            "INTPTLON": "-087.6427322",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00165715",
+            "COUNTY": "033"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "29953",
+            "CENTLAT": "+34.7916193",
+            "AREAWATER": "359258",
+            "BASENAME": "Florence, AL",
+            "OID": "27021106290498",
+            "UA": "29953",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.8151779",
+            "NAME": "Florence, AL Urban Area",
+            "OBJECTID": 2642,
+            "CENTLON": "-087.6630116",
+            "AREALAND": "141316178",
+            "INTPTLON": "-087.6716496",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "0153016",
+            "CENTLAT": "+34.7428862",
+            "AREAWATER": "57765",
+            "BASENAME": "Muscle Shoals",
+            "STATE": "01",
+            "OID": "27890106289276",
+            "LSADC": "25",
+            "PLACE": "53016",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.7426570",
+            "NAME": "Muscle Shoals city",
+            "OBJECTID": 29789,
+            "PLACECC": "C1",
+            "CENTLON": "-087.6338354",
+            "CBSAPCI": "Y",
+            "AREALAND": "43688809",
+            "INTPTLON": "-087.6337673",
+            "PLACENS": "02404345",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "01033",
+            "CENTLAT": "+34.7005349",
+            "AREAWATER": "79162005",
+            "STATE": "01",
+            "BASENAME": "Colbert",
+            "OID": "27590106288600",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.7031120",
+            "NAME": "Colbert County",
+            "OBJECTID": 235,
+            "CENTLON": "-087.8049398",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00161542",
+            "AREALAND": "1535740660",
+            "INTPTLON": "-087.8014569",
+            "MTFCC": "G4020",
+            "COUNTY": "033"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "01006",
+            "CENTLAT": "+34.5600066",
+            "AREAWATER": "201317921",
+            "STATE": "01",
+            "BASENAME": "6",
+            "OID": "2129035951826745",
+            "SLDU": "006",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5635882",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 1190,
+            "CENTLON": "-087.6154565",
+            "LSY": "2024",
+            "AREALAND": "5157735055",
+            "INTPTLON": "-087.6153030",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "01003",
+            "CENTLAT": "+34.7829404",
+            "SLDL": "003",
+            "AREAWATER": "28583926",
+            "STATE": "01",
+            "BASENAME": "3",
+            "OID": "2139035951826759",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7764307",
+            "NAME": "State House District 3",
+            "OBJECTID": 4789,
+            "CENTLON": "-087.7537843",
+            "LSY": "2024",
+            "AREALAND": "352106022",
+            "INTPTLON": "-087.7624918",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "010330206004016",
+            "CENTLAT": "+34.7213884",
+            "BLOCK": "4016",
+            "AREAWATER": "0",
+            "STATE": "01",
+            "BASENAME": "4016",
+            "OID": "210701001477805",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7213884",
+            "NAME": "Block 4016",
+            "OBJECTID": 331566,
+            "TRACT": "020600",
+            "CENTLON": "-087.6759059",
+            "BLKGRP": "4",
+            "AREALAND": "32828",
+            "INTPTLON": "-087.6759059",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "033"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "01033020600",
+            "CENTLAT": "+34.7239319",
+            "AREAWATER": "24450",
+            "STATE": "01",
+            "BASENAME": "206",
+            "OID": "20790106290228",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7189321",
+            "NAME": "Census Tract 206",
+            "OBJECTID": 20282,
+            "TRACT": "020600",
+            "CENTLON": "-087.6855516",
+            "AREALAND": "9852825",
+            "INTPTLON": "-087.6783060",
+            "MTFCC": "G5020",
+            "COUNTY": "033"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0104",
+            "CENTLAT": "+34.1189335",
+            "CDSESSN": "119",
+            "AREAWATER": "578705615",
+            "BASENAME": "4",
+            "STATE": "01",
+            "OID": "2119035781135784",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1302579",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 44,
+            "CENTLON": "-087.2822106",
+            "CD119": "04",
+            "AREALAND": "22351778006",
+            "INTPTLON": "-087.2816902",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -87.676281,
+          "y": 34.72205
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

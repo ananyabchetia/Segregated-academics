@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:36:49.863868+00:00",
+  "elapsed": 0.173217,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4917",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:36:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4327a24e2000b26f53b3bae498405d3055628bd84a04bb06fdeb4c18acf2572af9889b2ab286d6b437eca125e12d9308b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4327a24e2000b26f53b3bae498405d3055628bd84a04bb06fdeb4c18acf2572af9889b2ab286d6b437eca125e12d9308b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-79.286071&y=33.37281"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-79.286071&y=33.37281",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 89995,
+            "GEOID": "45032",
+            "CENTLAT": "+33.5321471",
+            "AREAWATER": 165789894,
+            "STATE": "45",
+            "BASENAME": "32",
+            "OID": "212904690194051",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5244370",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 1387,
+            "CENTLON": "-079.6158139",
+            "LSY": "2018",
+            "HU100": 42392,
+            "AREALAND": 5053891634,
+            "INTPTLON": "-079.5991627",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 551126,
+            "GEOID": "396",
+            "CENTLAT": "+33.7949897",
+            "AREAWATER": 1404034710,
+            "BASENAME": "Myrtle Beach-Conway, SC-NC",
+            "OID": "2619013782255191",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7866557",
+            "NAME": "Myrtle Beach-Conway, SC-NC CSA",
+            "CSA": "396",
+            "OBJECTID": 136,
+            "CENTLON": "-078.8420579",
+            "HU100": 327948,
+            "AREALAND": 7244198455,
+            "INTPTLON": "-078.8272854",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "33031",
+            "CENTLAT": "+33.3696298",
+            "AREAWATER": 1284591,
+            "BASENAME": "Georgetown, SC",
+            "OID": "27021225150071",
+            "UA": "33031",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3704569",
+            "NAME": "Georgetown, SC Urban Area",
+            "OBJECTID": 887,
+            "CENTLON": "-079.2983384",
+            "AREALAND": 23946739,
+            "INTPTLON": "-079.2999276",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91248",
+            "POP100": 18992,
+            "GEOID": "4504391248",
+            "CENTLAT": "+33.4158052",
+            "AREAWATER": 23265875,
+            "STATE": "45",
+            "BASENAME": "Georgetown",
+            "OID": "27690225086151",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.4183032",
+            "NAME": "Georgetown CCD",
+            "OBJECTID": 9779,
+            "CENTLON": "-079.3475510",
+            "COUSUBCC": "Z5",
+            "HU100": 9009,
+            "AREALAND": 348282628,
+            "INTPTLON": "-079.3530443",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938276",
+            "UR": "M",
+            "COUNTY": "043"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 34436,
+            "GEOID": "45103",
+            "CENTLAT": "+33.5084057",
+            "SLDL": "103",
+            "AREAWATER": 35404275,
+            "STATE": "45",
+            "BASENAME": "HD-103",
+            "OID": "213904690194227",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5072219",
+            "NAME": "State House District HD-103",
+            "OBJECTID": 1528,
+            "CENTLON": "-079.3691503",
+            "LSY": "2018",
+            "HU100": 16279,
+            "AREALAND": 1793120668,
+            "INTPTLON": "-079.3698137",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8403,
+            "GEOID": "4528870",
+            "CENTLAT": "+33.3594352",
+            "AREAWATER": 1538490,
+            "STATE": "45",
+            "BASENAME": "Georgetown",
+            "OID": "27890225116642",
+            "LSADC": "25",
+            "PLACE": "28870",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3724325",
+            "NAME": "Georgetown city",
+            "OBJECTID": 408,
+            "PLACECC": "C1",
+            "CENTLON": "-079.2957764",
+            "CBSAPCI": "Y",
+            "HU100": 4138,
+            "AREALAND": 18108955,
+            "INTPTLON": "-079.2807926",
+            "PLACENS": "02403690",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 63404,
+            "GEOID": "45043",
+            "CENTLAT": "+33.4125924",
+            "AREAWATER": 572958789,
+            "STATE": "45",
+            "BASENAME": "Georgetown",
+            "OID": "27590225048239",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.4175309",
+            "NAME": "Georgetown County",
+            "OBJECTID": 3177,
+            "CENTLON": "-079.2993143",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01248002",
+            "AREALAND": 2107246447,
+            "INTPTLON": "-079.2963325",
+            "HU100": 35916,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "043"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727936,
+            "GEOID": "4507",
+            "CENTLAT": "+34.0880588",
+            "CDSESSN": "116",
+            "AREAWATER": 960366795,
+            "STATE": "45",
+            "BASENAME": "7",
+            "OID": "211904690192865",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.0834783",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 128,
+            "CENTLON": "-079.5028642",
+            "HU100": 382725,
+            "AREALAND": 13868135330,
+            "INTPTLON": "-079.4988485",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2921,
+            "GEOID": "45043920302",
+            "CENTLAT": "+33.3904331",
+            "AREAWATER": 2111535,
+            "STATE": "45",
+            "BASENAME": "9203.02",
+            "OID": "20790225139067",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3895567",
+            "NAME": "Census Tract 9203.02",
+            "OBJECTID": 12161,
+            "TRACT": "920302",
+            "CENTLON": "-079.2725885",
+            "HU100": 1556,
+            "AREALAND": 16258067,
+            "INTPTLON": "-079.2722447",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "043"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 6,
+            "GEOID": "450439203021028",
+            "CENTLAT": "+33.3736413",
+            "BLOCK": "1028",
+            "AREAWATER": 0,
+            "STATE": "45",
+            "BASENAME": "1028",
+            "OID": "210701003647456",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.3736413",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1028",
+            "OBJECTID": 6149272,
+            "TRACT": "920302",
+            "CENTLON": "-079.2857012",
+            "BLKGRP": "1",
+            "AREALAND": 45349,
+            "HU100": 1,
+            "INTPTLON": "-079.2857012",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "043"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -79.286071,
+          "y": 33.37281
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

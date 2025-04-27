@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:24:38.225282+00:00",
+  "elapsed": 0.179744,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4874",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:24:38 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.180123&y=36.753533"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.180123&y=36.753533",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 117398,
+            "GEOID": "21009",
+            "CENTLAT": "+36.9065203",
+            "AREAWATER": 75405423,
+            "STATE": "21",
+            "BASENAME": "9",
+            "OID": "212904487270890",
+            "LSADC": "LU",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.9109532",
+            "NAME": "State Senate District 9",
+            "OBJECTID": 321,
+            "CENTLON": "-085.9206630",
+            "LSY": "2018",
+            "HU100": 52463,
+            "AREALAND": 5105517910,
+            "INTPTLON": "-085.9240410",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779786",
+            "POP100": 4505836,
+            "GEOID": "21",
+            "CENTLAT": "+37.5351655",
+            "AREAWATER": 2368025703,
+            "STATE": "21",
+            "BASENAME": "Kentucky",
+            "STUSAB": "KY",
+            "OID": "27490100360204",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5336844",
+            "DIVISION": "6",
+            "NAME": "Kentucky",
+            "REGION": "3",
+            "OBJECTID": 49,
+            "CENTLON": "-085.3018167",
+            "AREALAND": 102282796080,
+            "INTPTLON": "-085.2929801",
+            "HU100": 1994323,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 234410,
+            "GEOID": "150",
+            "CENTLAT": "+37.0180033",
+            "AREAWATER": 97995076,
+            "BASENAME": "Bowling Green-Glasgow, KY",
+            "OID": "2619013782255091",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0052725",
+            "NAME": "Bowling Green-Glasgow, KY CSA",
+            "CSA": "150",
+            "OBJECTID": 84,
+            "CENTLON": "-086.2160110",
+            "HU100": 102348,
+            "AREALAND": 6195924032,
+            "INTPTLON": "-086.2141695",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "80173",
+            "CENTLAT": "+36.7487509",
+            "AREAWATER": 16054,
+            "BASENAME": "Scottsville, KY",
+            "OID": "27021117806632",
+            "UA": "80173",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7492606",
+            "NAME": "Scottsville, KY Urban Area",
+            "OBJECTID": 630,
+            "CENTLON": "-086.2025659",
+            "AREALAND": 12362421,
+            "INTPTLON": "-086.2076207",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93112",
+            "POP100": 9664,
+            "GEOID": "2100393112",
+            "CENTLAT": "+36.7469295",
+            "AREAWATER": 4365010,
+            "STATE": "21",
+            "BASENAME": "Scottsville",
+            "OID": "27690117806022",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7486162",
+            "NAME": "Scottsville CCD",
+            "OBJECTID": 20552,
+            "CENTLON": "-086.1598358",
+            "COUSUBCC": "Z5",
+            "HU100": 4340,
+            "AREALAND": 202938553,
+            "INTPTLON": "-086.1645088",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01937245",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 45762,
+            "GEOID": "21022",
+            "CENTLAT": "+36.7596900",
+            "SLDL": "022",
+            "AREAWATER": 26958526,
+            "STATE": "21",
+            "BASENAME": "22",
+            "OID": "213904487271167",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.7648485",
+            "NAME": "State House District 22",
+            "OBJECTID": 2128,
+            "CENTLON": "-086.3566915",
+            "LSY": "2018",
+            "HU100": 19661,
+            "AREALAND": 1680463074,
+            "INTPTLON": "-086.3555737",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4299,
+            "GEOID": "2169114",
+            "CENTLAT": "+36.7543536",
+            "AREAWATER": 31042,
+            "STATE": "21",
+            "BASENAME": "Scottsville",
+            "OID": "27890117806166",
+            "LSADC": "25",
+            "PLACE": "69114",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.7492606",
+            "NAME": "Scottsville city",
+            "OBJECTID": 7300,
+            "PLACECC": "C1",
+            "CENTLON": "-086.2051598",
+            "CBSAPCI": "N",
+            "HU100": 2063,
+            "AREALAND": 16324141,
+            "INTPTLON": "-086.2076207",
+            "PLACENS": "02405434",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 20588,
+            "GEOID": "21003",
+            "CENTLAT": "+36.7513018",
+            "AREAWATER": 19482100,
+            "STATE": "21",
+            "BASENAME": "Allen",
+            "OID": "27590117805673",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.7507703",
+            "NAME": "Allen County",
+            "OBJECTID": 143,
+            "CENTLON": "-086.1904044",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00516848",
+            "AREALAND": 891838778,
+            "INTPTLON": "-086.1924580",
+            "HU100": 9208,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 719139,
+            "GEOID": "2101",
+            "CENTLAT": "+37.0873969",
+            "CDSESSN": "116",
+            "AREAWATER": 1217792757,
+            "STATE": "21",
+            "BASENAME": "1",
+            "OID": "211904487269595",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0846029",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 256,
+            "CENTLON": "-087.1864498",
+            "HU100": 329859,
+            "AREALAND": 31298428711,
+            "INTPTLON": "-087.1849382",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5101,
+            "GEOID": "21003920300",
+            "CENTLAT": "+36.7615300",
+            "AREAWATER": 222698,
+            "STATE": "21",
+            "BASENAME": "9203",
+            "OID": "20790117806428",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7692407",
+            "NAME": "Census Tract 9203",
+            "OBJECTID": 79120,
+            "TRACT": "920300",
+            "CENTLON": "-086.2235863",
+            "HU100": 2279,
+            "AREALAND": 69833815,
+            "INTPTLON": "-086.2246641",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 18,
+            "GEOID": "210039203003000",
+            "CENTLAT": "+36.7540474",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "21",
+            "BASENAME": "3000",
+            "OID": "210701004885736",
+            "LSADC": "BK",
+            "INTPTLAT": "+36.7540474",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 6160485,
+            "TRACT": "920300",
+            "CENTLON": "-086.1794544",
+            "BLKGRP": "3",
+            "AREALAND": 23726,
+            "HU100": 6,
+            "INTPTLON": "-086.1794544",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -86.180123,
+          "y": 36.753533
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

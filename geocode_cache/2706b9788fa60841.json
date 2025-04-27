@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:24:49.541846+00:00",
+  "elapsed": 0.173932,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4512",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:24:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.447022&y=34.808071"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.447022&y=34.808071",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 213710,
+            "GEOID": "37006",
+            "CENTLAT": "+34.8168964",
+            "AREAWATER": 377731831,
+            "STATE": "37",
+            "BASENAME": "6",
+            "OID": "212904690224456",
+            "LSADC": "LU",
+            "SLDU": "006",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8273038",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 1819,
+            "CENTLON": "-077.3947249",
+            "LSY": "2018",
+            "HU100": 88807,
+            "AREALAND": 3194935417,
+            "INTPTLON": "-077.3910621",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "42400",
+            "CENTLAT": "+34.7512837",
+            "AREAWATER": 1756988,
+            "BASENAME": "Jacksonville, NC",
+            "OID": "2702178301381",
+            "UA": "42400",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7526680",
+            "NAME": "Jacksonville, NC Urban Area",
+            "OBJECTID": 1176,
+            "CENTLON": "-077.4145056",
+            "AREALAND": 195945428,
+            "INTPTLON": "-077.4124098",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91632",
+            "POP100": 72251,
+            "GEOID": "3713391632",
+            "CENTLAT": "+34.7630945",
+            "AREAWATER": 1293653,
+            "STATE": "37",
+            "BASENAME": "Jacksonville",
+            "OID": "2769078301166",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7631087",
+            "NAME": "Jacksonville township",
+            "OBJECTID": 2411,
+            "CENTLON": "-077.5038094",
+            "COUSUBCC": "Z1",
+            "HU100": 33125,
+            "AREALAND": 282192191,
+            "INTPTLON": "-077.4994691",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01027006",
+            "UR": "M",
+            "COUNTY": "133"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 7543,
+            "GEOID": "3728900",
+            "CENTLAT": "+34.8297642",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "Half Moon",
+            "OID": "2809078301172",
+            "LSADC": "57",
+            "PLACE": "28900",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.8297642",
+            "NAME": "Half Moon CDP",
+            "OBJECTID": 21766,
+            "PLACECC": "U1",
+            "CENTLON": "-077.4591313",
+            "CBSAPCI": "N",
+            "HU100": 3100,
+            "AREALAND": 19220535,
+            "INTPTLON": "-077.4591313",
+            "PLACENS": "02402561",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 85185,
+            "GEOID": "37014",
+            "CENTLAT": "+34.7801200",
+            "SLDL": "014",
+            "AREAWATER": 61164074,
+            "STATE": "37",
+            "BASENAME": "14",
+            "OID": "213904690224764",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7812216",
+            "NAME": "State House District 14",
+            "OBJECTID": 3711,
+            "CENTLON": "-077.2715384",
+            "LSY": "2018",
+            "HU100": 38431,
+            "AREALAND": 575357749,
+            "INTPTLON": "-077.2810923",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 204576,
+            "GEOID": "37133",
+            "CENTLAT": "+34.7097042",
+            "AREAWATER": 370675285,
+            "STATE": "37",
+            "BASENAME": "Onslow",
+            "OID": "2759078301162",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.7631087",
+            "NAME": "Onslow County",
+            "OBJECTID": 2939,
+            "CENTLON": "-077.4156948",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01026341",
+            "AREALAND": 1973765096,
+            "INTPTLON": "-077.4994691",
+            "HU100": 84180,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "133"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 756650,
+            "GEOID": "3703",
+            "CENTLAT": "+35.4359472",
+            "CDSESSN": "116",
+            "AREAWATER": 10735993253,
+            "STATE": "37",
+            "BASENAME": "3",
+            "OID": "211904690224397",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.4469667",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 369,
+            "CENTLON": "-076.5759109",
+            "HU100": 384293,
+            "AREALAND": 18694871223,
+            "INTPTLON": "-076.6052861",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 8048,
+            "GEOID": "37133001202",
+            "CENTLAT": "+34.8006030",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "12.02",
+            "OID": "2079015489538577",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.8006030",
+            "NAME": "Census Tract 12.02",
+            "OBJECTID": 19950,
+            "TRACT": "001202",
+            "CENTLON": "-077.4526892",
+            "HU100": 3295,
+            "AREALAND": 18123964,
+            "INTPTLON": "-077.4526892",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "133"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 188,
+            "GEOID": "371330012021017",
+            "CENTLAT": "+34.8090678",
+            "BLOCK": "1017",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "1017",
+            "OID": "210701007436487",
+            "LSADC": "BK",
+            "INTPTLAT": "+34.8090678",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1017",
+            "OBJECTID": 4477679,
+            "TRACT": "001202",
+            "CENTLON": "-077.4439385",
+            "BLKGRP": "1",
+            "AREALAND": 446790,
+            "HU100": 103,
+            "INTPTLON": "-077.4439385",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "133"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -77.447022,
+          "y": 34.808071
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

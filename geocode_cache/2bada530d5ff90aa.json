@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:30:37.499441+00:00",
+  "elapsed": 0.255742,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4883",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:30:37 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.187231&y=45.209622"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.187231&y=45.209622",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 138398,
+            "GEOID": "41012",
+            "CENTLAT": "+44.8716913",
+            "AREAWATER": 17072130,
+            "STATE": "41",
+            "BASENAME": "12",
+            "OID": "212904486864015",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8680848",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 489,
+            "CENTLON": "-123.3139182",
+            "LSY": "2018",
+            "HU100": 53231,
+            "AREALAND": 4435805715,
+            "INTPTLON": "-123.3081246",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01155107",
+            "POP100": 4237256,
+            "GEOID": "41",
+            "CENTLAT": "+43.9396009",
+            "AREAWATER": 6170953359,
+            "STATE": "41",
+            "BASENAME": "Oregon",
+            "STUSAB": "OR",
+            "OID": "27490206508673",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9717125",
+            "DIVISION": "9",
+            "NAME": "Oregon",
+            "REGION": "4",
+            "OBJECTID": 32,
+            "CENTLON": "-120.6109265",
+            "AREALAND": 248628426864,
+            "INTPTLON": "-120.6229578",
+            "HU100": 1813747,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3280736,
+            "GEOID": "440",
+            "CENTLAT": "+45.2912406",
+            "AREAWATER": 512358767,
+            "BASENAME": "Portland-Vancouver-Salem, OR-WA",
+            "OID": "2619013782255208",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2917994",
+            "NAME": "Portland-Vancouver-Salem, OR-WA CSA",
+            "CSA": "440",
+            "OBJECTID": 153,
+            "CENTLON": "-122.6219403",
+            "HU100": 1333284,
+            "AREALAND": 32932077106,
+            "INTPTLON": "-122.6239684",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "52741",
+            "CENTLAT": "+45.2143297",
+            "AREAWATER": 0,
+            "BASENAME": "McMinnville, OR",
+            "OID": "27021450157842",
+            "UA": "52741",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2143297",
+            "NAME": "McMinnville, OR Urban Area",
+            "OBJECTID": 2644,
+            "CENTLON": "-123.1748806",
+            "AREALAND": 33163576,
+            "INTPTLON": "-123.1748806",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91734",
+            "POP100": 36914,
+            "GEOID": "4107191734",
+            "CENTLAT": "+45.2142435",
+            "AREAWATER": 113459,
+            "STATE": "41",
+            "BASENAME": "McMinnville",
+            "OID": "27690450153202",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2146291",
+            "NAME": "McMinnville CCD",
+            "OBJECTID": 7812,
+            "CENTLON": "-123.2159665",
+            "COUSUBCC": "Z5",
+            "HU100": 14273,
+            "AREALAND": 139238391,
+            "INTPTLON": "-123.2152522",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938050",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 69706,
+            "GEOID": "41024",
+            "CENTLAT": "+45.3528505",
+            "SLDL": "024",
+            "AREAWATER": 1677939,
+            "STATE": "41",
+            "BASENAME": "24",
+            "OID": "213904486864553",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3595927",
+            "NAME": "State House District 24",
+            "OBJECTID": 694,
+            "CENTLON": "-123.1838070",
+            "LSY": "2018",
+            "HU100": 26379,
+            "AREALAND": 852002005,
+            "INTPTLON": "-123.1800292",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 34319,
+            "GEOID": "4145000",
+            "CENTLAT": "+45.2110474",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "McMinnville",
+            "OID": "27890450153212",
+            "LSADC": "25",
+            "PLACE": "45000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.2110474",
+            "NAME": "McMinnville city",
+            "OBJECTID": 13882,
+            "PLACECC": "C1",
+            "CENTLON": "-123.1918216",
+            "CBSAPCI": "N",
+            "HU100": 13257,
+            "AREALAND": 27399571,
+            "INTPTLON": "-123.1918216",
+            "PLACENS": "02411065",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 107722,
+            "GEOID": "41071",
+            "CENTLAT": "+45.2326903",
+            "AREAWATER": 6381028,
+            "STATE": "41",
+            "BASENAME": "Yamhill",
+            "OID": "27590450133498",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.2478274",
+            "NAME": "Yamhill County",
+            "OBJECTID": 2137,
+            "CENTLON": "-123.3084348",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01135866",
+            "AREALAND": 1854279942,
+            "INTPTLON": "-123.3163993",
+            "HU100": 40123,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 864052,
+            "GEOID": "4101",
+            "CENTLAT": "+45.7209542",
+            "CDSESSN": "116",
+            "AREAWATER": 769451197,
+            "STATE": "41",
+            "BASENAME": "1",
+            "OID": "211904487269471",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.7211995",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 31,
+            "CENTLON": "-123.3366659",
+            "HU100": 356669,
+            "AREALAND": 7788395654,
+            "INTPTLON": "-123.3412706",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5580,
+            "GEOID": "41071030801",
+            "CENTLAT": "+45.2204488",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "308.01",
+            "OID": "20790450156266",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2204488",
+            "NAME": "Census Tract 308.01",
+            "OBJECTID": 84310,
+            "TRACT": "030801",
+            "CENTLON": "-123.1887431",
+            "HU100": 2298,
+            "AREALAND": 3120475,
+            "INTPTLON": "-123.1887431",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "410710308012104",
+            "CENTLAT": "+45.2096367",
+            "BLOCK": "2104",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "2104",
+            "OID": "210701003417566",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.2096367",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2104",
+            "OBJECTID": 3565935,
+            "TRACT": "030801",
+            "CENTLON": "-123.1869825",
+            "BLKGRP": "2",
+            "AREALAND": 5998,
+            "HU100": 0,
+            "INTPTLON": "-123.1869825",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -123.187231,
+          "y": 45.209622
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

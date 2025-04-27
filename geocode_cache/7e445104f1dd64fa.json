@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:28:31.720245+00:00",
+  "elapsed": 0.152965,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4881",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:28:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.599641&y=40.89319"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.599641&y=40.89319",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 353299,
+            "GEOID": "39027",
+            "CENTLAT": "+40.9225927",
+            "AREAWATER": 15581361,
+            "STATE": "39",
+            "BASENAME": "27",
+            "OID": "212904692054049",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9223747",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1113,
+            "CENTLON": "-081.7607202",
+            "LSY": "2018",
+            "HU100": 146136,
+            "AREALAND": 2370530733,
+            "INTPTLON": "-081.7577021",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3633962,
+            "GEOID": "184",
+            "CENTLAT": "+41.3582701",
+            "AREAWATER": 7933921665,
+            "BASENAME": "Cleveland-Akron-Canton, OH",
+            "OID": "2619013782255104",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3608812",
+            "NAME": "Cleveland-Akron-Canton, OH CSA",
+            "CSA": "184",
+            "OBJECTID": 11,
+            "CENTLON": "-081.5713982",
+            "HU100": 1662778,
+            "AREALAND": 16670788120,
+            "INTPTLON": "-081.5787755",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "13375",
+            "CENTLAT": "+40.8446231",
+            "AREAWATER": 3240890,
+            "BASENAME": "Canton, OH",
+            "OID": "27021469671861",
+            "UA": "13375",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.8440537",
+            "NAME": "Canton, OH Urban Area",
+            "OBJECTID": 2409,
+            "CENTLON": "-081.4237913",
+            "AREALAND": 466699663,
+            "INTPTLON": "-081.4237296",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "42168",
+            "POP100": 13548,
+            "GEOID": "3915142168",
+            "CENTLAT": "+40.8685344",
+            "AREAWATER": 840876,
+            "STATE": "39",
+            "BASENAME": "Lawrence",
+            "OID": "27690469649577",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.8671953",
+            "NAME": "Lawrence township",
+            "OBJECTID": 33798,
+            "CENTLON": "-081.5936497",
+            "COUSUBCC": "T1",
+            "HU100": 5712,
+            "AREALAND": 88947384,
+            "INTPTLON": "-081.5992820",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086978",
+            "UR": "M",
+            "COUNTY": "151"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 113686,
+            "GEOID": "39038",
+            "CENTLAT": "+40.9966164",
+            "SLDL": "038",
+            "AREAWATER": 8040747,
+            "STATE": "39",
+            "BASENAME": "38",
+            "OID": "213904692056454",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1789884",
+            "NAME": "State House District 38",
+            "OBJECTID": 2368,
+            "CENTLON": "-081.6045078",
+            "LSY": "2018",
+            "HU100": 48673,
+            "AREALAND": 672605871,
+            "INTPTLON": "-081.6491551",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5325,
+            "GEOID": "3911304",
+            "CENTLAT": "+40.8895207",
+            "AREAWATER": 164681,
+            "STATE": "39",
+            "BASENAME": "Canal Fulton",
+            "OID": "27890469653521",
+            "LSADC": "25",
+            "PLACE": "11304",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.8923024",
+            "NAME": "Canal Fulton city",
+            "OBJECTID": 11166,
+            "PLACECC": "C1",
+            "CENTLON": "-081.5882176",
+            "CBSAPCI": "N",
+            "HU100": 2378,
+            "AREALAND": 8464489,
+            "INTPTLON": "-081.5879299",
+            "PLACENS": "02393726",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 374853,
+            "GEOID": "39151",
+            "CENTLAT": "+40.8138883",
+            "AREAWATER": 13646459,
+            "STATE": "39",
+            "BASENAME": "Stark",
+            "OID": "27590379927574",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.8141314",
+            "NAME": "Stark County",
+            "OBJECTID": 1307,
+            "CENTLON": "-081.3657491",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01065576",
+            "AREALAND": 1489930012,
+            "INTPTLON": "-081.3656673",
+            "HU100": 166799,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "151"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 739110,
+            "GEOID": "3916",
+            "CENTLAT": "+40.9727239",
+            "CDSESSN": "116",
+            "AREAWATER": 31215207,
+            "STATE": "39",
+            "BASENAME": "16",
+            "OID": "211904690779006",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9821546",
+            "NAME": "Congressional District 16",
+            "OBJECTID": 145,
+            "CENTLON": "-081.7385592",
+            "HU100": 319464,
+            "AREALAND": 3121705125,
+            "INTPTLON": "-081.7406040",
+            "CD116": "16",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6779,
+            "GEOID": "39151711211",
+            "CENTLAT": "+40.8991545",
+            "AREAWATER": 317648,
+            "STATE": "39",
+            "BASENAME": "7112.11",
+            "OID": "207903712715225",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.9007746",
+            "NAME": "Census Tract 7112.11",
+            "OBJECTID": 81998,
+            "TRACT": "711211",
+            "CENTLON": "-081.5751699",
+            "HU100": 2930,
+            "AREALAND": 19299787,
+            "INTPTLON": "-081.5663859",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "151"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 4,
+            "GEOID": "391517112111050",
+            "CENTLAT": "+40.8933955",
+            "BLOCK": "1050",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "1050",
+            "OID": "210701004057670",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.8933955",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1050",
+            "OBJECTID": 4849786,
+            "TRACT": "711211",
+            "CENTLON": "-081.5991853",
+            "BLKGRP": "1",
+            "AREALAND": 20250,
+            "HU100": 1,
+            "INTPTLON": "-081.5991853",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "151"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.599641,
+          "y": 40.89319
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

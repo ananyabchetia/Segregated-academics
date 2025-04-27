@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:31:24.984685+00:00",
+  "elapsed": 0.305492,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4846",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:31:24 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.407342&y=40.527538"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.407342&y=40.527538",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 241152,
+            "GEOID": "42030",
+            "CENTLAT": "+40.2014234",
+            "AREAWATER": 45724626,
+            "STATE": "42",
+            "BASENAME": "30",
+            "OID": "212904690193446",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2014887",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 869,
+            "CENTLON": "-078.0145338",
+            "LSY": "2018",
+            "HU100": 108336,
+            "AREALAND": 5688394127,
+            "INTPTLON": "-078.0121188",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 166914,
+            "GEOID": "107",
+            "CENTLAT": "+40.4406102",
+            "AREAWATER": 41146759,
+            "BASENAME": "Altoona-Huntingdon, PA",
+            "OID": "2619013782255079",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4391336",
+            "NAME": "Altoona-Huntingdon, PA CSA",
+            "CSA": "107",
+            "OBJECTID": 72,
+            "CENTLON": "-078.1177429",
+            "HU100": 76507,
+            "AREALAND": 3625795409,
+            "INTPTLON": "-078.1133892",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "01792",
+            "CENTLAT": "+40.4772887",
+            "AREAWATER": 160936,
+            "BASENAME": "Altoona, PA",
+            "OID": "27021207563511",
+            "UA": "01792",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4776486",
+            "NAME": "Altoona, PA Urban Area",
+            "OBJECTID": 412,
+            "CENTLON": "-078.3992051",
+            "AREALAND": 95860663,
+            "INTPTLON": "-078.3985384",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "02184",
+            "POP100": 43963,
+            "GEOID": "4201302184",
+            "CENTLAT": "+40.5082388",
+            "AREAWATER": 908,
+            "STATE": "42",
+            "BASENAME": "Altoona",
+            "OID": "27690207457919",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+40.5080517",
+            "NAME": "Altoona city",
+            "OBJECTID": 27426,
+            "CENTLON": "-078.4006788",
+            "COUSUBCC": "C5",
+            "HU100": 20672,
+            "AREALAND": 25358344,
+            "INTPTLON": "-078.4011136",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01214939",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 60884,
+            "GEOID": "42079",
+            "CENTLAT": "+40.5047968",
+            "SLDL": "079",
+            "AREAWATER": 862835,
+            "STATE": "42",
+            "BASENAME": "79",
+            "OID": "213904690193771",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.5043279",
+            "NAME": "State House District 79",
+            "OBJECTID": 1874,
+            "CENTLON": "-078.4381134",
+            "LSY": "2018",
+            "HU100": 27936,
+            "AREALAND": 211196048,
+            "INTPTLON": "-078.4315334",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 43963,
+            "GEOID": "4202184",
+            "CENTLAT": "+40.5082388",
+            "AREAWATER": 908,
+            "STATE": "42",
+            "BASENAME": "Altoona",
+            "OID": "27890207465006",
+            "LSADC": "25",
+            "PLACE": "02184",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5080517",
+            "NAME": "Altoona city",
+            "OBJECTID": 5437,
+            "PLACECC": "C5",
+            "CENTLON": "-078.4006788",
+            "CBSAPCI": "Y",
+            "HU100": 20672,
+            "AREALAND": 25358344,
+            "INTPTLON": "-078.4011136",
+            "PLACENS": "01214939",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 122822,
+            "GEOID": "42013",
+            "CENTLAT": "+40.4809111",
+            "AREAWATER": 3294803,
+            "STATE": "42",
+            "BASENAME": "Blair",
+            "OID": "27590207448684",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4986828",
+            "NAME": "Blair County",
+            "OBJECTID": 2514,
+            "CENTLON": "-078.3485334",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01213659",
+            "AREALAND": 1360458062,
+            "INTPTLON": "-078.3095970",
+            "HU100": 55700,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 694813,
+            "GEOID": "4213",
+            "CENTLAT": "+40.1044116",
+            "CDSESSN": "116",
+            "AREAWATER": 92631440,
+            "STATE": "42",
+            "BASENAME": "13",
+            "OID": "211904690192811",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.1031549",
+            "NAME": "Congressional District 13",
+            "OBJECTID": 280,
+            "CENTLON": "-078.2582187",
+            "HU100": 318374,
+            "AREALAND": 15592105004,
+            "INTPTLON": "-078.2624436",
+            "CD116": "13",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2445,
+            "GEOID": "42013100600",
+            "CENTLAT": "+40.5281924",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "1006",
+            "OID": "20790207561719",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5281924",
+            "NAME": "Census Tract 1006",
+            "OBJECTID": 35273,
+            "TRACT": "100600",
+            "CENTLON": "-078.4051726",
+            "HU100": 1149,
+            "AREALAND": 972481,
+            "INTPTLON": "-078.4051726",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 1,
+            "GEOID": "420131006002002",
+            "CENTLAT": "+40.5279509",
+            "BLOCK": "2002",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "2002",
+            "OID": "210701002444656",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.5279509",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2002",
+            "OBJECTID": 4798639,
+            "TRACT": "100600",
+            "CENTLON": "-078.4073487",
+            "BLKGRP": "2",
+            "AREALAND": 11289,
+            "HU100": 1,
+            "INTPTLON": "-078.4073487",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -78.407342,
+          "y": 40.527538
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

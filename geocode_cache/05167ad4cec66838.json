@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T21:13:05.351292+00:00",
+  "elapsed": 0.188491,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4252",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:13:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-75.447501&y=38.90483"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-75.447501&y=38.90483",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779781",
+            "GEOID": "10",
+            "CENTLAT": "+38.9932570",
+            "AREAWATER": "1399219008",
+            "STATE": "10",
+            "BASENAME": "Delaware",
+            "STUSAB": "DE",
+            "OID": "27490331618368",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9985661",
+            "DIVISION": "5",
+            "NAME": "Delaware",
+            "REGION": "3",
+            "OBJECTID": 7,
+            "CENTLON": "-075.4514104",
+            "AREALAND": "5046692231",
+            "INTPTLON": "-075.4416440",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92368",
+            "GEOID": "1000592368",
+            "CENTLAT": "+38.8758499",
+            "AREAWATER": "265889589",
+            "STATE": "10",
+            "BASENAME": "Milford South",
+            "OID": "27690337200022",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.8786677",
+            "NAME": "Milford South CCD",
+            "OBJECTID": 9605,
+            "CENTLON": "-075.2967525",
+            "COUSUBCC": "Z5",
+            "AREALAND": "330362731",
+            "INTPTLON": "-075.2914280",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935617",
+            "COUNTY": "005"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "57196",
+            "CENTLAT": "+38.9096112",
+            "AREAWATER": "557134",
+            "BASENAME": "Milford, DE",
+            "OID": "27021337218962",
+            "UA": "57196",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9075795",
+            "NAME": "Milford, DE Urban Area",
+            "OBJECTID": 2087,
+            "CENTLON": "-075.4259605",
+            "AREALAND": "31005781",
+            "INTPTLON": "-075.4258047",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "1047420",
+            "CENTLAT": "+38.9091788",
+            "AREAWATER": "226406",
+            "BASENAME": "Milford",
+            "STATE": "10",
+            "OID": "27890337205663",
+            "LSADC": "25",
+            "PLACE": "47420",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9097867",
+            "NAME": "Milford city",
+            "OBJECTID": 28785,
+            "PLACECC": "C1",
+            "CENTLON": "-075.4227838",
+            "CBSAPCI": "N",
+            "AREALAND": "25528811",
+            "INTPTLON": "-075.4223006",
+            "PLACENS": "02390617",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "10005",
+            "CENTLAT": "+38.6832032",
+            "AREAWATER": "674129050",
+            "STATE": "10",
+            "BASENAME": "Sussex",
+            "OID": "27590337189172",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.6732275",
+            "NAME": "Sussex County",
+            "OBJECTID": 256,
+            "CENTLON": "-075.3395931",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00217269",
+            "AREALAND": "2424590444",
+            "INTPTLON": "-075.3370237",
+            "MTFCC": "G4020",
+            "COUNTY": "005"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "10018",
+            "CENTLAT": "+38.8208690",
+            "AREAWATER": "89718810",
+            "STATE": "10",
+            "BASENAME": "18",
+            "OID": "2129035963375336",
+            "SLDU": "018",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.8229283",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 336,
+            "CENTLON": "-075.4650765",
+            "LSY": "2024",
+            "AREALAND": "710452665",
+            "INTPTLON": "-075.4645927",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "10036",
+            "CENTLAT": "+38.8747915",
+            "SLDL": "036",
+            "AREAWATER": "259242953",
+            "STATE": "10",
+            "BASENAME": "36",
+            "OID": "2139035963375378",
+            "LSADC": "09",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.8697419",
+            "NAME": "State Representative District 36",
+            "OBJECTID": 2854,
+            "CENTLON": "-075.2789002",
+            "LSY": "2024",
+            "AREALAND": "315006577",
+            "INTPTLON": "-075.2855040",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "100050501013013",
+            "CENTLAT": "+38.9055306",
+            "BLOCK": "3013",
+            "AREAWATER": "0",
+            "STATE": "10",
+            "BASENAME": "3013",
+            "OID": "210701008008176",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9055306",
+            "NAME": "Block 3013",
+            "OBJECTID": 84148,
+            "TRACT": "050101",
+            "CENTLON": "-075.4487603",
+            "BLKGRP": "3",
+            "AREALAND": "38342",
+            "INTPTLON": "-075.4487603",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "10005050101",
+            "CENTLAT": "+38.8642860",
+            "AREAWATER": "339713",
+            "STATE": "10",
+            "BASENAME": "501.01",
+            "OID": "20790337214164",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.8586250",
+            "NAME": "Census Tract 501.01",
+            "OBJECTID": 59884,
+            "TRACT": "050101",
+            "CENTLON": "-075.4715892",
+            "AREALAND": "51651466",
+            "INTPTLON": "-075.4731324",
+            "MTFCC": "G5020",
+            "COUNTY": "005"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1000",
+            "CENTLAT": "+38.9932570",
+            "CDSESSN": "119",
+            "AREAWATER": "1399219008",
+            "BASENAME": "Congressional District (at Large)",
+            "STATE": "10",
+            "OID": "2119035963374570",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9985661",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 168,
+            "CENTLON": "-075.4514104",
+            "CD119": "00",
+            "AREALAND": "5046692231",
+            "INTPTLON": "-075.4416440",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -75.447501,
+          "y": 38.90483
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-03-13T02:23:57.797511+00:00",
+  "elapsed": 0.156574,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4121",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:23:57 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.679131&y=43.10291"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.679131&y=43.10291",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 61209,
+            "GEOID": "19001",
+            "CENTLAT": "+43.2466675",
+            "AREAWATER": 91251552,
+            "STATE": "19",
+            "BASENAME": "1",
+            "OID": "212904486719862",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.2484623",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 129,
+            "CENTLON": "-095.3639849",
+            "LSY": "2018",
+            "HU100": 34011,
+            "AREALAND": 6469609629,
+            "INTPTLON": "-095.3582715",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779785",
+            "POP100": 3190369,
+            "GEOID": "19",
+            "CENTLAT": "+42.0753617",
+            "AREAWATER": 1085996889,
+            "STATE": "19",
+            "BASENAME": "Iowa",
+            "STUSAB": "IA",
+            "OID": "2749058169487",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0700243",
+            "DIVISION": "4",
+            "NAME": "Iowa",
+            "REGION": "2",
+            "OBJECTID": 14,
+            "CENTLON": "-093.4958520",
+            "AREALAND": 144659688848,
+            "INTPTLON": "-093.4933473",
+            "HU100": 1412789,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91224",
+            "POP100": 2726,
+            "GEOID": "1914791224",
+            "CENTLAT": "+43.1261436",
+            "AREAWATER": 298966,
+            "STATE": "19",
+            "BASENAME": "Emmetsburg",
+            "OID": "27690145082746",
+            "LSADC": "44",
+            "FUNCSTAT": "G",
+            "INTPTLAT": "+43.1209519",
+            "NAME": "Emmetsburg township",
+            "OBJECTID": 13027,
+            "CENTLON": "-094.7379096",
+            "COUSUBCC": "Z1",
+            "HU100": 1272,
+            "AREALAND": 91618544,
+            "INTPTLON": "-094.7352902",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00467792",
+            "UR": "R",
+            "COUNTY": "147"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 30100,
+            "GEOID": "19002",
+            "CENTLAT": "+43.1067785",
+            "SLDL": "002",
+            "AREAWATER": 28543284,
+            "STATE": "19",
+            "BASENAME": "2",
+            "OID": "213904486720023",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.1068124",
+            "NAME": "State House District 2",
+            "OBJECTID": 459,
+            "CENTLON": "-094.9415154",
+            "LSY": "2018",
+            "HU100": 14835,
+            "AREALAND": 3302441822,
+            "INTPTLON": "-094.9375933",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3706,
+            "GEOID": "1925590",
+            "CENTLAT": "+43.1145284",
+            "AREAWATER": 427966,
+            "STATE": "19",
+            "BASENAME": "Emmetsburg",
+            "OID": "27890145091621",
+            "LSADC": "25",
+            "PLACE": "25590",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.1147976",
+            "NAME": "Emmetsburg city",
+            "OBJECTID": 776,
+            "PLACECC": "C1",
+            "CENTLON": "-094.6799503",
+            "CBSAPCI": "N",
+            "HU100": 1832,
+            "AREALAND": 9822310,
+            "INTPTLON": "-094.6795790",
+            "PLACENS": "02394689",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 8996,
+            "GEOID": "19147",
+            "CENTLAT": "+43.0819853",
+            "AREAWATER": 14428727,
+            "STATE": "19",
+            "BASENAME": "Palo Alto",
+            "OID": "27590145060656",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.0753374",
+            "NAME": "Palo Alto County",
+            "OBJECTID": 388,
+            "CENTLON": "-094.6781363",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00465262",
+            "AREALAND": 1460400553,
+            "INTPTLON": "-094.6690546",
+            "HU100": 4516,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "147"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 765862,
+            "GEOID": "1904",
+            "CENTLAT": "+42.6276448",
+            "CDSESSN": "116",
+            "AREAWATER": 268156501,
+            "STATE": "19",
+            "BASENAME": "4",
+            "OID": "211904486637193",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6286385",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 10,
+            "CENTLON": "-094.6423924",
+            "HU100": 347668,
+            "AREALAND": 58934565233,
+            "INTPTLON": "-094.6450983",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3845,
+            "GEOID": "19147960300",
+            "CENTLAT": "+43.1349292",
+            "AREAWATER": 2259280,
+            "STATE": "19",
+            "BASENAME": "9603",
+            "OID": "20790145096689",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.1356953",
+            "NAME": "Census Tract 9603",
+            "OBJECTID": 73304,
+            "TRACT": "960300",
+            "CENTLON": "-094.6774570",
+            "HU100": 1885,
+            "AREALAND": 42958413,
+            "INTPTLON": "-094.6743539",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "147"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 5,
+            "GEOID": "191479603003056",
+            "CENTLAT": "+43.1020718",
+            "BLOCK": "3056",
+            "AREAWATER": 0,
+            "STATE": "19",
+            "BASENAME": "3056",
+            "OID": "210701002356815",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.1020718",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3056",
+            "OBJECTID": 1381854,
+            "TRACT": "960300",
+            "CENTLON": "-094.6801643",
+            "BLKGRP": "3",
+            "AREALAND": 42636,
+            "HU100": 1,
+            "INTPTLON": "-094.6801643",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "147"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -94.679131,
+          "y": 43.10291
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

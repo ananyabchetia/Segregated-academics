@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:22:40.116538+00:00",
+  "elapsed": 0.167428,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4929",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:22:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.123891&y=38.21371"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.123891&y=38.21371",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 130097,
+            "GEOID": "18047",
+            "CENTLAT": "+38.3568189",
+            "AREAWATER": 73405758,
+            "STATE": "18",
+            "BASENAME": "47",
+            "OID": "212904487292458",
+            "LSADC": "LU",
+            "SLDU": "047",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.3563633",
+            "NAME": "State Senate District 47",
+            "OBJECTID": 48,
+            "CENTLON": "-086.3809959",
+            "LSY": "2018",
+            "HU100": 57745,
+            "AREALAND": 6033880656,
+            "INTPTLON": "-086.3834132",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00448508",
+            "POP100": 6785528,
+            "GEOID": "18",
+            "CENTLAT": "+39.9059403",
+            "AREAWATER": 1541613641,
+            "STATE": "18",
+            "BASENAME": "Indiana",
+            "STUSAB": "IN",
+            "OID": "2749051705222",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9013136",
+            "DIVISION": "3",
+            "NAME": "Indiana",
+            "REGION": "2",
+            "OBJECTID": 7,
+            "CENTLON": "-086.2872770",
+            "AREALAND": 92788998225,
+            "INTPTLON": "-086.2919129",
+            "HU100": 2923175,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1512133,
+            "GEOID": "350",
+            "CENTLAT": "+38.1419208",
+            "AREAWATER": 236175013,
+            "BASENAME": "Louisville/Jefferson County--Elizabethtown--Bardstown, KY-IN",
+            "OID": "2619013782255169",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.1443160",
+            "NAME": "Louisville/Jefferson County--Elizabethtown--Bardstown, KY-IN CSA",
+            "CSA": "350",
+            "OBJECTID": 114,
+            "CENTLON": "-085.7359461",
+            "HU100": 656295,
+            "AREALAND": 13041388372,
+            "INTPTLON": "-085.7277496",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "20442",
+            "CENTLAT": "+38.2248386",
+            "AREAWATER": 0,
+            "BASENAME": "Corydon, IN",
+            "OID": "2702132391318092",
+            "UA": "20442",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.2248386",
+            "NAME": "Corydon, IN Urban Area",
+            "OBJECTID": 2204,
+            "CENTLON": "-086.1315139",
+            "AREALAND": 9294847,
+            "INTPTLON": "-086.1315139",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "31810",
+            "POP100": 13469,
+            "GEOID": "1806131810",
+            "CENTLAT": "+38.1924188",
+            "AREAWATER": 641347,
+            "STATE": "18",
+            "BASENAME": "Harrison",
+            "OID": "27690112543972",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.1955165",
+            "NAME": "Harrison township",
+            "OBJECTID": 13741,
+            "CENTLON": "-086.1719091",
+            "COUSUBCC": "T1",
+            "HU100": 5603,
+            "AREALAND": 262431077,
+            "INTPTLON": "-086.1624989",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00453387",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 69780,
+            "GEOID": "18070",
+            "CENTLAT": "+38.2286301",
+            "SLDL": "070",
+            "AREAWATER": 7548300,
+            "STATE": "18",
+            "BASENAME": "70",
+            "OID": "213904487292562",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.2219864",
+            "NAME": "State House District 70",
+            "OBJECTID": 143,
+            "CENTLON": "-086.0557269",
+            "LSY": "2018",
+            "HU100": 28469,
+            "AREALAND": 1515855620,
+            "INTPTLON": "-086.0674804",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3153,
+            "GEOID": "1815256",
+            "CENTLAT": "+38.2128652",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "Corydon",
+            "OID": "27890112547264",
+            "LSADC": "43",
+            "PLACE": "15256",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.2128652",
+            "NAME": "Corydon town",
+            "OBJECTID": 8342,
+            "PLACECC": "C1",
+            "CENTLON": "-086.1255636",
+            "CBSAPCI": "N",
+            "HU100": 1463,
+            "AREALAND": 4238355,
+            "INTPTLON": "-086.1255636",
+            "PLACENS": "02396664",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 39654,
+            "GEOID": "18061",
+            "CENTLAT": "+38.1949066",
+            "AREAWATER": 5278989,
+            "STATE": "18",
+            "BASENAME": "Harrison",
+            "OID": "27590112542461",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.1864535",
+            "NAME": "Harrison County",
+            "OBJECTID": 1323,
+            "CENTLON": "-086.1113430",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00451677",
+            "AREALAND": 1253823026,
+            "INTPTLON": "-086.1037661",
+            "HU100": 16686,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 766617,
+            "GEOID": "1809",
+            "CENTLAT": "+38.7854530",
+            "CDSESSN": "116",
+            "AREAWATER": 145340779,
+            "STATE": "18",
+            "BASENAME": "9",
+            "OID": "211904487255972",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7829384",
+            "NAME": "Congressional District 9",
+            "OBJECTID": 77,
+            "CENTLON": "-086.2061021",
+            "HU100": 328634,
+            "AREALAND": 11622151516,
+            "INTPTLON": "-086.2122457",
+            "CD116": "09",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5456,
+            "GEOID": "18061060401",
+            "CENTLAT": "+38.2283810",
+            "AREAWATER": 100832,
+            "STATE": "18",
+            "BASENAME": "604.01",
+            "OID": "2079015489728841",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.2330157",
+            "NAME": "Census Tract 604.01",
+            "OBJECTID": 17262,
+            "TRACT": "060401",
+            "CENTLON": "-086.0948807",
+            "HU100": 2413,
+            "AREALAND": 46251282,
+            "INTPTLON": "-086.0809631",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 21,
+            "GEOID": "180610604012021",
+            "CENTLAT": "+38.2138609",
+            "BLOCK": "2021",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "2021",
+            "OID": "210701004287898",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.2138609",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2021",
+            "OBJECTID": 5736478,
+            "TRACT": "060401",
+            "CENTLON": "-086.1230597",
+            "BLKGRP": "2",
+            "AREALAND": 22917,
+            "HU100": 9,
+            "INTPTLON": "-086.1230597",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -86.123891,
+          "y": 38.21371
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

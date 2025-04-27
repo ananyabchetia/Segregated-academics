@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:08:56.717292+00:00",
+  "elapsed": 0.172296,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4514",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:08:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.658063&y=44.298149"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.658063&y=44.298149",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 253223,
+            "GEOID": "26035",
+            "CENTLAT": "+44.5206758",
+            "AREAWATER": 11222394579,
+            "STATE": "26",
+            "BASENAME": "35",
+            "OID": "212904690195070",
+            "LSADC": "LU",
+            "SLDU": "035",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2623275",
+            "NAME": "State Senate District 35",
+            "OBJECTID": 1061,
+            "CENTLON": "-085.7190133",
+            "LSY": "2018",
+            "HU100": 171325,
+            "AREALAND": 15973307106,
+            "INTPTLON": "-086.2971716",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779789",
+            "POP100": 10077331,
+            "GEOID": "26",
+            "CENTLAT": "+44.8382252",
+            "AREAWATER": 103872203398,
+            "STATE": "26",
+            "BASENAME": "Michigan",
+            "STUSAB": "MI",
+            "OID": "2749048217992",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8441768",
+            "DIVISION": "3",
+            "NAME": "Michigan",
+            "REGION": "2",
+            "OBJECTID": 54,
+            "CENTLON": "-085.6650495",
+            "AREALAND": 146614604273,
+            "INTPTLON": "-085.6604907",
+            "HU100": 4570173,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "40321",
+            "CENTLAT": "+44.3159012",
+            "AREAWATER": 835966,
+            "BASENAME": "Houghton Lake, MI",
+            "OID": "27021286626289",
+            "UA": "40321",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.3006233",
+            "NAME": "Houghton Lake, MI Urban Area",
+            "OBJECTID": 1904,
+            "CENTLON": "-084.7101381",
+            "AREALAND": 28246270,
+            "INTPTLON": "-084.6916125",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "21640",
+            "POP100": 5293,
+            "GEOID": "2614321640",
+            "CENTLAT": "+44.2912064",
+            "AREAWATER": 25563153,
+            "STATE": "26",
+            "BASENAME": "Denton",
+            "OID": "27690286618406",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.2831749",
+            "NAME": "Denton township",
+            "OBJECTID": 33403,
+            "CENTLON": "-084.6723523",
+            "COUSUBCC": "T1",
+            "HU100": 4942,
+            "AREALAND": 67975951,
+            "INTPTLON": "-084.6727496",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01626177",
+            "UR": "M",
+            "COUNTY": "143"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1643,
+            "GEOID": "2666400",
+            "CENTLAT": "+44.3013358",
+            "AREAWATER": 2244099,
+            "STATE": "26",
+            "BASENAME": "Prudenville",
+            "OID": "28090286620757",
+            "LSADC": "57",
+            "PLACE": "66400",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.3007729",
+            "NAME": "Prudenville CDP",
+            "OBJECTID": 31381,
+            "PLACECC": "U1",
+            "CENTLON": "-084.6654136",
+            "CBSAPCI": "N",
+            "HU100": 1573,
+            "AREALAND": 7388641,
+            "INTPTLON": "-084.6655350",
+            "PLACENS": "02393199",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 90208,
+            "GEOID": "26103",
+            "CENTLAT": "+44.4743593",
+            "SLDL": "103",
+            "AREAWATER": 254891245,
+            "STATE": "26",
+            "BASENAME": "103",
+            "OID": "213904690195244",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.4685637",
+            "NAME": "State House District 103",
+            "OBJECTID": 2854,
+            "CENTLON": "-084.7057971",
+            "LSY": "2018",
+            "HU100": 68674,
+            "AREALAND": 7159593489,
+            "INTPTLON": "-084.7089172",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 23459,
+            "GEOID": "26143",
+            "CENTLAT": "+44.3355236",
+            "AREAWATER": 155723123,
+            "STATE": "26",
+            "BASENAME": "Roscommon",
+            "OID": "27590286612094",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3395168",
+            "NAME": "Roscommon County",
+            "OBJECTID": 691,
+            "CENTLON": "-084.6115950",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01623014",
+            "AREALAND": 1346526239,
+            "INTPTLON": "-084.6112715",
+            "HU100": 23069,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "143"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 697854,
+            "GEOID": "2604",
+            "CENTLAT": "+43.7322212",
+            "CDSESSN": "116",
+            "AREAWATER": 516311292,
+            "STATE": "26",
+            "BASENAME": "4",
+            "OID": "211904690193408",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.7315525",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 171,
+            "CENTLON": "-084.7482416",
+            "HU100": 343285,
+            "AREALAND": 21910946219,
+            "INTPTLON": "-084.7503993",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2477,
+            "GEOID": "26143970700",
+            "CENTLAT": "+44.3741765",
+            "AREAWATER": 24208238,
+            "STATE": "26",
+            "BASENAME": "9707",
+            "OID": "20790286624567",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.3893226",
+            "NAME": "Census Tract 9707",
+            "OBJECTID": 53251,
+            "TRACT": "970700",
+            "CENTLON": "-084.6544916",
+            "HU100": 2424,
+            "AREALAND": 82713711,
+            "INTPTLON": "-084.6393452",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "143"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 15,
+            "GEOID": "261439707003027",
+            "CENTLAT": "+44.2954649",
+            "BLOCK": "3027",
+            "AREAWATER": 0,
+            "STATE": "26",
+            "BASENAME": "3027",
+            "OID": "210701002695963",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.2954649",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3027",
+            "OBJECTID": 1404607,
+            "TRACT": "970700",
+            "CENTLON": "-084.6578602",
+            "BLKGRP": "3",
+            "AREALAND": 164290,
+            "HU100": 10,
+            "INTPTLON": "-084.6578602",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "143"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.658063,
+          "y": 44.298149
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

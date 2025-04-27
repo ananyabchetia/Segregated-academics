@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T20:30:40.850562+00:00",
+  "elapsed": 0.199856,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4197",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:30:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-92.852061&y=33.597469"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-92.852061&y=33.597469",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00068085",
+            "GEOID": "05",
+            "CENTLAT": "+34.8941718",
+            "AREAWATER": "3122689286",
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-092.4418676",
+            "AREALAND": "134658544258",
+            "INTPTLON": "-092.4446262",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92576",
+            "GEOID": "0510392576",
+            "CENTLAT": "+33.5831780",
+            "AREAWATER": "698223",
+            "STATE": "05",
+            "BASENAME": "Ecore Fabre",
+            "OID": "27690462587772",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5829180",
+            "NAME": "Ecore Fabre township",
+            "OBJECTID": 32579,
+            "CENTLON": "-092.8607033",
+            "COUSUBCC": "Z1",
+            "AREALAND": "78424207",
+            "INTPTLON": "-092.8595195",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00068916",
+            "COUNTY": "103"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "12916",
+            "CENTLAT": "+33.5660413",
+            "AREAWATER": "0",
+            "BASENAME": "Camden, AR",
+            "OID": "27021462658954",
+            "UA": "12916",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5857065",
+            "NAME": "Camden, AR Urban Area",
+            "OBJECTID": 438,
+            "CENTLON": "-092.8387542",
+            "AREALAND": "28620567",
+            "INTPTLON": "-092.8567410",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "0510720",
+            "CENTLAT": "+33.5672098",
+            "AREAWATER": "240155",
+            "BASENAME": "Camden",
+            "STATE": "05",
+            "OID": "27890462599509",
+            "LSADC": "25",
+            "PLACE": "10720",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.5676724",
+            "NAME": "Camden city",
+            "OBJECTID": 29665,
+            "PLACECC": "C1",
+            "CENTLON": "-092.8466457",
+            "CBSAPCI": "Y",
+            "AREALAND": "42801556",
+            "INTPTLON": "-092.8490636",
+            "PLACENS": "02403976",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "05103",
+            "CENTLAT": "+33.5932528",
+            "AREAWATER": "18183261",
+            "STATE": "05",
+            "BASENAME": "Ouachita",
+            "OID": "27590462552678",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.5911680",
+            "NAME": "Ouachita County",
+            "OBJECTID": 844,
+            "CENTLON": "-092.8819747",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00069170",
+            "AREALAND": "1897739676",
+            "INTPTLON": "-092.8784134",
+            "MTFCC": "G4020",
+            "COUNTY": "103"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "05002",
+            "CENTLAT": "+33.5884889",
+            "AREAWATER": "73933803",
+            "STATE": "05",
+            "BASENAME": "2",
+            "OID": "2129035801456350",
+            "SLDU": "002",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5778394",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1858,
+            "CENTLON": "-092.6458871",
+            "LSY": "2024",
+            "AREALAND": "8714890785",
+            "INTPTLON": "-092.6483135",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "05098",
+            "CENTLAT": "+33.5218459",
+            "SLDL": "098",
+            "AREAWATER": "17873705",
+            "STATE": "05",
+            "BASENAME": "98",
+            "OID": "2139035809621205",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5208968",
+            "NAME": "State House District 98",
+            "OBJECTID": 562,
+            "CENTLON": "-093.1052636",
+            "LSY": "2024",
+            "AREALAND": "2405523493",
+            "INTPTLON": "-093.0995634",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "051039502001095",
+            "CENTLAT": "+33.5987527",
+            "BLOCK": "1095",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "1095",
+            "OID": "210701000440362",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5987527",
+            "NAME": "Block 1095",
+            "OBJECTID": 4617673,
+            "TRACT": "950200",
+            "CENTLON": "-092.8447717",
+            "BLKGRP": "1",
+            "AREALAND": "495974",
+            "INTPTLON": "-092.8447717",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "103"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "05103950200",
+            "CENTLAT": "+33.6713515",
+            "AREAWATER": "10389763",
+            "STATE": "05",
+            "BASENAME": "9502",
+            "OID": "20790462627061",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.6723404",
+            "NAME": "Census Tract 9502",
+            "OBJECTID": 81031,
+            "TRACT": "950200",
+            "CENTLON": "-092.9878969",
+            "AREALAND": "551568811",
+            "INTPTLON": "-092.9860566",
+            "MTFCC": "G5020",
+            "COUNTY": "103"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0504",
+            "CENTLAT": "+34.2096821",
+            "CDSESSN": "119",
+            "AREAWATER": "1125245514",
+            "BASENAME": "4",
+            "STATE": "05",
+            "OID": "2119035786460342",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2089834",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 20,
+            "CENTLON": "-093.1478043",
+            "CD119": "04",
+            "AREALAND": "58732138699",
+            "INTPTLON": "-093.1424686",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -92.852061,
+          "y": 33.597469
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

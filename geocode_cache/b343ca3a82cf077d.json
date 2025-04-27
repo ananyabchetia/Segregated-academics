@@ -1,0 +1,264 @@
+{
+  "created_at": "2025-03-12T21:53:42.375857+00:00",
+  "elapsed": 0.153417,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3879",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:53:42 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47e812dcda52857c453ab7328251c7db0ac1d00ed76848e789c9356d5a59e41c6a780930df305fda3916aada2e9ab169b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47e812dcda52857c453ab7328251c7db0ac1d00ed76848e789c9356d5a59e41c6a780930df305fda3916aada2e9ab169b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-90.403308&y=39.300116"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-90.403308&y=39.300116",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779784",
+            "GEOID": "17",
+            "CENTLAT": "+40.1006068",
+            "AREAWATER": "6215985268",
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 35,
+            "CENTLON": "-089.1500794",
+            "AREALAND": "143778736090",
+            "INTPTLON": "-089.1526108",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "11475",
+            "GEOID": "1706111475",
+            "CENTLAT": "+39.3158740",
+            "AREAWATER": "131257",
+            "STATE": "17",
+            "BASENAME": "Carrollton",
+            "OID": "27690200024256",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3295471",
+            "NAME": "Carrollton township",
+            "OBJECTID": 838,
+            "CENTLON": "-090.4256976",
+            "COUSUBCC": "T1",
+            "AREALAND": "115227384",
+            "INTPTLON": "-090.4362566",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00428768",
+            "COUNTY": "061"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 2,
+            "NECTAPCI": "N",
+            "GEOID": "1711462",
+            "CENTLAT": "+39.2948114",
+            "AREAWATER": "4796",
+            "BASENAME": "Carrollton",
+            "STATE": "17",
+            "OID": "27890200024276",
+            "LSADC": "25",
+            "PLACE": "11462",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.2944933",
+            "NAME": "Carrollton city",
+            "OBJECTID": 17465,
+            "PLACECC": "C1",
+            "CENTLON": "-090.4062039",
+            "CBSAPCI": "N",
+            "AREALAND": "4926717",
+            "INTPTLON": "-090.4068943",
+            "PLACENS": "02393753",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "17061",
+            "CENTLAT": "+39.3560809",
+            "AREAWATER": "8423898",
+            "STATE": "17",
+            "BASENAME": "Greene",
+            "OID": "27590200024251",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3554391",
+            "NAME": "Greene County",
+            "OBJECTID": 409,
+            "CENTLON": "-090.3905836",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00424232",
+            "AREALAND": "1406736598",
+            "INTPTLON": "-090.3876823",
+            "MTFCC": "G4020",
+            "COUNTY": "061"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "17050",
+            "CENTLAT": "+39.6035350",
+            "AREAWATER": "243652131",
+            "STATE": "17",
+            "BASENAME": "50",
+            "OID": "2129035951832054",
+            "SLDU": "050",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6029343",
+            "NAME": "State Senate District 50",
+            "OBJECTID": 1259,
+            "CENTLON": "-090.5568667",
+            "LSY": "2024",
+            "AREALAND": "12716549554",
+            "INTPTLON": "-090.5472354",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "17100",
+            "CENTLAT": "+39.4429419",
+            "SLDL": "100",
+            "AREAWATER": "182428632",
+            "STATE": "17",
+            "BASENAME": "100",
+            "OID": "2139035951832151",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4452112",
+            "NAME": "State House District 100",
+            "OBJECTID": 3812,
+            "CENTLON": "-090.5350934",
+            "LSY": "2024",
+            "AREALAND": "8745570959",
+            "INTPTLON": "-090.5397028",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "170619740004050",
+            "CENTLAT": "+39.3000317",
+            "BLOCK": "4050",
+            "AREAWATER": "0",
+            "STATE": "17",
+            "BASENAME": "4050",
+            "OID": "210701005390253",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.3000317",
+            "NAME": "Block 4050",
+            "OBJECTID": 2156831,
+            "TRACT": "974000",
+            "CENTLON": "-090.4032436",
+            "BLKGRP": "4",
+            "AREALAND": "8285",
+            "INTPTLON": "-090.4032436",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "17061974000",
+            "CENTLAT": "+39.3252725",
+            "AREAWATER": "168317",
+            "STATE": "17",
+            "BASENAME": "9740",
+            "OID": "20790200024292",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.3225430",
+            "NAME": "Census Tract 9740",
+            "OBJECTID": 17183,
+            "TRACT": "974000",
+            "CENTLON": "-090.3768996",
+            "AREALAND": "229815870",
+            "INTPTLON": "-090.3760214",
+            "MTFCC": "G5020",
+            "COUNTY": "061"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1715",
+            "CENTLAT": "+39.8237536",
+            "CDSESSN": "119",
+            "AREAWATER": "609177003",
+            "BASENAME": "15",
+            "STATE": "17",
+            "OID": "2119035951831995",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.8265432",
+            "NAME": "Congressional District 15",
+            "OBJECTID": 190,
+            "CENTLON": "-089.7674171",
+            "CD119": "15",
+            "AREALAND": "43389548204",
+            "INTPTLON": "-089.7721602",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -90.403308,
+          "y": 39.300116
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

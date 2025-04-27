@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T13:16:02.924840+00:00",
+  "elapsed": 0.188895,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4494",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 13:16:02 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.387141&y=44.82949"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.387141&y=44.82949",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 184304,
+            "GEOID": "55001",
+            "CENTLAT": "+44.7598598",
+            "AREAWATER": 7110305992,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "212904691748830",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.7248581",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1214,
+            "CENTLON": "-087.2784109",
+            "LSY": "2018",
+            "HU100": 88083,
+            "AREALAND": 3903201282,
+            "INTPTLON": "-087.3423149",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "85276",
+            "CENTLAT": "+44.8488766",
+            "AREAWATER": 4828995,
+            "BASENAME": "Sturgeon Bay, WI",
+            "OID": "27021490090546",
+            "UA": "85276",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8482776",
+            "NAME": "Sturgeon Bay, WI Urban Area",
+            "OBJECTID": 1959,
+            "CENTLON": "-087.3730262",
+            "AREALAND": 17922965,
+            "INTPTLON": "-087.3739870",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "77875",
+            "POP100": 9646,
+            "GEOID": "5502977875",
+            "CENTLAT": "+44.8236456",
+            "AREAWATER": 4309410,
+            "STATE": "55",
+            "BASENAME": "Sturgeon Bay",
+            "OID": "27690490067151",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.8226756",
+            "NAME": "Sturgeon Bay city",
+            "OBJECTID": 21482,
+            "CENTLON": "-087.3671026",
+            "COUSUBCC": "C5",
+            "HU100": 5266,
+            "AREALAND": 25458882,
+            "INTPTLON": "-087.3698063",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01584239",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59834,
+            "GEOID": "55001",
+            "CENTLAT": "+44.8534875",
+            "SLDL": "001",
+            "AREAWATER": 6924563375,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "213904691750912",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8748355",
+            "NAME": "Assembly District 1",
+            "OBJECTID": 4019,
+            "CENTLON": "-087.1464413",
+            "LSY": "2018",
+            "HU100": 36845,
+            "AREALAND": 2407171265,
+            "INTPTLON": "-087.2064512",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 9646,
+            "GEOID": "5577875",
+            "CENTLAT": "+44.8236456",
+            "AREAWATER": 4309410,
+            "STATE": "55",
+            "BASENAME": "Sturgeon Bay",
+            "OID": "27890490068647",
+            "LSADC": "25",
+            "PLACE": "77875",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8226756",
+            "NAME": "Sturgeon Bay city",
+            "OBJECTID": 1718,
+            "PLACECC": "C5",
+            "CENTLON": "-087.3671026",
+            "CBSAPCI": "N",
+            "HU100": 5266,
+            "AREALAND": 25458882,
+            "INTPTLON": "-087.3698063",
+            "PLACENS": "01584239",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 30066,
+            "GEOID": "55029",
+            "CENTLAT": "+45.0323369",
+            "AREAWATER": 4890604607,
+            "STATE": "55",
+            "BASENAME": "Door",
+            "OID": "27590490063474",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.0934165",
+            "NAME": "Door County",
+            "OBJECTID": 3094,
+            "CENTLON": "-087.0300970",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581074",
+            "AREALAND": 1248277424,
+            "INTPTLON": "-087.0486828",
+            "HU100": 23738,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751967,
+            "GEOID": "5508",
+            "CENTLAT": "+44.8340001",
+            "CDSESSN": "116",
+            "AREAWATER": 8180776855,
+            "STATE": "55",
+            "BASENAME": "8",
+            "OID": "211904691758528",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8312557",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 364,
+            "CENTLON": "-087.9365341",
+            "HU100": 352673,
+            "AREALAND": 17629589556,
+            "INTPTLON": "-087.9368111",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5554,
+            "GEOID": "55029100800",
+            "CENTLAT": "+44.8176267",
+            "AREAWATER": 7698944,
+            "STATE": "55",
+            "BASENAME": "1008",
+            "OID": "20790490087105",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8113672",
+            "NAME": "Census Tract 1008",
+            "OBJECTID": 3265,
+            "TRACT": "100800",
+            "CENTLON": "-087.3531570",
+            "HU100": 3372,
+            "AREALAND": 46526588,
+            "INTPTLON": "-087.3336989",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 9,
+            "GEOID": "550291008002049",
+            "CENTLAT": "+44.8294683",
+            "BLOCK": "2049",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "2049",
+            "OID": "210701005767823",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.8294683",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2049",
+            "OBJECTID": 6896243,
+            "TRACT": "100800",
+            "CENTLON": "-087.3875877",
+            "BLKGRP": "2",
+            "AREALAND": 18124,
+            "HU100": 9,
+            "INTPTLON": "-087.3875877",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "029"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -87.387141,
+          "y": 44.82949
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

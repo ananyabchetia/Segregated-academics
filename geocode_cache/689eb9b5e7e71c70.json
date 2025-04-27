@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-03-13T05:31:05.250090+00:00",
+  "elapsed": 0.202285,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4490",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:31:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.060588&y=40.38463"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.060588&y=40.38463",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 289779,
+            "GEOID": "42037",
+            "CENTLAT": "+40.4161700",
+            "AREAWATER": 5294741,
+            "STATE": "42",
+            "BASENAME": "37",
+            "OID": "212904690193462",
+            "LSADC": "LU",
+            "SLDU": "037",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4111123",
+            "NAME": "State Senate District 37",
+            "OBJECTID": 1892,
+            "CENTLON": "-080.1378372",
+            "LSY": "2018",
+            "HU100": 123601,
+            "AREALAND": 642213724,
+            "INTPTLON": "-080.1363822",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2657149,
+            "GEOID": "430",
+            "CENTLAT": "+40.4874507",
+            "AREAWATER": 216144200,
+            "BASENAME": "Pittsburgh-New Castle-Weirton, PA-OH-WV",
+            "OID": "2619013782255205",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4870610",
+            "NAME": "Pittsburgh-New Castle-Weirton, PA-OH-WV CSA",
+            "CSA": "430",
+            "OBJECTID": 150,
+            "CENTLON": "-079.8419857",
+            "HU100": 1257734,
+            "AREALAND": 18253289364,
+            "INTPTLON": "-079.8421993",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "69697",
+            "CENTLAT": "+40.4589974",
+            "AREAWATER": 42944812,
+            "BASENAME": "Pittsburgh, PA",
+            "OID": "27021215981696",
+            "UA": "69697",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4593201",
+            "NAME": "Pittsburgh, PA Urban Area",
+            "OBJECTID": 506,
+            "CENTLON": "-079.9610311",
+            "AREALAND": 2348194653,
+            "INTPTLON": "-079.9601642",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "51696",
+            "POP100": 34075,
+            "GEOID": "4200351696",
+            "CENTLAT": "+40.3752427",
+            "AREAWATER": 6712,
+            "STATE": "42",
+            "BASENAME": "Mount Lebanon",
+            "OID": "27690321717852",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.3766961",
+            "NAME": "Mount Lebanon township",
+            "OBJECTID": 23700,
+            "CENTLON": "-080.0494414",
+            "COUSUBCC": "T1",
+            "HU100": 14885,
+            "AREALAND": 15743037,
+            "INTPTLON": "-080.0489425",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01215817",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 61577,
+            "GEOID": "42042",
+            "CENTLAT": "+40.3775185",
+            "SLDL": "042",
+            "AREAWATER": 6712,
+            "STATE": "42",
+            "BASENAME": "42",
+            "OID": "213904690193953",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3764563",
+            "NAME": "State House District 42",
+            "OBJECTID": 1165,
+            "CENTLON": "-080.0413388",
+            "LSY": "2018",
+            "HU100": 28848,
+            "AREALAND": 25619603,
+            "INTPTLON": "-080.0404702",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1250578,
+            "GEOID": "42003",
+            "CENTLAT": "+40.4686962",
+            "AREAWATER": 37043982,
+            "STATE": "42",
+            "BASENAME": "Allegheny",
+            "OID": "27590321707054",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4697574",
+            "NAME": "Allegheny County",
+            "OBJECTID": 1918,
+            "CENTLON": "-079.9812035",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01213657",
+            "AREALAND": 1890571829,
+            "INTPTLON": "-079.9804515",
+            "HU100": 602095,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 737056,
+            "GEOID": "4217",
+            "CENTLAT": "+40.6095545",
+            "CDSESSN": "116",
+            "AREAWATER": 41236278,
+            "STATE": "42",
+            "BASENAME": "17",
+            "OID": "211904690192597",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6087548",
+            "NAME": "Congressional District 17",
+            "OBJECTID": 272,
+            "CENTLON": "-080.1908239",
+            "HU100": 338971,
+            "AREALAND": 2286472068,
+            "INTPTLON": "-080.1871263",
+            "CD116": "17",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4136,
+            "GEOID": "42003473601",
+            "CENTLAT": "+40.3843922",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "4736.01",
+            "OID": "20790321767494",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.3843922",
+            "NAME": "Census Tract 4736.01",
+            "OBJECTID": 12004,
+            "TRACT": "473601",
+            "CENTLON": "-080.0618144",
+            "HU100": 1749,
+            "AREALAND": 2078015,
+            "INTPTLON": "-080.0618144",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 430,
+            "GEOID": "420034736012000",
+            "CENTLAT": "+40.3852049",
+            "BLOCK": "2000",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "2000",
+            "OID": "210701003829936",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.3852049",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2000",
+            "OBJECTID": 83155,
+            "TRACT": "473601",
+            "CENTLON": "-080.0585039",
+            "BLKGRP": "2",
+            "AREALAND": 238704,
+            "HU100": 158,
+            "INTPTLON": "-080.0585039",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.060588,
+          "y": 40.38463
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

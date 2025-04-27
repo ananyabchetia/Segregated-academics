@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:28:17.512244+00:00",
+  "elapsed": 0.336795,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4895",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:28:17 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.998381&y=39.93965"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.998381&y=39.93965",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 364362,
+            "GEOID": "39020",
+            "CENTLAT": "+39.7894675",
+            "AREAWATER": 72115636,
+            "STATE": "39",
+            "BASENAME": "20",
+            "OID": "212904692054161",
+            "LSADC": "LU",
+            "SLDU": "020",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0076301",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 1232,
+            "CENTLON": "-082.1252516",
+            "LSY": "2018",
+            "HU100": 156292,
+            "AREALAND": 7185713286,
+            "INTPTLON": "-081.6790276",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2544048,
+            "GEOID": "198",
+            "CENTLAT": "+39.9821021",
+            "AREAWATER": 220534871,
+            "BASENAME": "Columbus-Marion-Zanesville, OH",
+            "OID": "2619013782255110",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9840992",
+            "NAME": "Columbus-Marion-Zanesville, OH CSA",
+            "CSA": "198",
+            "OBJECTID": 17,
+            "CENTLON": "-082.7708665",
+            "HU100": 1080980,
+            "AREALAND": 21928681112,
+            "INTPTLON": "-082.7703228",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "98074",
+            "CENTLAT": "+39.9521173",
+            "AREAWATER": 745596,
+            "BASENAME": "Zanesville, OH",
+            "OID": "27021358046397",
+            "UA": "98074",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9517931",
+            "NAME": "Zanesville, OH Urban Area",
+            "OBJECTID": 257,
+            "CENTLON": "-082.0173801",
+            "AREALAND": 73304717,
+            "INTPTLON": "-082.0182624",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "88084",
+            "POP100": 24765,
+            "GEOID": "3911988084",
+            "CENTLAT": "+39.9565417",
+            "AREAWATER": 908712,
+            "STATE": "39",
+            "BASENAME": "Zanesville",
+            "OID": "27690358021621",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+39.9559926",
+            "NAME": "Zanesville city",
+            "OBJECTID": 36332,
+            "CENTLON": "-082.0132251",
+            "COUSUBCC": "C5",
+            "HU100": 12157,
+            "AREALAND": 30501760,
+            "INTPTLON": "-082.0134688",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086738",
+            "UR": "M",
+            "COUNTY": "119"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 116795,
+            "GEOID": "39097",
+            "CENTLAT": "+40.0113887",
+            "SLDL": "097",
+            "AREAWATER": 35400080,
+            "STATE": "39",
+            "BASENAME": "97",
+            "OID": "213904692056095",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0154649",
+            "NAME": "State House District 97",
+            "OBJECTID": 2687,
+            "CENTLON": "-081.7297123",
+            "LSY": "2018",
+            "HU100": 53776,
+            "AREALAND": 2927313166,
+            "INTPTLON": "-081.7308876",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 24765,
+            "GEOID": "3988084",
+            "CENTLAT": "+39.9565417",
+            "AREAWATER": 908712,
+            "STATE": "39",
+            "BASENAME": "Zanesville",
+            "OID": "27890358030517",
+            "LSADC": "25",
+            "PLACE": "88084",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9559926",
+            "NAME": "Zanesville city",
+            "OBJECTID": 8868,
+            "PLACECC": "C5",
+            "CENTLON": "-082.0132251",
+            "CBSAPCI": "Y",
+            "HU100": 12157,
+            "AREALAND": 30501760,
+            "INTPTLON": "-082.0134688",
+            "PLACENS": "01086738",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 86410,
+            "GEOID": "39119",
+            "CENTLAT": "+39.9653255",
+            "AREAWATER": 20823924,
+            "STATE": "39",
+            "BASENAME": "Muskingum",
+            "OID": "27590358009428",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9660457",
+            "NAME": "Muskingum County",
+            "OBJECTID": 696,
+            "CENTLON": "-081.9443135",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074072",
+            "AREALAND": 1721165826,
+            "INTPTLON": "-081.9435064",
+            "HU100": 38358,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "119"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 808944,
+            "GEOID": "3912",
+            "CENTLAT": "+40.2376399",
+            "CDSESSN": "116",
+            "AREAWATER": 76709403,
+            "STATE": "39",
+            "BASENAME": "12",
+            "OID": "211904690779027",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2256514",
+            "NAME": "Congressional District 12",
+            "OBJECTID": 151,
+            "CENTLON": "-082.6134756",
+            "HU100": 337222,
+            "AREALAND": 5884320830,
+            "INTPTLON": "-082.6115573",
+            "CD116": "12",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3143,
+            "GEOID": "39119912000",
+            "CENTLAT": "+39.9130241",
+            "AREAWATER": 487954,
+            "STATE": "39",
+            "BASENAME": "9120",
+            "OID": "20790358043243",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9126880",
+            "NAME": "Census Tract 9120",
+            "OBJECTID": 76689,
+            "TRACT": "912000",
+            "CENTLON": "-081.9870603",
+            "HU100": 1385,
+            "AREALAND": 13621388,
+            "INTPTLON": "-081.9928297",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "119"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 96,
+            "GEOID": "391199120003015",
+            "CENTLAT": "+39.9379372",
+            "BLOCK": "3015",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "3015",
+            "OID": "210701008040776",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.9379372",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3015",
+            "OBJECTID": 2737619,
+            "TRACT": "912000",
+            "CENTLON": "-081.9978347",
+            "BLKGRP": "3",
+            "AREALAND": 283488,
+            "HU100": 41,
+            "INTPTLON": "-081.9978347",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "119"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.998381,
+          "y": 39.93965
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

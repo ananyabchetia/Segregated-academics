@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:23:30.085537+00:00",
+  "elapsed": 0.167354,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4890",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:23:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.773121&y=39.52227"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.773121&y=39.52227",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 128087,
+            "GEOID": "18042",
+            "CENTLAT": "+39.5927683",
+            "AREAWATER": 10904856,
+            "STATE": "18",
+            "BASENAME": "42",
+            "OID": "212904487292488",
+            "LSADC": "LU",
+            "SLDU": "042",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5948744",
+            "NAME": "State Senate District 42",
+            "OBJECTID": 470,
+            "CENTLON": "-085.4254518",
+            "LSY": "2018",
+            "HU100": 57024,
+            "AREALAND": 3536495891,
+            "INTPTLON": "-085.4117612",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00448508",
+            "POP100": 6785528,
+            "GEOID": "18",
+            "CENTLAT": "+39.9059403",
+            "AREAWATER": 1541613641,
+            "STATE": "18",
+            "BASENAME": "Indiana",
+            "STUSAB": "IN",
+            "OID": "2749051705222",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9013136",
+            "DIVISION": "3",
+            "NAME": "Indiana",
+            "REGION": "2",
+            "OBJECTID": 7,
+            "CENTLON": "-086.2872770",
+            "AREALAND": 92788998225,
+            "INTPTLON": "-086.2919129",
+            "HU100": 2923175,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2492514,
+            "GEOID": "294",
+            "CENTLAT": "+39.6530262",
+            "AREAWATER": 131406543,
+            "BASENAME": "Indianapolis-Carmel-Muncie, IN",
+            "OID": "2619013782255145",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6532292",
+            "NAME": "Indianapolis-Carmel-Muncie, IN CSA",
+            "CSA": "294",
+            "OBJECTID": 52,
+            "CENTLON": "-086.0710313",
+            "HU100": 1059844,
+            "AREALAND": 18806584161,
+            "INTPTLON": "-086.0719583",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "81280",
+            "CENTLAT": "+39.5244572",
+            "AREAWATER": 265011,
+            "BASENAME": "Shelbyville, IN",
+            "OID": "27021273568966",
+            "UA": "81280",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.5248003",
+            "NAME": "Shelbyville, IN Urban Area",
+            "OBJECTID": 1881,
+            "CENTLON": "-085.7732583",
+            "AREALAND": 25028567,
+            "INTPTLON": "-085.7732429",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "00568",
+            "POP100": 21459,
+            "GEOID": "1814500568",
+            "CENTLAT": "+39.5259452",
+            "AREAWATER": 1244957,
+            "STATE": "18",
+            "BASENAME": "Addison",
+            "OID": "27690273568895",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.5259250",
+            "NAME": "Addison township",
+            "OBJECTID": 13712,
+            "CENTLON": "-085.7702597",
+            "COUSUBCC": "T1",
+            "HU100": 9571,
+            "AREALAND": 71839528,
+            "INTPTLON": "-085.7709659",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00453083",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 65100,
+            "GEOID": "18057",
+            "CENTLAT": "+39.4628245",
+            "SLDL": "057",
+            "AREAWATER": 4674281,
+            "STATE": "18",
+            "BASENAME": "57",
+            "OID": "213904487292718",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4636630",
+            "NAME": "State House District 57",
+            "OBJECTID": 741,
+            "CENTLON": "-085.7920626",
+            "LSY": "2018",
+            "HU100": 27314,
+            "AREALAND": 1474258192,
+            "INTPTLON": "-085.7916945",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 20067,
+            "GEOID": "1869318",
+            "CENTLAT": "+39.5351441",
+            "AREAWATER": 690671,
+            "STATE": "18",
+            "BASENAME": "Shelbyville",
+            "OID": "27890273568911",
+            "LSADC": "25",
+            "PLACE": "69318",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.5363835",
+            "NAME": "Shelbyville city",
+            "OBJECTID": 11837,
+            "PLACECC": "C1",
+            "CENTLON": "-085.7793516",
+            "CBSAPCI": "N",
+            "HU100": 8948,
+            "AREALAND": 32498435,
+            "INTPTLON": "-085.7769108",
+            "PLACENS": "02395864",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 45055,
+            "GEOID": "18145",
+            "CENTLAT": "+39.5235863",
+            "AREAWATER": 4190401,
+            "STATE": "18",
+            "BASENAME": "Shelby",
+            "OID": "27590273567571",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.5241345",
+            "NAME": "Shelby County",
+            "OBJECTID": 1727,
+            "CENTLON": "-085.7917004",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00450387",
+            "AREALAND": 1064843749,
+            "INTPTLON": "-085.7921742",
+            "HU100": 19423,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 723540,
+            "GEOID": "1806",
+            "CENTLAT": "+39.4788123",
+            "CDSESSN": "116",
+            "AREAWATER": 107203428,
+            "STATE": "18",
+            "BASENAME": "6",
+            "OID": "211904487256166",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4752185",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 78,
+            "CENTLON": "-085.3636100",
+            "HU100": 315290,
+            "AREALAND": 16075781392,
+            "INTPTLON": "-085.3763377",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3277,
+            "GEOID": "18145710601",
+            "CENTLAT": "+39.5247059",
+            "AREAWATER": 30731,
+            "STATE": "18",
+            "BASENAME": "7106.01",
+            "OID": "207903711007942",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.5250461",
+            "NAME": "Census Tract 7106.01",
+            "OBJECTID": 80630,
+            "TRACT": "710601",
+            "CENTLON": "-085.7808244",
+            "HU100": 1716,
+            "AREALAND": 2176569,
+            "INTPTLON": "-085.7810008",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "181457106012038",
+            "CENTLAT": "+39.5224726",
+            "BLOCK": "2038",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "2038",
+            "OID": "210701007383160",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.5224726",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2038",
+            "OBJECTID": 4012853,
+            "TRACT": "710601",
+            "CENTLON": "-085.7737956",
+            "BLKGRP": "2",
+            "AREALAND": 18309,
+            "HU100": 1,
+            "INTPTLON": "-085.7737956",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "145"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -85.773121,
+          "y": 39.52227
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

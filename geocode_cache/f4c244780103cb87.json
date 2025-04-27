@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T22:17:55.004839+00:00",
+  "elapsed": 0.268999,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4600",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 22:17:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a421694d7180bf5e21d816eee20719f173add33b9abedab5f72bae1438bac394f4f6aa0fd3e0d68c6731882085dfe5fdbd"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a421694d7180bf5e21d816eee20719f173add33b9abedab5f72bae1438bac394f4f6aa0fd3e0d68c6731882085dfe5fdbd",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-89.685848&y=42.294695"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-89.685848&y=42.294695",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779784",
+            "GEOID": "17",
+            "CENTLAT": "+40.1006068",
+            "AREAWATER": "6215985268",
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 35,
+            "CENTLON": "-089.1500794",
+            "AREALAND": "143778736090",
+            "INTPTLON": "-089.1526108",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "466",
+            "CENTLAT": "+42.2336418",
+            "AREAWATER": "32941329",
+            "BASENAME": "Rockford-Freeport-Rochelle, IL",
+            "OID": "2619034687908117",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2335975",
+            "NAME": "Rockford-Freeport-Rochelle, IL CSA",
+            "OBJECTID": 139,
+            "CSA": "466",
+            "CENTLON": "-089.3064011",
+            "INTPTLON": "-089.3072846",
+            "AREALAND": "5482225458",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "27897",
+            "GEOID": "1717727897",
+            "CENTLAT": "+42.2891048",
+            "AREAWATER": "20738",
+            "STATE": "17",
+            "BASENAME": "Freeport",
+            "OID": "276901157820834",
+            "LSADC": "44",
+            "FUNCSTAT": "B",
+            "INTPTLAT": "+42.2890108",
+            "NAME": "Freeport township",
+            "OBJECTID": 8927,
+            "CENTLON": "-089.6346498",
+            "COUSUBCC": "T5",
+            "AREALAND": "30774052",
+            "INTPTLON": "-089.6342646",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00429030",
+            "COUNTY": "177"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "31681",
+            "CENTLAT": "+42.2901941",
+            "AREAWATER": "95514",
+            "BASENAME": "Freeport, IL",
+            "OID": "270211158779006",
+            "UA": "31681",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2901727",
+            "NAME": "Freeport, IL Urban Area",
+            "OBJECTID": 585,
+            "CENTLON": "-089.6352131",
+            "AREALAND": "27497107",
+            "INTPTLON": "-089.6348878",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 1,
+            "NECTAPCI": "N",
+            "GEOID": "1727884",
+            "CENTLAT": "+42.2891048",
+            "AREAWATER": "20738",
+            "BASENAME": "Freeport",
+            "STATE": "17",
+            "OID": "278901157820921",
+            "LSADC": "25",
+            "PLACE": "27884",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.2890108",
+            "NAME": "Freeport city",
+            "OBJECTID": 29170,
+            "PLACECC": "C1",
+            "CENTLON": "-089.6346498",
+            "CBSAPCI": "Y",
+            "AREALAND": "30774052",
+            "INTPTLON": "-089.6342646",
+            "PLACENS": "02394821",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "17177",
+            "CENTLAT": "+42.3518087",
+            "AREAWATER": "1350223",
+            "STATE": "17",
+            "BASENAME": "Stephenson",
+            "OID": "27590135795339",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.3497262",
+            "NAME": "Stephenson County",
+            "OBJECTID": 2005,
+            "CENTLON": "-089.6622489",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01785076",
+            "AREALAND": "1461392058",
+            "INTPTLON": "-089.6659942",
+            "MTFCC": "G4020",
+            "COUNTY": "177"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "17045",
+            "CENTLAT": "+42.2391721",
+            "AREAWATER": "125187899",
+            "STATE": "17",
+            "BASENAME": "45",
+            "OID": "2129035951832039",
+            "SLDU": "045",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2308153",
+            "NAME": "State Senate District 45",
+            "OBJECTID": 420,
+            "CENTLON": "-089.6097755",
+            "LSY": "2024",
+            "AREALAND": "7413772961",
+            "INTPTLON": "-089.6102445",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "17090",
+            "CENTLAT": "+42.3934410",
+            "SLDL": "090",
+            "AREAWATER": "9334262",
+            "STATE": "17",
+            "BASENAME": "90",
+            "OID": "2139035951832180",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4045298",
+            "NAME": "State House District 90",
+            "OBJECTID": 1179,
+            "CENTLON": "-089.3092060",
+            "LSY": "2024",
+            "AREALAND": "1404112366",
+            "INTPTLON": "-089.3115948",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "171770009003008",
+            "CENTLAT": "+42.2980299",
+            "BLOCK": "3008",
+            "AREAWATER": "0",
+            "STATE": "17",
+            "BASENAME": "3008",
+            "OID": "210701005600875",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2980299",
+            "NAME": "Block 3008",
+            "OBJECTID": 3567262,
+            "TRACT": "000900",
+            "CENTLON": "-089.6748232",
+            "BLKGRP": "3",
+            "AREALAND": "1593749",
+            "INTPTLON": "-089.6748232",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "177"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "17177000900",
+            "CENTLAT": "+42.3033234",
+            "AREAWATER": "0",
+            "STATE": "17",
+            "BASENAME": "9",
+            "OID": "207901158762359",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3033234",
+            "NAME": "Census Tract 9",
+            "OBJECTID": 50829,
+            "TRACT": "000900",
+            "CENTLON": "-089.6678880",
+            "AREALAND": "8368107",
+            "INTPTLON": "-089.6678880",
+            "MTFCC": "G5020",
+            "COUNTY": "177"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1717",
+            "CENTLAT": "+41.2607347",
+            "CDSESSN": "119",
+            "AREAWATER": "221596654",
+            "BASENAME": "17",
+            "STATE": "17",
+            "OID": "2119035951831989",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0712077",
+            "NAME": "Congressional District 17",
+            "OBJECTID": 189,
+            "CENTLON": "-090.0269196",
+            "CD119": "17",
+            "AREALAND": "11608219037",
+            "INTPTLON": "-090.2586840",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -89.685848,
+          "y": 42.294695
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

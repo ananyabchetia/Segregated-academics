@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-03-13T02:22:04.307698+00:00",
+  "elapsed": 0.440209,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4130",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:22:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47cfa80f04148bab3448e6c760985c5900b07d1a652336c2f96494cb3b6cecaf83e047a899dc87f98769f6acfe9613166",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.367394&y=40.792046"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.367394&y=40.792046",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 215955,
+            "GEOID": "17037",
+            "CENTLAT": "+41.1746146",
+            "AREAWATER": 122026409,
+            "STATE": "17",
+            "BASENAME": "37",
+            "OID": "212904492478210",
+            "LSADC": "LU",
+            "SLDU": "037",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1661811",
+            "NAME": "State Senate District 37",
+            "OBJECTID": 40,
+            "CENTLON": "-089.8967628",
+            "LSY": "2018",
+            "HU100": 99179,
+            "AREALAND": 11112883620,
+            "INTPTLON": "-089.8947168",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779784",
+            "POP100": 12812508,
+            "GEOID": "17",
+            "CENTLAT": "+40.1006037",
+            "AREAWATER": 6216594318,
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 18,
+            "CENTLON": "-089.1500819",
+            "AREALAND": 143778461053,
+            "INTPTLON": "-089.1526108",
+            "HU100": 5426429,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "48619",
+            "POP100": 4588,
+            "GEOID": "1720348619",
+            "CENTLAT": "+40.7921868",
+            "AREAWATER": 13728,
+            "STATE": "17",
+            "BASENAME": "Metamora",
+            "OID": "27690375371836",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7994714",
+            "NAME": "Metamora township",
+            "OBJECTID": 4574,
+            "CENTLON": "-089.3310006",
+            "COUSUBCC": "T1",
+            "HU100": 1882,
+            "AREALAND": 94369202,
+            "INTPTLON": "-089.3275560",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00429358",
+            "UR": "R",
+            "COUNTY": "203"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 110651,
+            "GEOID": "17073",
+            "CENTLAT": "+41.0144993",
+            "SLDL": "073",
+            "AREAWATER": 88652524,
+            "STATE": "17",
+            "BASENAME": "73",
+            "OID": "213904492478510",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0106302",
+            "NAME": "State House District 73",
+            "OBJECTID": 321,
+            "CENTLON": "-089.5436414",
+            "LSY": "2018",
+            "HU100": 49407,
+            "AREALAND": 4227490952,
+            "INTPTLON": "-089.5471473",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3904,
+            "GEOID": "1748606",
+            "CENTLAT": "+40.7950654",
+            "AREAWATER": 9416,
+            "STATE": "17",
+            "BASENAME": "Metamora",
+            "OID": "27890375374369",
+            "LSADC": "47",
+            "PLACE": "48606",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7949635",
+            "NAME": "Metamora village",
+            "OBJECTID": 7582,
+            "PLACECC": "C1",
+            "CENTLON": "-089.3671624",
+            "CBSAPCI": "N",
+            "HU100": 1629,
+            "AREALAND": 5861682,
+            "INTPTLON": "-089.3684006",
+            "PLACENS": "02399325",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 38467,
+            "GEOID": "17203",
+            "CENTLAT": "+40.7882341",
+            "AREAWATER": 38962131,
+            "STATE": "17",
+            "BASENAME": "Woodford",
+            "OID": "27590375333060",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7897870",
+            "NAME": "Woodford County",
+            "OBJECTID": 2612,
+            "CENTLON": "-089.2110759",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01785231",
+            "AREALAND": 1366337053,
+            "INTPTLON": "-089.2105871",
+            "HU100": 15704,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "203"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 701148,
+            "GEOID": "1718",
+            "CENTLAT": "+40.2300152",
+            "CDSESSN": "116",
+            "AREAWATER": 383625124,
+            "STATE": "17",
+            "BASENAME": "18",
+            "OID": "211904487269673",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2271844",
+            "NAME": "Congressional District 18",
+            "OBJECTID": 66,
+            "CENTLON": "-090.0797977",
+            "HU100": 315658,
+            "AREALAND": 27234848169,
+            "INTPTLON": "-090.0691183",
+            "CD116": "18",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5782,
+            "GEOID": "17203030400",
+            "CENTLAT": "+40.7909604",
+            "AREAWATER": 13728,
+            "STATE": "17",
+            "BASENAME": "304",
+            "OID": "20790375382969",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7909862",
+            "NAME": "Census Tract 304",
+            "OBJECTID": 82447,
+            "TRACT": "030400",
+            "CENTLON": "-089.3669933",
+            "HU100": 2359,
+            "AREALAND": 126423394,
+            "INTPTLON": "-089.3667293",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "203"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 6,
+            "GEOID": "172030304002030",
+            "CENTLAT": "+40.7920124",
+            "BLOCK": "2030",
+            "AREAWATER": 0,
+            "STATE": "17",
+            "BASENAME": "2030",
+            "OID": "210701000625895",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.7920124",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2030",
+            "OBJECTID": 782386,
+            "TRACT": "030400",
+            "CENTLON": "-089.3676949",
+            "BLKGRP": "2",
+            "AREALAND": 12097,
+            "HU100": 1,
+            "INTPTLON": "-089.3676949",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "203"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -89.367394,
+          "y": 40.792046
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

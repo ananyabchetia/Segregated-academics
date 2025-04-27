@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:08:38.008627+00:00",
+  "elapsed": 0.165967,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4902",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:08:37 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.917681&y=39.59178"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.917681&y=39.59178",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 149984,
+            "GEOID": "08027",
+            "CENTLAT": "+39.5926956",
+            "AREAWATER": 387462,
+            "STATE": "08",
+            "BASENAME": "27",
+            "OID": "212904487291866",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5912922",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 24,
+            "CENTLON": "-104.8518102",
+            "LSY": "2018",
+            "HU100": 56591,
+            "AREALAND": 106321904,
+            "INTPTLON": "-104.8524227",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779779",
+            "POP100": 5773714,
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": 1185766400,
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 42,
+            "CENTLON": "-105.5478280",
+            "AREALAND": 268418746964,
+            "INTPTLON": "-105.5087122",
+            "HU100": 2491404,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3623560,
+            "GEOID": "216",
+            "CENTLAT": "+39.8135767",
+            "AREAWATER": 268186446,
+            "BASENAME": "Denver-Aurora, CO",
+            "OID": "2619013782255116",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.8155108",
+            "NAME": "Denver-Aurora, CO CSA",
+            "CSA": "216",
+            "OBJECTID": 23,
+            "CENTLON": "-104.7704290",
+            "HU100": 1503302,
+            "AREALAND": 33814963759,
+            "INTPTLON": "-104.7708865",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "23527",
+            "CENTLAT": "+39.7322725",
+            "AREAWATER": 29334833,
+            "BASENAME": "Denver--Aurora, CO",
+            "OID": "27021700481587",
+            "UA": "23527",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7321492",
+            "NAME": "Denver--Aurora, CO Urban Area",
+            "OBJECTID": 2582,
+            "CENTLON": "-104.9595303",
+            "AREALAND": 1669352291,
+            "INTPTLON": "-104.9593876",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93458",
+            "POP100": 206430,
+            "GEOID": "0800593458",
+            "CENTLAT": "+39.6070761",
+            "AREAWATER": 6596731,
+            "STATE": "08",
+            "BASENAME": "Southwest Arapahoe",
+            "OID": "27690703789416",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6071369",
+            "NAME": "Southwest Arapahoe CCD",
+            "OBJECTID": 16157,
+            "CENTLON": "-104.9406254",
+            "COUSUBCC": "Z5",
+            "HU100": 90542,
+            "AREALAND": 176458509,
+            "INTPTLON": "-104.9399359",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935575",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 84453,
+            "GEOID": "08037",
+            "CENTLAT": "+39.5920868",
+            "SLDL": "037",
+            "AREAWATER": 337939,
+            "STATE": "08",
+            "BASENAME": "37",
+            "OID": "213904487292016",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5933365",
+            "NAME": "State House District 37",
+            "OBJECTID": 1798,
+            "CENTLON": "-104.8199900",
+            "LSY": "2018",
+            "HU100": 31542,
+            "AREALAND": 71631330,
+            "INTPTLON": "-104.8210063",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 108418,
+            "GEOID": "0812815",
+            "CENTLAT": "+39.5925781",
+            "AREAWATER": 379304,
+            "STATE": "08",
+            "BASENAME": "Centennial",
+            "OID": "27890711290460",
+            "LSADC": "25",
+            "PLACE": "12815",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.5905678",
+            "NAME": "Centennial city",
+            "OBJECTID": 14284,
+            "PLACECC": "C1",
+            "CENTLON": "-104.8673520",
+            "CBSAPCI": "Y",
+            "HU100": 41571,
+            "AREALAND": 76976177,
+            "INTPTLON": "-104.8691178",
+            "PLACENS": "02409422",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 655070,
+            "GEOID": "08005",
+            "CENTLAT": "+39.6503229",
+            "AREAWATER": 19801967,
+            "STATE": "08",
+            "BASENAME": "Arapahoe",
+            "OID": "27590703789414",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6445537",
+            "NAME": "Arapahoe County",
+            "OBJECTID": 1832,
+            "CENTLON": "-104.3393175",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198118",
+            "AREALAND": 2066446984,
+            "INTPTLON": "-104.3317065",
+            "HU100": 262493,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 835594,
+            "GEOID": "0806",
+            "CENTLAT": "+39.7743921",
+            "CDSESSN": "116",
+            "AREAWATER": 21964850,
+            "STATE": "08",
+            "BASENAME": "6",
+            "OID": "211904690197498",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7550881",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 195,
+            "CENTLON": "-104.7401449",
+            "HU100": 320071,
+            "AREALAND": 1226855916,
+            "INTPTLON": "-104.7653511",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5003,
+            "GEOID": "08005006706",
+            "CENTLAT": "+39.5877920",
+            "AREAWATER": 326090,
+            "STATE": "08",
+            "BASENAME": "67.06",
+            "OID": "20790711299301",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.5879485",
+            "NAME": "Census Tract 67.06",
+            "OBJECTID": 71270,
+            "TRACT": "006706",
+            "CENTLON": "-104.9135637",
+            "HU100": 2079,
+            "AREALAND": 2260864,
+            "INTPTLON": "-104.9136313",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 333,
+            "GEOID": "080050067062000",
+            "CENTLAT": "+39.5913202",
+            "BLOCK": "2000",
+            "AREAWATER": 401,
+            "STATE": "08",
+            "BASENAME": "2000",
+            "OID": "210701002496344",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.5912905",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2000",
+            "OBJECTID": 2470517,
+            "TRACT": "006706",
+            "CENTLON": "-104.9174968",
+            "BLKGRP": "2",
+            "AREALAND": 149682,
+            "HU100": 192,
+            "INTPTLON": "-104.9177368",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -104.917681,
+          "y": 39.59178
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

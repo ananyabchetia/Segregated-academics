@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:30:35.949428+00:00",
+  "elapsed": 0.211231,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4577",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:30:35 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-92.83167&y=34.384842"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-92.83167&y=34.384842",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00068085",
+            "GEOID": "05",
+            "CENTLAT": "+34.8941718",
+            "AREAWATER": "3122689286",
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-092.4418676",
+            "AREALAND": "134658544258",
+            "INTPTLON": "-092.4446262",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "284",
+            "CENTLAT": "+34.4579675",
+            "AREAWATER": "166177764",
+            "BASENAME": "Hot Springs-Malvern, AR",
+            "OID": "2619034687908038",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4578616",
+            "NAME": "Hot Springs-Malvern, AR CSA",
+            "OBJECTID": 107,
+            "CSA": "284",
+            "CENTLON": "-093.0565463",
+            "INTPTLON": "-093.0565305",
+            "AREALAND": "3347710931",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92731",
+            "GEOID": "0505992731",
+            "CENTLAT": "+34.3767594",
+            "AREAWATER": "2857597",
+            "STATE": "05",
+            "BASENAME": "Fenter",
+            "OID": "27690311048466",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.3809242",
+            "NAME": "Fenter township",
+            "OBJECTID": 776,
+            "CENTLON": "-092.8454970",
+            "COUSUBCC": "Z1",
+            "AREALAND": "142545923",
+            "INTPTLON": "-092.8446957",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00066659",
+            "COUNTY": "059"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "53551",
+            "CENTLAT": "+34.3684969",
+            "AREAWATER": "0",
+            "BASENAME": "Malvern, AR",
+            "OID": "27021311060055",
+            "UA": "53551",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3684969",
+            "NAME": "Malvern, AR Urban Area",
+            "OBJECTID": 2226,
+            "CENTLON": "-092.8100844",
+            "AREALAND": "17348403",
+            "INTPTLON": "-092.8100844",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0543610",
+            "CENTLAT": "+34.3731111",
+            "AREAWATER": "143510",
+            "BASENAME": "Malvern",
+            "STATE": "05",
+            "OID": "27890311053595",
+            "LSADC": "25",
+            "PLACE": "43610",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.3735793",
+            "NAME": "Malvern city",
+            "OBJECTID": 28768,
+            "PLACECC": "C1",
+            "CENTLON": "-092.8202834",
+            "CBSAPCI": "Y",
+            "AREALAND": "25071622",
+            "INTPTLON": "-092.8212499",
+            "PLACENS": "02405001",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "05059",
+            "CENTLAT": "+34.3177196",
+            "AREAWATER": "18725590",
+            "STATE": "05",
+            "BASENAME": "Hot Spring",
+            "OID": "27590311038372",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.3151767",
+            "NAME": "Hot Spring County",
+            "OBJECTID": 1524,
+            "CENTLON": "-092.9461163",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00066859",
+            "AREALAND": "1592697269",
+            "INTPTLON": "-092.9441474",
+            "MTFCC": "G4020",
+            "COUNTY": "059"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "05007",
+            "CENTLAT": "+34.4224410",
+            "AREAWATER": "33110398",
+            "STATE": "05",
+            "BASENAME": "7",
+            "OID": "2129035801815708",
+            "SLDU": "007",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.4362328",
+            "NAME": "State Senate District 7",
+            "OBJECTID": 1390,
+            "CENTLON": "-092.7269003",
+            "LSY": "2024",
+            "AREALAND": "2919985342",
+            "INTPTLON": "-092.7255010",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "05029",
+            "CENTLAT": "+34.3946670",
+            "SLDL": "029",
+            "AREAWATER": "6962955",
+            "STATE": "05",
+            "BASENAME": "29",
+            "OID": "2139035807095954",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.3937192",
+            "NAME": "State House District 29",
+            "OBJECTID": 1372,
+            "CENTLON": "-092.7764015",
+            "LSY": "2024",
+            "AREALAND": "820116011",
+            "INTPTLON": "-092.7777760",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "050590202004000",
+            "CENTLAT": "+34.3837192",
+            "BLOCK": "4000",
+            "AREAWATER": "0",
+            "STATE": "05",
+            "BASENAME": "4000",
+            "OID": "210701002296026",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3843425",
+            "NAME": "Block 4000",
+            "OBJECTID": 2084940,
+            "TRACT": "020200",
+            "CENTLON": "-092.8323261",
+            "BLKGRP": "4",
+            "AREALAND": "250235",
+            "INTPTLON": "-092.8303313",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "059"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "05059020200",
+            "CENTLAT": "+34.3783990",
+            "AREAWATER": "48403",
+            "STATE": "05",
+            "BASENAME": "202",
+            "OID": "20790311058089",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3790310",
+            "NAME": "Census Tract 202",
+            "OBJECTID": 21936,
+            "TRACT": "020200",
+            "CENTLON": "-092.8165258",
+            "AREALAND": "15946863",
+            "INTPTLON": "-092.8160392",
+            "MTFCC": "G5020",
+            "COUNTY": "059"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0504",
+            "CENTLAT": "+34.2096821",
+            "CDSESSN": "119",
+            "AREAWATER": "1125245514",
+            "BASENAME": "4",
+            "STATE": "05",
+            "OID": "2119035786460342",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2089834",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 20,
+            "CENTLON": "-093.1478043",
+            "CD119": "04",
+            "AREALAND": "58732138699",
+            "INTPTLON": "-093.1424686",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -92.83167,
+          "y": 34.384842
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

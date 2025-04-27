@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:56:23.333394+00:00",
+  "elapsed": 0.17619,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4663",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:56:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a1c342e6024be103bd4ecace835ee5c17242eace509c8d04edf890bbc0bf7a7f6c8b82ead7a0b4782d97c14fdc5acb18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a1c342e6024be103bd4ecace835ee5c17242eace509c8d04edf890bbc0bf7a7f6c8b82ead7a0b4782d97c14fdc5acb18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-117.276711&y=34.05943"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-117.276711&y=34.05943",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779778",
+            "GEOID": "06",
+            "CENTLAT": "+37.1547616",
+            "AREAWATER": "20290471105",
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 41,
+            "CENTLON": "-119.5277735",
+            "AREALAND": "403674598069",
+            "INTPTLON": "-119.5434183",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "348",
+            "CENTLAT": "+34.4706964",
+            "AREAWATER": "3476817946",
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619034687908066",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "OBJECTID": 28,
+            "CSA": "348",
+            "CENTLON": "-116.6480322",
+            "INTPTLON": "-116.6585523",
+            "AREALAND": "87986126435",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92770",
+            "GEOID": "0607192770",
+            "CENTLAT": "+34.0949565",
+            "AREAWATER": "3691462",
+            "STATE": "06",
+            "BASENAME": "San Bernardino",
+            "OID": "27690435461399",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0943238",
+            "NAME": "San Bernardino CCD",
+            "OBJECTID": 26201,
+            "CENTLON": "-117.3178087",
+            "COUSUBCC": "Z5",
+            "AREALAND": "685403390",
+            "INTPTLON": "-117.3192878",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935282",
+            "COUNTY": "071"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "75340",
+            "CENTLAT": "+33.9881488",
+            "AREAWATER": "6667111",
+            "BASENAME": "Riverside--San Bernardino, CA",
+            "OID": "27021435571726",
+            "UA": "75340",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9880083",
+            "NAME": "Riverside--San Bernardino, CA Urban Area",
+            "OBJECTID": 292,
+            "CENTLON": "-117.3825690",
+            "AREALAND": "1576296713",
+            "INTPTLON": "-117.3825151",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 2,
+            "NECTAPCI": "N",
+            "GEOID": "0665000",
+            "CENTLAT": "+34.1416477",
+            "AREAWATER": "853268",
+            "BASENAME": "San Bernardino",
+            "STATE": "06",
+            "OID": "278901321246632",
+            "LSADC": "25",
+            "PLACE": "65000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.1411402",
+            "NAME": "San Bernardino city",
+            "OBJECTID": 32030,
+            "PLACECC": "C1",
+            "CENTLON": "-117.2944386",
+            "CBSAPCI": "Y",
+            "AREALAND": "160945217",
+            "INTPTLON": "-117.2946349",
+            "PLACENS": "02411777",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "06071",
+            "CENTLAT": "+34.8417916",
+            "AREAWATER": "96404839",
+            "STATE": "06",
+            "BASENAME": "San Bernardino",
+            "OID": "27590435411092",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8566615",
+            "NAME": "San Bernardino County",
+            "OBJECTID": 747,
+            "CENTLON": "-116.1767201",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277300",
+            "AREALAND": "51976967111",
+            "INTPTLON": "-116.1815707",
+            "MTFCC": "G4020",
+            "COUNTY": "071"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "06029",
+            "CENTLAT": "+34.1199586",
+            "AREAWATER": "2833570",
+            "STATE": "06",
+            "BASENAME": "29",
+            "OID": "2129035951820924",
+            "SLDU": "029",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1182159",
+            "NAME": "State Senate District 29",
+            "OBJECTID": 891,
+            "CENTLON": "-117.3891275",
+            "LSY": "2024",
+            "AREALAND": "629722582",
+            "INTPTLON": "-117.3888294",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "06050",
+            "CENTLAT": "+34.0794359",
+            "SLDL": "050",
+            "AREAWATER": "1413261",
+            "STATE": "06",
+            "BASENAME": "50",
+            "OID": "2139035951821011",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.0787579",
+            "NAME": "Assembly District 50",
+            "OBJECTID": 3555,
+            "CENTLON": "-117.4308810",
+            "LSY": "2024",
+            "AREALAND": "307962932",
+            "INTPTLON": "-117.4302440",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "060710073031002",
+            "CENTLAT": "+34.0597631",
+            "BLOCK": "1002",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "1002",
+            "OID": "210701002208463",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0597631",
+            "NAME": "Block 1002",
+            "OBJECTID": 808372,
+            "TRACT": "007303",
+            "CENTLON": "-117.2763967",
+            "BLKGRP": "1",
+            "AREALAND": "158222",
+            "INTPTLON": "-117.2763967",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "06071007303",
+            "CENTLAT": "+34.0556846",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "73.03",
+            "OID": "207903716835989",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0556846",
+            "NAME": "Census Tract 73.03",
+            "OBJECTID": 44519,
+            "TRACT": "007303",
+            "CENTLON": "-117.2682416",
+            "AREALAND": "2690527",
+            "INTPTLON": "-117.2682416",
+            "MTFCC": "G5020",
+            "COUNTY": "071"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0633",
+            "CENTLAT": "+34.1172901",
+            "CDSESSN": "119",
+            "AREAWATER": "2760139",
+            "BASENAME": "33",
+            "STATE": "06",
+            "OID": "2119035951820631",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1155843",
+            "NAME": "Congressional District 33",
+            "OBJECTID": 155,
+            "CENTLON": "-117.3402733",
+            "CD119": "33",
+            "AREALAND": "490020839",
+            "INTPTLON": "-117.3391148",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -117.276711,
+          "y": 34.05943
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:18:12.041495+00:00",
+  "elapsed": 0.177951,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4665",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:18:12 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a40b02a35a8960be94f534cf99ab2d943bbd60542c3495cf4640c72bc703406040753919e0894671ec4d060d780c59266b"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a40b02a35a8960be94f534cf99ab2d943bbd60542c3495cf4640c72bc703406040753919e0894671ec4d060d780c59266b",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.544921&y=30.41281"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.544921&y=30.41281",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "00294478",
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": "45963764988",
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 34,
+            "CENTLON": "-082.5022125",
+            "AREALAND": "138970527491",
+            "INTPTLON": "-082.5143005",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "300",
+            "CENTLAT": "+30.2377526",
+            "AREAWATER": "1934233655",
+            "BASENAME": "Jacksonville-Kingsland-Palatka, FL-GA",
+            "OID": "2619034687908045",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.2373762",
+            "NAME": "Jacksonville-Kingsland-Palatka, FL-GA CSA",
+            "OBJECTID": 157,
+            "CSA": "300",
+            "CENTLON": "-081.7373115",
+            "INTPTLON": "-081.7379409",
+            "AREALAND": "11811509889",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91644",
+            "GEOID": "1203191644",
+            "CENTLAT": "+30.4710296",
+            "AREAWATER": "148712541",
+            "STATE": "12",
+            "BASENAME": "Jacksonville North",
+            "OID": "276903717880329",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4665225",
+            "NAME": "Jacksonville North CCD",
+            "OBJECTID": 10838,
+            "CENTLON": "-081.5775781",
+            "COUSUBCC": "Z5",
+            "AREALAND": "528465955",
+            "INTPTLON": "-081.5766574",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02583398",
+            "COUNTY": "031"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "42346",
+            "CENTLAT": "+30.2510146",
+            "AREAWATER": "193551737",
+            "BASENAME": "Jacksonville, FL",
+            "OID": "2702146367093",
+            "UA": "42346",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.2518608",
+            "NAME": "Jacksonville, FL Urban Area",
+            "OBJECTID": 688,
+            "CENTLON": "-081.6344525",
+            "AREALAND": "1484885536",
+            "INTPTLON": "-081.6336772",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 2,
+            "NECTAPCI": "N",
+            "GEOID": "1235000",
+            "CENTLAT": "+30.3369705",
+            "AREAWATER": "329428447",
+            "BASENAME": "Jacksonville",
+            "STATE": "12",
+            "OID": "2789046365755",
+            "LSADC": "25",
+            "PLACE": "35000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.3368643",
+            "NAME": "Jacksonville city",
+            "OBJECTID": 31909,
+            "PLACECC": "C1",
+            "CENTLON": "-081.6603046",
+            "CBSAPCI": "Y",
+            "AREALAND": "1935410975",
+            "INTPTLON": "-081.6616028",
+            "PLACENS": "02404783",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "12031",
+            "CENTLAT": "+30.3354397",
+            "AREAWATER": "403625849",
+            "STATE": "12",
+            "BASENAME": "Duval",
+            "OID": "2759046365745",
+            "LSADC": "06",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+30.3352449",
+            "NAME": "Duval County",
+            "OBJECTID": 900,
+            "CENTLON": "-081.6480662",
+            "COUNTYCC": "H6",
+            "COUNTYNS": "00293656",
+            "AREALAND": "1975183363",
+            "INTPTLON": "-081.6481132",
+            "MTFCC": "G4020",
+            "COUNTY": "031"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "12004",
+            "CENTLAT": "+30.4827955",
+            "AREAWATER": "505449436",
+            "STATE": "12",
+            "BASENAME": "4",
+            "OID": "2129035963375425",
+            "SLDU": "004",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.4863763",
+            "NAME": "State Senate District 4",
+            "OBJECTID": 1035,
+            "CENTLON": "-081.7046317",
+            "LSY": "2024",
+            "AREALAND": "3110887124",
+            "INTPTLON": "-081.7057635",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "12015",
+            "CENTLAT": "+30.5344878",
+            "SLDL": "015",
+            "AREAWATER": "338544519",
+            "STATE": "12",
+            "BASENAME": "15",
+            "OID": "2139035963375693",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.5693217",
+            "NAME": "State House District 15",
+            "OBJECTID": 1688,
+            "CENTLON": "-081.7519482",
+            "LSY": "2024",
+            "AREALAND": "2584945901",
+            "INTPTLON": "-081.7104922",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "120310101043043",
+            "CENTLAT": "+30.4111576",
+            "BLOCK": "3043",
+            "AREAWATER": "0",
+            "STATE": "12",
+            "BASENAME": "3043",
+            "OID": "210701005220961",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4111576",
+            "NAME": "Block 3043",
+            "OBJECTID": 5327039,
+            "TRACT": "010104",
+            "CENTLON": "-081.5470732",
+            "BLKGRP": "3",
+            "AREALAND": "107960",
+            "INTPTLON": "-081.5470732",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "12031010104",
+            "CENTLAT": "+30.4219114",
+            "AREAWATER": "10115297",
+            "STATE": "12",
+            "BASENAME": "101.04",
+            "OID": "2079015481983788",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4194435",
+            "NAME": "Census Tract 101.04",
+            "OBJECTID": 24322,
+            "TRACT": "010104",
+            "CENTLON": "-081.5513046",
+            "AREALAND": "38172535",
+            "INTPTLON": "-081.5555786",
+            "MTFCC": "G5020",
+            "COUNTY": "031"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1204",
+            "CENTLAT": "+30.3338323",
+            "CDSESSN": "119",
+            "AREAWATER": "514199539",
+            "BASENAME": "4",
+            "STATE": "12",
+            "OID": "2119035951820921",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.3307087",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 430,
+            "CENTLON": "-081.7828635",
+            "CD119": "04",
+            "AREALAND": "4615364725",
+            "INTPTLON": "-081.7772565",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -81.544921,
+          "y": 30.41281
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T02:14:32.811807+00:00",
+  "elapsed": 0.17699,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4552",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:14:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.630663&y=30.442554"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.630663&y=30.442554",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 526550,
+            "GEOID": "12002",
+            "CENTLAT": "+30.5371543",
+            "AREAWATER": 3806386892,
+            "STATE": "12",
+            "BASENAME": "2",
+            "OID": "212904690226271",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.5452770",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1393,
+            "CENTLON": "-085.8664042",
+            "LSY": "2018",
+            "HU100": 287953,
+            "AREALAND": 11483666767,
+            "INTPTLON": "-085.8742266",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "61372",
+            "CENTLAT": "+30.4329773",
+            "AREAWATER": 21561480,
+            "BASENAME": "Navarre--Miramar Beach--Destin, FL",
+            "OID": "2702132391318095",
+            "UA": "61372",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4334633",
+            "NAME": "Navarre--Miramar Beach--Destin, FL Urban Area",
+            "OBJECTID": 2201,
+            "CENTLON": "-086.6567737",
+            "AREALAND": 309811016,
+            "INTPTLON": "-086.6573369",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91170",
+            "POP100": 98399,
+            "GEOID": "1209191170",
+            "CENTLAT": "+30.3430269",
+            "AREAWATER": 783254219,
+            "STATE": "12",
+            "BASENAME": "Fort Walton Beach",
+            "OID": "2769088096456",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.3971629",
+            "NAME": "Fort Walton Beach CCD",
+            "OBJECTID": 30645,
+            "CENTLON": "-086.5866982",
+            "COUSUBCC": "Z5",
+            "HU100": 56133,
+            "AREALAND": 106058709,
+            "INTPTLON": "-086.6279766",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935772",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 26277,
+            "GEOID": "1278800",
+            "CENTLAT": "+30.4445449",
+            "AREAWATER": 224564,
+            "STATE": "12",
+            "BASENAME": "Wright",
+            "OID": "2809088096473",
+            "LSADC": "57",
+            "PLACE": "78800",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4440986",
+            "NAME": "Wright CDP",
+            "OBJECTID": 20481,
+            "PLACECC": "U1",
+            "CENTLON": "-086.6418167",
+            "CBSAPCI": "N",
+            "HU100": 11989,
+            "AREALAND": 14230332,
+            "INTPTLON": "-086.6419743",
+            "PLACENS": "02403044",
+            "MTFCC": "G4210",
+            "UR": "U"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 183034,
+            "GEOID": "12004",
+            "CENTLAT": "+30.4868401",
+            "SLDL": "004",
+            "AREAWATER": 807049967,
+            "STATE": "12",
+            "BASENAME": "4",
+            "OID": "213904690227889",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.5088920",
+            "NAME": "State House District 4",
+            "OBJECTID": 30,
+            "CENTLON": "-086.5930193",
+            "LSY": "2018",
+            "HU100": 89520,
+            "AREALAND": 1319329069,
+            "INTPTLON": "-086.5814740",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 211668,
+            "GEOID": "12091",
+            "CENTLAT": "+30.6149445",
+            "AREAWATER": 819717338,
+            "STATE": "12",
+            "BASENAME": "Okaloosa",
+            "OID": "2759088096446",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.6143245",
+            "NAME": "Okaloosa County",
+            "OBJECTID": 2830,
+            "CENTLON": "-086.5933461",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00306915",
+            "AREALAND": 2409192557,
+            "INTPTLON": "-086.5910804",
+            "HU100": 101197,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 807881,
+            "GEOID": "1201",
+            "CENTLAT": "+30.6184008",
+            "CDSESSN": "116",
+            "AREAWATER": 3559638678,
+            "STATE": "12",
+            "BASENAME": "1",
+            "OID": "211904690220908",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.6135464",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 286,
+            "CENTLON": "-086.6761984",
+            "HU100": 384093,
+            "AREALAND": 10407256217,
+            "INTPTLON": "-086.6728965",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4280,
+            "GEOID": "12091022001",
+            "CENTLAT": "+30.4442476",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "220.01",
+            "OID": "207903717260711",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4442476",
+            "NAME": "Census Tract 220.01",
+            "OBJECTID": 45362,
+            "TRACT": "022001",
+            "CENTLON": "-086.6252200",
+            "HU100": 2053,
+            "AREALAND": 1744725,
+            "INTPTLON": "-086.6252200",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 218,
+            "GEOID": "120910220011002",
+            "CENTLAT": "+30.4434889",
+            "BLOCK": "1002",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "1002",
+            "OID": "210701000312457",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.4434889",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1002",
+            "OBJECTID": 1484792,
+            "TRACT": "022001",
+            "CENTLON": "-086.6313393",
+            "BLKGRP": "1",
+            "AREALAND": 117552,
+            "HU100": 83,
+            "INTPTLON": "-086.6313393",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -86.630663,
+          "y": 30.442554
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:34:32.226335+00:00",
+  "elapsed": 0.567442,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4595",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:34:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a457a1d5fcd3b22286c40746302e5e4dd2ad83763d9e5dd574eb24348945d57caac11301a68d86cbf32226f8c660e49969"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a457a1d5fcd3b22286c40746302e5e4dd2ad83763d9e5dd574eb24348945d57caac11301a68d86cbf32226f8c660e49969",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-119.816689&y=36.806432"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-119.816689&y=36.806432",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779778",
+            "GEOID": "06",
+            "CENTLAT": "+37.1547616",
+            "AREAWATER": "20290471105",
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 41,
+            "CENTLON": "-119.5277735",
+            "AREALAND": "403674598069",
+            "INTPTLON": "-119.5434183",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "260",
+            "CENTLAT": "+36.7624668",
+            "AREAWATER": "182067576",
+            "BASENAME": "Fresno-Hanford-Corcoran, CA",
+            "OID": "2619034687908028",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7627997",
+            "NAME": "Fresno-Hanford-Corcoran, CA CSA",
+            "OBJECTID": 3,
+            "CSA": "260",
+            "CENTLON": "-119.7021836",
+            "INTPTLON": "-119.7044695",
+            "AREALAND": "24569308403",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91080",
+            "GEOID": "0601991080",
+            "CENTLAT": "+36.7805839",
+            "AREAWATER": "4702643",
+            "STATE": "06",
+            "BASENAME": "Fresno",
+            "OID": "27690148926998",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7804890",
+            "NAME": "Fresno CCD",
+            "OBJECTID": 13255,
+            "CENTLON": "-119.7631147",
+            "COUSUBCC": "Z5",
+            "AREALAND": "768453414",
+            "INTPTLON": "-119.7622741",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935112",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0653505",
+            "CENTLAT": "+36.7988408",
+            "AREAWATER": "0",
+            "BASENAME": "Old Fig Garden",
+            "STATE": "06",
+            "OID": "280903717389259",
+            "LSADC": "57",
+            "PLACE": "53505",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7988408",
+            "NAME": "Old Fig Garden CDP",
+            "OBJECTID": 16130,
+            "PLACECC": "U1",
+            "CENTLON": "-119.8051254",
+            "CBSAPCI": "N",
+            "AREALAND": "4315985",
+            "INTPTLON": "-119.8051254",
+            "PLACENS": "02583103",
+            "MTFCC": "G4210"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "31843",
+            "CENTLAT": "+36.7891113",
+            "AREAWATER": "3233830",
+            "BASENAME": "Fresno, CA",
+            "OID": "27021149005957",
+            "UA": "31843",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.7890445",
+            "NAME": "Fresno, CA Urban Area",
+            "OBJECTID": 1119,
+            "CENTLON": "-119.7687338",
+            "AREALAND": "412217282",
+            "INTPTLON": "-119.7690004",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "06019",
+            "CENTLAT": "+36.7585358",
+            "AREAWATER": "136636505",
+            "STATE": "06",
+            "BASENAME": "Fresno",
+            "OID": "27590148916964",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+36.7610058",
+            "NAME": "Fresno County",
+            "OBJECTID": 2598,
+            "CENTLON": "-119.6533781",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277274",
+            "AREALAND": "15432656112",
+            "INTPTLON": "-119.6550193",
+            "MTFCC": "G4020",
+            "COUNTY": "019"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "06012",
+            "CENTLAT": "+35.9407683",
+            "AREAWATER": "217588203",
+            "STATE": "06",
+            "BASENAME": "12",
+            "OID": "2129035951820943",
+            "SLDU": "012",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.9358766",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 4,
+            "CENTLON": "-118.6774883",
+            "LSY": "2024",
+            "AREALAND": "33587547058",
+            "INTPTLON": "-118.7020910",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "06008",
+            "CENTLAT": "+37.1266474",
+            "SLDL": "008",
+            "AREAWATER": "653936403",
+            "STATE": "06",
+            "BASENAME": "8",
+            "OID": "2139035951820953",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0448438",
+            "NAME": "Assembly District 8",
+            "OBJECTID": 826,
+            "CENTLON": "-118.5152720",
+            "LSY": "2024",
+            "AREALAND": "57634201415",
+            "INTPTLON": "-118.3962555",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "060190046023015",
+            "CENTLAT": "+36.8055678",
+            "BLOCK": "3015",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "3015",
+            "OID": "210701001604063",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.8055678",
+            "NAME": "Block 3015",
+            "OBJECTID": 5775044,
+            "TRACT": "004602",
+            "CENTLON": "-119.8163111",
+            "BLKGRP": "3",
+            "AREALAND": "37381",
+            "INTPTLON": "-119.8163111",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "06019004602",
+            "CENTLAT": "+36.8011471",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "46.02",
+            "OID": "20790148949932",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.8011471",
+            "NAME": "Census Tract 46.02",
+            "OBJECTID": 45703,
+            "TRACT": "004602",
+            "CENTLON": "-119.8084855",
+            "AREALAND": "2577355",
+            "INTPTLON": "-119.8084855",
+            "MTFCC": "G5020",
+            "COUNTY": "019"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0621",
+            "CENTLAT": "+36.5542385",
+            "CDSESSN": "119",
+            "AREAWATER": "5754295",
+            "BASENAME": "21",
+            "STATE": "06",
+            "OID": "2119035951820665",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.5538762",
+            "NAME": "Congressional District 21",
+            "OBJECTID": 78,
+            "CENTLON": "-119.4763177",
+            "CD119": "21",
+            "AREALAND": "2308475716",
+            "INTPTLON": "-119.4732987",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -119.816689,
+          "y": 36.806432
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

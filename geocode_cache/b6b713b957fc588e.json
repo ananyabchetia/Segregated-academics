@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T05:49:11.387267+00:00",
+  "elapsed": 0.153037,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4559",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:49:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.781761&y=48.11708"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.781761&y=48.11708",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 148283,
+            "GEOID": "53024",
+            "CENTLAT": "+47.7730868",
+            "AREAWATER": 4051786841,
+            "STATE": "53",
+            "BASENAME": "24",
+            "OID": "212904690194756",
+            "LSADC": "LU",
+            "SLDU": "024",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.8235763",
+            "NAME": "State Senate District 24",
+            "OBJECTID": 896,
+            "CENTLON": "-123.7983509",
+            "LSY": "2018",
+            "HU100": 76791,
+            "AREALAND": 12873981209,
+            "INTPTLON": "-123.8137926",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "71560",
+            "CENTLAT": "+48.1203368",
+            "AREAWATER": 437958,
+            "BASENAME": "Port Townsend, WA",
+            "OID": "27021479856756",
+            "UA": "71560",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.1205216",
+            "NAME": "Port Townsend, WA Urban Area",
+            "OBJECTID": 1372,
+            "CENTLON": "-122.7872037",
+            "AREALAND": 15216009,
+            "INTPTLON": "-122.7869553",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90898",
+            "POP100": 17757,
+            "GEOID": "5303190898",
+            "CENTLAT": "+48.1326395",
+            "AREAWATER": 292590637,
+            "STATE": "53",
+            "BASENAME": "Discovery Bay-Port Townsend",
+            "OID": "27690479854995",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.1274854",
+            "NAME": "Discovery Bay-Port Townsend CCD",
+            "OBJECTID": 2648,
+            "CENTLON": "-122.8650330",
+            "COUSUBCC": "Z5",
+            "HU100": 9915,
+            "AREALAND": 181997729,
+            "INTPTLON": "-122.8450281",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939494",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 148283,
+            "GEOID": "53024",
+            "CENTLAT": "+47.7730868",
+            "SLDL": "024",
+            "AREAWATER": 4051786841,
+            "STATE": "53",
+            "BASENAME": "24",
+            "OID": "213904690194854",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.8235763",
+            "NAME": "State House District 24",
+            "OBJECTID": 2241,
+            "CENTLON": "-123.7983509",
+            "LSY": "2018",
+            "HU100": 76791,
+            "AREALAND": 12873981209,
+            "INTPTLON": "-123.8137926",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 10148,
+            "GEOID": "5355855",
+            "CENTLAT": "+48.1218508",
+            "AREAWATER": 1065251,
+            "STATE": "53",
+            "BASENAME": "Port Townsend",
+            "OID": "27890479856717",
+            "LSADC": "25",
+            "PLACE": "55855",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.1217622",
+            "NAME": "Port Townsend city",
+            "OBJECTID": 14982,
+            "PLACECC": "C1",
+            "CENTLON": "-122.7868487",
+            "CBSAPCI": "N",
+            "HU100": 5692,
+            "AREALAND": 17980766,
+            "INTPTLON": "-122.7878764",
+            "PLACENS": "02411468",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 32977,
+            "GEOID": "53031",
+            "CENTLAT": "+47.7774248",
+            "AREAWATER": 994992501,
+            "STATE": "53",
+            "BASENAME": "Jefferson",
+            "OID": "27590479847166",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.8057075",
+            "NAME": "Jefferson County",
+            "OBJECTID": 840,
+            "CENTLON": "-123.5781682",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01531936",
+            "AREALAND": 4671633827,
+            "INTPTLON": "-123.5270572",
+            "HU100": 19087,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 736798,
+            "GEOID": "5306",
+            "CENTLAT": "+47.6514327",
+            "CDSESSN": "116",
+            "AREAWATER": 5096390896,
+            "STATE": "53",
+            "BASENAME": "6",
+            "OID": "211904690193040",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.6388582",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 186,
+            "CENTLON": "-123.6209332",
+            "HU100": 332549,
+            "AREALAND": 17876967872,
+            "INTPTLON": "-123.5509405",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3306,
+            "GEOID": "53031950603",
+            "CENTLAT": "+48.1078896",
+            "AREAWATER": 1372503,
+            "STATE": "53",
+            "BASENAME": "9506.03",
+            "OID": "2079015484701427",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.1079807",
+            "NAME": "Census Tract 9506.03",
+            "OBJECTID": 30396,
+            "TRACT": "950603",
+            "CENTLON": "-122.7823214",
+            "HU100": 1957,
+            "AREALAND": 4524989,
+            "INTPTLON": "-122.7825306",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "530319506032006",
+            "CENTLAT": "+48.1170810",
+            "BLOCK": "2006",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "2006",
+            "OID": "210701007676674",
+            "LSADC": "BK",
+            "INTPTLAT": "+48.1170810",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 7328954,
+            "TRACT": "950603",
+            "CENTLON": "-122.7819856",
+            "BLKGRP": "2",
+            "AREALAND": 7961,
+            "HU100": 0,
+            "INTPTLON": "-122.7819856",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "031"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -122.781761,
+          "y": 48.11708
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

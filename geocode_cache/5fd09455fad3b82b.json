@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:11:55.991000+00:00",
+  "elapsed": 0.173925,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4682",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:11:55 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-72.107301&y=41.34465"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-72.107301&y=41.34465",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779780",
+            "GEOID": "09",
+            "CENTLAT": "+41.5751437",
+            "AREAWATER": "1816101122",
+            "STATE": "09",
+            "BASENAME": "Connecticut",
+            "STUSAB": "CT",
+            "OID": "27490331955805",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5798637",
+            "DIVISION": "1",
+            "NAME": "Connecticut",
+            "REGION": "1",
+            "OBJECTID": 6,
+            "CENTLON": "-072.7393081",
+            "AREALAND": "12542013551",
+            "INTPTLON": "-072.7466572",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "405",
+            "CENTLAT": "+41.6356751",
+            "AREAWATER": "1262156343",
+            "BASENAME": "New Haven-Hartford-Waterbury, CT",
+            "OID": "2619034687908091",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.6368458",
+            "NAME": "New Haven-Hartford-Waterbury, CT CSA",
+            "OBJECTID": 130,
+            "CSA": "405",
+            "CENTLON": "-072.6161200",
+            "INTPTLON": "-072.6152118",
+            "AREALAND": "10800738505",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "52350",
+            "GEOID": "0918052350",
+            "CENTLAT": "+41.3327682",
+            "AREAWATER": "12907225",
+            "STATE": "09",
+            "BASENAME": "New London",
+            "OID": "27690350008839",
+            "LSADC": "43",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+41.3329572",
+            "NAME": "New London town",
+            "OBJECTID": 28276,
+            "CENTLON": "-072.0962480",
+            "COUSUBCC": "T5",
+            "AREALAND": "14521395",
+            "INTPTLON": "-072.0961765",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00213473",
+            "COUNTY": "180"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "64135",
+            "CENTLAT": "+41.4104229",
+            "AREAWATER": "30746462",
+            "BASENAME": "Norwich--New London, CT",
+            "OID": "27021344461508",
+            "UA": "64135",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.4113864",
+            "NAME": "Norwich--New London, CT Urban Area",
+            "OBJECTID": 1807,
+            "CENTLON": "-072.0957534",
+            "AREALAND": "302311052",
+            "INTPTLON": "-072.0980877",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0952280",
+            "CENTLAT": "+41.3327682",
+            "AREAWATER": "12907225",
+            "BASENAME": "New London",
+            "STATE": "09",
+            "OID": "27890350073218",
+            "LSADC": "25",
+            "PLACE": "52280",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.3329572",
+            "NAME": "New London city",
+            "OBJECTID": 26195,
+            "PLACECC": "C1",
+            "CENTLON": "-072.0962480",
+            "CBSAPCI": "Y",
+            "AREALAND": "14521395",
+            "INTPTLON": "-072.0961765",
+            "PLACENS": "02378286",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "09180",
+            "CENTLAT": "+41.4846714",
+            "AREAWATER": "216453476",
+            "STATE": "09",
+            "BASENAME": "Southeastern Connecticut",
+            "OID": "2759030115366161",
+            "LSADC": "PL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.4847688",
+            "NAME": "Southeastern Connecticut Planning Region",
+            "OBJECTID": 1333,
+            "CENTLON": "-072.1006249",
+            "COUNTYCC": "H5",
+            "COUNTYNS": "02830253",
+            "AREALAND": "1549172293",
+            "INTPTLON": "-072.1016655",
+            "MTFCC": "G4020",
+            "COUNTY": "180"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "09020",
+            "CENTLAT": "+41.3980659",
+            "AREAWATER": "96681596",
+            "STATE": "09",
+            "BASENAME": "20",
+            "OID": "2129035963375139",
+            "SLDU": "020",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3954584",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 911,
+            "CENTLON": "-072.2129985",
+            "LSY": "2024",
+            "AREALAND": "477723369",
+            "INTPTLON": "-072.2112548",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "09039",
+            "CENTLAT": "+41.3599626",
+            "SLDL": "039",
+            "AREAWATER": "1129310",
+            "STATE": "09",
+            "BASENAME": "39",
+            "OID": "2139035963375324",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3605234",
+            "NAME": "State House District 39",
+            "OBJECTID": 3630,
+            "CENTLON": "-072.1074229",
+            "LSY": "2024",
+            "AREALAND": "11091059",
+            "INTPTLON": "-072.1076663",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "090116908001007",
+            "CENTLAT": "+41.3447669",
+            "BLOCK": "1007",
+            "AREAWATER": "0",
+            "STATE": "09",
+            "BASENAME": "1007",
+            "OID": "210701007243025",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3447669",
+            "NAME": "Block 1007",
+            "OBJECTID": 1224658,
+            "TRACT": "690800",
+            "CENTLON": "-072.1065268",
+            "BLKGRP": "1",
+            "AREALAND": "27643",
+            "INTPTLON": "-072.1065268",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "09180690800",
+            "CENTLAT": "+41.3397091",
+            "AREAWATER": "0",
+            "STATE": "09",
+            "BASENAME": "6908",
+            "OID": "20790350078962",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3397091",
+            "NAME": "Census Tract 6908",
+            "OBJECTID": 47043,
+            "TRACT": "690800",
+            "CENTLON": "-072.1068706",
+            "AREALAND": "1237563",
+            "INTPTLON": "-072.1068706",
+            "MTFCC": "G5020",
+            "COUNTY": "180"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0902",
+            "CENTLAT": "+41.6515071",
+            "CDSESSN": "119",
+            "AREAWATER": "298585475",
+            "BASENAME": "2",
+            "STATE": "09",
+            "OID": "2119035951820683",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6536870",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 214,
+            "CENTLON": "-072.2095940",
+            "CD119": "02",
+            "AREALAND": "5234764758",
+            "INTPTLON": "-072.2065086",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -72.107301,
+          "y": 41.34465
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

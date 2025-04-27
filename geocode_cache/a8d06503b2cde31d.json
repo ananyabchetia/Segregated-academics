@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:22:31.504066+00:00",
+  "elapsed": 0.171527,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4870",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:22:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.138261&y=39.64647"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.138261&y=39.64647",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 128087,
+            "GEOID": "18042",
+            "CENTLAT": "+39.5927683",
+            "AREAWATER": 10904856,
+            "STATE": "18",
+            "BASENAME": "42",
+            "OID": "212904487292488",
+            "LSADC": "LU",
+            "SLDU": "042",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5948744",
+            "NAME": "State Senate District 42",
+            "OBJECTID": 470,
+            "CENTLON": "-085.4254518",
+            "LSY": "2018",
+            "HU100": 57024,
+            "AREALAND": 3536495891,
+            "INTPTLON": "-085.4117612",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00448508",
+            "POP100": 6785528,
+            "GEOID": "18",
+            "CENTLAT": "+39.9059403",
+            "AREAWATER": 1541613641,
+            "STATE": "18",
+            "BASENAME": "Indiana",
+            "STUSAB": "IN",
+            "OID": "2749051705222",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9013136",
+            "DIVISION": "3",
+            "NAME": "Indiana",
+            "REGION": "2",
+            "OBJECTID": 7,
+            "CENTLON": "-086.2872770",
+            "AREALAND": 92788998225,
+            "INTPTLON": "-086.2919129",
+            "HU100": 2923175,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 89951,
+            "GEOID": "458",
+            "CENTLAT": "+39.7864822",
+            "AREAWATER": 7068382,
+            "BASENAME": "Richmond-Connersville, IN",
+            "OID": "2619013782255216",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7858342",
+            "NAME": "Richmond-Connersville, IN CSA",
+            "CSA": "458",
+            "OBJECTID": 161,
+            "CENTLON": "-085.0686358",
+            "HU100": 41638,
+            "AREALAND": 1597440847,
+            "INTPTLON": "-085.0620852",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "19693",
+            "CENTLAT": "+39.6548654",
+            "AREAWATER": 39566,
+            "BASENAME": "Connersville, IN",
+            "OID": "27021107821037",
+            "UA": "19693",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6551099",
+            "NAME": "Connersville, IN Urban Area",
+            "OBJECTID": 39,
+            "CENTLON": "-085.1365391",
+            "AREALAND": 19300654,
+            "INTPTLON": "-085.1363635",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "14950",
+            "POP100": 11955,
+            "GEOID": "1804114950",
+            "CENTLAT": "+39.6279017",
+            "AREAWATER": 162795,
+            "STATE": "18",
+            "BASENAME": "Connersville",
+            "OID": "27690107820117",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6261462",
+            "NAME": "Connersville township",
+            "OBJECTID": 818,
+            "CENTLON": "-085.1679157",
+            "COUSUBCC": "T1",
+            "HU100": 5624,
+            "AREALAND": 84709624,
+            "INTPTLON": "-085.1694320",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00453246",
+            "UR": "M",
+            "COUNTY": "041"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 64945,
+            "GEOID": "18055",
+            "CENTLAT": "+39.4961746",
+            "SLDL": "055",
+            "AREAWATER": 4543233,
+            "STATE": "18",
+            "BASENAME": "55",
+            "OID": "213904487292608",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4901683",
+            "NAME": "State House District 55",
+            "OBJECTID": 609,
+            "CENTLON": "-085.3419250",
+            "LSY": "2018",
+            "HU100": 28483,
+            "AREALAND": 2134038120,
+            "INTPTLON": "-085.3375772",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 13324,
+            "GEOID": "1814932",
+            "CENTLAT": "+39.6580900",
+            "AREAWATER": 39176,
+            "STATE": "18",
+            "BASENAME": "Connersville",
+            "OID": "27890107820383",
+            "LSADC": "25",
+            "PLACE": "14932",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6580232",
+            "NAME": "Connersville city",
+            "OBJECTID": 17301,
+            "PLACECC": "C1",
+            "CENTLON": "-085.1409821",
+            "CBSAPCI": "Y",
+            "HU100": 6553,
+            "AREALAND": 19896220,
+            "INTPTLON": "-085.1417471",
+            "PLACENS": "02393620",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 23398,
+            "GEOID": "18041",
+            "CENTLAT": "+39.6400140",
+            "AREAWATER": 366408,
+            "STATE": "18",
+            "BASENAME": "Fayette",
+            "OID": "27590107820055",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6396552",
+            "NAME": "Fayette County",
+            "OBJECTID": 1841,
+            "CENTLON": "-085.1786899",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00450349",
+            "AREALAND": 556901577,
+            "INTPTLON": "-085.1850315",
+            "HU100": 10886,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "041"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 723540,
+            "GEOID": "1806",
+            "CENTLAT": "+39.4788123",
+            "CDSESSN": "116",
+            "AREAWATER": 107203428,
+            "STATE": "18",
+            "BASENAME": "6",
+            "OID": "211904487256166",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4752185",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 78,
+            "CENTLON": "-085.3636100",
+            "HU100": 315290,
+            "AREALAND": 16075781392,
+            "INTPTLON": "-085.3763377",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4641,
+            "GEOID": "18041954400",
+            "CENTLAT": "+39.6466234",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "9544",
+            "OID": "20790107820814",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6466234",
+            "NAME": "Census Tract 9544",
+            "OBJECTID": 37585,
+            "TRACT": "954400",
+            "CENTLON": "-085.1425259",
+            "HU100": 2249,
+            "AREALAND": 5336320,
+            "INTPTLON": "-085.1425259",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "041"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 4,
+            "GEOID": "180419544002040",
+            "CENTLAT": "+39.6467302",
+            "BLOCK": "2040",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "2040",
+            "OID": "210701007275626",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.6467302",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2040",
+            "OBJECTID": 3908586,
+            "TRACT": "954400",
+            "CENTLON": "-085.1379898",
+            "BLKGRP": "2",
+            "AREALAND": 20581,
+            "HU100": 1,
+            "INTPTLON": "-085.1379898",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "041"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -85.138261,
+          "y": 39.64647
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:25:18.195049+00:00",
+  "elapsed": 0.183611,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4870",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:25:18 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.645043&y=37.050834"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.645043&y=37.050834",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 112088,
+            "GEOID": "21002",
+            "CENTLAT": "+36.9648312",
+            "AREAWATER": 242865425,
+            "STATE": "21",
+            "BASENAME": "2",
+            "OID": "212904487270942",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.9646207",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 287,
+            "CENTLON": "-088.7121490",
+            "LSY": "2018",
+            "HU100": 54368,
+            "AREALAND": 2557090884,
+            "INTPTLON": "-088.7025803",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779786",
+            "POP100": 4505836,
+            "GEOID": "21",
+            "CENTLAT": "+37.5351655",
+            "AREAWATER": 2368025703,
+            "STATE": "21",
+            "BASENAME": "Kentucky",
+            "STUSAB": "KY",
+            "OID": "27490100360204",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5336844",
+            "DIVISION": "6",
+            "NAME": "Kentucky",
+            "REGION": "3",
+            "OBJECTID": 49,
+            "CENTLON": "-085.3018167",
+            "AREALAND": 102282796080,
+            "INTPTLON": "-085.2929801",
+            "HU100": 1994323,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 135309,
+            "GEOID": "424",
+            "CENTLAT": "+37.0007238",
+            "AREAWATER": 220469145,
+            "BASENAME": "Paducah-Mayfield, KY-IL",
+            "OID": "2619013782255200",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0007643",
+            "NAME": "Paducah-Mayfield, KY-IL CSA",
+            "CSA": "424",
+            "OBJECTID": 145,
+            "CENTLON": "-088.6653993",
+            "HU100": 63582,
+            "AREALAND": 4138346705,
+            "INTPTLON": "-088.6603651",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "66781",
+            "CENTLAT": "+37.0523839",
+            "AREAWATER": 693595,
+            "BASENAME": "Paducah, KY--IL",
+            "OID": "27021153128386",
+            "UA": "66781",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0502384",
+            "NAME": "Paducah, KY--IL Urban Area",
+            "OBJECTID": 499,
+            "CENTLON": "-088.6289706",
+            "AREALAND": 107253440,
+            "INTPTLON": "-088.6304560",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92648",
+            "POP100": 54019,
+            "GEOID": "2114592648",
+            "CENTLAT": "+37.0579335",
+            "AREAWATER": 21020605,
+            "STATE": "21",
+            "BASENAME": "Paducah",
+            "OID": "27690186261716",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0594713",
+            "NAME": "Paducah CCD",
+            "OBJECTID": 10472,
+            "CENTLON": "-088.6322355",
+            "COUSUBCC": "Z5",
+            "HU100": 25966,
+            "AREALAND": 193023363,
+            "INTPTLON": "-088.6332751",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01937186",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42932,
+            "GEOID": "21003",
+            "CENTLAT": "+37.0921774",
+            "SLDL": "003",
+            "AREAWATER": 46864440,
+            "STATE": "21",
+            "BASENAME": "3",
+            "OID": "213904487271271",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0937263",
+            "NAME": "State House District 3",
+            "OBJECTID": 362,
+            "CENTLON": "-088.7104634",
+            "LSY": "2018",
+            "HU100": 20756,
+            "AREALAND": 329785785,
+            "INTPTLON": "-088.7086744",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 27137,
+            "GEOID": "2158836",
+            "CENTLAT": "+37.0710725",
+            "AREAWATER": 1151820,
+            "STATE": "21",
+            "BASENAME": "Paducah",
+            "OID": "27890186268386",
+            "LSADC": "25",
+            "PLACE": "58836",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.0708921",
+            "NAME": "Paducah city",
+            "OBJECTID": 4526,
+            "PLACECC": "C1",
+            "CENTLON": "-088.6438841",
+            "CBSAPCI": "Y",
+            "HU100": 13193,
+            "AREALAND": 52548626,
+            "INTPTLON": "-088.6444767",
+            "PLACENS": "02404458",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 67875,
+            "GEOID": "21145",
+            "CENTLAT": "+37.0540218",
+            "AREAWATER": 49762212,
+            "STATE": "21",
+            "BASENAME": "McCracken",
+            "OID": "27590186253024",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.0541106",
+            "NAME": "McCracken County",
+            "OBJECTID": 2635,
+            "CENTLON": "-088.7126863",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00516925",
+            "AREALAND": 644192189,
+            "INTPTLON": "-088.7124544",
+            "HU100": 32040,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 719139,
+            "GEOID": "2101",
+            "CENTLAT": "+37.0873969",
+            "CDSESSN": "116",
+            "AREAWATER": 1217792757,
+            "STATE": "21",
+            "BASENAME": "1",
+            "OID": "211904487269595",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0846029",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 256,
+            "CENTLON": "-087.1864498",
+            "HU100": 329859,
+            "AREALAND": 31298428711,
+            "INTPTLON": "-087.1849382",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3398,
+            "GEOID": "21145030900",
+            "CENTLAT": "+37.0482940",
+            "AREAWATER": 80159,
+            "STATE": "21",
+            "BASENAME": "309",
+            "OID": "20790186280464",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0502384",
+            "NAME": "Census Tract 309",
+            "OBJECTID": 77178,
+            "TRACT": "030900",
+            "CENTLON": "-088.6293412",
+            "HU100": 1646,
+            "AREALAND": 9304030,
+            "INTPTLON": "-088.6304560",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "145"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 132,
+            "GEOID": "211450309004002",
+            "CENTLAT": "+37.0518964",
+            "BLOCK": "4002",
+            "AREAWATER": 0,
+            "STATE": "21",
+            "BASENAME": "4002",
+            "OID": "210701003465508",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.0518964",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4002",
+            "OBJECTID": 6709497,
+            "TRACT": "030900",
+            "CENTLON": "-088.6430831",
+            "BLKGRP": "4",
+            "AREALAND": 131743,
+            "HU100": 78,
+            "INTPTLON": "-088.6430831",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "145"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.645043,
+          "y": 37.050834
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

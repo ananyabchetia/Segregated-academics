@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:29:25.405106+00:00",
+  "elapsed": 0.211524,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4932",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:29:25 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.569383&y=35.532981"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.569383&y=35.532981",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 80490,
+            "GEOID": "40040",
+            "CENTLAT": "+35.5248742",
+            "AREAWATER": 275165,
+            "STATE": "40",
+            "BASENAME": "40",
+            "OID": "212904690726214",
+            "LSADC": "LU",
+            "SLDU": "040",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.5260197",
+            "NAME": "State Senate District 40",
+            "OBJECTID": 1608,
+            "CENTLON": "-097.5748388",
+            "LSY": "2018",
+            "HU100": 40090,
+            "AREALAND": 55243127,
+            "INTPTLON": "-097.5757421",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01102857",
+            "POP100": 3959353,
+            "GEOID": "40",
+            "CENTLAT": "+35.5885699",
+            "AREAWATER": 3373689316,
+            "STATE": "40",
+            "BASENAME": "Oklahoma",
+            "STUSAB": "OK",
+            "OID": "2749092328581",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5900815",
+            "DIVISION": "7",
+            "NAME": "Oklahoma",
+            "REGION": "3",
+            "OBJECTID": 44,
+            "CENTLON": "-097.4947176",
+            "AREALAND": 177664190465,
+            "INTPTLON": "-097.4867789",
+            "HU100": 1746807,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1498149,
+            "GEOID": "416",
+            "CENTLAT": "+35.4014612",
+            "AREAWATER": 195951228,
+            "BASENAME": "Oklahoma City-Shawnee, OK",
+            "OID": "2619013782255197",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4002683",
+            "NAME": "Oklahoma City-Shawnee, OK CSA",
+            "CSA": "416",
+            "OBJECTID": 142,
+            "CENTLON": "-097.4355900",
+            "HU100": 637698,
+            "AREALAND": 16315708604,
+            "INTPTLON": "-097.4330755",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "65080",
+            "CENTLAT": "+35.4967518",
+            "AREAWATER": 19894479,
+            "BASENAME": "Oklahoma City, OK",
+            "OID": "27021716402715",
+            "UA": "65080",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4968689",
+            "NAME": "Oklahoma City, OK Urban Area",
+            "OBJECTID": 2575,
+            "CENTLON": "-097.5361972",
+            "AREALAND": 1092275518,
+            "INTPTLON": "-097.5355708",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92426",
+            "POP100": 452955,
+            "GEOID": "4010992426",
+            "CENTLAT": "+35.4945080",
+            "AREAWATER": 12784086,
+            "STATE": "40",
+            "BASENAME": "Oklahoma City Southwest",
+            "OID": "27690727284678",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4945311",
+            "NAME": "Oklahoma City Southwest CCD",
+            "OBJECTID": 33004,
+            "CENTLON": "-097.5636301",
+            "COUSUBCC": "Z5",
+            "HU100": 209251,
+            "AREALAND": 490807390,
+            "INTPTLON": "-097.5634499",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02584401",
+            "UR": "M",
+            "COUNTY": "109"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 37479,
+            "GEOID": "40085",
+            "CENTLAT": "+35.5563956",
+            "SLDL": "085",
+            "AREAWATER": 9672657,
+            "STATE": "40",
+            "BASENAME": "85",
+            "OID": "213904690727837",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.5552748",
+            "NAME": "State House District 85",
+            "OBJECTID": 3630,
+            "CENTLON": "-097.5824915",
+            "LSY": "2018",
+            "HU100": 18936,
+            "AREALAND": 35660013,
+            "INTPTLON": "-097.6062333",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 681054,
+            "GEOID": "4055000",
+            "CENTLAT": "+35.4675598",
+            "AREAWATER": 37030056,
+            "STATE": "40",
+            "BASENAME": "Oklahoma City",
+            "OID": "27890720140391",
+            "LSADC": "25",
+            "PLACE": "55000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.4670795",
+            "NAME": "Oklahoma City city",
+            "OBJECTID": 16251,
+            "PLACECC": "C1",
+            "CENTLON": "-097.5135793",
+            "CBSAPCI": "Y",
+            "HU100": 297627,
+            "AREALAND": 1570037274,
+            "INTPTLON": "-097.5136565",
+            "PLACENS": "02411311",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 796292,
+            "GEOID": "40109",
+            "CENTLAT": "+35.5514847",
+            "AREAWATER": 24720769,
+            "STATE": "40",
+            "BASENAME": "Oklahoma",
+            "OID": "27590727193492",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5546109",
+            "NAME": "Oklahoma County",
+            "OBJECTID": 2717,
+            "CENTLON": "-097.4072315",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01101842",
+            "AREALAND": 1836035445,
+            "INTPTLON": "-097.4094007",
+            "HU100": 352544,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "109"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 824855,
+            "GEOID": "4005",
+            "CENTLAT": "+35.3069846",
+            "CDSESSN": "116",
+            "AREAWATER": 59260540,
+            "STATE": "40",
+            "BASENAME": "5",
+            "OID": "211904690750988",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3078792",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 264,
+            "CENTLON": "-096.9925735",
+            "HU100": 364043,
+            "AREALAND": 5371759467,
+            "INTPTLON": "-096.9896037",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1235,
+            "GEOID": "40109106610",
+            "CENTLAT": "+35.5325821",
+            "AREAWATER": 0,
+            "STATE": "40",
+            "BASENAME": "1066.10",
+            "OID": "20790727365105",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5325821",
+            "NAME": "Census Tract 1066.10",
+            "OBJECTID": 3402,
+            "TRACT": "106610",
+            "CENTLON": "-097.5714680",
+            "HU100": 702,
+            "AREALAND": 1021504,
+            "INTPTLON": "-097.5714680",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "109"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 90,
+            "GEOID": "401091066101013",
+            "CENTLAT": "+35.5332913",
+            "BLOCK": "1013",
+            "AREAWATER": 0,
+            "STATE": "40",
+            "BASENAME": "1013",
+            "OID": "210701006610339",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.5332913",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1013",
+            "OBJECTID": 4028425,
+            "TRACT": "106610",
+            "CENTLON": "-097.5686910",
+            "BLKGRP": "1",
+            "AREALAND": 52569,
+            "HU100": 65,
+            "INTPTLON": "-097.5686910",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "109"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.569383,
+          "y": 35.532981
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

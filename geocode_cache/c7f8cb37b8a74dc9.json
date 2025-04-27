@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:28:04.795279+00:00",
+  "elapsed": 0.144144,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4884",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:28:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a42118c99bd76e7480d2d06f8116c87d960b5d90b3bc468898fa7decbdc70b93570e4e926fa572e50491e776015078961f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.646058&y=41.10117"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.646058&y=41.10117",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 330491,
+            "GEOID": "39033",
+            "CENTLAT": "+40.8774969",
+            "AREAWATER": 42732953,
+            "STATE": "39",
+            "BASENAME": "33",
+            "OID": "212904692054605",
+            "LSADC": "LU",
+            "SLDU": "033",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8795325",
+            "NAME": "State Senate District 33",
+            "OBJECTID": 1241,
+            "CENTLON": "-080.7767602",
+            "LSY": "2018",
+            "HU100": 154080,
+            "AREALAND": 2443406658,
+            "INTPTLON": "-080.7718173",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 643120,
+            "GEOID": "566",
+            "CENTLAT": "+41.1276979",
+            "AREAWATER": 116599780,
+            "BASENAME": "Youngstown-Warren, OH-PA",
+            "OID": "2619013782255251",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1279201",
+            "NAME": "Youngstown-Warren, OH-PA CSA",
+            "CSA": "566",
+            "OBJECTID": 107,
+            "CENTLON": "-080.6173669",
+            "HU100": 299302,
+            "AREALAND": 5786100344,
+            "INTPTLON": "-080.6175542",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "97831",
+            "CENTLAT": "+41.1343674",
+            "AREAWATER": 4156956,
+            "BASENAME": "Youngstown, OH",
+            "OID": "27021280896897",
+            "UA": "97831",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1363996",
+            "NAME": "Youngstown, OH Urban Area",
+            "OBJECTID": 298,
+            "CENTLON": "-080.7085384",
+            "AREALAND": 507544101,
+            "INTPTLON": "-080.7058037",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "88000",
+            "POP100": 60068,
+            "GEOID": "3909988000",
+            "CENTLAT": "+41.0987028",
+            "AREAWATER": 1644366,
+            "STATE": "39",
+            "BASENAME": "Youngstown",
+            "OID": "27690344190228",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+41.0990950",
+            "NAME": "Youngstown city",
+            "OBJECTID": 9380,
+            "CENTLON": "-080.6459269",
+            "COUSUBCC": "C5",
+            "HU100": 28674,
+            "AREALAND": 86449847,
+            "INTPTLON": "-080.6459017",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086573",
+            "UR": "M",
+            "COUNTY": "099"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 112969,
+            "GEOID": "39058",
+            "CENTLAT": "+41.0936005",
+            "SLDL": "058",
+            "AREAWATER": 2521246,
+            "STATE": "39",
+            "BASENAME": "58",
+            "OID": "213904692058162",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0932122",
+            "NAME": "State House District 58",
+            "OBJECTID": 2394,
+            "CENTLON": "-080.6459591",
+            "LSY": "2018",
+            "HU100": 54611,
+            "AREALAND": 189756083,
+            "INTPTLON": "-080.6443866",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 60068,
+            "GEOID": "3988000",
+            "CENTLAT": "+41.0993065",
+            "AREAWATER": 1644609,
+            "STATE": "39",
+            "BASENAME": "Youngstown",
+            "OID": "27890344245713",
+            "LSADC": "25",
+            "PLACE": "88000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0990950",
+            "NAME": "Youngstown city",
+            "OBJECTID": 6935,
+            "PLACECC": "C5",
+            "CENTLON": "-080.6463452",
+            "CBSAPCI": "Y",
+            "HU100": 28675,
+            "AREALAND": 87873174,
+            "INTPTLON": "-080.6459017",
+            "PLACENS": "01086573",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 228614,
+            "GEOID": "39099",
+            "CENTLAT": "+41.0146710",
+            "AREAWATER": 35455920,
+            "STATE": "39",
+            "BASENAME": "Mahoning",
+            "OID": "27590344175862",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0108798",
+            "NAME": "Mahoning County",
+            "OBJECTID": 1344,
+            "CENTLON": "-080.7763305",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074062",
+            "AREALAND": 1065748187,
+            "INTPTLON": "-080.7703956",
+            "HU100": 107989,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "099"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 698441,
+            "GEOID": "3913",
+            "CENTLAT": "+41.1565360",
+            "CDSESSN": "116",
+            "AREAWATER": 70711729,
+            "STATE": "39",
+            "BASENAME": "13",
+            "OID": "211904690779010",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1496303",
+            "NAME": "Congressional District 13",
+            "OBJECTID": 146,
+            "CENTLON": "-080.9702159",
+            "HU100": 330482,
+            "AREALAND": 2315409805,
+            "INTPTLON": "-080.9786969",
+            "CD116": "13",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3506,
+            "GEOID": "39099813700",
+            "CENTLAT": "+41.0928445",
+            "AREAWATER": 241686,
+            "STATE": "39",
+            "BASENAME": "8137",
+            "OID": "207903714714007",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.0931407",
+            "NAME": "Census Tract 8137",
+            "OBJECTID": 74057,
+            "TRACT": "813700",
+            "CENTLON": "-080.6315715",
+            "HU100": 1361,
+            "AREALAND": 4835961,
+            "INTPTLON": "-080.6312462",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "099"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 132,
+            "GEOID": "390998137004006",
+            "CENTLAT": "+41.1016238",
+            "BLOCK": "4006",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "4006",
+            "OID": "210701004022917",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.1016238",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4006",
+            "OBJECTID": 6400255,
+            "TRACT": "813700",
+            "CENTLON": "-080.6458619",
+            "BLKGRP": "4",
+            "AREALAND": 16331,
+            "HU100": 139,
+            "INTPTLON": "-080.6458619",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "099"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.646058,
+          "y": 41.10117
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

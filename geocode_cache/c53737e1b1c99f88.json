@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:48:20.916185+00:00",
+  "elapsed": 0.179294,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4914",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:48:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a482977914a82f611174c0e87e78a671436075cacfdc70ed9d48ecbe3008208e3f544b8cd890cfd5fb2fe01dc1059aa3da",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.414441&y=37.0211"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.414441&y=37.0211",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 201145,
+            "GEOID": "51002",
+            "CENTLAT": "+37.0374547",
+            "AREAWATER": 164841813,
+            "STATE": "51",
+            "BASENAME": "2",
+            "OID": "212904690194379",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0393338",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1621,
+            "CENTLON": "-076.3612240",
+            "LSY": "2018",
+            "HU100": 89587,
+            "AREALAND": 216652245,
+            "INTPTLON": "-076.3586607",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779803",
+            "POP100": 8631393,
+            "GEOID": "51",
+            "CENTLAT": "+37.5182631",
+            "AREAWATER": 8528070310,
+            "STATE": "51",
+            "BASENAME": "Virginia",
+            "STUSAB": "VA",
+            "OID": "2749099610787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5222512",
+            "DIVISION": "5",
+            "NAME": "Virginia",
+            "REGION": "3",
+            "OBJECTID": 11,
+            "CENTLON": "-078.6759174",
+            "AREALAND": 102258180558,
+            "INTPTLON": "-078.6681938",
+            "HU100": 3618247,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1890162,
+            "GEOID": "545",
+            "CENTLAT": "+36.5039596",
+            "AREAWATER": 6801711789,
+            "BASENAME": "Virginia Beach-Norfolk, VA-NC",
+            "OID": "2619013782255246",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.4986051",
+            "NAME": "Virginia Beach-Norfolk, VA-NC CSA",
+            "CSA": "545",
+            "OBJECTID": 102,
+            "CENTLON": "-076.2716098",
+            "HU100": 818589,
+            "AREALAND": 11364033685,
+            "INTPTLON": "-076.2681977",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "90892",
+            "CENTLAT": "+36.9138846",
+            "AREAWATER": 197576464,
+            "BASENAME": "Virginia Beach--Norfolk, VA",
+            "OID": "27021243682790",
+            "UA": "90892",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.9143078",
+            "NAME": "Virginia Beach--Norfolk, VA Urban Area",
+            "OBJECTID": 27,
+            "CENTLON": "-076.2914268",
+            "AREALAND": 1247532344,
+            "INTPTLON": "-076.2910797",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93827",
+            "POP100": 137148,
+            "GEOID": "5165093827",
+            "CENTLAT": "+37.0487725",
+            "AREAWATER": 219667964,
+            "STATE": "51",
+            "BASENAME": "Hampton",
+            "OID": "27690696519626",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+37.0479606",
+            "NAME": "Hampton city",
+            "OBJECTID": 23205,
+            "CENTLON": "-076.2954073",
+            "COUSUBCC": "Z7",
+            "HU100": 62444,
+            "AREALAND": 133282615,
+            "INTPTLON": "-076.2972931",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01498554",
+            "UR": "M",
+            "COUNTY": "650"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 79095,
+            "GEOID": "51092",
+            "CENTLAT": "+37.0122593",
+            "SLDL": "092",
+            "AREAWATER": 29180042,
+            "STATE": "51",
+            "BASENAME": "92",
+            "OID": "213904690194488",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.0105559",
+            "NAME": "State House District 92",
+            "OBJECTID": 3073,
+            "CENTLON": "-076.3670680",
+            "LSY": "2018",
+            "HU100": 36949,
+            "AREALAND": 54030422,
+            "INTPTLON": "-076.3670430",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 137148,
+            "GEOID": "5135000",
+            "CENTLAT": "+37.0487725",
+            "AREAWATER": 219667964,
+            "STATE": "51",
+            "BASENAME": "Hampton",
+            "OID": "27890696519663",
+            "LSADC": "25",
+            "PLACE": "35000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.0479606",
+            "NAME": "Hampton city",
+            "OBJECTID": 7028,
+            "PLACECC": "C7",
+            "CENTLON": "-076.2954073",
+            "CBSAPCI": "Y",
+            "HU100": 62444,
+            "AREALAND": 133282615,
+            "INTPTLON": "-076.2972931",
+            "PLACENS": "01498554",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 137148,
+            "GEOID": "51650",
+            "CENTLAT": "+37.0487725",
+            "AREAWATER": 219667964,
+            "STATE": "51",
+            "BASENAME": "Hampton",
+            "OID": "27590696519558",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+37.0479606",
+            "NAME": "Hampton city",
+            "OBJECTID": 3181,
+            "CENTLON": "-076.2954073",
+            "COUNTYCC": "C7",
+            "COUNTYNS": "01498554",
+            "AREALAND": 133282615,
+            "INTPTLON": "-076.2972931",
+            "HU100": 62444,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "650"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 756761,
+            "GEOID": "5103",
+            "CENTLAT": "+36.9146050",
+            "CDSESSN": "116",
+            "AREAWATER": 406607377,
+            "STATE": "51",
+            "BASENAME": "3",
+            "OID": "211904690192899",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.9137548",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 153,
+            "CENTLON": "-076.5714101",
+            "HU100": 329681,
+            "AREALAND": 1619178072,
+            "INTPTLON": "-076.5694796",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6172,
+            "GEOID": "51650010400",
+            "CENTLAT": "+37.0282121",
+            "AREAWATER": 19604,
+            "STATE": "51",
+            "BASENAME": "104",
+            "OID": "20790696551968",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.0265956",
+            "NAME": "Census Tract 104",
+            "OBJECTID": 35445,
+            "TRACT": "010400",
+            "CENTLON": "-076.4114440",
+            "HU100": 2946,
+            "AREALAND": 4353709,
+            "INTPTLON": "-076.4106758",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "650"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 36,
+            "GEOID": "516500104003017",
+            "CENTLAT": "+37.0211398",
+            "BLOCK": "3017",
+            "AREAWATER": 7907,
+            "STATE": "51",
+            "BASENAME": "3017",
+            "OID": "210701006496179",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.0209564",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3017",
+            "OBJECTID": 4657677,
+            "TRACT": "010400",
+            "CENTLON": "-076.4129161",
+            "BLKGRP": "3",
+            "AREALAND": 60461,
+            "HU100": 19,
+            "INTPTLON": "-076.4133855",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "650"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.414441,
+          "y": 37.0211
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

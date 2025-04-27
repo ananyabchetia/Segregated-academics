@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:41:13.516558+00:00",
+  "elapsed": 0.258506,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4937",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:41:13 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.035498&y=33.02217"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.035498&y=33.02217",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1086379,
+            "GEOID": "48012",
+            "CENTLAT": "+33.0355875",
+            "AREAWATER": 178336879,
+            "STATE": "48",
+            "BASENAME": "12",
+            "OID": "212904690779029",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.0359923",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 1133,
+            "CENTLON": "-097.1996901",
+            "LSY": "2018",
+            "HU100": 421065,
+            "AREALAND": 1810070159,
+            "INTPTLON": "-097.2015606",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8121108,
+            "GEOID": "206",
+            "CENTLAT": "+32.9393589",
+            "AREAWATER": 1682397922,
+            "BASENAME": "Dallas-Fort Worth, TX-OK",
+            "OID": "2619013782255113",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9391404",
+            "NAME": "Dallas-Fort Worth, TX-OK CSA",
+            "CSA": "206",
+            "OBJECTID": 20,
+            "CENTLON": "-096.8832990",
+            "HU100": 3163911,
+            "AREALAND": 40234482778,
+            "INTPTLON": "-096.8836944",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "23500",
+            "CENTLAT": "+33.0977876",
+            "AREAWATER": 4912786,
+            "BASENAME": "Denton--Lewisville, TX",
+            "OID": "27021179519790",
+            "UA": "23500",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.1949708",
+            "NAME": "Denton--Lewisville, TX Urban Area",
+            "OBJECTID": 800,
+            "CENTLON": "-097.0620886",
+            "AREALAND": 389741508,
+            "INTPTLON": "-097.1210538",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92186",
+            "POP100": 273056,
+            "GEOID": "4812192186",
+            "CENTLAT": "+33.0900551",
+            "AREAWATER": 50091379,
+            "STATE": "48",
+            "BASENAME": "Lewisville-Flower Mound",
+            "OID": "27690179409910",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0898216",
+            "NAME": "Lewisville-Flower Mound CCD",
+            "OBJECTID": 15819,
+            "CENTLON": "-097.0504686",
+            "COUSUBCC": "Z5",
+            "HU100": 102464,
+            "AREALAND": 287456638,
+            "INTPTLON": "-097.0505060",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938918",
+            "UR": "M",
+            "COUNTY": "121"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 222155,
+            "GEOID": "48063",
+            "CENTLAT": "+33.0833121",
+            "SLDL": "063",
+            "AREAWATER": 19107550,
+            "STATE": "48",
+            "BASENAME": "63",
+            "OID": "213904690780142",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.0879309",
+            "NAME": "State House District 63",
+            "OBJECTID": 4613,
+            "CENTLON": "-097.2354143",
+            "LSY": "2018",
+            "HU100": 78427,
+            "AREALAND": 647036966,
+            "INTPTLON": "-097.2339643",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 111822,
+            "GEOID": "4842508",
+            "CENTLAT": "+33.0454300",
+            "AREAWATER": 16090905,
+            "STATE": "48",
+            "BASENAME": "Lewisville",
+            "OID": "27890179412482",
+            "LSADC": "25",
+            "PLACE": "42508",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.0465513",
+            "NAME": "Lewisville city",
+            "OBJECTID": 5803,
+            "PLACECC": "C1",
+            "CENTLON": "-096.9815768",
+            "CBSAPCI": "N",
+            "HU100": 46656,
+            "AREALAND": 95851124,
+            "INTPTLON": "-096.9818258",
+            "PLACENS": "02410829",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 906422,
+            "GEOID": "48121",
+            "CENTLAT": "+33.2054606",
+            "AREAWATER": 189471919,
+            "STATE": "48",
+            "BASENAME": "Denton",
+            "OID": "27590179404042",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.2051320",
+            "NAME": "Denton County",
+            "OBJECTID": 2706,
+            "CENTLON": "-097.1168140",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383847",
+            "AREALAND": 2275318245,
+            "INTPTLON": "-097.1211403",
+            "HU100": 348275,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "121"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 943106,
+            "GEOID": "4826",
+            "CENTLAT": "+33.1944554",
+            "CDSESSN": "116",
+            "AREAWATER": 188698139,
+            "STATE": "48",
+            "BASENAME": "26",
+            "OID": "211904690225279",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1875552",
+            "NAME": "Congressional District 26",
+            "OBJECTID": 425,
+            "CENTLON": "-097.1319401",
+            "HU100": 347602,
+            "AREALAND": 2351685022,
+            "INTPTLON": "-097.1343767",
+            "CD116": "26",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1476,
+            "GEOID": "48121021723",
+            "CENTLAT": "+33.0238447",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "217.23",
+            "OID": "207903717203849",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0238447",
+            "NAME": "Census Tract 217.23",
+            "OBJECTID": 60974,
+            "TRACT": "021723",
+            "CENTLON": "-097.0322997",
+            "HU100": 532,
+            "AREALAND": 549105,
+            "INTPTLON": "-097.0322997",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "121"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 399,
+            "GEOID": "481210217231010",
+            "CENTLAT": "+33.0226101",
+            "BLOCK": "1010",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "1010",
+            "OID": "210701006361499",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.0226101",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1010",
+            "OBJECTID": 7292842,
+            "TRACT": "021723",
+            "CENTLON": "-097.0331164",
+            "BLKGRP": "1",
+            "AREALAND": 231762,
+            "HU100": 147,
+            "INTPTLON": "-097.0331164",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "121"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.035498,
+          "y": 33.02217
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

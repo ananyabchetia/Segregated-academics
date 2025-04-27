@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T20:29:01.927842+00:00",
+  "elapsed": 0.21326,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4251",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:29:01 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47ad07442d44b5933faa84aa3d7e9a0485b6a68c30efb8777887ac3805905930a06b727afd5017cec4f6691ef4abe17ab",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-114.327789&y=34.470063"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-114.327789&y=34.470063",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779777",
+            "GEOID": "04",
+            "CENTLAT": "+34.2750988",
+            "AREAWATER": "853965977",
+            "STATE": "04",
+            "BASENAME": "Arizona",
+            "STUSAB": "AZ",
+            "OID": "274901053753069",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2039362",
+            "DIVISION": "8",
+            "NAME": "Arizona",
+            "REGION": "4",
+            "OBJECTID": 24,
+            "CENTLON": "-111.6605311",
+            "AREALAND": "294366141807",
+            "INTPTLON": "-111.6063449",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91964",
+            "GEOID": "0401591964",
+            "CENTLAT": "+34.6445780",
+            "AREAWATER": "50863803",
+            "STATE": "04",
+            "BASENAME": "Lake Havasu City",
+            "OID": "276903716949685",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7686220",
+            "NAME": "Lake Havasu City CCD",
+            "OBJECTID": 8763,
+            "CENTLON": "-113.8162571",
+            "COUSUBCC": "Z5",
+            "AREALAND": "7493863108",
+            "INTPTLON": "-113.8749805",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02582914",
+            "COUNTY": "015"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "46747",
+            "CENTLAT": "+34.4939145",
+            "AREAWATER": "118649",
+            "BASENAME": "Lake Havasu City, AZ",
+            "OID": "270211236583148",
+            "UA": "46747",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4946373",
+            "NAME": "Lake Havasu City, AZ Urban Area",
+            "OBJECTID": 1205,
+            "CENTLON": "-114.3180740",
+            "AREALAND": "87507010",
+            "INTPTLON": "-114.3174070",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0439370",
+            "CENTLAT": "+34.5005891",
+            "AREAWATER": "118649",
+            "BASENAME": "Lake Havasu City",
+            "STATE": "04",
+            "OID": "278901236390756",
+            "LSADC": "25",
+            "PLACE": "39370",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.4998087",
+            "NAME": "Lake Havasu City city",
+            "OBJECTID": 32312,
+            "PLACECC": "C1",
+            "CENTLON": "-114.3112911",
+            "CBSAPCI": "Y",
+            "AREALAND": "120016537",
+            "INTPTLON": "-114.3109427",
+            "PLACENS": "02411604",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "04015",
+            "CENTLAT": "+35.6976229",
+            "AREAWATER": "333396822",
+            "STATE": "04",
+            "BASENAME": "Mohave",
+            "OID": "275901236090883",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.7177050",
+            "NAME": "Mohave County",
+            "OBJECTID": 1665,
+            "CENTLON": "-113.7619872",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00025445",
+            "AREALAND": "34530024138",
+            "INTPTLON": "-113.7496891",
+            "MTFCC": "G4020",
+            "COUNTY": "015"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "04030",
+            "CENTLAT": "+35.0953160",
+            "AREAWATER": "360632033",
+            "STATE": "04",
+            "BASENAME": "30",
+            "OID": "2129035951828043",
+            "SLDU": "030",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1028418",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 827,
+            "CENTLON": "-113.7947763",
+            "LSY": "2024",
+            "AREALAND": "46074787745",
+            "INTPTLON": "-113.7584987",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "04030",
+            "CENTLAT": "+35.0953160",
+            "SLDL": "030",
+            "AREAWATER": "360632033",
+            "STATE": "04",
+            "BASENAME": "30",
+            "OID": "2139035951828120",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1028418",
+            "NAME": "State House District 30",
+            "OBJECTID": 1053,
+            "CENTLON": "-113.7947763",
+            "LSY": "2024",
+            "AREALAND": "46074787745",
+            "INTPTLON": "-113.7584987",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "040159531003017",
+            "CENTLAT": "+34.4698602",
+            "BLOCK": "3017",
+            "AREAWATER": "0",
+            "STATE": "04",
+            "BASENAME": "3017",
+            "OID": "210701004491652",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4698602",
+            "NAME": "Block 3017",
+            "OBJECTID": 1508239,
+            "TRACT": "953100",
+            "CENTLON": "-114.3279579",
+            "BLKGRP": "3",
+            "AREALAND": "61677",
+            "INTPTLON": "-114.3279579",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "04015953100",
+            "CENTLAT": "+34.4710009",
+            "AREAWATER": "0",
+            "STATE": "04",
+            "BASENAME": "9531",
+            "OID": "207901236482526",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4710009",
+            "NAME": "Census Tract 9531",
+            "OBJECTID": 7113,
+            "TRACT": "953100",
+            "CENTLON": "-114.3306979",
+            "AREALAND": "2851623",
+            "INTPTLON": "-114.3306979",
+            "MTFCC": "G5020",
+            "COUNTY": "015"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0409",
+            "CENTLAT": "+34.6549565",
+            "CDSESSN": "119",
+            "AREAWATER": "377904215",
+            "BASENAME": "9",
+            "STATE": "04",
+            "OID": "2119035951827536",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.6023415",
+            "NAME": "Congressional District 9",
+            "OBJECTID": 411,
+            "CENTLON": "-113.7106097",
+            "CD119": "09",
+            "AREALAND": "60163693883",
+            "INTPTLON": "-113.6633198",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -114.327789,
+          "y": 34.470063
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

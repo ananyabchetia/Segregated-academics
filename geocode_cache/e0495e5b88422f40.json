@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:07:18.649541+00:00",
+  "elapsed": 0.148174,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4951",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:07:18 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4dda19f49769bc599831f197f7b27e4d5316129f209200b529de2a69019b8e575511a32d1c3e1eee660d74cf615d33ef9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.426911&y=37.4569"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.426911&y=37.4569",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1007843,
+            "GEOID": "06013",
+            "CENTLAT": "+37.4199880",
+            "AREAWATER": 737669510,
+            "STATE": "06",
+            "BASENAME": "13",
+            "OID": "212904690192909",
+            "LSADC": "LU",
+            "SLDU": "013",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.4137868",
+            "NAME": "State Senate District 13",
+            "OBJECTID": 944,
+            "CENTLON": "-122.3167905",
+            "LSY": "2018",
+            "HU100": 390692,
+            "AREALAND": 1407060633,
+            "INTPTLON": "-122.2946004",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9714023,
+            "GEOID": "488",
+            "CENTLAT": "+37.6646428",
+            "AREAWATER": 3995182457,
+            "BASENAME": "San Jose-San Francisco-Oakland, CA",
+            "OID": "2619013782255227",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.6583275",
+            "NAME": "San Jose-San Francisco-Oakland, CA CSA",
+            "CSA": "488",
+            "OBJECTID": 172,
+            "CENTLON": "-121.7316210",
+            "HU100": 3606733,
+            "AREALAND": 35139202097,
+            "INTPTLON": "-121.7156006",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "36271",
+            "CENTLAT": "+37.4864192",
+            "AREAWATER": 200,
+            "BASENAME": "Half Moon Bay, CA",
+            "OID": "27021351452548",
+            "UA": "36271",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.4605031",
+            "NAME": "Half Moon Bay, CA Urban Area",
+            "OBJECTID": 1250,
+            "CENTLON": "-122.4632677",
+            "AREALAND": 21619790,
+            "INTPTLON": "-122.4436697",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91215",
+            "POP100": 29758,
+            "GEOID": "0608191215",
+            "CENTLAT": "+37.3406624",
+            "AREAWATER": 407561555,
+            "STATE": "06",
+            "BASENAME": "Half Moon Bay",
+            "OID": "27690351402544",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.3409774",
+            "NAME": "Half Moon Bay CCD",
+            "OBJECTID": 16393,
+            "CENTLON": "-122.3785018",
+            "COUSUBCC": "Z5",
+            "HU100": 12065,
+            "AREALAND": 707766366,
+            "INTPTLON": "-122.3763202",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935317",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 508702,
+            "GEOID": "06024",
+            "CENTLAT": "+37.3405204",
+            "SLDL": "024",
+            "AREAWATER": 369582981,
+            "STATE": "06",
+            "BASENAME": "24",
+            "OID": "213904690193349",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.3369260",
+            "NAME": "Assembly District 24",
+            "OBJECTID": 1232,
+            "CENTLON": "-122.2959321",
+            "LSY": "2018",
+            "HU100": 198340,
+            "AREALAND": 1041393734,
+            "INTPTLON": "-122.3077848",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 11795,
+            "GEOID": "0631708",
+            "CENTLAT": "+37.4685155",
+            "AREAWATER": 27799,
+            "STATE": "06",
+            "BASENAME": "Half Moon Bay",
+            "OID": "27890351406875",
+            "LSADC": "25",
+            "PLACE": "31708",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.4673190",
+            "NAME": "Half Moon Bay city",
+            "OBJECTID": 2988,
+            "PLACECC": "C1",
+            "CENTLON": "-122.4380764",
+            "CBSAPCI": "N",
+            "HU100": 4833,
+            "AREALAND": 16167307,
+            "INTPTLON": "-122.4404845",
+            "PLACENS": "02410685",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 764442,
+            "GEOID": "06081",
+            "CENTLAT": "+37.4359063",
+            "AREAWATER": 757123906,
+            "STATE": "06",
+            "BASENAME": "San Mateo",
+            "OID": "27590351392772",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.4146725",
+            "NAME": "San Mateo County",
+            "OBJECTID": 2146,
+            "CENTLON": "-122.3555725",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277305",
+            "AREALAND": 1161922036,
+            "INTPTLON": "-122.3715457",
+            "HU100": 283693,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 746621,
+            "GEOID": "0614",
+            "CENTLAT": "+37.5737534",
+            "CDSESSN": "116",
+            "AREAWATER": 827178439,
+            "STATE": "06",
+            "BASENAME": "14",
+            "OID": "211904492478527",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.5749775",
+            "NAME": "Congressional District 14",
+            "OBJECTID": 253,
+            "CENTLON": "-122.4945877",
+            "HU100": 273439,
+            "AREALAND": 673063887,
+            "INTPTLON": "-122.4943524",
+            "CD116": "14",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4899,
+            "GEOID": "06081613702",
+            "CENTLAT": "+37.4474837",
+            "AREAWATER": 5200370,
+            "STATE": "06",
+            "BASENAME": "6137.02",
+            "OID": "2079015495348089",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.4437305",
+            "NAME": "Census Tract 6137.02",
+            "OBJECTID": 26668,
+            "TRACT": "613702",
+            "CENTLON": "-122.3721431",
+            "HU100": 1957,
+            "AREALAND": 104969356,
+            "INTPTLON": "-122.3724159",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 481,
+            "GEOID": "060816137023000",
+            "CENTLAT": "+37.4583183",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "3000",
+            "OID": "210701000925269",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.4583183",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 5189647,
+            "TRACT": "613702",
+            "CENTLON": "-122.4278049",
+            "BLKGRP": "3",
+            "AREALAND": 139073,
+            "HU100": 322,
+            "INTPTLON": "-122.4278049",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "081"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -122.426911,
+          "y": 37.4569
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

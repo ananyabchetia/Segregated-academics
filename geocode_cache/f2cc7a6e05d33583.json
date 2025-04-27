@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-03-13T05:11:05.773352+00:00",
+  "elapsed": 0.207027,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4425",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:11:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f3674fa41f18b70894136314d8576f96a8319f229bdf50142ce17595c9bfb9ebaa5df5d7026d1dbed70f1261ec5a423f",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.266521&y=32.34983"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.266521&y=32.34983",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 51764,
+            "GEOID": "28027",
+            "CENTLAT": "+32.3358417",
+            "AREAWATER": 324227,
+            "STATE": "28",
+            "BASENAME": "27",
+            "OID": "212904692581490",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.3373535",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1665,
+            "CENTLON": "-090.2805967",
+            "LSY": "2018",
+            "HU100": 24806,
+            "AREALAND": 84640315,
+            "INTPTLON": "-090.2779048",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779790",
+            "POP100": 2961279,
+            "GEOID": "28",
+            "CENTLAT": "+32.6972945",
+            "AREAWATER": 3915791676,
+            "STATE": "28",
+            "BASENAME": "Mississippi",
+            "STUSAB": "MS",
+            "OID": "2749046721299",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6864714",
+            "DIVISION": "6",
+            "NAME": "Mississippi",
+            "REGION": "3",
+            "OBJECTID": 56,
+            "CENTLON": "-089.6552498",
+            "AREALAND": 121532487805,
+            "INTPTLON": "-089.6561377",
+            "HU100": 1319945,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 671607,
+            "GEOID": "298",
+            "CENTLAT": "+32.3432961",
+            "AREAWATER": 313442855,
+            "BASENAME": "Jackson-Vicksburg-Brookhaven, MS",
+            "OID": "2619013782255148",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3455924",
+            "NAME": "Jackson-Vicksburg-Brookhaven, MS CSA",
+            "CSA": "298",
+            "OBJECTID": 55,
+            "CENTLON": "-090.2849150",
+            "HU100": 294830,
+            "AREALAND": 17041859022,
+            "INTPTLON": "-090.2843122",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "42211",
+            "CENTLAT": "+32.3293925",
+            "AREAWATER": 6878645,
+            "BASENAME": "Jackson, MS",
+            "OID": "2702176969478",
+            "UA": "42211",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3276874",
+            "NAME": "Jackson, MS Urban Area",
+            "OBJECTID": 1172,
+            "CENTLON": "-090.1546797",
+            "AREALAND": 614234278,
+            "INTPTLON": "-090.1567063",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90963",
+            "POP100": 40850,
+            "GEOID": "2804990963",
+            "CENTLAT": "+32.3398059",
+            "AREAWATER": 8234822,
+            "STATE": "28",
+            "BASENAME": "2",
+            "OID": "27690264943433",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.4456879",
+            "NAME": "District 2",
+            "OBJECTID": 4030,
+            "CENTLON": "-090.5103680",
+            "COUSUBCC": "Z1",
+            "HU100": 19660,
+            "AREALAND": 1020800939,
+            "INTPTLON": "-090.5726448",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00695806",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 29340,
+            "GEOID": "28056",
+            "CENTLAT": "+32.4710376",
+            "SLDL": "056",
+            "AREAWATER": 6159810,
+            "STATE": "28",
+            "BASENAME": "56",
+            "OID": "213904692582288",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.5294759",
+            "NAME": "State House District 56",
+            "OBJECTID": 4511,
+            "CENTLON": "-090.3442709",
+            "LSY": "2018",
+            "HU100": 11265,
+            "AREALAND": 320644327,
+            "INTPTLON": "-090.3750381",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 227742,
+            "GEOID": "28049",
+            "CENTLAT": "+32.2666225",
+            "AREAWATER": 19259026,
+            "STATE": "28",
+            "BASENAME": "Hinds",
+            "OID": "27590264929709",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.2677879",
+            "NAME": "Hinds County",
+            "OBJECTID": 1791,
+            "CENTLON": "-090.4428940",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00695748",
+            "AREALAND": 2252888818,
+            "INTPTLON": "-090.4660171",
+            "HU100": 106134,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 674491,
+            "GEOID": "2802",
+            "CENTLAT": "+33.1943966",
+            "CDSESSN": "116",
+            "AREAWATER": 951654563,
+            "STATE": "28",
+            "BASENAME": "2",
+            "OID": "211904690192242",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1782150",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 207,
+            "CENTLON": "-090.3480487",
+            "HU100": 303646,
+            "AREALAND": 40278711117,
+            "INTPTLON": "-090.3514005",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5019,
+            "GEOID": "28049000700",
+            "CENTLAT": "+32.3435730",
+            "AREAWATER": 1666,
+            "STATE": "28",
+            "BASENAME": "7",
+            "OID": "20790264990712",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3472431",
+            "NAME": "Census Tract 7",
+            "OBJECTID": 43005,
+            "TRACT": "000700",
+            "CENTLON": "-090.2597194",
+            "HU100": 2180,
+            "AREALAND": 11243155,
+            "INTPTLON": "-090.2581307",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "049"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 42,
+            "GEOID": "280490007001000",
+            "CENTLAT": "+32.3527423",
+            "BLOCK": "1000",
+            "AREAWATER": 1666,
+            "STATE": "28",
+            "BASENAME": "1000",
+            "OID": "210701001550278",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.3518913",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 824527,
+            "TRACT": "000700",
+            "CENTLON": "-090.2702213",
+            "BLKGRP": "1",
+            "AREALAND": 716286,
+            "HU100": 3,
+            "INTPTLON": "-090.2695588",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "049"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -90.266521,
+          "y": 32.34983
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

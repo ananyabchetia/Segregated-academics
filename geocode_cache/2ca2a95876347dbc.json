@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:36:50.922295+00:00",
+  "elapsed": 0.187629,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4604",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:36:50 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.078359&y=32.04216"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-81.078359&y=32.04216",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "496",
+            "CENTLAT": "+31.9910886",
+            "AREAWATER": "857787773",
+            "BASENAME": "Savannah-Hinesville-Statesboro, GA",
+            "OID": "2619034687908127",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.9956176",
+            "NAME": "Savannah-Hinesville-Statesboro, GA CSA",
+            "OBJECTID": 142,
+            "CSA": "496",
+            "CENTLON": "-081.5547925",
+            "INTPTLON": "-081.5607261",
+            "AREALAND": "9755603109",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92712",
+            "GEOID": "1305192712",
+            "CENTLAT": "+31.9079744",
+            "AREAWATER": "206490271",
+            "STATE": "13",
+            "BASENAME": "Savannah",
+            "OID": "27690361768952",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.9168523",
+            "NAME": "Savannah CCD",
+            "OBJECTID": 1342,
+            "CENTLON": "-081.1075053",
+            "COUSUBCC": "Z5",
+            "AREALAND": "393154895",
+            "INTPTLON": "-081.1195548",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936531",
+            "COUNTY": "051"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "79768",
+            "CENTLAT": "+32.0490164",
+            "AREAWATER": "8903909",
+            "BASENAME": "Savannah, GA",
+            "OID": "27021361815689",
+            "UA": "79768",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.0507994",
+            "NAME": "Savannah, GA Urban Area",
+            "OBJECTID": 2187,
+            "CENTLON": "-081.1687509",
+            "AREALAND": "533214234",
+            "INTPTLON": "-081.1682496",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "1369000",
+            "CENTLAT": "+32.0282768",
+            "AREAWATER": "12369893",
+            "BASENAME": "Savannah",
+            "STATE": "13",
+            "OID": "27890361779743",
+            "LSADC": "25",
+            "PLACE": "69000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.0124573",
+            "NAME": "Savannah city",
+            "OBJECTID": 31985,
+            "PLACECC": "C1",
+            "CENTLON": "-081.1824200",
+            "CBSAPCI": "Y",
+            "AREALAND": "283501827",
+            "INTPTLON": "-081.1941568",
+            "PLACENS": "02405429",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13051",
+            "CENTLAT": "+31.9738706",
+            "AREAWATER": "510843538",
+            "STATE": "13",
+            "BASENAME": "Chatham",
+            "OID": "27590361757389",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.9804037",
+            "NAME": "Chatham County",
+            "OBJECTID": 1567,
+            "CENTLON": "-081.0938426",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01694477",
+            "AREALAND": "1120782074",
+            "INTPTLON": "-081.0851840",
+            "MTFCC": "G4020",
+            "COUNTY": "051"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13002",
+            "CENTLAT": "+32.0863688",
+            "AREAWATER": "23043619",
+            "STATE": "13",
+            "BASENAME": "2",
+            "OID": "2129035952733145",
+            "SLDU": "002",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.0863283",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 407,
+            "CENTLON": "-081.1570406",
+            "LSY": "2024",
+            "AREALAND": "374739363",
+            "INTPTLON": "-081.1578591",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13165",
+            "CENTLAT": "+32.0586086",
+            "SLDL": "165",
+            "AREAWATER": "14182719",
+            "STATE": "13",
+            "BASENAME": "165",
+            "OID": "2139035952733321",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.0585512",
+            "NAME": "State House District 165",
+            "OBJECTID": 3131,
+            "CENTLON": "-081.0788755",
+            "LSY": "2024",
+            "AREALAND": "82605127",
+            "INTPTLON": "-081.0786295",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "130510030001023",
+            "CENTLAT": "+32.0421011",
+            "BLOCK": "1023",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "1023",
+            "OID": "210701005261756",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.0421011",
+            "NAME": "Block 1023",
+            "OBJECTID": 3800182,
+            "TRACT": "003000",
+            "CENTLON": "-081.0789943",
+            "BLKGRP": "1",
+            "AREALAND": "26862",
+            "INTPTLON": "-081.0789943",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "051"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13051003000",
+            "CENTLAT": "+32.0442378",
+            "AREAWATER": "16242",
+            "STATE": "13",
+            "BASENAME": "30",
+            "OID": "20790361810709",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.0444057",
+            "NAME": "Census Tract 30",
+            "OBJECTID": 23443,
+            "TRACT": "003000",
+            "CENTLON": "-081.0859971",
+            "AREALAND": "1204509",
+            "INTPTLON": "-081.0856550",
+            "MTFCC": "G5020",
+            "COUNTY": "051"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1301",
+            "CENTLAT": "+31.4225716",
+            "CDSESSN": "119",
+            "AREAWATER": "2060557591",
+            "BASENAME": "1",
+            "STATE": "13",
+            "OID": "2119035952732975",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.4258445",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 16,
+            "CENTLON": "-081.8106296",
+            "CD119": "01",
+            "AREALAND": "19062635974",
+            "INTPTLON": "-081.8058269",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -81.078359,
+          "y": 32.04216
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

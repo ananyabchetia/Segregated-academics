@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T02:25:46.250251+00:00",
+  "elapsed": 0.174584,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4872",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:25:46 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff3009196103126e9b4ce02abcd7f1ca912465168ce8b6ee4d6b039dd553ec964347a73fcce448f11814d76601eae568",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.825471&y=30.00246"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.825471&y=30.00246",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 120003,
+            "GEOID": "22022",
+            "CENTLAT": "+29.9952316",
+            "AREAWATER": 1236856053,
+            "STATE": "22",
+            "BASENAME": "22",
+            "OID": "212904492477261",
+            "LSADC": "LU",
+            "SLDU": "022",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+29.9927573",
+            "NAME": "State Senate District 22",
+            "OBJECTID": 137,
+            "CENTLON": "-091.7907322",
+            "LSY": "2018",
+            "HU100": 53220,
+            "AREALAND": 3053211668,
+            "INTPTLON": "-091.7860512",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01629543",
+            "POP100": 4657757,
+            "GEOID": "22",
+            "CENTLAT": "+30.9025928",
+            "AREAWATER": 23737664982,
+            "STATE": "22",
+            "BASENAME": "Louisiana",
+            "STUSAB": "LA",
+            "OID": "2749052402301",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.8634368",
+            "DIVISION": "7",
+            "NAME": "Louisiana",
+            "REGION": "3",
+            "OBJECTID": 36,
+            "CENTLON": "-091.7982299",
+            "AREALAND": 111913975425,
+            "INTPTLON": "-091.7987173",
+            "HU100": 2073200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 610330,
+            "GEOID": "318",
+            "CENTLAT": "+29.9941199",
+            "AREAWATER": 3848598396,
+            "BASENAME": "Lafayette-Opelousas-Morgan City, LA",
+            "OID": "2619013782255160",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.9930107",
+            "NAME": "Lafayette-Opelousas-Morgan City, LA CSA",
+            "CSA": "318",
+            "OBJECTID": 67,
+            "CENTLON": "-091.9382075",
+            "HU100": 272072,
+            "AREALAND": 12661768695,
+            "INTPTLON": "-091.9451706",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "62434",
+            "CENTLAT": "+29.9908000",
+            "AREAWATER": 701477,
+            "BASENAME": "New Iberia, LA",
+            "OID": "2702132391317830",
+            "UA": "62434",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.9902248",
+            "NAME": "New Iberia, LA Urban Area",
+            "OBJECTID": 1792,
+            "CENTLON": "-091.8213655",
+            "AREALAND": 64278368,
+            "INTPTLON": "-091.8218241",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "94621",
+            "POP100": 4783,
+            "GEOID": "2204594621",
+            "CENTLAT": "+29.9949073",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "4",
+            "OID": "2769069323075",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+29.9949073",
+            "NAME": "District 4",
+            "OBJECTID": 1949,
+            "CENTLON": "-091.8170783",
+            "COUSUBCC": "Z1",
+            "HU100": 2314,
+            "AREALAND": 3817185,
+            "INTPTLON": "-091.8170783",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01930013",
+            "UR": "U",
+            "COUNTY": "045"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38859,
+            "GEOID": "22096",
+            "CENTLAT": "+30.1601553",
+            "SLDL": "096",
+            "AREAWATER": 5909065,
+            "STATE": "22",
+            "BASENAME": "96",
+            "OID": "213904492477440",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.1714094",
+            "NAME": "State House District 96",
+            "OBJECTID": 662,
+            "CENTLON": "-091.8916768",
+            "LSY": "2018",
+            "HU100": 18213,
+            "AREALAND": 262401736,
+            "INTPTLON": "-091.8974365",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 28555,
+            "GEOID": "2254035",
+            "CENTLAT": "+30.0049042",
+            "AREAWATER": 292522,
+            "STATE": "22",
+            "BASENAME": "New Iberia",
+            "OID": "2789069323090",
+            "LSADC": "25",
+            "PLACE": "54035",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.0054928",
+            "NAME": "New Iberia city",
+            "OBJECTID": 4260,
+            "PLACECC": "C1",
+            "CENTLON": "-091.8202695",
+            "CBSAPCI": "N",
+            "HU100": 13269,
+            "AREALAND": 28853949,
+            "INTPTLON": "-091.8203069",
+            "PLACENS": "02404363",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 69929,
+            "GEOID": "22045",
+            "CENTLAT": "+29.7560466",
+            "AREAWATER": 1182061975,
+            "STATE": "22",
+            "BASENAME": "Iberia",
+            "OID": "2759069323069",
+            "LSADC": "15",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+29.6060126",
+            "NAME": "Iberia Parish",
+            "OBJECTID": 2937,
+            "CENTLON": "-091.7633878",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00558576",
+            "AREALAND": 1485913496,
+            "INTPTLON": "-091.8427057",
+            "HU100": 30924,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "045"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 785824,
+            "GEOID": "2203",
+            "CENTLAT": "+29.9510238",
+            "CDSESSN": "116",
+            "AREAWATER": 5595082939,
+            "STATE": "22",
+            "BASENAME": "3",
+            "OID": "211904486863588",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+29.9561138",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 225,
+            "CENTLON": "-092.4312692",
+            "HU100": 348140,
+            "AREALAND": 18089008343,
+            "INTPTLON": "-092.4307760",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3009,
+            "GEOID": "22045031000",
+            "CENTLAT": "+29.9983695",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "310",
+            "OID": "2079069323136",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.9978400",
+            "NAME": "Census Tract 310",
+            "OBJECTID": 57766,
+            "TRACT": "031000",
+            "CENTLON": "-091.8205231",
+            "HU100": 1455,
+            "AREALAND": 1944583,
+            "INTPTLON": "-091.8198420",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "045"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "220450310001017",
+            "CENTLAT": "+30.0020948",
+            "BLOCK": "1017",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "1017",
+            "OID": "210701004470544",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.0020948",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1017",
+            "OBJECTID": 4283220,
+            "TRACT": "031000",
+            "CENTLON": "-091.8256632",
+            "BLKGRP": "1",
+            "AREALAND": 10129,
+            "HU100": 0,
+            "INTPTLON": "-091.8256632",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "045"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -91.825471,
+          "y": 30.00246
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

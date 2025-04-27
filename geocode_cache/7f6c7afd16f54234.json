@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T02:02:39.097444+00:00",
+  "elapsed": 0.151376,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4586",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:02:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4db5f0dde1b5c42019aaed115b1b1dde4f6f98ed8b66bd5a520f7d8bdac7153e2e58d0dfe3dacc291515afcb45dd719e1"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4db5f0dde1b5c42019aaed115b1b1dde4f6f98ed8b66bd5a520f7d8bdac7153e2e58d0dfe3dacc291515afcb45dd719e1",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.718596&y=35.55127"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.718596&y=35.55127",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 987581,
+            "GEOID": "06017",
+            "CENTLAT": "+35.9583731",
+            "AREAWATER": 2489341562,
+            "STATE": "06",
+            "BASENAME": "17",
+            "OID": "212904690192840",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.9662566",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 974,
+            "CENTLON": "-120.9838511",
+            "LSY": "2018",
+            "HU100": 386765,
+            "AREALAND": 18002094998,
+            "INTPTLON": "-120.9903433",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "27261",
+            "CENTLAT": "+35.5305376",
+            "AREAWATER": 114779,
+            "BASENAME": "El Paso de Robles (Paso Robles)--Atascadero, CA",
+            "OID": "270214485563809",
+            "UA": "27261",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.4445726",
+            "NAME": "El Paso de Robles (Paso Robles)--Atascadero, CA Urban Area",
+            "OBJECTID": 2466,
+            "CENTLON": "-120.6730929",
+            "AREALAND": 77603788,
+            "INTPTLON": "-120.6244753",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90140",
+            "POP100": 46458,
+            "GEOID": "0607990140",
+            "CENTLAT": "+35.2648018",
+            "AREAWATER": 6723649,
+            "STATE": "06",
+            "BASENAME": "Atascadero",
+            "OID": "27690407949945",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.2837316",
+            "NAME": "Atascadero CCD",
+            "OBJECTID": 34812,
+            "CENTLON": "-120.0806551",
+            "COUSUBCC": "Z5",
+            "HU100": 19285,
+            "AREALAND": 3244543508,
+            "INTPTLON": "-120.0691546",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935018",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8386,
+            "GEOID": "0678162",
+            "CENTLAT": "+35.5560235",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "Templeton",
+            "OID": "28090407971049",
+            "LSADC": "57",
+            "PLACE": "78162",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5560235",
+            "NAME": "Templeton CDP",
+            "OBJECTID": 20301,
+            "PLACECC": "U1",
+            "CENTLON": "-120.7181665",
+            "CBSAPCI": "N",
+            "HU100": 3317,
+            "AREALAND": 20484545,
+            "INTPTLON": "-120.7181665",
+            "PLACENS": "02410065",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 496919,
+            "GEOID": "06035",
+            "CENTLAT": "+35.2609647",
+            "SLDL": "035",
+            "AREAWATER": 1218693912,
+            "STATE": "06",
+            "BASENAME": "35",
+            "OID": "213904690193023",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2615007",
+            "NAME": "Assembly District 35",
+            "OBJECTID": 1176,
+            "CENTLON": "-120.4205151",
+            "LSY": "2018",
+            "HU100": 189309,
+            "AREALAND": 10947050295,
+            "INTPTLON": "-120.4180374",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 282424,
+            "GEOID": "06079",
+            "CENTLAT": "+35.3875380",
+            "AREAWATER": 815618272,
+            "STATE": "06",
+            "BASENAME": "San Luis Obispo",
+            "OID": "27590407929894",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.3881891",
+            "NAME": "San Luis Obispo County",
+            "OBJECTID": 3105,
+            "CENTLON": "-120.4507526",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277304",
+            "AREALAND": 8549172832,
+            "INTPTLON": "-120.4488974",
+            "HU100": 123715,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 740273,
+            "GEOID": "0624",
+            "CENTLAT": "+34.9172310",
+            "CDSESSN": "116",
+            "AREAWATER": 3683946407,
+            "STATE": "06",
+            "BASENAME": "24",
+            "OID": "211904492478256",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9196335",
+            "NAME": "Congressional District 24",
+            "OBJECTID": 18,
+            "CENTLON": "-120.1163759",
+            "HU100": 287069,
+            "AREALAND": 17825148853,
+            "INTPTLON": "-120.1128450",
+            "CD116": "24",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4752,
+            "GEOID": "06079012707",
+            "CENTLAT": "+35.5570015",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "127.07",
+            "OID": "2079015482489085",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5570015",
+            "NAME": "Census Tract 127.07",
+            "OBJECTID": 22242,
+            "TRACT": "012707",
+            "CENTLON": "-120.7339725",
+            "HU100": 1911,
+            "AREALAND": 23535819,
+            "INTPTLON": "-120.7339725",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "060790127072036",
+            "CENTLAT": "+35.5514342",
+            "BLOCK": "2036",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "2036",
+            "OID": "210701000636522",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.5514342",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2036",
+            "OBJECTID": 7913132,
+            "TRACT": "012707",
+            "CENTLON": "-120.7170738",
+            "BLKGRP": "2",
+            "AREALAND": 44774,
+            "HU100": 0,
+            "INTPTLON": "-120.7170738",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "079"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -120.718596,
+          "y": 35.55127
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

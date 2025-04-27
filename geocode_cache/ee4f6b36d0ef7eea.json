@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T05:38:50.890595+00:00",
+  "elapsed": 0.166386,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4906",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:38:50 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a47fb7f56ba1421b232244728c61ebe006ff695a4110a2043aabcbbdd00e108cf726374d5e93cb626af104eb996cc97f21",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.361751&y=35.86399"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.361751&y=35.86399",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 249519,
+            "GEOID": "47013",
+            "CENTLAT": "+35.8711613",
+            "AREAWATER": 12107691,
+            "STATE": "47",
+            "BASENAME": "13",
+            "OID": "212904487270888",
+            "LSADC": "LU",
+            "SLDU": "013",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8733318",
+            "NAME": "State Senate District 13",
+            "OBJECTID": 404,
+            "CENTLON": "-086.5084308",
+            "LSY": "2018",
+            "HU100": 94825,
+            "AREALAND": 888511741,
+            "INTPTLON": "-086.5063087",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01325873",
+            "POP100": 6910840,
+            "GEOID": "47",
+            "CENTLAT": "+35.8582556",
+            "AREAWATER": 2322913374,
+            "STATE": "47",
+            "BASENAME": "Tennessee",
+            "STUSAB": "TN",
+            "OID": "2749051118086",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8584600",
+            "DIVISION": "6",
+            "NAME": "Tennessee",
+            "REGION": "3",
+            "OBJECTID": 45,
+            "CENTLON": "-086.3490784",
+            "AREALAND": 106791646253,
+            "INTPTLON": "-086.3496339",
+            "HU100": 3031605,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2118233,
+            "GEOID": "400",
+            "CENTLAT": "+35.9686287",
+            "AREAWATER": 204084715,
+            "BASENAME": "Nashville-Davidson--Murfreesboro, TN",
+            "OID": "2619013782255192",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.9686460",
+            "NAME": "Nashville-Davidson--Murfreesboro, TN CSA",
+            "CSA": "400",
+            "OBJECTID": 137,
+            "CENTLON": "-086.7044417",
+            "HU100": 880654,
+            "AREALAND": 18533118439,
+            "INTPTLON": "-086.7069821",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "60733",
+            "CENTLAT": "+35.8446329",
+            "AREAWATER": 343959,
+            "BASENAME": "Murfreesboro, TN",
+            "OID": "27021177220406",
+            "UA": "60733",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8436998",
+            "NAME": "Murfreesboro, TN Urban Area",
+            "OBJECTID": 119,
+            "CENTLON": "-086.4068285",
+            "AREALAND": 223081412,
+            "INTPTLON": "-086.4065825",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93190",
+            "POP100": 13732,
+            "GEOID": "4714993190",
+            "CENTLAT": "+35.8566992",
+            "AREAWATER": 0,
+            "STATE": "47",
+            "BASENAME": "17",
+            "OID": "276902969536875",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8566992",
+            "NAME": "District 17",
+            "OBJECTID": 34500,
+            "CENTLON": "-086.3613071",
+            "COUSUBCC": "Z1",
+            "HU100": 5048,
+            "AREALAND": 5552477,
+            "INTPTLON": "-086.3613071",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02464404",
+            "UR": "U",
+            "COUNTY": "149"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 80813,
+            "GEOID": "47048",
+            "CENTLAT": "+35.8153758",
+            "SLDL": "048",
+            "AREAWATER": 224557,
+            "STATE": "47",
+            "BASENAME": "48",
+            "OID": "213904487271034",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8125196",
+            "NAME": "State House District 48",
+            "OBJECTID": 926,
+            "CENTLON": "-086.2929693",
+            "LSY": "2018",
+            "HU100": 30722,
+            "AREALAND": 690178119,
+            "INTPTLON": "-086.2934783",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 152769,
+            "GEOID": "4751560",
+            "CENTLAT": "+35.8488942",
+            "AREAWATER": 353385,
+            "STATE": "47",
+            "BASENAME": "Murfreesboro",
+            "OID": "27890177204809",
+            "LSADC": "25",
+            "PLACE": "51560",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8539148",
+            "NAME": "Murfreesboro city",
+            "OBJECTID": 5318,
+            "PLACECC": "C1",
+            "CENTLON": "-086.4120622",
+            "CBSAPCI": "Y",
+            "HU100": 62905,
+            "AREALAND": 162879966,
+            "INTPTLON": "-086.4212238",
+            "PLACENS": "02404342",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 341486,
+            "GEOID": "47149",
+            "CENTLAT": "+35.8426317",
+            "AREAWATER": 12406556,
+            "STATE": "47",
+            "BASENAME": "Rutherford",
+            "OID": "27590177169151",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8433688",
+            "NAME": "Rutherford County",
+            "OBJECTID": 233,
+            "CENTLON": "-086.4167152",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01639787",
+            "AREALAND": 1603892832,
+            "INTPTLON": "-086.4172127",
+            "HU100": 131216,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "149"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 830847,
+            "GEOID": "4704",
+            "CENTLAT": "+35.4514502",
+            "CDSESSN": "116",
+            "AREAWATER": 241821533,
+            "STATE": "47",
+            "BASENAME": "4",
+            "OID": "211904487269671",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2621448",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 29,
+            "CENTLON": "-085.9601019",
+            "HU100": 343390,
+            "AREALAND": 15501004288,
+            "INTPTLON": "-086.6288782",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5090,
+            "GEOID": "47149041406",
+            "CENTLAT": "+35.8603440",
+            "AREAWATER": 0,
+            "STATE": "47",
+            "BASENAME": "414.06",
+            "OID": "2079015489455080",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8603440",
+            "NAME": "Census Tract 414.06",
+            "OBJECTID": 29583,
+            "TRACT": "041406",
+            "CENTLON": "-086.3588967",
+            "HU100": 2368,
+            "AREALAND": 2301299,
+            "INTPTLON": "-086.3588967",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "149"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 1368,
+            "GEOID": "471490414061001",
+            "CENTLAT": "+35.8626374",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "47",
+            "BASENAME": "1001",
+            "OID": "210701007537213",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.8626374",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 7754809,
+            "TRACT": "041406",
+            "CENTLON": "-086.3623753",
+            "BLKGRP": "1",
+            "AREALAND": 272715,
+            "HU100": 510,
+            "INTPTLON": "-086.3623753",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "149"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -86.361751,
+          "y": 35.86399
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

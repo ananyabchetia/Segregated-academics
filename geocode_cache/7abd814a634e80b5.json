@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:37:56.177942+00:00",
+  "elapsed": 0.16337,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4634",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:37:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.799332&y=33.372279"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.799332&y=33.372279",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "122",
+            "CENTLAT": "+33.7640720",
+            "AREAWATER": "661398322",
+            "BASENAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",
+            "OID": "2619034687907977",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7644037",
+            "NAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL CSA",
+            "OBJECTID": 65,
+            "CSA": "122",
+            "CENTLON": "-084.3723082",
+            "INTPTLON": "-084.3727678",
+            "AREALAND": "34521547926",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92154",
+            "GEOID": "1307792154",
+            "CENTLAT": "+33.4098882",
+            "AREAWATER": "7119689",
+            "STATE": "13",
+            "BASENAME": "Newnan",
+            "OID": "27690334137808",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.4099907",
+            "NAME": "Newnan CCD",
+            "OBJECTID": 30593,
+            "CENTLON": "-084.8102597",
+            "COUSUBCC": "Z5",
+            "AREALAND": "630206093",
+            "INTPTLON": "-084.8101995",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936432",
+            "COUNTY": "077"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "03817",
+            "CENTLAT": "+33.8362683",
+            "AREAWATER": "99474122",
+            "BASENAME": "Atlanta, GA",
+            "OID": "27021102446168",
+            "UA": "03817",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8348581",
+            "NAME": "Atlanta, GA Urban Area",
+            "OBJECTID": 1769,
+            "CENTLON": "-084.3365034",
+            "AREALAND": "6612698044",
+            "INTPTLON": "-084.3377012",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "1355020",
+            "CENTLAT": "+33.3770755",
+            "AREAWATER": "925947",
+            "BASENAME": "Newnan",
+            "STATE": "13",
+            "OID": "27890334173988",
+            "LSADC": "25",
+            "PLACE": "55020",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3758332",
+            "NAME": "Newnan city",
+            "OBJECTID": 31511,
+            "PLACECC": "C1",
+            "CENTLON": "-084.7754084",
+            "CBSAPCI": "N",
+            "AREALAND": "51481959",
+            "INTPTLON": "-084.7773238",
+            "PLACENS": "02404371",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13077",
+            "CENTLAT": "+33.3533203",
+            "AREAWATER": "12675177",
+            "STATE": "13",
+            "BASENAME": "Coweta",
+            "OID": "27590334110506",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3528965",
+            "NAME": "Coweta County",
+            "OBJECTID": 849,
+            "CENTLON": "-084.7633387",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00326666",
+            "AREALAND": "1142174951",
+            "INTPTLON": "-084.7621381",
+            "MTFCC": "G4020",
+            "COUNTY": "077"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13006",
+            "CENTLAT": "+33.3823218",
+            "AREAWATER": "30870888",
+            "STATE": "13",
+            "BASENAME": "6",
+            "OID": "2129035952733152",
+            "SLDU": "006",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.3929211",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 410,
+            "CENTLON": "-084.9672489",
+            "LSY": "2024",
+            "AREALAND": "2631916562",
+            "INTPTLON": "-084.9562319",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13070",
+            "CENTLAT": "+33.4168305",
+            "SLDL": "070",
+            "AREAWATER": "5267696",
+            "STATE": "13",
+            "BASENAME": "70",
+            "OID": "2139035952733190",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.4095692",
+            "NAME": "State House District 70",
+            "OBJECTID": 2193,
+            "CENTLON": "-084.8683610",
+            "LSY": "2024",
+            "AREALAND": "497651642",
+            "INTPTLON": "-084.8650440",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "130771706041014",
+            "CENTLAT": "+33.3728915",
+            "BLOCK": "1014",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "1014",
+            "OID": "210701005299329",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3728915",
+            "NAME": "Block 1014",
+            "OBJECTID": 1650815,
+            "TRACT": "170604",
+            "CENTLON": "-084.7993302",
+            "BLKGRP": "1",
+            "AREALAND": "13576",
+            "INTPTLON": "-084.7993302",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "077"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13077170604",
+            "CENTLAT": "+33.3651183",
+            "AREAWATER": "40957",
+            "STATE": "13",
+            "BASENAME": "1706.04",
+            "OID": "2079015497344445",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3654228",
+            "NAME": "Census Tract 1706.04",
+            "OBJECTID": 77945,
+            "TRACT": "170604",
+            "CENTLON": "-084.7758880",
+            "AREALAND": "5241536",
+            "INTPTLON": "-084.7764047",
+            "MTFCC": "G5020",
+            "COUNTY": "077"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1303",
+            "CENTLAT": "+33.2042319",
+            "CDSESSN": "119",
+            "AREAWATER": "214822480",
+            "BASENAME": "3",
+            "STATE": "13",
+            "OID": "2119035952732979",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2056325",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 426,
+            "CENTLON": "-084.7743137",
+            "CD119": "03",
+            "AREALAND": "10790461554",
+            "INTPTLON": "-084.7759270",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -84.799332,
+          "y": 33.372279
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-03-13T13:16:29.108039+00:00",
+  "elapsed": 0.169194,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4124",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 13:16:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.806329&y=44.271059"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.806329&y=44.271059",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 184304,
+            "GEOID": "55001",
+            "CENTLAT": "+44.7598598",
+            "AREAWATER": 7110305992,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "212904691748830",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.7248581",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1214,
+            "CENTLON": "-087.2784109",
+            "LSY": "2018",
+            "HU100": 88083,
+            "AREALAND": 3903201282,
+            "INTPTLON": "-087.3423149",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "49250",
+            "POP100": 336,
+            "GEOID": "5507149250",
+            "CENTLAT": "+44.2775230",
+            "AREAWATER": 6291,
+            "STATE": "55",
+            "BASENAME": "Maribel",
+            "OID": "27690484655646",
+            "LSADC": "47",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.2785965",
+            "NAME": "Maribel village",
+            "OBJECTID": 214,
+            "CENTLON": "-087.8024877",
+            "COUSUBCC": "C5",
+            "HU100": 145,
+            "AREALAND": 2959920,
+            "INTPTLON": "-087.8021258",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01583652",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 62564,
+            "GEOID": "55002",
+            "CENTLAT": "+44.2811677",
+            "SLDL": "002",
+            "AREAWATER": 28319623,
+            "STATE": "55",
+            "BASENAME": "2",
+            "OID": "213904691750369",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2839732",
+            "NAME": "Assembly District 2",
+            "OBJECTID": 3915,
+            "CENTLON": "-087.8612441",
+            "LSY": "2018",
+            "HU100": 26461,
+            "AREALAND": 1064317436,
+            "INTPTLON": "-087.8631572",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 336,
+            "GEOID": "5549250",
+            "CENTLAT": "+44.2775230",
+            "AREAWATER": 6291,
+            "STATE": "55",
+            "BASENAME": "Maribel",
+            "OID": "27890484660446",
+            "LSADC": "47",
+            "PLACE": "49250",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.2785965",
+            "NAME": "Maribel village",
+            "OBJECTID": 4799,
+            "PLACECC": "C5",
+            "CENTLON": "-087.8024877",
+            "CBSAPCI": "N",
+            "HU100": 145,
+            "AREALAND": 2959920,
+            "INTPTLON": "-087.8021258",
+            "PLACENS": "01583652",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 81359,
+            "GEOID": "55071",
+            "CENTLAT": "+44.1108185",
+            "AREAWATER": 2343344181,
+            "STATE": "55",
+            "BASENAME": "Manitowoc",
+            "OID": "27590484625580",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.1561370",
+            "NAME": "Manitowoc County",
+            "OBJECTID": 3093,
+            "CENTLON": "-087.5125515",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581095",
+            "AREALAND": 1526295968,
+            "INTPTLON": "-087.5773525",
+            "HU100": 37818,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727774,
+            "GEOID": "5506",
+            "CENTLAT": "+43.7774680",
+            "CDSESSN": "116",
+            "AREAWATER": 7315824707,
+            "STATE": "55",
+            "BASENAME": "6",
+            "OID": "211904691758027",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.7792439",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 363,
+            "CENTLON": "-088.2811384",
+            "HU100": 330699,
+            "AREALAND": 12740812855,
+            "INTPTLON": "-088.2744226",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5721,
+            "GEOID": "55071010200",
+            "CENTLAT": "+44.2524613",
+            "AREAWATER": 1854061,
+            "STATE": "55",
+            "BASENAME": "102",
+            "OID": "20790484693691",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.2481534",
+            "NAME": "Census Tract 102",
+            "OBJECTID": 22890,
+            "TRACT": "010200",
+            "CENTLON": "-087.7557505",
+            "HU100": 2520,
+            "AREALAND": 287302996,
+            "INTPTLON": "-087.7534923",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 38,
+            "GEOID": "550710102001069",
+            "CENTLAT": "+44.2733162",
+            "BLOCK": "1069",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "1069",
+            "OID": "210701005969620",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.2733162",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1069",
+            "OBJECTID": 7796070,
+            "TRACT": "010200",
+            "CENTLON": "-087.8028995",
+            "BLKGRP": "1",
+            "AREALAND": 481732,
+            "HU100": 13,
+            "INTPTLON": "-087.8028995",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -87.806329,
+          "y": 44.271059
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

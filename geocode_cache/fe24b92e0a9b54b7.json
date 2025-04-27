@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:36:16.691948+00:00",
+  "elapsed": 0.178126,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4650",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:36:16 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4e7896ec4a25801ad7405371bf32ab33975959c9183824eafb2d58c6cf9c7a25c9160c2d8f737d8ab4fb2e95fe5760943",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.932751&y=34.37402"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-84.932751&y=34.37402",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01705317",
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": "4418623695",
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 13,
+            "CENTLON": "-083.4165286",
+            "AREALAND": "149486360790",
+            "INTPTLON": "-083.4235109",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "122",
+            "CENTLAT": "+33.7640720",
+            "AREAWATER": "661398322",
+            "BASENAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",
+            "OID": "2619034687907977",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7644037",
+            "NAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL CSA",
+            "OBJECTID": 65,
+            "CSA": "122",
+            "CENTLON": "-084.3723082",
+            "INTPTLON": "-084.3727678",
+            "AREALAND": "34521547926",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90024",
+            "GEOID": "1301590024",
+            "CENTLAT": "+34.3446888",
+            "AREAWATER": "285285",
+            "STATE": "13",
+            "BASENAME": "Adairsville",
+            "OID": "27690367684301",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3422483",
+            "NAME": "Adairsville CCD",
+            "OBJECTID": 30652,
+            "CENTLON": "-084.9190617",
+            "COUSUBCC": "Z5",
+            "AREALAND": "175816058",
+            "INTPTLON": "-084.9181558",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936067",
+            "COUNTY": "015"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "00442",
+            "CENTLAT": "+34.3688862",
+            "AREAWATER": "0",
+            "BASENAME": "Adairsville, GA",
+            "OID": "2702132391317917",
+            "UA": "00442",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3688862",
+            "NAME": "Adairsville, GA Urban Area",
+            "OBJECTID": 2379,
+            "CENTLON": "-084.9365205",
+            "AREALAND": "13708995",
+            "INTPTLON": "-084.9365205",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 3,
+            "NECTAPCI": "N",
+            "GEOID": "1300436",
+            "CENTLAT": "+34.3714310",
+            "AREAWATER": "0",
+            "BASENAME": "Adairsville",
+            "STATE": "13",
+            "OID": "27890367687360",
+            "LSADC": "25",
+            "PLACE": "00436",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.3714310",
+            "NAME": "Adairsville city",
+            "OBJECTID": 28522,
+            "PLACECC": "C1",
+            "CENTLON": "-084.9215671",
+            "CBSAPCI": "N",
+            "AREALAND": "24504399",
+            "INTPTLON": "-084.9215671",
+            "PLACENS": "02403060",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "13015",
+            "CENTLAT": "+34.2376128",
+            "AREAWATER": "27365997",
+            "STATE": "13",
+            "BASENAME": "Bartow",
+            "OID": "27590367677920",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2409175",
+            "NAME": "Bartow County",
+            "OBJECTID": 1000,
+            "CENTLON": "-084.8403618",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00351604",
+            "AREALAND": "1188576967",
+            "INTPTLON": "-084.8381879",
+            "MTFCC": "G4020",
+            "COUNTY": "015"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "13052",
+            "CENTLAT": "+34.2589068",
+            "AREAWATER": "30753701",
+            "STATE": "13",
+            "BASENAME": "52",
+            "OID": "2129035952733158",
+            "SLDU": "052",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2554080",
+            "NAME": "State Senate District 52",
+            "OBJECTID": 1238,
+            "CENTLON": "-085.0281223",
+            "LSY": "2024",
+            "AREALAND": "2332093549",
+            "INTPTLON": "-085.0245866",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "13014",
+            "CENTLAT": "+34.2843639",
+            "SLDL": "014",
+            "AREAWATER": "6700882",
+            "STATE": "13",
+            "BASENAME": "14",
+            "OID": "2139035952733259",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2520617",
+            "NAME": "State House District 14",
+            "OBJECTID": 4537,
+            "CENTLON": "-084.8097233",
+            "LSY": "2024",
+            "AREALAND": "1046588277",
+            "INTPTLON": "-084.7410555",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "130159602021034",
+            "CENTLAT": "+34.3718884",
+            "BLOCK": "1034",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "1034",
+            "OID": "210701005234604",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3718884",
+            "NAME": "Block 1034",
+            "OBJECTID": 5508989,
+            "TRACT": "960202",
+            "CENTLON": "-084.9317933",
+            "BLKGRP": "1",
+            "AREALAND": "240829",
+            "INTPTLON": "-084.9317933",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "13015960202",
+            "CENTLAT": "+34.3748414",
+            "AREAWATER": "0",
+            "STATE": "13",
+            "BASENAME": "9602.02",
+            "OID": "2079015488723579",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.3748414",
+            "NAME": "Census Tract 9602.02",
+            "OBJECTID": 4938,
+            "TRACT": "960202",
+            "CENTLON": "-084.9222580",
+            "AREALAND": "10374387",
+            "INTPTLON": "-084.9222580",
+            "MTFCC": "G5020",
+            "COUNTY": "015"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "1311",
+            "CENTLAT": "+34.3122335",
+            "CDSESSN": "119",
+            "AREAWATER": "69742165",
+            "BASENAME": "11",
+            "STATE": "13",
+            "OID": "2119035952732974",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.3197307",
+            "NAME": "Congressional District 11",
+            "OBJECTID": 216,
+            "CENTLON": "-084.6991432",
+            "CD119": "11",
+            "AREALAND": "3822636631",
+            "INTPTLON": "-084.6977695",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -84.932751,
+          "y": 34.37402
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

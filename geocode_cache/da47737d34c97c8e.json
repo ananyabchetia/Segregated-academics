@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T20:28:33.932386+00:00",
+  "elapsed": 0.193595,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4596",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:28:33 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-112.736091&y=33.96809"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-112.736091&y=33.96809",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779777",
+            "GEOID": "04",
+            "CENTLAT": "+34.2750988",
+            "AREAWATER": "853965977",
+            "STATE": "04",
+            "BASENAME": "Arizona",
+            "STUSAB": "AZ",
+            "OID": "274901053753069",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2039362",
+            "DIVISION": "8",
+            "NAME": "Arizona",
+            "REGION": "4",
+            "OBJECTID": 24,
+            "CENTLON": "-111.6605311",
+            "AREALAND": "294366141807",
+            "INTPTLON": "-111.6063449",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "429",
+            "CENTLAT": "+33.3389732",
+            "AREAWATER": "179299438",
+            "BASENAME": "Phoenix-Mesa, AZ",
+            "OID": "2619034687908102",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3420476",
+            "NAME": "Phoenix-Mesa, AZ CSA",
+            "OBJECTID": 164,
+            "CSA": "429",
+            "CENTLON": "-111.7594718",
+            "INTPTLON": "-111.7567369",
+            "AREALAND": "50054808093",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93774",
+            "GEOID": "0401393774",
+            "CENTLAT": "+33.8097072",
+            "AREAWATER": "4975500",
+            "STATE": "04",
+            "BASENAME": "Wickenburg",
+            "OID": "276901230482784",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8049189",
+            "NAME": "Wickenburg CCD",
+            "OBJECTID": 28218,
+            "CENTLON": "-112.8383094",
+            "COUSUBCC": "Z5",
+            "AREALAND": "3612113552",
+            "INTPTLON": "-112.8348184",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01934991",
+            "COUNTY": "013"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "95158",
+            "CENTLAT": "+33.9658575",
+            "AREAWATER": "1952",
+            "BASENAME": "Wickenburg, AZ",
+            "OID": "270211231876579",
+            "UA": "95158",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9708635",
+            "NAME": "Wickenburg, AZ Urban Area",
+            "OBJECTID": 892,
+            "CENTLON": "-112.7520176",
+            "AREALAND": "12192115",
+            "INTPTLON": "-112.7516910",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 1,
+            "NECTAPCI": "N",
+            "GEOID": "0482740",
+            "CENTLAT": "+33.9835171",
+            "AREAWATER": "12183",
+            "BASENAME": "Wickenburg",
+            "STATE": "04",
+            "OID": "278901230483037",
+            "LSADC": "43",
+            "PLACE": "82740",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.9857563",
+            "NAME": "Wickenburg town",
+            "OBJECTID": 31377,
+            "PLACECC": "C1",
+            "CENTLON": "-112.7664710",
+            "CBSAPCI": "N",
+            "AREALAND": "69850640",
+            "INTPTLON": "-112.7683403",
+            "PLACENS": "02413484",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "04013",
+            "CENTLAT": "+33.3483268",
+            "AREAWATER": "62085407",
+            "STATE": "04",
+            "BASENAME": "Maricopa",
+            "OID": "275901230330570",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3451756",
+            "NAME": "Maricopa County",
+            "OBJECTID": 1591,
+            "CENTLON": "-112.4932091",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00037026",
+            "AREALAND": "23833093554",
+            "INTPTLON": "-112.4989296",
+            "MTFCC": "G4020",
+            "COUNTY": "013"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "04030",
+            "CENTLAT": "+35.0953160",
+            "AREAWATER": "360632033",
+            "STATE": "04",
+            "BASENAME": "30",
+            "OID": "2129035951828043",
+            "SLDU": "030",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1028418",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 827,
+            "CENTLON": "-113.7947763",
+            "LSY": "2024",
+            "AREALAND": "46074787745",
+            "INTPTLON": "-113.7584987",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "04030",
+            "CENTLAT": "+35.0953160",
+            "SLDL": "030",
+            "AREAWATER": "360632033",
+            "STATE": "04",
+            "BASENAME": "30",
+            "OID": "2139035951828120",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.1028418",
+            "NAME": "State House District 30",
+            "OBJECTID": 1053,
+            "CENTLON": "-113.7947763",
+            "LSY": "2024",
+            "AREALAND": "46074787745",
+            "INTPTLON": "-113.7584987",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "040130405024008",
+            "CENTLAT": "+33.9686300",
+            "BLOCK": "4008",
+            "AREAWATER": "0",
+            "STATE": "04",
+            "BASENAME": "4008",
+            "OID": "210701002236813",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9686300",
+            "NAME": "Block 4008",
+            "OBJECTID": 5547502,
+            "TRACT": "040502",
+            "CENTLON": "-112.7368227",
+            "BLKGRP": "4",
+            "AREALAND": "35461",
+            "INTPTLON": "-112.7368227",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "04013040502",
+            "CENTLAT": "+33.9756217",
+            "AREAWATER": "7068",
+            "STATE": "04",
+            "BASENAME": "405.02",
+            "OID": "207901231219376",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9760855",
+            "NAME": "Census Tract 405.02",
+            "OBJECTID": 53409,
+            "TRACT": "040502",
+            "CENTLON": "-112.7465060",
+            "AREALAND": "20394481",
+            "INTPTLON": "-112.7494299",
+            "MTFCC": "G5020",
+            "COUNTY": "013"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0409",
+            "CENTLAT": "+34.6549565",
+            "CDSESSN": "119",
+            "AREAWATER": "377904215",
+            "BASENAME": "9",
+            "STATE": "04",
+            "OID": "2119035951827536",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.6023415",
+            "NAME": "Congressional District 9",
+            "OBJECTID": 411,
+            "CENTLON": "-113.7106097",
+            "CD119": "09",
+            "AREALAND": "60163693883",
+            "INTPTLON": "-113.6633198",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -112.736091,
+          "y": 33.96809
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-03-13T05:45:09.429847+00:00",
+  "elapsed": 0.176151,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4560",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:45:09 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a43b2be850ed444e87a3d3365e6f2105e4df689f049c6c189ed3ef6ae1dff6b8afc2677bf89b6d09db0e2b4a899f442bce",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.273211&y=40.603919"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.273211&y=40.603919",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 117673,
+            "GEOID": "49017",
+            "CENTLAT": "+40.9850016",
+            "AREAWATER": 3441418065,
+            "STATE": "49",
+            "BASENAME": "17",
+            "OID": "212904690703313",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9295111",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 1835,
+            "CENTLON": "-113.0704029",
+            "LSY": "2018",
+            "HU100": 37773,
+            "AREALAND": 33769849774,
+            "INTPTLON": "-113.0653313",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01455989",
+            "POP100": 3271616,
+            "GEOID": "49",
+            "CENTLAT": "+39.3063102",
+            "AREAWATER": 6529987297,
+            "STATE": "49",
+            "BASENAME": "Utah",
+            "STUSAB": "UT",
+            "OID": "27490187824724",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3349925",
+            "DIVISION": "8",
+            "NAME": "Utah",
+            "REGION": "4",
+            "OBJECTID": 39,
+            "CENTLON": "-111.6703458",
+            "AREALAND": 213355058738,
+            "INTPTLON": "-111.6563326",
+            "HU100": 1151414,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2701129,
+            "GEOID": "482",
+            "CENTLAT": "+40.6908170",
+            "AREAWATER": 5200372254,
+            "BASENAME": "Salt Lake City-Provo-Orem, UT",
+            "OID": "2619013782255225",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6892830",
+            "NAME": "Salt Lake City-Provo-Orem, UT CSA",
+            "CSA": "482",
+            "OBJECTID": 170,
+            "CENTLON": "-112.5591484",
+            "HU100": 921854,
+            "AREALAND": 60495574535,
+            "INTPTLON": "-112.5553578",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93397",
+            "POP100": 69996,
+            "GEOID": "4904593397",
+            "CENTLAT": "+40.7067652",
+            "AREAWATER": 730628378,
+            "STATE": "49",
+            "BASENAME": "Tooele-Grantsville",
+            "OID": "27690477153755",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7188372",
+            "NAME": "Tooele-Grantsville CCD",
+            "OBJECTID": 23176,
+            "CENTLON": "-112.4429308",
+            "COUSUBCC": "Z5",
+            "HU100": 21713,
+            "AREALAND": 1366056048,
+            "INTPTLON": "-112.4288143",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939423",
+            "UR": "M",
+            "COUNTY": "045"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3673,
+            "GEOID": "4923640",
+            "CENTLAT": "+40.6027968",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "Erda",
+            "OID": "28090477153767",
+            "LSADC": "57",
+            "PLACE": "23640",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6027968",
+            "NAME": "Erda CDP",
+            "OBJECTID": 21405,
+            "PLACECC": "U1",
+            "CENTLON": "-112.3213745",
+            "CBSAPCI": "N",
+            "HU100": 988,
+            "AREALAND": 48943737,
+            "INTPTLON": "-112.3213745",
+            "PLACENS": "02408086",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 47362,
+            "GEOID": "49068",
+            "CENTLAT": "+39.6559905",
+            "SLDL": "068",
+            "AREAWATER": 1042507440,
+            "STATE": "49",
+            "BASENAME": "68",
+            "OID": "213904690703517",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6332571",
+            "NAME": "State House District 68",
+            "OBJECTID": 3349,
+            "CENTLON": "-113.1463297",
+            "LSY": "2018",
+            "HU100": 15800,
+            "AREALAND": 46092871917,
+            "INTPTLON": "-113.1317388",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 72698,
+            "GEOID": "49045",
+            "CENTLAT": "+40.4485152",
+            "AREAWATER": 891073714,
+            "STATE": "49",
+            "BASENAME": "Tooele",
+            "OID": "27590477150050",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4677525",
+            "NAME": "Tooele County",
+            "OBJECTID": 3180,
+            "CENTLON": "-113.1309761",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01448036",
+            "AREALAND": 17979556898,
+            "INTPTLON": "-113.1239786",
+            "HU100": 23002,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "045"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 801636,
+            "GEOID": "4902",
+            "CENTLAT": "+38.7442970",
+            "CDSESSN": "116",
+            "AREAWATER": 2476477406,
+            "STATE": "49",
+            "BASENAME": "2",
+            "OID": "211904690703645",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7449472",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 437,
+            "CENTLON": "-112.5532683",
+            "HU100": 310570,
+            "AREALAND": 104106434250,
+            "INTPTLON": "-112.5531266",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5109,
+            "GEOID": "49045130701",
+            "CENTLAT": "+40.6017019",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "1307.01",
+            "OID": "207903716739473",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6017019",
+            "NAME": "Census Tract 1307.01",
+            "OBJECTID": 58274,
+            "TRACT": "130701",
+            "CENTLON": "-112.2335924",
+            "HU100": 1404,
+            "AREALAND": 182355410,
+            "INTPTLON": "-112.2335924",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "045"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 160,
+            "GEOID": "490451307011010",
+            "CENTLAT": "+40.6057738",
+            "BLOCK": "1010",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "1010",
+            "OID": "210701004118172",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.6057738",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1010",
+            "OBJECTID": 3510233,
+            "TRACT": "130701",
+            "CENTLON": "-112.2668851",
+            "BLKGRP": "1",
+            "AREALAND": 1167628,
+            "HU100": 22,
+            "INTPTLON": "-112.2668851",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "045"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -112.273211,
+          "y": 40.603919
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

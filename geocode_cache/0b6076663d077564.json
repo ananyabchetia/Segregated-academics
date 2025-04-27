@@ -1,0 +1,264 @@
+{
+  "created_at": "2025-03-12T20:26:28.423955+00:00",
+  "elapsed": 0.167005,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3988",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:26:28 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-151.118097&y=60.472533"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-151.118097&y=60.472533",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01785533",
+            "GEOID": "02",
+            "CENTLAT": "+63.4136458",
+            "AREAWATER": "244685829328",
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 3,
+            "CENTLON": "-152.8788722",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "38460",
+            "GEOID": "0212238460",
+            "CENTLAT": "+60.0977802",
+            "AREAWATER": "19920139293",
+            "STATE": "02",
+            "BASENAME": "Kenai-Cook Inlet",
+            "OID": "2769045664581",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.3666677",
+            "NAME": "Kenai-Cook Inlet census subarea",
+            "OBJECTID": 7300,
+            "CENTLON": "-152.2043161",
+            "COUSUBCC": "Z5",
+            "AREALAND": "32206708475",
+            "INTPTLON": "-152.3222833",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939946",
+            "COUNTY": "122"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "DISP_CLR": 4,
+            "NECTAPCI": "N",
+            "GEOID": "0237250",
+            "CENTLAT": "+60.4416422",
+            "AREAWATER": "2636380",
+            "BASENAME": "Kalifornsky",
+            "STATE": "02",
+            "OID": "2809045664641",
+            "LSADC": "57",
+            "PLACE": "37250",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.4533993",
+            "NAME": "Kalifornsky CDP",
+            "OBJECTID": 32534,
+            "PLACECC": "U1",
+            "CENTLON": "-151.1971776",
+            "CBSAPCI": "N",
+            "AREALAND": "178078787",
+            "INTPTLON": "-151.2203016",
+            "PLACENS": "02418637",
+            "MTFCC": "G4210"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "02122",
+            "CENTLAT": "+60.1139489",
+            "AREAWATER": "22542172700",
+            "STATE": "02",
+            "BASENAME": "Kenai Peninsula",
+            "OID": "2759045664576",
+            "LSADC": "04",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+60.3666677",
+            "NAME": "Kenai Peninsula Borough",
+            "OBJECTID": 1862,
+            "CENTLON": "-151.7163850",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01419972",
+            "AREALAND": "41485343704",
+            "INTPTLON": "-152.3222833",
+            "MTFCC": "G4020",
+            "COUNTY": "122"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "0200D",
+            "CENTLAT": "+60.5825826",
+            "AREAWATER": "2642250152",
+            "STATE": "02",
+            "BASENAME": "D",
+            "OID": "2129035963375065",
+            "SLDU": "00D",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+60.5251151",
+            "NAME": "State Senate District D",
+            "OBJECTID": 1661,
+            "CENTLON": "-150.1641490",
+            "LSY": "2024",
+            "AREALAND": "11029706623",
+            "INTPTLON": "-150.1125634",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "02008",
+            "CENTLAT": "+60.5844964",
+            "SLDL": "008",
+            "AREAWATER": "2339422336",
+            "STATE": "02",
+            "BASENAME": "8",
+            "OID": "2139035963375072",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+60.6038435",
+            "NAME": "State House District 8",
+            "OBJECTID": 570,
+            "CENTLON": "-150.1199306",
+            "LSY": "2024",
+            "AREALAND": "10849051299",
+            "INTPTLON": "-150.1038187",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "021220007011000",
+            "CENTLAT": "+60.4573525",
+            "BLOCK": "1000",
+            "AREAWATER": "44147",
+            "STATE": "02",
+            "BASENAME": "1000",
+            "OID": "210701000029446",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.4567746",
+            "NAME": "Block 1000",
+            "OBJECTID": 2899926,
+            "TRACT": "000701",
+            "CENTLON": "-151.1222798",
+            "BLKGRP": "1",
+            "AREALAND": "7719065",
+            "INTPTLON": "-151.1214636",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "122"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "02122000701",
+            "CENTLAT": "+60.3193156",
+            "AREAWATER": "925945599",
+            "STATE": "02",
+            "BASENAME": "7.01",
+            "OID": "2079015495395859",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.1819765",
+            "NAME": "Census Tract 7.01",
+            "OBJECTID": 78781,
+            "TRACT": "000701",
+            "CENTLON": "-151.5116116",
+            "AREALAND": "373854159",
+            "INTPTLON": "-151.4540265",
+            "MTFCC": "G5020",
+            "COUNTY": "122"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0200",
+            "CENTLAT": "+63.4136458",
+            "CDSESSN": "119",
+            "AREAWATER": "244685829328",
+            "BASENAME": "Congressional District (at Large)",
+            "STATE": "02",
+            "OID": "2119035963374560",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 217,
+            "CENTLON": "-152.8788722",
+            "CD119": "00",
+            "AREALAND": "1479533668992",
+            "INTPTLON": "-152.8397334",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -151.118097,
+          "y": 60.472533
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

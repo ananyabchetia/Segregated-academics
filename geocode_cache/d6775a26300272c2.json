@@ -1,0 +1,260 @@
+{
+  "created_at": "2025-03-12T20:24:31.641416+00:00",
+  "elapsed": 0.151286,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3852",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 20:24:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a89a3855d9c6805814b181776e1dfe3ce01e17f851dc7b133dd1189710ab71186ab9f653b055ebc805acd7b45f4b7172",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-87.358542&y=34.483145"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-87.358542&y=34.483145",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779775",
+            "GEOID": "01",
+            "CENTLAT": "+32.7436844",
+            "AREAWATER": "4581556217",
+            "STATE": "01",
+            "BASENAME": "Alabama",
+            "STUSAB": "AL",
+            "OID": "2749065038753",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.7395785",
+            "DIVISION": "6",
+            "NAME": "Alabama",
+            "REGION": "3",
+            "OBJECTID": 14,
+            "CENTLON": "-086.8467928",
+            "AREALAND": "131185602422",
+            "INTPTLON": "-086.8434469",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "290",
+            "CENTLAT": "+34.6369632",
+            "AREAWATER": "414573467",
+            "BASENAME": "Huntsville-Decatur-Albertville, AL-TN",
+            "OID": "2619034687908040",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.6273613",
+            "NAME": "Huntsville-Decatur-Albertville, AL-TN CSA",
+            "OBJECTID": 8,
+            "CSA": "290",
+            "CENTLON": "-086.6090630",
+            "INTPTLON": "-086.6168274",
+            "AREALAND": "11780942366",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92250",
+            "GEOID": "0107992250",
+            "CENTLAT": "+34.4317676",
+            "AREAWATER": "1011410",
+            "STATE": "01",
+            "BASENAME": "Moulton",
+            "OID": "2769085397520",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4301742",
+            "NAME": "Moulton CCD",
+            "OBJECTID": 21260,
+            "CENTLON": "-087.2945066",
+            "COUSUBCC": "Z5",
+            "AREALAND": "334041947",
+            "INTPTLON": "-087.2946173",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00165842",
+            "COUNTY": "079"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "01079",
+            "CENTLAT": "+34.5215042",
+            "AREAWATER": "68681744",
+            "STATE": "01",
+            "BASENAME": "Lawrence",
+            "OID": "2759085397514",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.5297760",
+            "NAME": "Lawrence County",
+            "OBJECTID": 30,
+            "CENTLON": "-087.3110672",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00161565",
+            "AREALAND": "1788864897",
+            "INTPTLON": "-087.3218651",
+            "MTFCC": "G4020",
+            "COUNTY": "079"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "01006",
+            "CENTLAT": "+34.5600066",
+            "AREAWATER": "201317921",
+            "STATE": "01",
+            "BASENAME": "6",
+            "OID": "2129035951826745",
+            "SLDU": "006",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5635882",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 1190,
+            "CENTLON": "-087.6154565",
+            "LSY": "2024",
+            "AREALAND": "5157735055",
+            "INTPTLON": "-087.6153030",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "01007",
+            "CENTLAT": "+34.5533231",
+            "SLDL": "007",
+            "AREAWATER": "106727033",
+            "STATE": "01",
+            "BASENAME": "7",
+            "OID": "2139035951826851",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5506815",
+            "NAME": "State House District 7",
+            "OBJECTID": 1078,
+            "CENTLON": "-087.3391157",
+            "LSY": "2024",
+            "AREALAND": "2158074356",
+            "INTPTLON": "-087.3337337",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "010799798003085",
+            "CENTLAT": "+34.4839484",
+            "BLOCK": "3085",
+            "AREAWATER": "0",
+            "STATE": "01",
+            "BASENAME": "3085",
+            "OID": "210701001480205",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4839484",
+            "NAME": "Block 3085",
+            "OBJECTID": 2612753,
+            "TRACT": "979800",
+            "CENTLON": "-087.3575519",
+            "BLKGRP": "3",
+            "AREALAND": "183149",
+            "INTPTLON": "-087.3575519",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "079"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "01079979800",
+            "CENTLAT": "+34.4148845",
+            "AREAWATER": "801488",
+            "STATE": "01",
+            "BASENAME": "9798",
+            "OID": "2079085397562",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4238653",
+            "NAME": "Census Tract 9798",
+            "OBJECTID": 61701,
+            "TRACT": "979800",
+            "CENTLON": "-087.3093313",
+            "AREALAND": "247378739",
+            "INTPTLON": "-087.3124431",
+            "MTFCC": "G5020",
+            "COUNTY": "079"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0105",
+            "CENTLAT": "+34.6937363",
+            "CDSESSN": "119",
+            "AREAWATER": "427037984",
+            "BASENAME": "5",
+            "STATE": "01",
+            "OID": "2119035781135789",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.6916846",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 45,
+            "CENTLON": "-086.6804275",
+            "CD119": "05",
+            "AREALAND": "10105558862",
+            "INTPTLON": "-086.6808412",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -87.358542,
+          "y": 34.483145
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

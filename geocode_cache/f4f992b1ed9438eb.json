@@ -1,0 +1,283 @@
+{
+  "created_at": "2025-03-12T21:09:05.261355+00:00",
+  "elapsed": 0.163432,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4198",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:09:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-103.803971&y=40.25558"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-103.803971&y=40.25558",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779779",
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": "1185470836",
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-105.5478280",
+            "AREALAND": "268419044029",
+            "INTPTLON": "-105.5087122",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91368",
+            "GEOID": "0808791368",
+            "CENTLAT": "+40.3022828",
+            "AREAWATER": "4295805",
+            "STATE": "08",
+            "BASENAME": "Fort Morgan",
+            "OID": "27690364464124",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.2937599",
+            "NAME": "Fort Morgan CCD",
+            "OBJECTID": 31,
+            "CENTLON": "-103.8219906",
+            "COUSUBCC": "Z5",
+            "AREALAND": "795450897",
+            "INTPTLON": "-103.8195542",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935465",
+            "COUNTY": "087"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "30817",
+            "CENTLAT": "+40.2504625",
+            "AREAWATER": "0",
+            "BASENAME": "Fort Morgan, CO",
+            "OID": "27021364492962",
+            "UA": "30817",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.2504625",
+            "NAME": "Fort Morgan, CO Urban Area",
+            "OBJECTID": 1681,
+            "CENTLON": "-103.7941828",
+            "AREALAND": "14352957",
+            "INTPTLON": "-103.7941828",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 1,
+            "NECTAPCI": "N",
+            "GEOID": "0827810",
+            "CENTLAT": "+40.2536964",
+            "AREAWATER": "178245",
+            "BASENAME": "Fort Morgan",
+            "STATE": "08",
+            "OID": "27890364470428",
+            "LSADC": "25",
+            "PLACE": "27810",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.2530029",
+            "NAME": "Fort Morgan city",
+            "OBJECTID": 25719,
+            "PLACECC": "C1",
+            "CENTLON": "-103.7902202",
+            "CBSAPCI": "Y",
+            "AREALAND": "13852632",
+            "INTPTLON": "-103.7886516",
+            "PLACENS": "02410529",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "08087",
+            "CENTLAT": "+40.2625815",
+            "AREAWATER": "34642891",
+            "STATE": "08",
+            "BASENAME": "Morgan",
+            "OID": "27590364453949",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.2631590",
+            "NAME": "Morgan County",
+            "OBJECTID": 1982,
+            "CENTLON": "-103.8098295",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198159",
+            "AREALAND": "3316461693",
+            "INTPTLON": "-103.8122102",
+            "MTFCC": "G4020",
+            "COUNTY": "087"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "08001",
+            "CENTLAT": "+40.3618315",
+            "AREAWATER": "142786710",
+            "STATE": "08",
+            "BASENAME": "1",
+            "OID": "2129035951821053",
+            "SLDU": "001",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3824277",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1687,
+            "CENTLON": "-103.3304265",
+            "LSY": "2024",
+            "AREALAND": "32955462777",
+            "INTPTLON": "-103.3379076",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "08063",
+            "CENTLAT": "+40.3663869",
+            "SLDL": "063",
+            "AREAWATER": "118223542",
+            "STATE": "08",
+            "BASENAME": "63",
+            "OID": "2139035951821117",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3102295",
+            "NAME": "State House District 63",
+            "OBJECTID": 4012,
+            "CENTLON": "-103.2872794",
+            "LSY": "2024",
+            "AREALAND": "31935927816",
+            "INTPTLON": "-103.3324397",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "080870004001063",
+            "CENTLAT": "+40.2560469",
+            "BLOCK": "1063",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "1063",
+            "OID": "210701002490042",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.2560469",
+            "NAME": "Block 1063",
+            "OBJECTID": 4208410,
+            "TRACT": "000400",
+            "CENTLON": "-103.8040786",
+            "BLKGRP": "1",
+            "AREALAND": "11060",
+            "INTPTLON": "-103.8040786",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "087"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "08087000400",
+            "CENTLAT": "+40.2579191",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "4",
+            "OID": "20790364487071",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.2579191",
+            "NAME": "Census Tract 4",
+            "OBJECTID": 26866,
+            "TRACT": "000400",
+            "CENTLON": "-103.7963301",
+            "AREALAND": "3299282",
+            "INTPTLON": "-103.7963301",
+            "MTFCC": "G5020",
+            "COUNTY": "087"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0804",
+            "CENTLAT": "+39.3197119",
+            "CDSESSN": "119",
+            "AREAWATER": "408656602",
+            "BASENAME": "4",
+            "STATE": "08",
+            "OID": "2119035951820676",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.3183492",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 160,
+            "CENTLON": "-103.2501441",
+            "CD119": "04",
+            "AREALAND": "83237077720",
+            "INTPTLON": "-103.2487264",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -103.803971,
+          "y": 40.25558
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

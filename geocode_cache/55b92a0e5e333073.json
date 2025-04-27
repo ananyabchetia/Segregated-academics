@@ -1,0 +1,258 @@
+{
+  "created_at": "2025-03-12T21:08:06.206077+00:00",
+  "elapsed": 0.175243,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3766",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:08:06 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-104.608257&y=38.938515"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-104.608257&y=38.938515",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779779",
+            "GEOID": "08",
+            "CENTLAT": "+38.9976179",
+            "AREAWATER": "1185470836",
+            "STATE": "08",
+            "BASENAME": "Colorado",
+            "STUSAB": "CO",
+            "OID": "2749086215995",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9937669",
+            "DIVISION": "8",
+            "NAME": "Colorado",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-105.5478280",
+            "AREALAND": "268419044029",
+            "INTPTLON": "-105.5087122",
+            "MTFCC": "G4000"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91197",
+            "GEOID": "0804191197",
+            "CENTLAT": "+38.8917616",
+            "AREAWATER": "68493",
+            "STATE": "08",
+            "BASENAME": "Elsmere",
+            "OID": "27690704502966",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.8773253",
+            "NAME": "Elsmere CCD",
+            "OBJECTID": 5079,
+            "CENTLON": "-104.6343522",
+            "COUSUBCC": "Z5",
+            "AREALAND": "170333318",
+            "INTPTLON": "-104.6440539",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935456",
+            "COUNTY": "041"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "28995",
+            "CENTLAT": "+38.9636090",
+            "AREAWATER": "0",
+            "BASENAME": "Falcon, CO",
+            "OID": "2702132391317791",
+            "UA": "28995",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9636090",
+            "NAME": "Falcon, CO Urban Area",
+            "OBJECTID": 2253,
+            "CENTLON": "-104.6050931",
+            "AREALAND": "21952796",
+            "INTPTLON": "-104.6050931",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "08041",
+            "CENTLAT": "+38.8320050",
+            "AREAWATER": "7044327",
+            "STATE": "08",
+            "BASENAME": "El Paso",
+            "OID": "27590704502958",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.8273831",
+            "NAME": "El Paso County",
+            "OBJECTID": 2772,
+            "CENTLON": "-104.5254134",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00198135",
+            "AREALAND": "5507412938",
+            "INTPTLON": "-104.5274718",
+            "MTFCC": "G4020",
+            "COUNTY": "041"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "08035",
+            "CENTLAT": "+38.2224027",
+            "AREAWATER": "242744910",
+            "STATE": "08",
+            "BASENAME": "35",
+            "OID": "2129035951821051",
+            "SLDU": "035",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.2213893",
+            "NAME": "State Senate District 35",
+            "OBJECTID": 1904,
+            "CENTLON": "-103.4256096",
+            "LSY": "2024",
+            "AREALAND": "66440178918",
+            "INTPTLON": "-103.4655774",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "08020",
+            "CENTLAT": "+39.0371855",
+            "SLDL": "020",
+            "AREAWATER": "2663356",
+            "STATE": "08",
+            "BASENAME": "20",
+            "OID": "2139035951821132",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.0440447",
+            "NAME": "State House District 20",
+            "OBJECTID": 3517,
+            "CENTLON": "-104.7871065",
+            "LSY": "2024",
+            "AREALAND": "805503721",
+            "INTPTLON": "-104.7883633",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "080410051223001",
+            "CENTLAT": "+38.9381191",
+            "BLOCK": "3001",
+            "AREAWATER": "0",
+            "STATE": "08",
+            "BASENAME": "3001",
+            "OID": "210701002403682",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9381191",
+            "NAME": "Block 3001",
+            "OBJECTID": 7782368,
+            "TRACT": "005122",
+            "CENTLON": "-104.6084674",
+            "BLKGRP": "3",
+            "AREALAND": "121008",
+            "INTPTLON": "-104.6084674",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "041"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "08041005122",
+            "CENTLAT": "+38.9122692",
+            "AREAWATER": "59661",
+            "STATE": "08",
+            "BASENAME": "51.22",
+            "OID": "2079015502950857",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9065029",
+            "NAME": "Census Tract 51.22",
+            "OBJECTID": 53986,
+            "TRACT": "005122",
+            "CENTLON": "-104.6520938",
+            "AREALAND": "36853007",
+            "INTPTLON": "-104.6568768",
+            "MTFCC": "G5020",
+            "COUNTY": "041"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0805",
+            "CENTLAT": "+38.8138145",
+            "CDSESSN": "119",
+            "AREAWATER": "6593345",
+            "BASENAME": "5",
+            "STATE": "08",
+            "OID": "2119035951820674",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.8072738",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 130,
+            "CENTLON": "-104.6635277",
+            "CD119": "05",
+            "AREALAND": "3811959089",
+            "INTPTLON": "-104.6617431",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -104.608257,
+          "y": 38.938515
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

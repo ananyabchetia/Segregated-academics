@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-03-13T13:17:42.723816+00:00",
+  "elapsed": 0.189706,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4490",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 13:17:42 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4c9209b41bdbc4e55f5ffada4316b943398ab4140eb0242f6faecc66aae5d96e3a12dc6aeb72e391c4819f024a2284ff2",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.765081&y=44.62067"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.765081&y=44.62067",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 183553,
+            "GEOID": "55002",
+            "CENTLAT": "+44.6145130",
+            "AREAWATER": 50991703,
+            "STATE": "55",
+            "BASENAME": "2",
+            "OID": "212904691749004",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.6147460",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1217,
+            "CENTLON": "-088.5945238",
+            "LSY": "2018",
+            "HU100": 78979,
+            "AREALAND": 3624154320,
+            "INTPTLON": "-088.5917891",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "18100",
+            "CENTLAT": "+44.6239065",
+            "AREAWATER": 243569,
+            "BASENAME": "Clintonville, WI",
+            "OID": "27021133201508",
+            "UA": "18100",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.6241516",
+            "NAME": "Clintonville, WI Urban Area",
+            "OBJECTID": 2013,
+            "CENTLON": "-088.7601654",
+            "AREALAND": 6919219,
+            "INTPTLON": "-088.7602018",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "15725",
+            "POP100": 4591,
+            "GEOID": "5513515725",
+            "CENTLAT": "+44.6221868",
+            "AREAWATER": 244507,
+            "STATE": "55",
+            "BASENAME": "Clintonville",
+            "OID": "27690133197632",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.6221202",
+            "NAME": "Clintonville city",
+            "OBJECTID": 21626,
+            "CENTLON": "-088.7513258",
+            "COUSUBCC": "C5",
+            "HU100": 2282,
+            "AREALAND": 11514275,
+            "INTPTLON": "-088.7517141",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01582986",
+            "UR": "M",
+            "COUNTY": "135"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 57409,
+            "GEOID": "55006",
+            "CENTLAT": "+44.6777774",
+            "SLDL": "006",
+            "AREAWATER": 44284303,
+            "STATE": "55",
+            "BASENAME": "6",
+            "OID": "213904691749664",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.6769525",
+            "NAME": "Assembly District 6",
+            "OBJECTID": 1907,
+            "CENTLON": "-088.7012073",
+            "LSY": "2018",
+            "HU100": 26703,
+            "AREALAND": 2608829732,
+            "INTPTLON": "-088.6997131",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4591,
+            "GEOID": "5515725",
+            "CENTLAT": "+44.6221868",
+            "AREAWATER": 244507,
+            "STATE": "55",
+            "BASENAME": "Clintonville",
+            "OID": "27890133199008",
+            "LSADC": "25",
+            "PLACE": "15725",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6221202",
+            "NAME": "Clintonville city",
+            "OBJECTID": 16301,
+            "PLACECC": "C5",
+            "CENTLON": "-088.7513258",
+            "CBSAPCI": "N",
+            "HU100": 2282,
+            "AREALAND": 11514275,
+            "INTPTLON": "-088.7517141",
+            "PLACENS": "01582986",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 51812,
+            "GEOID": "55135",
+            "CENTLAT": "+44.4702849",
+            "AREAWATER": 45270535,
+            "STATE": "55",
+            "BASENAME": "Waupaca",
+            "OID": "27590133196097",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4780043",
+            "NAME": "Waupaca County",
+            "OBJECTID": 870,
+            "CENTLON": "-088.9648820",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581127",
+            "AREALAND": 1936521055,
+            "INTPTLON": "-088.9670053",
+            "HU100": 25457,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "135"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751967,
+            "GEOID": "5508",
+            "CENTLAT": "+44.8340001",
+            "CDSESSN": "116",
+            "AREAWATER": 8180776855,
+            "STATE": "55",
+            "BASENAME": "8",
+            "OID": "211904691758528",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8312557",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 364,
+            "CENTLON": "-087.9365341",
+            "HU100": 352673,
+            "AREALAND": 17629589556,
+            "INTPTLON": "-087.9368111",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5028,
+            "GEOID": "55135101100",
+            "CENTLAT": "+44.6189195",
+            "AREAWATER": 872995,
+            "STATE": "55",
+            "BASENAME": "1011",
+            "OID": "20790133200970",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.6157780",
+            "NAME": "Census Tract 1011",
+            "OBJECTID": 59429,
+            "TRACT": "101100",
+            "CENTLON": "-088.7771371",
+            "HU100": 2507,
+            "AREALAND": 29158077,
+            "INTPTLON": "-088.7853137",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "135"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 31,
+            "GEOID": "551351011001007",
+            "CENTLAT": "+44.6203916",
+            "BLOCK": "1007",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "1007",
+            "OID": "210701006011826",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.6203916",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1007",
+            "OBJECTID": 475460,
+            "TRACT": "101100",
+            "CENTLON": "-088.7653358",
+            "BLKGRP": "1",
+            "AREALAND": 24370,
+            "HU100": 9,
+            "INTPTLON": "-088.7653358",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "135"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.765081,
+          "y": 44.62067
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

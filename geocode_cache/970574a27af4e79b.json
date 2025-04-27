@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-03-13T02:16:31.128391+00:00",
+  "elapsed": 0.160468,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4135",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 02:16:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4cf191299d266001e1451b433a615008fa9f6ff052fb9078ae230ce04845f81af5938e9326f731752158c03f7f6f5e6a9",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.537451&y=30.77645"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.537451&y=30.77645",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 526550,
+            "GEOID": "12002",
+            "CENTLAT": "+30.5371543",
+            "AREAWATER": 3806386892,
+            "STATE": "12",
+            "BASENAME": "2",
+            "OID": "212904690226271",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.5452770",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1393,
+            "CENTLON": "-085.8664042",
+            "LSY": "2018",
+            "HU100": 287953,
+            "AREALAND": 11483666767,
+            "INTPTLON": "-085.8742266",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90546",
+            "POP100": 8334,
+            "GEOID": "1213390546",
+            "CENTLAT": "+30.7589107",
+            "AREAWATER": 7085294,
+            "STATE": "12",
+            "BASENAME": "Chipley",
+            "OID": "2769087286002",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.7576804",
+            "NAME": "Chipley CCD",
+            "OBJECTID": 24208,
+            "CENTLON": "-085.5417434",
+            "COUSUBCC": "Z5",
+            "HU100": 3617,
+            "AREALAND": 211599587,
+            "INTPTLON": "-085.5442116",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935723",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 178785,
+            "GEOID": "12005",
+            "CENTLAT": "+30.6596464",
+            "SLDL": "005",
+            "AREAWATER": 1178570053,
+            "STATE": "12",
+            "BASENAME": "5",
+            "OID": "213904690227408",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.6561224",
+            "NAME": "State House District 5",
+            "OBJECTID": 112,
+            "CENTLON": "-085.7588322",
+            "LSY": "2018",
+            "HU100": 100112,
+            "AREALAND": 8592941993,
+            "INTPTLON": "-085.7534567",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3660,
+            "GEOID": "1211975",
+            "CENTLAT": "+30.7752488",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "Chipley",
+            "OID": "2789091319186",
+            "LSADC": "25",
+            "PLACE": "11975",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.7752488",
+            "NAME": "Chipley city",
+            "OBJECTID": 4810,
+            "PLACECC": "C1",
+            "CENTLON": "-085.5405333",
+            "CBSAPCI": "N",
+            "HU100": 1583,
+            "AREALAND": 10993707,
+            "INTPTLON": "-085.5405333",
+            "PLACENS": "02404049",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 25318,
+            "GEOID": "12133",
+            "CENTLAT": "+30.6105504",
+            "AREAWATER": 81008171,
+            "STATE": "12",
+            "BASENAME": "Washington",
+            "OID": "2759087285991",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.6021017",
+            "NAME": "Washington County",
+            "OBJECTID": 1491,
+            "CENTLON": "-085.6654090",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295762",
+            "AREALAND": 1514305979,
+            "INTPTLON": "-085.6558052",
+            "HU100": 10846,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727856,
+            "GEOID": "1202",
+            "CENTLAT": "+29.9890495",
+            "CDSESSN": "116",
+            "AREAWATER": 9297236174,
+            "STATE": "12",
+            "BASENAME": "2",
+            "OID": "211904690223160",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.0752566",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 301,
+            "CENTLON": "-084.1943931",
+            "HU100": 355512,
+            "AREALAND": 28500816318,
+            "INTPTLON": "-084.1792869",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3119,
+            "GEOID": "12133970104",
+            "CENTLAT": "+30.7796991",
+            "AREAWATER": 2877379,
+            "STATE": "12",
+            "BASENAME": "9701.04",
+            "OID": "207903717295173",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.7741380",
+            "NAME": "Census Tract 9701.04",
+            "OBJECTID": 53901,
+            "TRACT": "970104",
+            "CENTLON": "-085.4949009",
+            "HU100": 1360,
+            "AREALAND": 68592996,
+            "INTPTLON": "-085.4889474",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 54,
+            "GEOID": "121339701043004",
+            "CENTLAT": "+30.7757190",
+            "BLOCK": "3004",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "3004",
+            "OID": "210701003469333",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.7757190",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3004",
+            "OBJECTID": 7043283,
+            "TRACT": "970104",
+            "CENTLON": "-085.5373356",
+            "BLKGRP": "3",
+            "AREALAND": 100072,
+            "HU100": 20,
+            "INTPTLON": "-085.5373356",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -85.537451,
+          "y": 30.77645
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-03-13T01:56:26.902114+00:00",
+  "elapsed": 0.16968,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4908",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 01:56:26 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4d67cc3d519841e4ec64f92616a740af5a8ef153a8c8b64c94a73765d5b4c9bc4c07c45a8bb6d6016e2f34710e3b61194"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4d67cc3d519841e4ec64f92616a740af5a8ef153a8c8b64c94a73765d5b4c9bc4c07c45a8bb6d6016e2f34710e3b61194",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.359931&y=34.77002"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.359931&y=34.77002",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 85364,
+            "GEOID": "05032",
+            "CENTLAT": "+34.8435375",
+            "AREAWATER": 31228097,
+            "STATE": "05",
+            "BASENAME": "32",
+            "OID": "212904487270168",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8386373",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 399,
+            "CENTLON": "-092.4550056",
+            "LSY": "2018",
+            "HU100": 45418,
+            "AREALAND": 191903003,
+            "INTPTLON": "-092.4567480",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00068085",
+            "POP100": 3011524,
+            "GEOID": "05",
+            "CENTLAT": "+34.8941740",
+            "AREAWATER": 3121867339,
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 55,
+            "CENTLON": "-092.4418428",
+            "AREALAND": 134660850501,
+            "INTPTLON": "-092.4446262",
+            "HU100": 1365265,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 912604,
+            "GEOID": "340",
+            "CENTLAT": "+34.6347409",
+            "AREAWATER": 461488181,
+            "BASENAME": "Little Rock-North Little Rock, AR",
+            "OID": "2619013782255167",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.6341511",
+            "NAME": "Little Rock-North Little Rock, AR CSA",
+            "CSA": "340",
+            "OBJECTID": 112,
+            "CENTLON": "-092.1770629",
+            "HU100": 408738,
+            "AREALAND": 18512245560,
+            "INTPTLON": "-092.1757551",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "50392",
+            "CENTLAT": "+34.7574489",
+            "AREAWATER": 8175879,
+            "BASENAME": "Little Rock, AR",
+            "OID": "27021323541556",
+            "UA": "50392",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7569615",
+            "NAME": "Little Rock, AR Urban Area",
+            "OBJECTID": 688,
+            "CENTLON": "-092.3262235",
+            "AREALAND": 693638192,
+            "INTPTLON": "-092.3262756",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90300",
+            "POP100": 228376,
+            "GEOID": "0511990300",
+            "CENTLAT": "+34.7414312",
+            "AREAWATER": 80997553,
+            "STATE": "05",
+            "BASENAME": "Big Rock",
+            "OID": "27690330069889",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7417737",
+            "NAME": "Big Rock township",
+            "OBJECTID": 262,
+            "CENTLON": "-092.4134979",
+            "COUSUBCC": "Z1",
+            "HU100": 110371,
+            "AREALAND": 1044783085,
+            "INTPTLON": "-092.4120713",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00069013",
+            "UR": "M",
+            "COUNTY": "119"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 27648,
+            "GEOID": "05033",
+            "CENTLAT": "+34.7533765",
+            "SLDL": "033",
+            "AREAWATER": 323356,
+            "STATE": "05",
+            "BASENAME": "33",
+            "OID": "213904487270542",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7527205",
+            "NAME": "State House District 33",
+            "OBJECTID": 76,
+            "CENTLON": "-092.3259665",
+            "LSY": "2018",
+            "HU100": 16536,
+            "AREALAND": 23524135,
+            "INTPTLON": "-092.3258828",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 202591,
+            "GEOID": "0541000",
+            "CENTLAT": "+34.7255873",
+            "AREAWATER": 7661294,
+            "STATE": "05",
+            "BASENAME": "Little Rock",
+            "OID": "27890330081609",
+            "LSADC": "25",
+            "PLACE": "41000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.7239798",
+            "NAME": "Little Rock city",
+            "OBJECTID": 11174,
+            "PLACECC": "C1",
+            "CENTLON": "-092.3576637",
+            "CBSAPCI": "Y",
+            "HU100": 98993,
+            "AREALAND": 310916999,
+            "INTPTLON": "-092.3576092",
+            "PLACENS": "02404939",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 399125,
+            "GEOID": "05119",
+            "CENTLAT": "+34.7699718",
+            "AREAWATER": 126988884,
+            "STATE": "05",
+            "BASENAME": "Pulaski",
+            "OID": "27590323494903",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.7703106",
+            "NAME": "Pulaski County",
+            "OBJECTID": 1655,
+            "CENTLON": "-092.3118368",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00069177",
+            "AREALAND": 1964009182,
+            "INTPTLON": "-092.3129960",
+            "HU100": 190511,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "119"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 769391,
+            "GEOID": "0502",
+            "CENTLAT": "+35.0909418",
+            "CDSESSN": "116",
+            "AREAWATER": 308511494,
+            "STATE": "05",
+            "BASENAME": "2",
+            "OID": "211904492477444",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0995596",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 90,
+            "CENTLON": "-092.3918095",
+            "HU100": 351592,
+            "AREALAND": 12887838552,
+            "INTPTLON": "-092.3791565",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5207,
+            "GEOID": "05119002203",
+            "CENTLAT": "+34.7686715",
+            "AREAWATER": 114718,
+            "STATE": "05",
+            "BASENAME": "22.03",
+            "OID": "20790330119014",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7694156",
+            "NAME": "Census Tract 22.03",
+            "OBJECTID": 33291,
+            "TRACT": "002203",
+            "CENTLON": "-092.3629671",
+            "HU100": 3095,
+            "AREALAND": 3409449,
+            "INTPTLON": "-092.3624902",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "119"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 53,
+            "GEOID": "051190022033010",
+            "CENTLAT": "+34.7701372",
+            "BLOCK": "3010",
+            "AREAWATER": 0,
+            "STATE": "05",
+            "BASENAME": "3010",
+            "OID": "210701002069312",
+            "LSADC": "BK",
+            "INTPTLAT": "+34.7701372",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3010",
+            "OBJECTID": 4571193,
+            "TRACT": "002203",
+            "CENTLON": "-092.3592511",
+            "BLKGRP": "3",
+            "AREALAND": 40098,
+            "HU100": 38,
+            "INTPTLON": "-092.3592511",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "119"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -92.359931,
+          "y": 34.77002
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

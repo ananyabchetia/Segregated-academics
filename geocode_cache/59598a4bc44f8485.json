@@ -1,0 +1,304 @@
+{
+  "created_at": "2025-03-12T21:05:39.251129+00:00",
+  "elapsed": 0.176018,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4618",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:05:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45a00147d4dc513741c4fbb9903fb651621dfba6838d1f5959a11aba4260313e9d29efc830dfe4b0824580702943fa104",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-118.773775&y=34.266162"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-118.773775&y=34.266162",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779778",
+            "GEOID": "06",
+            "CENTLAT": "+37.1547616",
+            "AREAWATER": "20290471105",
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 41,
+            "CENTLON": "-119.5277735",
+            "AREALAND": "403674598069",
+            "INTPTLON": "-119.5434183",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "348",
+            "CENTLAT": "+34.4706964",
+            "AREAWATER": "3476817946",
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619034687908066",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "OBJECTID": 28,
+            "CSA": "348",
+            "CENTLON": "-116.6480322",
+            "INTPTLON": "-116.6585523",
+            "AREALAND": "87986126435",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93020",
+            "GEOID": "0611193020",
+            "CENTLAT": "+34.2778898",
+            "AREAWATER": "3099099",
+            "STATE": "06",
+            "BASENAME": "Simi Valley",
+            "OID": "276901146745221",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.2777650",
+            "NAME": "Simi Valley CCD",
+            "OBJECTID": 10841,
+            "CENTLON": "-118.7307288",
+            "COUSUBCC": "Z5",
+            "AREALAND": "245050313",
+            "INTPTLON": "-118.7328692",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935307",
+            "COUNTY": "111"
+          }
+        ],
+        "Urban Areas": [
+          {
+            "GEOID": "82144",
+            "CENTLAT": "+34.2688030",
+            "AREAWATER": "1806658",
+            "BASENAME": "Simi Valley, CA",
+            "OID": "270211149738574",
+            "UA": "82144",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.2701314",
+            "NAME": "Simi Valley, CA Urban Area",
+            "OBJECTID": 181,
+            "CENTLON": "-118.7456740",
+            "AREALAND": "81922061",
+            "INTPTLON": "-118.7458851",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "DISP_CLR": 5,
+            "NECTAPCI": "N",
+            "GEOID": "0672016",
+            "CENTLAT": "+34.2662409",
+            "AREAWATER": "1819543",
+            "BASENAME": "Simi Valley",
+            "STATE": "06",
+            "OID": "278901147755298",
+            "LSADC": "25",
+            "PLACE": "72016",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2668875",
+            "NAME": "Simi Valley city",
+            "OBJECTID": 31100,
+            "PLACECC": "C1",
+            "CENTLON": "-118.7489736",
+            "CBSAPCI": "N",
+            "AREALAND": "107604849",
+            "INTPTLON": "-118.7484575",
+            "PLACENS": "02411904",
+            "MTFCC": "G4110"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "06111",
+            "CENTLAT": "+34.3557887",
+            "AREAWATER": "947364124",
+            "STATE": "06",
+            "BASENAME": "Ventura",
+            "OID": "275901146646849",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.3587477",
+            "NAME": "Ventura County",
+            "OBJECTID": 954,
+            "CENTLON": "-119.1265206",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277320",
+            "AREALAND": "4767597086",
+            "INTPTLON": "-119.1331453",
+            "MTFCC": "G4020",
+            "COUNTY": "111"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "06027",
+            "CENTLAT": "+34.2201599",
+            "AREAWATER": "7590071",
+            "STATE": "06",
+            "BASENAME": "27",
+            "OID": "2129035951820728",
+            "SLDU": "027",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2190598",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1526,
+            "CENTLON": "-118.7030388",
+            "LSY": "2024",
+            "AREALAND": "794467157",
+            "INTPTLON": "-118.6974694",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "06042",
+            "CENTLAT": "+34.1402171",
+            "SLDL": "042",
+            "AREAWATER": "312935817",
+            "STATE": "06",
+            "BASENAME": "42",
+            "OID": "2139035951820969",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1410517",
+            "NAME": "Assembly District 42",
+            "OBJECTID": 1386,
+            "CENTLON": "-118.7982616",
+            "LSY": "2024",
+            "AREALAND": "1397198471",
+            "INTPTLON": "-118.7932961",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "061110078001001",
+            "CENTLAT": "+34.2664825",
+            "BLOCK": "1001",
+            "AREAWATER": "0",
+            "STATE": "06",
+            "BASENAME": "1001",
+            "OID": "210701000673926",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.2669550",
+            "NAME": "Block 1001",
+            "OBJECTID": 4873443,
+            "TRACT": "007800",
+            "CENTLON": "-118.7708428",
+            "BLKGRP": "1",
+            "AREALAND": "487510",
+            "INTPTLON": "-118.7701365",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "111"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "06111007800",
+            "CENTLAT": "+34.2691578",
+            "AREAWATER": "87143",
+            "STATE": "06",
+            "BASENAME": "78",
+            "OID": "207901149518555",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.2683293",
+            "NAME": "Census Tract 78",
+            "OBJECTID": 27548,
+            "TRACT": "007800",
+            "CENTLON": "-118.7707397",
+            "AREALAND": "1570284",
+            "INTPTLON": "-118.7661821",
+            "MTFCC": "G5020",
+            "COUNTY": "111"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0626",
+            "CENTLAT": "+34.4522433",
+            "CDSESSN": "119",
+            "AREAWATER": "311323037",
+            "BASENAME": "26",
+            "STATE": "06",
+            "OID": "2119035951820669",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.4549598",
+            "NAME": "Congressional District 26",
+            "OBJECTID": 382,
+            "CENTLON": "-119.0616739",
+            "CD119": "26",
+            "AREALAND": "4441568487",
+            "INTPTLON": "-119.0699499",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -118.773775,
+          "y": 34.266162
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

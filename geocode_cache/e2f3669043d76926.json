@@ -1,0 +1,260 @@
+{
+  "created_at": "2025-03-12T21:11:03.780980+00:00",
+  "elapsed": 0.182757,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3918",
+    "Content-Type": "application/json",
+    "Date": "Wed, 12 Mar 2025 21:11:03 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a9029dbc31efffc8ed59d167b99eaaf7eaf547f007930dcd00ecd7ecf1baf198f302b775542454ac4de1cfc3919041cd",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-72.687557&y=41.508381"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Current&format=json&vintage=Current_Current&x=-72.687557&y=41.508381",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "States": [
+          {
+            "STATENS": "01779780",
+            "GEOID": "09",
+            "CENTLAT": "+41.5751437",
+            "AREAWATER": "1816101122",
+            "STATE": "09",
+            "BASENAME": "Connecticut",
+            "STUSAB": "CT",
+            "OID": "27490331955805",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5798637",
+            "DIVISION": "1",
+            "NAME": "Connecticut",
+            "REGION": "1",
+            "OBJECTID": 6,
+            "CENTLON": "-072.7393081",
+            "AREALAND": "12542013551",
+            "INTPTLON": "-072.7466572",
+            "MTFCC": "G4000"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": "",
+            "GEOID": "405",
+            "CENTLAT": "+41.6356751",
+            "AREAWATER": "1262156343",
+            "BASENAME": "New Haven-Hartford-Waterbury, CT",
+            "OID": "2619034687908091",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.6368458",
+            "NAME": "New Haven-Hartford-Waterbury, CT CSA",
+            "OBJECTID": 130,
+            "CSA": "405",
+            "CENTLON": "-072.6161200",
+            "INTPTLON": "-072.6152118",
+            "AREALAND": "10800738505",
+            "HU100": "",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "47080",
+            "GEOID": "0913047080",
+            "CENTLAT": "+41.5175408",
+            "AREAWATER": "1581755",
+            "STATE": "09",
+            "BASENAME": "Middlefield",
+            "OID": "27690334183797",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5141630",
+            "NAME": "Middlefield town",
+            "OBJECTID": 22855,
+            "CENTLON": "-072.7148854",
+            "COUSUBCC": "T1",
+            "AREALAND": "32759592",
+            "INTPTLON": "-072.7178435",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00213460",
+            "COUNTY": "130"
+          }
+        ],
+        "Counties": [
+          {
+            "GEOID": "09130",
+            "CENTLAT": "+41.4205818",
+            "AREAWATER": "241084217",
+            "STATE": "09",
+            "BASENAME": "Lower Connecticut River Valley",
+            "OID": "2759030115366156",
+            "LSADC": "PL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.4203071",
+            "NAME": "Lower Connecticut River Valley Planning Region",
+            "OBJECTID": 1328,
+            "CENTLON": "-072.4920484",
+            "COUNTYCC": "H5",
+            "COUNTYNS": "02830246",
+            "AREALAND": "1098459138",
+            "INTPTLON": "-072.4935251",
+            "MTFCC": "G4020",
+            "COUNTY": "130"
+          }
+        ],
+        "2024 State Legislative Districts - Upper": [
+          {
+            "GEOID": "09012",
+            "CENTLAT": "+41.3527863",
+            "AREAWATER": "32718575",
+            "STATE": "09",
+            "BASENAME": "12",
+            "OID": "2129035963375160",
+            "SLDU": "012",
+            "LSADC": "LU",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3627692",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 577,
+            "CENTLON": "-072.6866761",
+            "LSY": "2024",
+            "AREALAND": "479333613",
+            "INTPTLON": "-072.6866707",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "2024 State Legislative Districts - Lower": [
+          {
+            "GEOID": "09090",
+            "CENTLAT": "+41.4800679",
+            "SLDL": "090",
+            "AREAWATER": "3674136",
+            "STATE": "09",
+            "BASENAME": "90",
+            "OID": "2139035963375295",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.4829053",
+            "NAME": "State House District 90",
+            "OBJECTID": 193,
+            "CENTLON": "-072.7652743",
+            "LSY": "2024",
+            "AREALAND": "101772861",
+            "INTPTLON": "-072.7667771",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "2020 Census Blocks": [
+          {
+            "SUFFIX": "",
+            "GEOID": "090075801004023",
+            "CENTLAT": "+41.5026392",
+            "BLOCK": "4023",
+            "AREAWATER": "0",
+            "STATE": "09",
+            "BASENAME": "4023",
+            "OID": "210701007206675",
+            "LSADC": "BK",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.5026392",
+            "NAME": "Block 4023",
+            "OBJECTID": 5151463,
+            "TRACT": "580100",
+            "CENTLON": "-072.6868208",
+            "BLKGRP": "4",
+            "AREALAND": "2304171",
+            "INTPTLON": "-072.6868208",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "GEOID": "09130580100",
+            "CENTLAT": "+41.5175408",
+            "AREAWATER": "1581755",
+            "STATE": "09",
+            "BASENAME": "5801",
+            "OID": "20790334285438",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.5141630",
+            "NAME": "Census Tract 5801",
+            "OBJECTID": 83734,
+            "TRACT": "580100",
+            "CENTLON": "-072.7148854",
+            "AREALAND": "32759592",
+            "INTPTLON": "-072.7178435",
+            "MTFCC": "G5020",
+            "COUNTY": "130"
+          }
+        ],
+        "119th Congressional Districts": [
+          {
+            "GEOID": "0903",
+            "CENTLAT": "+41.3725559",
+            "CDSESSN": "119",
+            "AREAWATER": "70308671",
+            "BASENAME": "3",
+            "STATE": "09",
+            "OID": "2119035951820679",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3720752",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 210,
+            "CENTLON": "-072.8910414",
+            "CD119": "03",
+            "AREALAND": "1227479565",
+            "INTPTLON": "-072.8926586",
+            "MTFCC": "G5200"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "4",
+          "vintageName": "Current_Current",
+          "vintageDescription": "Current Vintage - Current Benchmark"
+        },
+        "location": {
+          "x": -72.687557,
+          "y": 41.508381
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      }
+    }
+  }
+}

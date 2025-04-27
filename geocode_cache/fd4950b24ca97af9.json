@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-03-13T05:22:53.192081+00:00",
+  "elapsed": 0.186863,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4569",
+    "Content-Type": "application/json",
+    "Date": "Thu, 13 Mar 2025 05:22:53 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ef386d51007d8c8bd01f9bffecef4252a754f1b8edcde51a047643e2ccbfe0e0dc26ddd49569b20826931f4e6c8eeeb0",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.241677&y=40.969366"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.241677&y=40.969366",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 341101,
+            "GEOID": "36001",
+            "CENTLAT": "+41.0211864",
+            "AREAWATER": 2805316788,
+            "STATE": "36",
+            "BASENAME": "1",
+            "OID": "212904690195362",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0307641",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 848,
+            "CENTLON": "-072.4330713",
+            "LSY": "2018",
+            "HU100": 168380,
+            "AREALAND": 1254845972,
+            "INTPTLON": "-072.4034308",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "22194",
+            "POP100": 28385,
+            "GEOID": "3610322194",
+            "CENTLAT": "+41.0597212",
+            "AREAWATER": 808694705,
+            "STATE": "36",
+            "BASENAME": "East Hampton",
+            "OID": "27690498683656",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0922071",
+            "NAME": "East Hampton town",
+            "OBJECTID": 6653,
+            "CENTLON": "-072.0380187",
+            "COUSUBCC": "T1",
+            "HU100": 21163,
+            "AREALAND": 192518024,
+            "INTPTLON": "-072.1056318",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00978919",
+            "UR": "M",
+            "COUNTY": "103"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 904,
+            "GEOID": "3677805",
+            "CENTLAT": "+40.9559592",
+            "AREAWATER": 3077056,
+            "STATE": "36",
+            "BASENAME": "Wainscott",
+            "OID": "28090498683820",
+            "LSADC": "57",
+            "PLACE": "77805",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.9563251",
+            "NAME": "Wainscott CDP",
+            "OBJECTID": 27244,
+            "PLACECC": "U1",
+            "CENTLON": "-072.2492733",
+            "CBSAPCI": "N",
+            "HU100": 916,
+            "AREALAND": 17436768,
+            "INTPTLON": "-072.2465891",
+            "PLACENS": "02390443",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 151053,
+            "GEOID": "36001",
+            "CENTLAT": "+40.9749632",
+            "SLDL": "001",
+            "AREAWATER": 1256005887,
+            "STATE": "36",
+            "BASENAME": "1",
+            "OID": "213904690195644",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9700122",
+            "NAME": "Assembly District 1",
+            "OBJECTID": 2649,
+            "CENTLON": "-072.2619508",
+            "LSY": "2018",
+            "HU100": 84839,
+            "AREALAND": 673825401,
+            "INTPTLON": "-072.2647188",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1525920,
+            "GEOID": "36103",
+            "CENTLAT": "+40.9409757",
+            "AREAWATER": 3786764809,
+            "STATE": "36",
+            "BASENAME": "Suffolk",
+            "OID": "27590498683575",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9435540",
+            "NAME": "Suffolk County",
+            "OBJECTID": 427,
+            "CENTLON": "-072.6868445",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974149",
+            "AREALAND": 2359930478,
+            "INTPTLON": "-072.6922183",
+            "HU100": 578940,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "103"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 740319,
+            "GEOID": "3601",
+            "CENTLAT": "+40.9805873",
+            "CDSESSN": "116",
+            "AREAWATER": 3359943463,
+            "STATE": "36",
+            "BASENAME": "1",
+            "OID": "211904690193484",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9838720",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 379,
+            "CENTLON": "-072.5528074",
+            "HU100": 311232,
+            "AREALAND": 1684046571,
+            "INTPTLON": "-072.5495150",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2275,
+            "GEOID": "36103200903",
+            "CENTLAT": "+40.9629952",
+            "AREAWATER": 3829541,
+            "STATE": "36",
+            "BASENAME": "2009.03",
+            "OID": "2079015799542568",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.9628838",
+            "NAME": "Census Tract 2009.03",
+            "OBJECTID": 78139,
+            "TRACT": "200903",
+            "CENTLON": "-072.2548355",
+            "HU100": 1797,
+            "AREALAND": 19721322,
+            "INTPTLON": "-072.2538735",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "103"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 41,
+            "GEOID": "361032009032012",
+            "CENTLAT": "+40.9658340",
+            "BLOCK": "2012",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "2012",
+            "OID": "210701007464508",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.9658340",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2012",
+            "OBJECTID": 2089630,
+            "TRACT": "200903",
+            "CENTLON": "-072.2399848",
+            "BLKGRP": "2",
+            "AREALAND": 3282956,
+            "HU100": 38,
+            "INTPTLON": "-072.2399848",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "103"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.241677,
+          "y": 40.969366
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}
